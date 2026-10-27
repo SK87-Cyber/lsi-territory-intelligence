@@ -49,10 +49,11 @@ The NC YEAR registry does not supply the same all-contract list as the other sta
 published year registry is retained, but absent per-contract records are not manufactured.
 Artifact HTTP retrieval time and the research's actual as-of date are different concepts.
 
-Normal rollback: revert the research/build commit in GitHub, rebuild and publish the earlier
-validated source. A previously seen snapshot import is deliberately a no-op, so database
-restoration requires importing a new release from the earlier source with a new release identity;
-do not delete the immutable releases or versions. Retain GitHub source and original-kit archives
+Normal site rollback: revert the research/build commit in GitHub, rebuild and publish the earlier
+validated source. For database rollback, run `python scripts/restore_snapshot.py <release-hash>`
+from an authorized server with `LSI_DATABASE_URL`. It appends a dated recovery release from the
+stored snapshot and restores the current projection while retaining every old version and event.
+An ordinary repeated import remains a no-op. Retain GitHub source and original-kit archives
 independently of Supabase. The free Supabase project is not a substitute for an independent backup.
 
 All tables have RLS. `anon` and `authenticated` have no schema or table access. No public read

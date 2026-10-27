@@ -547,6 +547,11 @@ The next milestone is whichever is first unchecked in §2. To reprioritize, reor
 
 ## 8. Decisions log
 
+### Infrastructure — Oct 27, 2026 (owner-authorized separate task)
+
+The complete Build 10.1b source kit, parser deltas, logos and geometry are restored to GitHub source; the original kit zip and three recovered historical tools are preserved. The original acceptance gate passes locally. Added reproducible Netlify builds, separate Supabase private-schema migrations, versioned records/change events, transactional import and recovery, CI with disposable Postgres, and a bounded daily source-health/review queue. See docs/INFRASTRUCTURE.md for connection state and operating limits. No new research milestone, automatic fact approval, manufacturer-share claim, customer map or owner workflow was added. Production connections and remote checks are tracked in the final infrastructure handoff after verification.
+
+
 **The full per-build decision log (Aug 30 – Sep 1, builds 1–3.1) moved verbatim to `claude/ROADMAP-ARCHIVE.md`.** The standing rules it produced are already codified in §1 (integrity rules), HANDOFF.md §7, and the acquisition model (§10). Append new decisions here; migrate them to the archive when a build closes.
 
 ### Standing decisions still steering the work (digest — full text in the archive)

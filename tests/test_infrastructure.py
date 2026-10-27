@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from database import validate_snapshot,payload_hash,connect,migrate,sync,smoke
 from source_health import allowed_url,overdue
+from restore_snapshot import restore
 
 class ValidationTests(unittest.TestCase):
     def test_reject_duplicate_record_identity(self):
@@ -50,6 +51,9 @@ class DatabaseTests(unittest.TestCase):
             self.assertEqual(sync(conn,revision)['changes'],1)
             self.assertGreater(conn.execute('select count(*) from lsi.record_versions').fetchone()[0],len(data['records']))
             self.assertEqual(smoke(conn)['rls'],'PASS')
+            self.assertEqual(restore(conn,data['content_hash'])['changes'],1)
+            self.assertFalse(conn.execute("select exists(select 1 from lsi.records where payload ? 'test_revision')").fetchone()[0])
+            self.assertEqual(conn.execute('select count(*) from lsi.contracts').fetchone()[0],len([r for r in data['records'] if r['kind']=='contract']))
             # A failed transaction must not leave half a release or half its changes.
             try:
                 with conn.transaction():
