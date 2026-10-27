@@ -34,6 +34,15 @@ git add -A && git commit -m "Build X.Y: <milestone>" && git tag vX.Y
 git push && git push --tags
 ```
 
-## Not yet in this repo
+## Complete source and infrastructure
 
-The kit zip listed in HANDOFF.md §2 contains ~90 more files (the per-state parsers, `patch*.py`, `fund/`, `mfr/`, `bidx/`, `*_year.json`, `geo-se.json`, `snapshots.json`, the logos). Those lived only in the handoff zip and are not in project knowledge — add them from the latest kit zip when available. `build.py` needs the two logos beside it to run.
+The October 27 Build 10.1b kit is now committed, including logos, geometry, refresh parsers and parsed deltas. The original zip is retained under `archives/source-kits/`. The latest kit itself documents historical parsers that were missing; three older tools recovered from the September kit are preserved separately under `tools/recovered-2026-09-04/`.
+
+See [docs/INFRASTRUCTURE.md](docs/INFRASTRUCTURE.md) for the GitHub / Netlify / dedicated Supabase connections, scheduled review queue, credential handling, backup boundaries and evidence-preserving import workflow.
+
+```sh
+npm run build  # original verifier runs before dist/index.html is published
+npm test      # unit tests; database tests run against disposable Postgres in CI
+```
+
+The deployed briefing reads reviewed GitHub source. Supabase preserves versioned records and change history; it is not an unreviewed live replacement for the published evidence. No browser database credentials or new email-login flow are introduced.

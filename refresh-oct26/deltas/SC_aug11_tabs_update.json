@@ -1,0 +1,540 @@
+{
+ "letting": {
+  "id": "L260811",
+  "date": "Aug 11, 2026",
+  "iso": "2026-08-11",
+  "n": 15,
+  "low": 39804621.21,
+  "bids": 84,
+  "awarded": 0,
+  "awardArtifact": false,
+  "tc": "SC-33",
+  "ac": null,
+  "read": 13,
+  "lr": true,
+  "ubt": true
+ },
+ "proposals": [
+  "1077530",
+  "1477330",
+  "1871410",
+  "2970980",
+  "3077260",
+  "3276951",
+  "3577310",
+  "3873080",
+  "4275670",
+  "4277290",
+  "4672240",
+  "8876590",
+  "8876600"
+ ],
+ "all": [
+  {
+   "id": "1077530",
+   "call": "010",
+   "tip": "P045653",
+   "county": "Charleston",
+   "div": 6,
+   "desc": "Type II Signal Rebuilds Dist. 6",
+   "let": "Aug 11, 2026",
+   "low": "WALKER BROTHERS, INC.",
+   "lowAmt": 1165387.25,
+   "bidders": [
+    [
+     "WALKER BROTHERS, INC.",
+     1165387.25
+    ],
+    [
+     "W.M. ROEBUCK, INCORPORATED",
+     1499079.25
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "1477330",
+   "call": "020",
+   "tip": "P044846",
+   "county": "Clarendon",
+   "div": 7,
+   "desc": "2026 Clarendon CTC Resurfacing",
+   "let": "Aug 11, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 318824.42,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     318824.42
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     377856.06
+    ],
+    [
+     "COASTAL ASPHALT, LLC",
+     398365.86
+    ],
+    [
+     "L. DEAN WEAVER COMPANY LLC",
+     431183.36
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     460125.83
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "1871410",
+   "call": "030",
+   "tip": "P037128",
+   "county": "Dorchester",
+   "div": 6,
+   "desc": "Replacement of a 375 foot bridge on Horseford Road (S-56) ov",
+   "let": "Aug 11, 2026",
+   "low": "UNITED INFRASTRUCTURE GROUP, INC.",
+   "lowAmt": 6322358.76,
+   "bidders": [
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     6322358.76
+    ],
+    [
+     "LOWCOUNTRY SITEWORK, LLC",
+     8175000.0
+    ],
+    [
+     "CROWDER CONSTRUCTION COMPANY",
+     8176455.2
+    ],
+    [
+     "DANE CONSTRUCTION, INC",
+     9084213.21
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "2970980",
+   "call": "050",
+   "tip": "P038779",
+   "county": "Lancaster",
+   "div": 4,
+   "desc": "S-55 (Van Wyck Rd) bridge Replacement over Twelve Mile Creek",
+   "let": "Aug 11, 2026",
+   "low": "UNITED INFRASTRUCTURE GROUP, INC.",
+   "lowAmt": 8625007.48,
+   "bidders": [
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     8625007.48
+    ],
+    [
+     "BLYTHE DEVELOPMENT, LLC",
+     9391025.89
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     9519004.56
+    ],
+    [
+     "DANE CONSTRUCTION, INC",
+     9711259.71
+    ],
+    [
+     "CROWDER CONSTRUCTION COMPANY",
+     9996560.92
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     11215918.5
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INC.",
+     11562952.86
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "3077260",
+   "call": "070",
+   "tip": "P044356",
+   "county": "Laurens",
+   "div": 2,
+   "desc": "2026 Laurens CTC Resurfacing",
+   "let": "Aug 11, 2026",
+   "low": "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 1877581.83,
+   "bidders": [
+    [
+     "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+     1877581.83
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     1951901.99
+    ],
+    [
+     "ROGERS GROUP, INC.",
+     2045127.0
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     2063185.33
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     2228598.47
+    ],
+    [
+     "KING ASPHALT, INC.",
+     2388800.24
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "3276951",
+   "call": "080",
+   "tip": "P044180",
+   "county": "Lexington",
+   "div": 1,
+   "desc": "Replace the existing culvert along S-59 (Devils Backbone Rd",
+   "let": "Aug 11, 2026",
+   "low": "SITE-PREP, INC. OF NC",
+   "lowAmt": 1288581.71,
+   "bidders": [
+    [
+     "SITE-PREP, INC. OF NC",
+     1288581.71
+    ],
+    [
+     "INTEGRATED SITE SOLUTIONS LLC",
+     1421935.0
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     1499114.75
+    ],
+    [
+     "CHEROKEE, INC.",
+     1521843.4
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INC.",
+     1629262.09
+    ],
+    [
+     "CRESCENT INDUSTRIES, LLC",
+     1644981.19
+    ],
+    [
+     "PALMETTO SITEWORK SERVICES, LLC",
+     1798308.2
+    ],
+    [
+     "LINDLERS CONSTRUCTION OF SOUTH CAROLINA,",
+     1835994.0
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     1970306.0
+    ],
+    [
+     "L-J, INC.",
+     1979871.95
+    ],
+    [
+     "IPW CONSTRUCTION GROUP, LLC",
+     2219100.6
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "3577310",
+   "call": "090",
+   "tip": "P044629, P045452",
+   "county": "Marlboro",
+   "div": 5,
+   "desc": "2026 Marlboro CTC Resurfacing",
+   "let": "Aug 11, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 1581006.1,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     1581006.1
+    ],
+    [
+     "KING ASPHALT, INC.",
+     1674141.03
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     1824822.47
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "3873080",
+   "call": "100",
+   "tip": "P043353",
+   "county": "Orangeburg",
+   "div": 7,
+   "desc": "Replacement of a 60 foot bridge on S-92",
+   "let": "Aug 11, 2026",
+   "low": "DANE CONSTRUCTION, INC",
+   "lowAmt": 2730178.54,
+   "bidders": [
+    [
+     "DANE CONSTRUCTION, INC",
+     2730178.54
+    ],
+    [
+     "CEKRA, INC.",
+     2847287.7
+    ],
+    [
+     "PALMETTO INFRASTRUCTURE, INC.",
+     3130640.53
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     3469819.31
+    ],
+    [
+     "RAKES BUILDING AND MAINTENANCE",
+     3512005.78
+    ],
+    [
+     "LOWCOUNTRY SITEWORK, LLC",
+     3858000.0
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INC.",
+     4119529.95
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "4275670",
+   "call": "110",
+   "tip": "P037419",
+   "county": "Spartanburg",
+   "div": 3,
+   "desc": "Bridge Replacement - S-234 over Tributary to Enoree River",
+   "let": "Aug 11, 2026",
+   "low": "UNITED INFRASTRUCTURE GROUP, INC.",
+   "lowAmt": 2226391.87,
+   "bidders": [
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     2226391.87
+    ],
+    [
+     "DANE CONSTRUCTION, INC",
+     2401122.67
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     2532975.24
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     2668352.29
+    ],
+    [
+     "DELLINGER, INC.",
+     2838578.63
+    ],
+    [
+     "WRIGHT BROTHERS CONSTRUCTION COMPANY,",
+     2839142.55
+    ],
+    [
+     "PALMETTO INFRASTRUCTURE, INC.",
+     2849102.2
+    ],
+    [
+     "IPC PAVING LLC",
+     2910718.15
+    ],
+    [
+     "RAKES BUILDING AND MAINTENANCE",
+     3186315.08
+    ],
+    [
+     "CRESCENT INDUSTRIES, LLC",
+     3852800.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "4277290",
+   "call": "120",
+   "tip": "P045590",
+   "county": "Spartanburg",
+   "div": 3,
+   "desc": "Resurfacing - CMRB and Rehab S-62 Spartanburg County",
+   "let": "Aug 11, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 4152461.38,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     4152461.38
+    ],
+    [
+     "ROGERS GROUP, INC.",
+     4306318.75
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     4421479.02
+    ],
+    [
+     "KING ASPHALT, INC.",
+     4628656.14
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "4672240",
+   "call": "140",
+   "tip": "P043479",
+   "county": "York",
+   "div": 4,
+   "desc": "SC 274 NB over Big Allison Creek Bridge Repair - York County",
+   "let": "Aug 11, 2026",
+   "low": "CEKRA, INC.",
+   "lowAmt": 2218840.5,
+   "bidders": [
+    [
+     "CEKRA, INC.",
+     2218840.5
+    ],
+    [
+     "LORR CONSTRUCTION, INC.",
+     2333481.0
+    ],
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     2645601.75
+    ],
+    [
+     "CRESCENT INDUSTRIES, LLC",
+     2936007.37
+    ],
+    [
+     "LEE CONSTRUCTION COMPANY OF THE",
+     3413480.0
+    ],
+    [
+     "SOUTHERN ROAD & BRIDGE, LLC",
+     5596011.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "8876590",
+   "call": "150",
+   "tip": "P045392",
+   "county": "Lexington",
+   "div": 1,
+   "desc": "S-73 (Fish Hatchery Road) Roadway Departure Mitigation",
+   "let": "Aug 11, 2026",
+   "low": "BLYTHE CONSTRUCTION, INC.",
+   "lowAmt": 849084.73,
+   "bidders": [
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     849084.73
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     916575.09
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     943764.91
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  },
+  {
+   "id": "8876600",
+   "call": "160",
+   "tip": "P045398",
+   "county": "Orangeburg",
+   "div": 7,
+   "desc": "SC (Old Number Six Hwy) Road Departure Mitigation",
+   "let": "Aug 11, 2026",
+   "low": "BLYTHE CONSTRUCTION, INC.",
+   "lowAmt": 2251566.85,
+   "bidders": [
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     2251566.85
+    ],
+    [
+     "SANDERS BROTHERS CONSTRUCTION COMPANY,",
+     2369095.69
+    ],
+    [
+     "BANKS CONSTRUCTION COMPANY",
+     2420940.88
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     2470884.69
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     2733742.94
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true
+  }
+ ],
+ "lighting": [],
+ "shared": [],
+ "notes": [
+  "Aug 11, 2026: 13 of 15 tabulations now certified (posted to the bidtabs library 2026-09-09); still missing: 2973030, 4670730.",
+  "2973030 (Aug 11, no tab) was re-let as 2973031 in the Oct 13, 2026 letting; 4175570 (Jan 13, 2026, no tab) was re-let as 4175571 in the Oct 13, 2026 letting."
+ ]
+}

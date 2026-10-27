@@ -1,0 +1,382 @@
+{
+ "letting": {
+  "id": "L260925",
+  "date": "Sep 25, 2026",
+  "iso": "2026-09-25",
+  "status": "bids opened, awards pending \u2014 no Tabulation of Bids posted as of Oct 26, 2026, so nothing here is an award",
+  "contracts": 17,
+  "withBids": 17,
+  "withdrawn": 0,
+  "lowBidRows": 44,
+  "apparentLowSum": 266128845.57,
+  "apparentLowSumNote": "sum of the #1 (apparent low) bids on the Low Bid Sheet \u2014 not awards"
+ },
+ "census": true,
+ "biddersCap": "ALDOT's Low Bid Sheet lists at most the three lowest bidders per contract \u2014 a cap, not the full bidder list; biddersCapped=true means more bidders may exist",
+ "contracts": [
+  {
+   "call": "001",
+   "project": "BR-0077(522)",
+   "county": "Chambers",
+   "div": 2,
+   "desc": "FOR CONSTRUCTING THE BRIDGE CULVERT REPLACEMENT (GRADING, DRAINAGE, PAVEMENT, AND BRIDGE CULVERT) ON SR-77 OVER ALLEN CREEK NORTHWEST OF LA FAYETTE. LENGTH 0.190 MI.",
+   "lowBidders": [
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     2998924.39
+    ],
+    [
+     "C. THORNTON, INC.",
+     3412492.1
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "002",
+   "project": "DEMOF-RPF-NHF-PRF-A210(943)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE BRIDGE REPLACEMENT AND APPROACHES (GRADING, DRAINAGE, PAVEMENT, INTELLIGENT TRAFFIC SYSTEMS (ITS), TRAFFIC SIGNALS, AND TRAFFIC STRIPE) ON SR-6 (US-82) (WOOLSEY FINNELL BRIDGE) OVER THE BLACK WARRIOR RIVER IN TUSCALOOSA. LENGTH 1.690 MI.",
+   "lowBidders": [
+    [
+     "SCOTT BRIDGE COMPANY, INC.",
+     166914743.19
+    ],
+    [
+     "JONES BROS. CONTRACTORS, LLC",
+     205659124.91
+    ],
+    [
+     "KIEWIT INFRASTRUCTURE SOUTH CO. CORPORATION",
+     288355477.0
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "004",
+   "project": "CMAQ-9802(930)",
+   "county": "Shelby",
+   "div": 2,
+   "desc": "FOR CONSTRUCTING THE ADA UPGRADES AND IMPROVEMENTS ON THE BUCK CREEK MUTIL-USE TRAIL FROM A POINT NEAR THE YMCA TO A POINT NEAR BUCK CREEK PARK IN ALABASTER. LENGTH 1.588 MI.",
+   "lowBidders": [
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     1805856.65
+    ],
+    [
+     "MCELHENNEY CONSTRUCTION CO., LLC",
+     1881474.77
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "007",
+   "project": "DEMO-A213(950), ATRP2-49-2026-164",
+   "county": "Mobile",
+   "div": 5,
+   "desc": "FOR CONSTRUCTING THE INTERSECTION IMPROVEMENTS AND TRAFFIC SIGNAL INSTALLATION ON SR-13 (US-43) AT THE JUNCTION OF I-65 IN CREOLA. LENGTH 0.542 MI.",
+   "lowBidders": [
+    [
+     "PL RUSSELL LLC",
+     1166812.93
+    ],
+    [
+     "MCELHENNEY CONSTRUCTION CO., LLC",
+     1174532.92
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     1187082.71
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "008",
+   "project": "DEMO-A218(960)",
+   "county": "Lee",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE ROADWAY IMPROVEMENTS (TRAFFIC MONITORING CAMERA INSTALLATIONS) ON I-85 FROM THE EXIT 50 INTERCHANGE TO THE EXIT 57 INTERCHANGE IN AUBURN. LENGTH 7.050 MI.",
+   "lowBidders": [
+    [
+     "OZARK SAFETY SERVICES, LLC",
+     517451.55
+    ],
+    [
+     "WILLIAMS POWER & SIGNAL, LLC",
+     569832.39
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "009",
+   "project": "DEMO-BR-A181(941)",
+   "county": "Etowah",
+   "div": 1,
+   "desc": "FOR CONSTRUCTING THE BRIDGE REPLACEMENT (GRADING, DRAINAGE, PAVEMENT, BRIDGE REMOVAL, AND TRAFFIC SIGNALS) ON SR-77 (NORTHBOUND ROADWAY) OVER THE COOSA RIVER IN RAINBOW CITY. LENGTH 1.353 MI.",
+   "lowBidders": [
+    [
+     "SCOTT BRIDGE COMPANY, INC.",
+     22065595.83
+    ],
+    [
+     "WRIGHT BROTHERS CIVIL CONSTRUCTION, LLC",
+     29675283.67
+    ],
+    [
+     "MALOUF CONSTRUCTION, LLC",
+     30083811.07
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "012",
+   "project": "HRRR-3326(250)",
+   "county": "Hale",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE ROADWAY SAFETY IMPROVEMENTS (SAFETY WIDENING, EDGELINE STRIPING, AND SCORING) ON CR-29 FROM THE INTERSECTION OF SR-25 TO THE JUNCTION OF SR-69 SOUTHEAST OF HAVANA. LENGTH 9.149 MI.",
+   "lowBidders": [
+    [
+     "S. T. BUNN CONSTRUCTION COMPANY, INC.",
+     1501456.46
+    ],
+    [
+     "CENTRAL ALABAMA ASPHALT & CONSTRUCTION CO., LLC",
+     1697116.48
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     1932824.49
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "016",
+   "project": "IM-I022(326)",
+   "county": "Marion",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE MICRO-FINE MILLING, RESURFACING, AND TRAFFIC STRIPE ON I-22 FROM THE SR-233 OVERPASS TO THE WALKER COUNTY LINE. LENGTH OF 3.999 MI.",
+   "lowBidders": [
+    [
+     "S. T. BUNN CONSTRUCTION COMPANY, INC.",
+     2260516.35
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "017",
+   "project": "IM-I065(581)",
+   "county": "Elmore",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE ROADWAY IMPROVEMENTS (DRAINAGE REPAIR) ON I-65 (NORTHBOUND LANE) FROM A POINT 0.410 MILE SOUTH OF THE EXIT 179 INTERCHANGE SOUTH OF MILLBROOK. LENGTH 0.378 MI.",
+   "lowBidders": [
+    [
+     "GRADY RALLS & SONS, INC.",
+     396964.8
+    ],
+    [
+     "C. THORNTON, INC.",
+     538877.6
+    ],
+    [
+     "NEWELL ROADBUILDERS, INC.",
+     559088.82
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "018",
+   "project": "IM-IMGR-I085(393)",
+   "county": "Montgomery",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE MICRO-MILLING, RESURFACING, BRIDGE RAIL RETROFIT, BRIDGE GUARDRAIL RETROFIT, BRIDGE DECK REPAIRS, CONCRETE SLAB REPLACEMENT, AND TRAFFIC STRIPE ON I-85 FROM THE I-65 INTERCHANGE TO THE HALL STREET OVERPASS IN MONTGOMERY. LENGTH 1.786 MI.",
+   "lowBidders": [
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     5294267.06
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     6485692.19
+    ],
+    [
+     "SOUTHERN ROAD & BRIDGE, LLC",
+     11980907.0
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "021",
+   "project": "NH-0001(636)",
+   "county": "Barbour",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE PLANING, RESURFACING, AND TRAFFIC STRIPE ON SR-1 (US-431) FROM A POINT NEAR MP 66.717 TO A POINT NEAR MP 67.100 TO INCLUDE THE TRAFFIC SIGNAL INSTALLATION AT SR-6 (US-82) AND THE PAVEMENT REHABILITATION FROM THE INTERSECTION OF SR-6 (US-82) TO THE INTERSECTION OF BROAD STREET IN EUFAULA. LENGTH 0.340 MI.",
+   "lowBidders": [
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     2314839.58
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     2396259.0
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "023",
+   "project": "NH-I010(352)",
+   "county": "Baldwin",
+   "div": 5,
+   "desc": "FOR CONSTRUCTING THE ROADWAY IMPROVEMENTS/WIDENING (GRADING, DRAINAGE, PAVEMENT, INTELLIGENT TRAFFIC SYSTEMS (ITS), AND TRAFFIC LIGHTING) ON I-10 FROM A POINT 0.500 MILE EAST OF THE EAST END OF THE BAYWAY BRIDGE TO A POINT 0.500 MILE EAST OF THE SR-181 INTERCHANGE IN DAPHNE. LENGTH 3.452 MI.",
+   "lowBidders": [
+    [
+     "APAC-ALABAMA, INC.",
+     35196690.71
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     38170000.0
+    ],
+    [
+     "MCELHENNEY CONSTRUCTION CO., LLC",
+     43923723.34
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending",
+   "lightingFlag": "description mentions lighting \u2014 possible Section 750 content; flag only, no dollars claimed until the tabulation posts"
+  },
+  {
+   "call": "028",
+   "project": "STPMN-0125(251)",
+   "county": "Autauga",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE RESURFACING AND TRAFFIC STRIPE ON WEST 4TH STREET FROM THE JUNCTION OF SR-6 (US-82) TO THE BRIDGE OVER AUTAUGA CREEK IN PRATTVILLE. LENGTH 1.126 MI.",
+   "lowBidders": [
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     458647.61
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     470882.0
+    ],
+    [
+     "ASPHALT CONTRACTORS, INC.",
+     485563.0
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "031",
+   "project": "STPPC-5721(254)",
+   "county": "Russell",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE RESURFACING AND TRAFFIC STRIPE ON CR-24 (LATO ROAD/TARVER ROAD) FROM THE JUNCTION OF CR-137 (UCHEE HILL HIGHWAY) TO THE INTERSECTION OF CR-39 (NUCKOLS ROAD) WEST OF FORT MITCHELL. LENGTH 5.168 MI.",
+   "lowBidders": [
+    [
+     "EAST ALABAMA PAVING COMPANY, INC.",
+     1179860.19
+    ],
+    [
+     "AGX SITEWORX",
+     1478475.08
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "034",
+   "project": "ATRP2-35-2025-181",
+   "county": "Houston",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE ROADWAY IMPROVEMENTS/ADDITIONAL THROUGH LANE (GRADING, DRAINAGE, PAVEMENT, AND TRAFFIC SIGNAL MODIFICATIONS) ON SR-12 (US-84/WEST MAIN STREET) FROM THE JUNCTION OF NORTH SHADY LANE TO THE JUNCTION OF BEL AIRE DRIVE IN DOTHAN. LENGTH 0.887 MI.",
+   "lowBidders": [
+    [
+     "APAC-ALABAMA, INC.",
+     1797390.35
+    ],
+    [
+     "LEWIS INCORPORATED..",
+     1927712.75
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     2308234.12
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "035",
+   "project": "ATRP2-58-2023-350",
+   "county": "St. Clair",
+   "div": 2,
+   "desc": "FOR CONSTRUCTING THE INTERSECTION IMPROVEMENTS (TO INCLUDE LEFT/RIGHT TURN LANE ADDITIONS AND TRAFFIC SIGNAL INSTALLATIONS) ON SR-25 (US-411) AT WASHINGTON DRIVE/VERBENA DRIVE AND HIGH SCHOOL DRIVE NORTHEAST OF MOODY. LENGTH 0.425 MI.",
+   "lowBidders": [
+    [
+     "BULLS CONSTRUCTION GROUP, LLC",
+     1978990.5
+    ],
+    [
+     "ALABAMA GRADING & EXCAVATION, LLC.",
+     1999072.89
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     2083673.11
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "038",
+   "project": "RAED-031-052-004",
+   "county": "Geneva",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE ROADWAY IMPROVEMENTS/ADDITIONAL LANES (GRADING, DRAINAGE, PAVEMENT, BRIDGE, AND TRAFFIC SIGNS) ON SR-52 FROM A POINT WEST OF THE 2ND AVENUE INTERSECTION IN HARTFORD TO THE JUNCTION OF NORTH REX STREET IN SLOCOMB. LENGTH 5.274 MI.",
+   "lowBidders": [
+    [
+     "SOUTHEAST CONSTRUCTION COMPANY, LLC",
+     18279837.42
+    ],
+    [
+     "W. S. NEWELL & SONS, INC.",
+     19391172.43
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     19487819.78
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  }
+ ]
+}

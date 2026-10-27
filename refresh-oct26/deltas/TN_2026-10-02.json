@@ -1,0 +1,1141 @@
+{
+ "letting": {
+  "id": "L261002",
+  "date": "Oct 2, 2026",
+  "iso": "2026-10-02",
+  "n": 26,
+  "low": 68090164.94,
+  "bids": 80,
+  "awarded": 25,
+  "rejected": 1,
+  "withdrawn": 0,
+  "awardArtifact": true,
+  "read": 25
+ },
+ "all": [
+  {
+   "id": "CN261076",
+   "call": "001",
+   "tip": "NH-SIP-61(58),01S061-F3-004",
+   "county": "Anderson",
+   "div": 1,
+   "desc": "THE CONSTRUCTION OF A TURN LANE ON S.R. 61 AT THE INTERSECTION OF SINKING SPRINGS ROAD/LEWALLEN HOLLOW ROAD (L.M. 17.55) IN CLINTON, INCLUDING GRADING, DRAINAGE, LIGHTING AND PAVING.",
+   "let": "Oct 2, 2026",
+   "low": "Rogers Group, Inc.",
+   "lowAmt": 348000.0,
+   "bidders": [
+    [
+     "Rogers Group, Inc.",
+     348000.0
+    ],
+    [
+     "Southern Constructors, Inc.",
+     475898.0
+    ],
+    [
+     "APAC-Atlantic, Inc.",
+     489915.05
+    ],
+    [
+     "Adams Contracting, LLC",
+     491875.3
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261066",
+   "call": "002",
+   "tip": "R1BVAR-M3-089",
+   "county": "Jefferson, Johnson, Knox, Loudon, Monroe, Morgan, Roane, Scott, Sevier, Sullivan, Unicoi, Union, And Washington",
+   "div": 1,
+   "desc": "THE RANDOM ON-CALL ASPHALT POTHOLE PATCHING ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "PRI of East Tennessee Inc.",
+   "lowAmt": 1223250.0,
+   "bidders": [
+    [
+     "PRI of East Tennessee Inc.",
+     1223250.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN263064",
+   "call": "003",
+   "tip": "BRZ-200(45),02LCOU-F3-004",
+   "county": "Bedford",
+   "div": 3,
+   "desc": "THE CONSTRUCTION OF A CONCRETE BOX BRIDGE ON OLD HIGHWAY 64 OVER STOKES BRANCH (L.M. 0.11), INCLUDING GRADING, DRAINAGE, AND PAVING.",
+   "let": "Oct 2, 2026",
+   "low": "Jones Bros. Contractors, LLC",
+   "lowAmt": 999268.5,
+   "bidders": [
+    [
+     "Jones Bros. Contractors, LLC",
+     999268.5
+    ],
+    [
+     "Capital City Construction Services, LLC",
+     1018338.83
+    ],
+    [
+     "Taggart Constructors, LLC",
+     1086374.75
+    ],
+    [
+     "Adams Contracting, LLC",
+     1088450.1
+    ],
+    [
+     "Jamison Construction, LLC",
+     1127955.15
+    ],
+    [
+     "Dement Construction Group, LLC",
+     1422259.69
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN263062",
+   "call": "004",
+   "tip": "R3SVAR-M3-119",
+   "county": "Wayne, Williamson, And Wilson",
+   "div": 3,
+   "desc": "THE RANDOM ON-CALL ASPHALT POTHOLE PATCHING ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "PRI of East Tennessee Inc.",
+   "lowAmt": 852000.0,
+   "bidders": [
+    [
+     "PRI of East Tennessee Inc.",
+     852000.0
+    ],
+    [
+     "Sessions Paving Company",
+     896455.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN264056",
+   "call": "005",
+   "tip": "R4BVAR-M3-095",
+   "county": "Henderson, Henry, Lake, Lauderdale, Madison, Mcnairy, Obion, Shelby, Tipton, And Weakley",
+   "div": 4,
+   "desc": "THE RANDOM ON-CALL ASPHALT POTHOLE PATCHING ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "Pavement Restorations, Inc.",
+   "lowAmt": 1079800.0,
+   "bidders": [
+    [
+     "Pavement Restorations, Inc.",
+     1079800.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN264058",
+   "call": "006",
+   "tip": "CRP-43(51),27S043-F3-004,CRP-431(21),66S431-F3-004,CRP-69(118),03S069-",
+   "county": "Benton, Gibson, Obion, And Weakley",
+   "div": 4,
+   "desc": "F3-008,CRP-9408(14),92SVAR-F3-001 THE TRAFFIC SIGNAL MODERNIZATION IMPROVEMENTS AT VARIOUS INTERSECTIONS ALONG VARIOUS U.S. AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "Stansell Electric Company, Inc.",
+   "lowAmt": 320227.0,
+   "bidders": [
+    [
+     "Stansell Electric Company, Inc.",
+     320227.0
+    ],
+    [
+     "Davis H. Elliot Construction Company, Inc.",
+     366145.5
+    ],
+    [
+     "Shelby Electric Company, Inc.",
+     762650.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN262063",
+   "call": "007",
+   "tip": "R2BVAR-M3-070",
+   "county": "Marion, Mcminn, Meigs, Overton, Pickett, Polk, Putnam, Rhea, Sequatchie, Van Buren, Warren, And White",
+   "div": 2,
+   "desc": "THE RANDOM ON-CALL ASPHALT POTHOLE PATCHING ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "PRI of East Tennessee Inc.",
+   "lowAmt": 918350.0,
+   "bidders": [
+    [
+     "PRI of East Tennessee Inc.",
+     918350.0
+    ],
+    [
+     "Sessions Paving Company",
+     1066100.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN262064",
+   "call": "008",
+   "tip": "HSIP-2(294),06S002-F3-006",
+   "county": "Bradley",
+   "div": 2,
+   "desc": "THE INSTALLATION OF SIGNALS ON U.S. 11 (S.R. 2) AT THE INTERSECTION OF 17TH STREET NORTHWEST (L.M. 9.93) IN CLEVELAND.",
+   "let": "Oct 2, 2026",
+   "low": "Davis H. Elliot Construction Company, Inc.",
+   "lowAmt": 83100.0,
+   "bidders": [
+    [
+     "Davis H. Elliot Construction Company, Inc.",
+     83100.0
+    ],
+    [
+     "Stansell Electric Company, Inc.",
+     120992.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261065",
+   "call": "009",
+   "tip": "HSIP-62(60),65S062-F3-003,HSIP-700(42),07LCOU-F3-002",
+   "county": "Campbell And Morgan",
+   "div": 0,
+   "desc": "THE MISCELLANEOUS SAFETY IMPROVEMENTS ON VARIOUS LOCAL ROADS IN CAMPBELL COUNTY, AND ON S.R. 62 IN MORGAN COUNTY FROM PETIT LANE (L.M. 24.99) TO THE ROANE COUNTY LINE (L.M. 35.73).",
+   "let": "Oct 2, 2026",
+   "low": "Mountain Home Construction LLC",
+   "lowAmt": 441842.58,
+   "bidders": [
+    [
+     "Mountain Home Construction LLC",
+     441842.58
+    ],
+    [
+     "Highway Markings, Inc.",
+     475214.5
+    ],
+    [
+     "Lu, Inc.",
+     484999.02
+    ],
+    [
+     "Superior Traffic Control, LLC",
+     531638.51
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261070",
+   "call": "010",
+   "tip": "ER-NH-37(29),10S037-M3-005,ER-STP-37(32),10S037-M3-006",
+   "county": "Carter",
+   "div": 1,
+   "desc": "THE BRIDGE REHABILITATION ON U.S. 19E (S.R. 37) UNDER THE BRIDGES OVER LAUREL FORK CREEK (L.M. 16.96), INCLUDING SLOPE REPAIR NEAR L.M. 17.1.",
+   "let": "Oct 2, 2026",
+   "low": "Baker's Construction Services, Inc.",
+   "lowAmt": 1996730.92,
+   "bidders": [
+    [
+     "Baker's Construction Services, Inc.",
+     1996730.92
+    ],
+    [
+     "Summers-Taylor, Inc.",
+     2140354.7
+    ],
+    [
+     "Southern Constructors, Inc.",
+     3206327.24
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261067",
+   "call": "011",
+   "tip": "ER-STP-143(10),10S143-F3-005",
+   "county": "Carter",
+   "div": 1,
+   "desc": "THE SLOPE STABILIZATION ON S.R. 143 NEAR L.M. 9.8.",
+   "let": "Oct 2, 2026",
+   "low": "Eclipse Companies,LLC",
+   "lowAmt": 996877.99,
+   "bidders": [
+    [
+     "Eclipse Companies,LLC",
+     996877.99
+    ],
+    [
+     "Baker's Construction Services, Inc.",
+     1138085.06
+    ],
+    [
+     "Summers-Taylor, Inc.",
+     1138210.84
+    ],
+    [
+     "Rock Supremacy, LLC",
+     1579815.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261074",
+   "call": "012",
+   "tip": "BR-STP-33(126),13004-3216-94",
+   "county": "Claiborne",
+   "div": 1,
+   "desc": "THE CONSTRUCTION OF A CONCRETE BOX BEAM BRIDGE ON S.R. 33 OVER SOUTH FORK SYCAMORE CREEK (L.M. 20.56), INCLUDING GRADING, DRAINAGE, AND PAVING.",
+   "let": "Oct 2, 2026",
+   "low": "Southern Constructors, Inc.",
+   "lowAmt": 2643605.66,
+   "bidders": [
+    [
+     "Southern Constructors, Inc.",
+     2643605.66
+    ],
+    [
+     "Charles Blalock & Sons, Inc.",
+     2993828.24
+    ],
+    [
+     "Jones Bros. Contractors, LLC",
+     3329042.61
+    ],
+    [
+     "Whaley Construction, LLC",
+     3498103.45
+    ],
+    [
+     "King General Contractors, Inc.",
+     3682691.32
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261069",
+   "call": "013",
+   "tip": "ER-NH-I-40-8(198),15I040-M3-024",
+   "county": "Cocke",
+   "div": 1,
+   "desc": "THE REHABILITATION OF THE BRIDGE ON I-40 OVER THE PIGEON RIVER AND HARTFORD ROAD NEAR L.M. 15.05.",
+   "let": "Oct 2, 2026",
+   "low": "Whaley Construction, LLC",
+   "lowAmt": 2042518.98,
+   "bidders": [
+    [
+     "Whaley Construction, LLC",
+     2042518.98
+    ],
+    [
+     "Charles Blalock & Sons, Inc.",
+     2287100.48
+    ],
+    [
+     "W.G. Harrell Construction LLC",
+     2291481.18
+    ],
+    [
+     "Jones Bros. Contractors, LLC",
+     2361948.6
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261075",
+   "call": "014",
+   "tip": "CRP-1(522),37S001-F3-008,CRP-2(307),62S002-F3-001,CRP-29(133),76S029-F3-",
+   "county": "Cocke, Hawkins, Jefferson, Monroe, Scott, And Washington",
+   "div": 1,
+   "desc": "009,CRP-32(108),15S032-F3-005,CRP-33(169),62S033-F3-009,CRP- 34(144),45S034-F3-004,CRP-34(145),90S034-F3-007 THE TRAFFIC SIGNAL MODERNIZATION IMPROVEMENTS AT VARIOUS INTERSECTIONS ALONG VARIOUS U.S. AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "Stansell Electric Company, Inc.",
+   "lowAmt": 715638.0,
+   "bidders": [
+    [
+     "Stansell Electric Company, Inc.",
+     715638.0
+    ],
+    [
+     "Davis H. Elliot Construction Company, Inc.",
+     792165.0
+    ],
+    [
+     "Progression Electric, LLC",
+     903399.25
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN262062",
+   "call": "015",
+   "tip": "CRP-1(519),93S001-F3-008,CRP-15(242),26S015-F3-004,CRP-29(134),72S029-",
+   "county": "Franklin, Hamilton, Jackson, Mcminn, Putnam, Rhea, And White",
+   "div": 2,
+   "desc": "F3-010,CRP-30(100),54S030-F3-006,CRP-319(19),33S319-F3-007,CRP- 53(66),44S053-F3-006,CRP-84(21),71S084-F3-004 THE TRAFFIC SIGNAL MODERNIZATION IMPROVEMENTS AT VARIOUS INTERSECTIONS ALONG VARIOUS U.S. AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "Davis H. Elliot Construction Company, Inc.",
+   "lowAmt": 498800.0,
+   "bidders": [
+    [
+     "Davis H. Elliot Construction Company, Inc.",
+     498800.0
+    ],
+    [
+     "Stansell Electric Company, Inc.",
+     498870.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN264057",
+   "call": "017",
+   "tip": "36ACOU-S3-002,36S057-S3-002",
+   "county": "Hardin",
+   "div": 4,
+   "desc": "THE GRADING, DRAINAGE, AND PAVING ON A S.I.A. ROUTE SERVING PACKAGING CORPORATION OF AMERICA, INCLUDING CONSTRUCTION OF TURN LANES ON S.R. 57.",
+   "let": "Oct 2, 2026",
+   "low": "Delta Contracting Company, LLC",
+   "lowAmt": 2998958.63,
+   "bidders": [
+    [
+     "Delta Contracting Company, LLC",
+     2998958.63
+    ],
+    [
+     "VuCon, LLC",
+     3710545.25
+    ],
+    [
+     "Kenneth Rich Construction Company, Inc.",
+     3921557.98
+    ],
+    [
+     "Jones Bros. Contractors, LLC",
+     4134819.33
+    ],
+    [
+     "Volunteer Bridge Construction, Inc.",
+     4950804.5
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261079",
+   "call": "018",
+   "tip": "BRZ-3700(43),37LCOU-F3-006",
+   "county": "Hawkins",
+   "div": 1,
+   "desc": "THE CONSTRUCTION OF A CONCRETE BULB-TEE BEAM BRIDGE ON AFG ROAD OVER SOUTHERN RAILWAY (L.M. 0.45), INCLUDING GRADING, DRAINAGE, AND PAVING.",
+   "let": "Oct 2, 2026",
+   "low": "Southern Constructors, Inc.",
+   "lowAmt": 7295754.75,
+   "bidders": [
+    [
+     "Southern Constructors, Inc.",
+     7295754.75
+    ],
+    [
+     "Jones Bros. Contractors, LLC",
+     7711129.27
+    ],
+    [
+     "Summers-Taylor, Inc.",
+     7949973.43
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN264061",
+   "call": "019",
+   "tip": "40S076-M3-003,40S076-M8-003",
+   "county": "Henry And Stewart",
+   "div": 0,
+   "desc": "THE RESURFACING ON U.S. 79 (S.R. 76) FROM WEST ANTIOCH ROAD (L.M. 25.45) IN HENRY COUNTY TO THE EAST END OF THE TENNESSEE RIVER BRIDGE (L.M. 037) IN STEWART COUNTY, INCLUDING THIN EPOXY OVERLAY ON THE BRIDGE.",
+   "let": "Oct 2, 2026",
+   "low": "Delta Contracting Company, LLC",
+   "lowAmt": 2789225.38,
+   "bidders": [
+    [
+     "Delta Contracting Company, LLC",
+     2789225.38
+    ],
+    [
+     "Jones Bros. Contractors, LLC",
+     3441662.8
+    ],
+    [
+     "Murray Paving, Inc.",
+     3545626.5
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN263065",
+   "call": "020",
+   "tip": "BRZ-4300(32),43455-3435-04",
+   "county": "Humphreys",
+   "div": 3,
+   "desc": "THE CONSTRUCTION OF A CONCRETE BULB-TEE BEAM BRIDGE ON CEDAR GROVE ROAD OVER HURRICANE CREEK (L.M. 0.49), INCLUDING GRADING, DRAINAGE, AND PAVING.",
+   "let": "Oct 2, 2026",
+   "low": "Dement Construction Group, LLC",
+   "lowAmt": 4286414.2,
+   "bidders": [
+    [
+     "Dement Construction Group, LLC",
+     4286414.2
+    ],
+    [
+     "Bell & Associates Construction, LLC",
+     4742358.0
+    ],
+    [
+     "Concrete Structures, Inc.",
+     4775597.0
+    ],
+    [
+     "Louis-Company, LLC",
+     4887633.34
+    ],
+    [
+     "Capital City Construction Services, LLC",
+     5279705.84
+    ],
+    [
+     "Jones Bros. Contractors, LLC",
+     5499232.3
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN263063",
+   "call": "021",
+   "tip": "CRP-1(520),43S001-F3-008,CRP-53(67),80S053-F3-004,CRP-6(170),50S006-F3-",
+   "county": "Humphreys, Lawrence, And Smith",
+   "div": 3,
+   "desc": "008,CRP-9308(12),50SVAR-F3-002 THE TRAFFIC SIGNAL MODERNIZATION IMPROVEMENTS AT VARIOUS INTERSECTIONS ALONG VARIOUS U.S. AND STATE ROUTES.",
+   "let": "Oct 2, 2026",
+   "low": "Stansell Electric Company, Inc.",
+   "lowAmt": 189811.8,
+   "bidders": [
+    [
+     "Stansell Electric Company, Inc.",
+     189811.8
+    ],
+    [
+     "Davis H. Elliot Construction Company, Inc.",
+     211200.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261072",
+   "call": "022",
+   "tip": "ER-STP-167(14),46S167-F3-007,ER-STP-167(15),46S167-F3-008,ER-STP-",
+   "county": "Johnson",
+   "div": 1,
+   "desc": "34(146),46S034-F3-006 THE SLOPE REPAIR ON U.S. 421 (S.R. 34) NEAR L.M. 21.14, AND ON S.R. 167 NEAR L.M. 7.3 AND 16.54.",
+   "let": "Oct 2, 2026",
+   "low": "Baker's Construction Services, Inc.",
+   "lowAmt": 4371868.08,
+   "bidders": [
+    [
+     "Baker's Construction Services, Inc.",
+     4371868.08
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261073",
+   "call": "023",
+   "tip": "47I075-S3-003",
+   "county": "Knox",
+   "div": 1,
+   "desc": "THE CONCRETE PAVEMENT REPAIR ON I-75 FROM THE I-40 EASTBOUND EXIT RAMP (L.M. 0.00) TO THE BRIDGE OVER PAPERMILL DRIVE (L.M. 0.30).",
+   "let": "Oct 2, 2026",
+   "low": "Bluegrass Contracting Corporation",
+   "lowAmt": 843886.0,
+   "bidders": [
+    [
+     "Bluegrass Contracting Corporation",
+     843886.0
+    ],
+    [
+     "Mid-State Construction Company, Inc.",
+     990830.51
+    ],
+    [
+     "APAC-Atlantic, Inc.",
+     1003543.1
+    ],
+    [
+     "Southern Constructors, Inc.",
+     1087527.0
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN264060",
+   "call": "024",
+   "tip": "79S385-M3-002",
+   "county": "Shelby",
+   "div": 4,
+   "desc": "THE REPAIR OF THE BRIDGE ON S.R. 385 OVER RIVERDALE ROAD (L.M. 3.57)",
+   "let": "Oct 2, 2026",
+   "low": "Thomson & Thomson, Inc.",
+   "lowAmt": 480711.25,
+   "bidders": [
+    [
+     "Thomson & Thomson, Inc.",
+     480711.25
+    ],
+    [
+     "Bluff City Construction Company, LLC",
+     729972.45
+    ],
+    [
+     "Dement Construction Group, LLC",
+     797282.22
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN263066",
+   "call": "025",
+   "tip": "STP/PROT-24(70),80002-3263-14",
+   "county": "Smith",
+   "div": 3,
+   "desc": "THE ROCKFALL MITIGATION ON U.S. 70N (S.R. 24) FROM NEAR WAGGONER STREET (L.M. 9.88) TO NEAR CEDAR STREET (L.M. 10.46) IN SOUTH CARTHAGE.",
+   "let": "Oct 2, 2026",
+   "low": "Rock Supremacy, LLC",
+   "lowAmt": 6542136.0,
+   "bidders": [
+    [
+     "Rock Supremacy, LLC",
+     6542136.0
+    ],
+    [
+     "Access Limited Construction",
+     7561029.11
+    ],
+    [
+     "T & T Earthworks, LLC",
+     7827912.21
+    ],
+    [
+     "Guardian Fence and Construction, LLC. dba GeoSpecialities",
+     12499603.43
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN261064",
+   "call": "026",
+   "tip": "82956-3594-04",
+   "county": "Sullivan",
+   "div": 1,
+   "desc": "THE GRADING, DRAINAGE, CONSTRUCTION OF BRIDGES AND A RETAINING WALL, SIGNALS, AND PAVING ON A S.I.A. ROUTE SERVING EASTMAN CHEMICAL COMPANY.",
+   "let": "Oct 2, 2026",
+   "low": "Summers-Taylor, Inc.",
+   "lowAmt": 23131389.22,
+   "bidders": [
+    [
+     "Summers-Taylor, Inc.",
+     23131389.22
+    ]
+   ],
+   "award": "awarded"
+  },
+  {
+   "id": "CN262061",
+   "call": "016",
+   "tip": "STP-8(52),33021-3231-14",
+   "county": "Hamilton",
+   "div": 2,
+   "desc": "",
+   "let": "Oct 2, 2026",
+   "low": "Wright Brothers Civil Construction, LLC",
+   "lowAmt": 21419995.13,
+   "bidders": [
+    [
+     "Wright Brothers Civil Construction, LLC",
+     21419995.13
+    ],
+    [
+     "Summers-Taylor, Inc.",
+     26298155.0
+    ]
+   ],
+   "award": "rejected",
+   "cls": "UNKNOWN",
+   "note": "in the Apparent Bid Results but not the Summary of Bids \u2014 TDOT omits rejected and pending calls from the Summary"
+  }
+ ],
+ "lighting": [
+  {
+   "id": "CN261076",
+   "tip": "NH-SIP-61(58),01S061-F3-004",
+   "county": "Anderson",
+   "div": 1,
+   "districtLabel": "Region 1",
+   "let": "Oct 2, 2026",
+   "low": "Rogers Group, Inc.",
+   "lowAmt": 348000.0,
+   "bidders": 4,
+   "l2": 32183.7,
+   "product": 0.0,
+   "split": {
+    "hardware": 0.0,
+    "infrastructure": 20883.7,
+    "work": 11300.0,
+    "lump": 0.0
+   },
+   "nItems": 6,
+   "rng": [
+    32183.7,
+    46192.6
+   ],
+   "cls": "L2",
+   "desc": "THE CONSTRUCTION OF A TURN LANE ON S.R. 61 AT THE INTERSECTION OF SINKING SPRINGS ROAD/LEWALLEN HOLLOW ROAD (L.M. 17.55) IN CLINTON, INCLUDING GRADING, DRAINAGE, LIGHTING AND PAVING.",
+   "share": 0.092,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "quantities": [],
+   "items": [
+    {
+     "line": "",
+     "code": "714-08.30",
+     "section": "714",
+     "desc": "REMOVE & RELOCATE LIGHT STANDARD",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "Rogers Group, Inc.": 5650.0,
+      "Southern Constructors, Inc.": 3500.0,
+      "APAC-Atlantic, Inc.": 7500.0,
+      "Adams Contracting, LLC": 6000.0
+     },
+     "sub": "work"
+    },
+    {
+     "line": "",
+     "code": "714-03",
+     "section": "714",
+     "desc": "JACKED OR BORED CONDUIT",
+     "qty": 250.0,
+     "unit": "L.F.",
+     "prices": {
+      "Rogers Group, Inc.": 8.15,
+      "Southern Constructors, Inc.": 30.0,
+      "APAC-Atlantic, Inc.": 47.6,
+      "Adams Contracting, LLC": 10.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-03.01",
+     "section": "714",
+     "desc": "DIRECT BURIAL CONDUIT (2\" PVC, SCHEDULE 40)",
+     "qty": 330.0,
+     "unit": "L.F.",
+     "prices": {
+      "Rogers Group, Inc.": 11.7,
+      "Southern Constructors, Inc.": 20.0,
+      "APAC-Atlantic, Inc.": 22.0,
+      "Adams Contracting, LLC": 12.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-05.04",
+     "section": "714",
+     "desc": "PULL BOXES (TYPE C)",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "Rogers Group, Inc.": 4500.0,
+      "Southern Constructors, Inc.": 1500.0,
+      "APAC-Atlantic, Inc.": 1600.0,
+      "Adams Contracting, LLC": 4700.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-06.04",
+     "section": "714",
+     "desc": "CABLE (1/C # 8 AWG)",
+     "qty": 1914.0,
+     "unit": "L.F.",
+     "prices": {
+      "Rogers Group, Inc.": 1.8,
+      "Southern Constructors, Inc.": 2.5,
+      "APAC-Atlantic, Inc.": 3.4,
+      "Adams Contracting, LLC": 2.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-25.01",
+     "section": "714",
+     "desc": "ELECTRICAL CONNECTION (SEE FOOTNOTES SHEET L-1)",
+     "qty": 1.0,
+     "unit": "LS",
+     "prices": {
+      "Rogers Group, Inc.": 2540.0,
+      "Southern Constructors, Inc.": 4000.0,
+      "APAC-Atlantic, Inc.": 2325.0,
+      "Adams Contracting, LLC": 3000.0
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0.0,
+    "pole": 0.0,
+    "assembly": 0.0,
+    "control": 0.0
+   },
+   "lumN": 0.0,
+   "poleN": 0.0
+  },
+  {
+   "id": "CN261064",
+   "tip": "82956-3594-04",
+   "county": "Sullivan",
+   "div": 1,
+   "districtLabel": "Region 1",
+   "let": "Oct 2, 2026",
+   "low": "Summers-Taylor, Inc.",
+   "lowAmt": 23131389.22,
+   "bidders": 1,
+   "l2": 290120.4,
+   "product": 0.0,
+   "split": {
+    "hardware": 0.0,
+    "infrastructure": 277832.39,
+    "work": 12288.01,
+    "lump": 0.0
+   },
+   "nItems": 9,
+   "rng": [
+    290120.4,
+    290120.4
+   ],
+   "cls": "L2",
+   "desc": "THE GRADING, DRAINAGE, CONSTRUCTION OF BRIDGES AND A RETAINING WALL, SIGNALS, AND PAVING ON A S.I.A. ROUTE SERVING EASTMAN CHEMICAL COMPANY.",
+   "share": 0.013,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "quantities": [],
+   "items": [
+    {
+     "line": "",
+     "code": "714-08.28",
+     "section": "714",
+     "desc": "FOUNDATION FOR LIGHT STANDARDS - ROADWAY (POST TOP)",
+     "qty": 23.0,
+     "unit": "EACH",
+     "prices": {
+      "Summers-Taylor, Inc.": 2494.26
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-08.32",
+     "section": "714",
+     "desc": "REMOVAL OF LIGHT STANDARD & FOUNDATION",
+     "qty": 5.0,
+     "unit": "EACH",
+     "prices": {
+      "Summers-Taylor, Inc.": 734.35
+     },
+     "sub": "work"
+    },
+    {
+     "line": "",
+     "code": "714-09.47",
+     "section": "714",
+     "desc": "LED LUMINAIRES (RELOCATE EXISTING)",
+     "qty": 1.0,
+     "unit": "EACH",
+     "prices": {
+      "Summers-Taylor, Inc.": 5134.13
+     },
+     "sub": "work"
+    },
+    {
+     "line": "",
+     "code": "714-01.69",
+     "section": "714",
+     "desc": "REMOVE CONDUCTOR",
+     "qty": 1575.0,
+     "unit": "L.F.",
+     "prices": {
+      "Summers-Taylor, Inc.": 1.9
+     },
+     "sub": "work"
+    },
+    {
+     "line": "",
+     "code": "714-03",
+     "section": "714",
+     "desc": "JACKED OR BORED CONDUIT",
+     "qty": 220.0,
+     "unit": "L.F.",
+     "prices": {
+      "Summers-Taylor, Inc.": 206.47
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-03.01",
+     "section": "714",
+     "desc": "DIRECT BURIAL CONDUIT (2\" PVC, SCHEDULE 40)",
+     "qty": 6125.0,
+     "unit": "L.F.",
+     "prices": {
+      "Summers-Taylor, Inc.": 17.09
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-03.02",
+     "section": "714",
+     "desc": "DIRECT BURIAL CONDUIT (3\" PVC, SCHEDULE 40)",
+     "qty": 1940.0,
+     "unit": "L.F.",
+     "prices": {
+      "Summers-Taylor, Inc.": 23.42
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "714-05.04",
+     "section": "714",
+     "desc": "PULL BOXES (TYPE C)",
+     "qty": 22.0,
+     "unit": "EACH",
+     "prices": {
+      "Summers-Taylor, Inc.": 1133.18
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "",
+     "code": "790-36.10",
+     "section": "790",
+     "desc": "TRANSFER - LIGHT ASSEMBLY",
+     "qty": 1.0,
+     "unit": "EACH",
+     "prices": {
+      "Summers-Taylor, Inc.": 489.63
+     },
+     "sub": "work"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0.0,
+    "pole": 0.0,
+    "assembly": 0.0,
+    "control": 0.0
+   },
+   "lumN": 0.0,
+   "poleN": 0.0
+  }
+ ],
+ "shared": [],
+ "awards": {
+  "001": {
+   "status": "awarded",
+   "contractor": "Rogers Group, Inc.",
+   "amt": 348000.0,
+   "est": 511214.5
+  },
+  "002": {
+   "status": "awarded",
+   "contractor": "Pri Of East Tennessee Inc.",
+   "amt": 1223250.0,
+   "est": 1309350.0
+  },
+  "003": {
+   "status": "awarded",
+   "contractor": "Jones Bros. Contractors, LLC",
+   "amt": 999268.5,
+   "est": 1600047.75
+  },
+  "004": {
+   "status": "awarded",
+   "contractor": "Pri Of East Tennessee Inc.",
+   "amt": 852000.0,
+   "est": 1076625.0
+  },
+  "005": {
+   "status": "awarded",
+   "contractor": "Pavement Restorations, Inc.",
+   "amt": 1079800.0,
+   "est": 1162560.0
+  },
+  "006": {
+   "status": "awarded",
+   "contractor": "Stansell Electric Company, Inc.",
+   "amt": 320227.0,
+   "est": 836170.0
+  },
+  "007": {
+   "status": "awarded",
+   "contractor": "Pri Of East Tennessee Inc.",
+   "amt": 918350.0,
+   "est": 1163820.0
+  },
+  "008": {
+   "status": "awarded",
+   "contractor": "Davis H. Elliot Construction Company, Inc.",
+   "amt": 83100.0,
+   "est": 99761.0
+  },
+  "009": {
+   "status": "awarded",
+   "contractor": "Mountain Home Construction LLC",
+   "amt": 441842.58,
+   "est": 508444.0
+  },
+  "010": {
+   "status": "awarded",
+   "contractor": "Baker'S Construction Services, Inc.",
+   "amt": 1996730.92,
+   "est": 2209949.22
+  },
+  "011": {
+   "status": "awarded",
+   "contractor": "Eclipse Companies,LLC",
+   "amt": 996877.99,
+   "est": 979391.0
+  },
+  "012": {
+   "status": "awarded",
+   "contractor": "Southern Constructors, Inc.",
+   "amt": 2643605.66,
+   "est": 2889267.28
+  },
+  "013": {
+   "status": "awarded",
+   "contractor": "Whaley Construction, LLC",
+   "amt": 2042518.98,
+   "est": 1740789.5
+  },
+  "014": {
+   "status": "awarded",
+   "contractor": "Stansell Electric Company, Inc.",
+   "amt": 715638.0,
+   "est": 969992.0
+  },
+  "015": {
+   "status": "awarded",
+   "contractor": "Davis H. Elliot Construction Company, Inc.",
+   "amt": 498800.0,
+   "est": 659545.25
+  },
+  "016": {
+   "status": "rejected"
+  },
+  "017": {
+   "status": "awarded",
+   "contractor": "Delta Contracting Company, LLC",
+   "amt": 2998958.63,
+   "est": 3954622.0
+  },
+  "018": {
+   "status": "awarded",
+   "contractor": "Southern Constructors, Inc.",
+   "amt": 7295754.75,
+   "est": 5681439.1
+  },
+  "019": {
+   "status": "awarded",
+   "contractor": "Delta Contracting Company, LLC",
+   "amt": 2789225.38,
+   "est": 2976488.6
+  },
+  "020": {
+   "status": "awarded",
+   "contractor": "Dement Construction Group, LLC",
+   "amt": 4286414.2,
+   "est": 5340811.1
+  },
+  "021": {
+   "status": "awarded",
+   "contractor": "Stansell Electric Company, Inc.",
+   "amt": 189811.8,
+   "est": 273303.0
+  },
+  "022": {
+   "status": "awarded",
+   "contractor": "Baker'S Construction Services, Inc.",
+   "amt": 4371868.08,
+   "est": 4550336.53
+  },
+  "023": {
+   "status": "awarded",
+   "contractor": "Bluegrass Contracting Corporation",
+   "amt": 843886.0,
+   "est": 846467.5
+  },
+  "024": {
+   "status": "awarded",
+   "contractor": "Thomson & Thomson, Inc.",
+   "amt": 480711.25,
+   "est": 511827.25
+  },
+  "025": {
+   "status": "awarded",
+   "contractor": "Rock Supremacy, LLC",
+   "amt": 6542136.0,
+   "est": 9988000.0
+  },
+  "026": {
+   "status": "awarded",
+   "contractor": "Summers-Taylor, Inc.",
+   "amt": 23131389.22,
+   "est": 26915936.6
+  }
+ }
+}

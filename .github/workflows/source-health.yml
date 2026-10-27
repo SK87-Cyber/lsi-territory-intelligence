@@ -1,0 +1,33 @@
+name: Daily source review queue
+on:
+  schedule:
+    - cron: '30 11 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lighting-source-health
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install -r requirements-infra.txt
+      - name: Check bounded sources and prepare review queue
+        env:
+          LSI_DATABASE_URL: ${{ secrets.LSI_DATABASE_URL }}
+        run: python scripts/source_health.py
+      - name: Show review queue in the run summary
+        if: always()
+        run: |
+          if [ -f reports/source-health.md ]; then cat reports/source-health.md >> "$GITHUB_STEP_SUMMARY"; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: source-review-queue
+          path: reports/
+          retention-days: 90

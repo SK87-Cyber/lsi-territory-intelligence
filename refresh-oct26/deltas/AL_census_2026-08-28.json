@@ -1,0 +1,318 @@
+{
+ "letting": {
+  "id": "L260828",
+  "date": "Aug 28, 2026",
+  "iso": "2026-08-28",
+  "status": "bids opened, awards pending \u2014 no Tabulation of Bids posted as of Oct 26, 2026, so nothing here is an award",
+  "contracts": 15,
+  "withBids": 13,
+  "withdrawn": 2,
+  "lowBidRows": 34,
+  "apparentLowSum": 33671530.16,
+  "apparentLowSumNote": "sum of the #1 (apparent low) bids on the Low Bid Sheet \u2014 not awards"
+ },
+ "census": true,
+ "biddersCap": "ALDOT's Low Bid Sheet lists at most the three lowest bidders per contract \u2014 a cap, not the full bidder list; biddersCapped=true means more bidders may exist",
+ "contracts": [
+  {
+   "call": "001",
+   "project": "DEMOF-RPF-NHF-PRF-A210(943)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE BRIDGE REPLACEMENT AND APPROACHES (GRADING, DRAINAGE, PAVEMENT, INTELLIGENT TRAFFIC SYSTEMS (ITS), TRAFFIC SIGNALS, AND TRAFFIC STRIPE) ON SR-6 (US-82) (WOOLSEY FINNELL BRIDGE) OVER THE BLACK WARRIOR RIVER IN TUSCALOOSA. LENGTH 1.690 MI.",
+   "lowBidders": [],
+   "biddersCapped": false,
+   "status": "withdrawn from the letting"
+  },
+  {
+   "call": "004",
+   "project": "BR-I059(455)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE BRIDGE REHABILITATION (HYDROBLASTING, BRIDGE PAINTING, SUBSTRUCTURE PATCHING, MISCELLANEOUS STEEL REPAIRS, NAVIGATION LIGHT REPLACEMENT, AND GUARDRAIL INSTALLATION) ON I-20/I-59 OVER THE BLACK WARRIOR RIVER SOUTHWEST OF TUSCALOOSA. LENGTH 0.789 MI.",
+   "lowBidders": [
+    [
+     "IVS HYDRO, INC.",
+     10393035.87
+    ],
+    [
+     "CEKRA, INC",
+     10787715.51
+    ],
+    [
+     "GIBSON & ASSOCIATES, INC.",
+     10816690.65
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "005",
+   "project": "BR-I059(460)",
+   "county": "Sumter",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE BRIDGE PAINTING ON I-20/I-59 OVER JONES CREEK AND FACTORY CREEK NORTHEAST OF EPES. LENGTH 0.164 MI.",
+   "lowBidders": [
+    [
+     "S & D INDUSTRIAL PAINTING, INC.",
+     1116540.0
+    ],
+    [
+     "INTERNATIONAL RIGGING GROUP, LLC",
+     1146020.0
+    ],
+    [
+     "SEMINOLE EQUIPMENT, INC.",
+     1193884.0
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "008",
+   "project": "CRPNU-I059(466)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE ROADWAY SAFETY IMPROVEMENTS (HIGHWAY LIGHTING UPGRADES) ON THE I-20/I-59 RAMPS AT THE EXIT 89 INTERCHANGE (MERCEDES DRIVE) AND THE ACCESS ROAD IN VANCE. LENGTH 1.875 MI.",
+   "lowBidders": [
+    [
+     "INLINE, LLC",
+     449977.64
+    ],
+    [
+     "STONE ELECTRIC COMPANY, INC.",
+     513386.0
+    ],
+    [
+     "TEMPLE J ELECTRIC, LLC",
+     550547.5
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending",
+   "lightingFlag": "description mentions lighting \u2014 possible Section 750 content; flag only, no dollars claimed until the tabulation posts"
+  },
+  {
+   "call": "011",
+   "project": "DEMO-A219(958)",
+   "county": "Calhoun",
+   "div": 2,
+   "desc": "FOR CONSTRUCTING THE MICRO-MILLING, RESURFACING, AND TRAFFIC STRIPE ON CR-109 (BYNUM- LEATHERWOOD ROAD) FROM THE JUNCTION OF SR-202 TO THE INTERSECTION OF MORRISVILLE ROAD TO INCLUDE INTERSECTION IMPROVEMENTS (LEFT AND RIGHT TURN LANES) AT OLD COLDWATER ROAD, EULATON GATE ROAD, AND GATE 8 ROAD. LENGTH 2.791 MI.",
+   "lowBidders": [
+    [
+     "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+     2274715.7
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     2346072.55
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     2401343.75
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "014",
+   "project": "HRRR-0426(250)",
+   "county": "Bibb",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE ROADWAY SAFETY IMPROVEMENTS (GUARDRAIL AND GUARDRAIL END ANCHOR INSTALLATIONS) ON CR-65 (BULLDOG BEND ROAD) AT A POINT APPROXIMATELY 0.410 MILE NORTHWEST OF THE JUNCTION OF CAHABA HILL ROAD (SITE 1); ON CR-44 (THREE CREEKS ROAD) AT A POINT APPROXIMATELY 0.110 MILE SOUTH OF THE JUNCTION OF YEAGER ROAD (SITE 2); AND ON CR-44 (THREE CREEKS ROAD) AT A POINT 0.240 MILE SOUTHEAST OF THE JUNCTION OF YEAGER ROAD (SITE 3). LENGTH 0.269 MI.",
+   "lowBidders": [
+    [
+     "ALABAMA GUARDRAIL, LLC",
+     60767.5
+    ],
+    [
+     "C & H CONSTRUCTION SERVICES, LLC",
+     62737.0
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "015",
+   "project": "HRRR-1126(250)",
+   "county": "Chilton",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE ROADWAY SAFETY IMPROVEMENTS (GUARDRAIL AND GUARDRAIL END ANCHOR INSTALLATION) ON CR-54 OVER A BRANCH OF DRY CREEK (SITE 1) AND ON CR-54 ALONG THE HORIZONTAL CURVE 0.250 MILE SOUTH OF THE SHELBY COUNTY LINE (SITE 2). LENGTH 0.120 MI.",
+   "lowBidders": [
+    [
+     "ALABAMA GUARDRAIL, LLC",
+     59958.0
+    ],
+    [
+     "C & H CONSTRUCTION SERVICES, LLC",
+     66081.0
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "017",
+   "project": "HRRR-3626(250)",
+   "county": "Jackson",
+   "div": 1,
+   "desc": "FOR CONSTRUCTING THE ROADWAY SAFETY IMPROVEMENTS (GUARDRAIL AND GUARDRAIL END ANCHOR INSTALLATION) ON CR-81 OVER FLAT ROCK CREEK (SITE 1); ON CR-30 OVER UNNAMED CREEK 0.320 MILE EAST OF THE INTERSECTION OF CR-17 (SITE 2); AND ON CR-88 OVER JONES BRANCH (SITE 3). LENGTH 0.101 MI.",
+   "lowBidders": [
+    [
+     "ALABAMA GUARDRAIL, LLC",
+     164200.0
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "018",
+   "project": "HRRR-5526(250)",
+   "county": "Pike",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE ROADWAY SAFETY IMPROVEMENTS (SLOPE FLATTENING TO INCLUDE CLEARING AND GRUBBING) ON CR-1101 AT THE CONECUH RIVER (SITE 1) AND OLUSTEE CREEK (SITE 2). LENGTH 0.981 MI.",
+   "lowBidders": [
+    [
+     "GRADY RALLS & SONS, INC.",
+     582413.3
+    ],
+    [
+     "S. A. GRAHAM COMPANY, INC.",
+     599106.86
+    ],
+    [
+     "E. O. BYARS CONSTRUCTION, INC.",
+     726521.93
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "021",
+   "project": "IM-HSIP-IMGR-I022(327)",
+   "county": "Walker",
+   "div": 3,
+   "desc": "FOR CONSTRUCTING THE PLANING, MICRO-MILLING, RESURFACING, GUARDRAIL INSTALLATION (GUARDRAIL, GUARDRAIL END ANCHORS, AND GUARDRAIL STEEL BLOCKOUT REPLACEMENT), AND TRAFFIC STRIPE ON I-22 FROM A POINT 0.800 MILE EAST OF THE EXIT 65 INTERCHANGE TO THE CR-61 OVERPASS. LENGTH 7.877 MI.",
+   "lowBidders": [
+    [
+     "DUNN CONSTRUCTION COMPANY, INC.",
+     8271787.61
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     8430262.6
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     9143633.67
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "022",
+   "project": "IM-IMGR-I065(571)",
+   "county": "Cullman",
+   "div": 1,
+   "desc": "FOR CONSTRUCTING THE PLANING, MICRO-MILLING, RESURFACING, AND TRAFFIC STRIPE TO INCLUDE GUARDRAIL AND CABLE GUIDERAIL INSTALLATION ON I-65 FROM A POINT 0.560 MILE SOUTH OF THE EXIT 305 INTERCHANGE IN GOOD HOPE TO THE SR-74 (US-278) OVERPASS WEST OF CULLMAN. LENGTH 3.806 MI.",
+   "lowBidders": [],
+   "biddersCapped": false,
+   "status": "withdrawn from the letting"
+  },
+  {
+   "call": "023",
+   "project": "IM-IMGR-I065(577)",
+   "county": "Elmore",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE PLANING, MICRO-MILLING, RESURFACING, GUARDRAIL INSTALLATION, AND TRAFFIC STRIPE ON I-65 FROM THE MONTGOMERY COUNTY LINE TO A POINT NEAR THE SR-14 INTERCHANGE (MP 181.317). LENGTH 4.186 MI.",
+   "lowBidders": [
+    [
+     "APAC-ALABAMA, INC.",
+     8398370.0
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     8987680.02
+    ]
+   ],
+   "biddersCapped": false,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "026",
+   "project": "STPSU-3525(253)",
+   "county": "Houston",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE PLANING, RESURFACING, AND TRAFFIC STRIPE ON NORTH BROADWAY STREET FROM THE JUNCTION OF SR-12 (US-84) TO THE JUNCTION OF MAIN STREET IN ASHFORD. LENGTH 0.767 MI.",
+   "lowBidders": [
+    [
+     "LEWIS INCORPORATED..",
+     367883.29
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     442116.52
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     533877.53
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "027",
+   "project": "STPSU-3526(251)",
+   "county": "Houston",
+   "div": 4,
+   "desc": "FOR CONSTRUCTING THE PLANING, RESURFACING, AND TRAFFIC STRIPE ON WEBB ROAD FROM THE INTERSECTION OF NORTH RANGE STREET TO THE INTERSECTION OF SR-210 (US-431) IN DOTHAN. LENGTH 1.080 MI.",
+   "lowBidders": [
+    [
+     "LEWIS INCORPORATED..",
+     364381.25
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     403506.39
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     579544.08
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  },
+  {
+   "call": "030",
+   "project": "ATRP2-52-2024-263",
+   "county": "Morgan",
+   "div": 1,
+   "desc": "FOR CONSTRUCTING THE ROADWAY IMPROVEMENTS/REALIGNMENT (GRADING, DRAINING, PAVEMENT, TRAFFIC SIGNS, TRAFFIC SIGNALS, AND TRAFFIC STRIPE) ON SR-3 (US-31) AT SPARKMAN STREET AND LANE ROAD, TO INCLUDE ACCESS MANAGEMENT AND TRAFFIC SIGNAL INSTALLATION IN HARTSELLE. LENGTH 0.194 MI.",
+   "lowBidders": [
+    [
+     "ROGERS GROUP, INC.",
+     1167500.0
+    ],
+    [
+     "GRAYSON CARTER & SON CONTRACTING, INC.",
+     1228952.7
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     1323314.84
+    ]
+   ],
+   "biddersCapped": true,
+   "status": "low bids opened \u2014 award pending"
+  }
+ ]
+}

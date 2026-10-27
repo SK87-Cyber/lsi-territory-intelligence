@@ -1,0 +1,10 @@
+{
+  "name": "lsi-territory-intelligence",
+  "private": true,
+  "version": "10.1.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "python3 scripts/build_site.py",
+    "test": "python3 -m unittest discover -s tests -v"
+  }
+}

@@ -93,7 +93,7 @@ if (alT !== 7 || !t.has(al,"pipeline")) { console.log("AL LAYER COVERAGE WRONG �
   const bad = AP.filter(p => !p.tip || !p.county || !p.div || !p.what || !p.kind || !Number.isFinite(p.cost));
   const wrongDiv = AP.filter(p => t.TERR_COUNTY.AL[p.county] !== p.div);
   console.log(`AL pipeline: ${AP.length} projects (${pure} pure)` + (bad.length ? ` — INCOMPLETE: ${bad.length}` : "") + (wrongDiv.length ? ` — REGION MISMATCH: ${wrongDiv.map(p=>p.county).join(",")}` : ""));
-  if (AP.length !== 27 || pure !== 12 || bad.length || wrongDiv.length) { console.log("AL PIPELINE WRONG"); layerFail++; } }
+  if (AP.length !== 29 || pure !== 12 || bad.length || wrongDiv.length) { console.log("AL PIPELINE WRONG — expected 29 rows (Oct 26, 2026 STIP print), 12 pure"); layerFail++; } }
 
 // 2b2. Georgia (3.3): all seven transferable layers; pipeline from GDOT's own map service
 const ga = t.STATES.find(x => x.id === "GA");
@@ -107,7 +107,7 @@ if (gaT !== 7 || !t.has(ga,"pipeline")) { console.log("GA LAYER COVERAGE WRONG �
 // NC award record: 5 of 7 lighting contracts confirmed awarded after the owner-supplied stamped Item C (Sep 2, 2026)
 { const aw = t.NC_YEAR.lighting.filter(c => c.award === "awarded");
   console.log(`NC lighting awards: ${aw.length} of ${t.NC_YEAR.lighting.length} awarded (${aw.map(c=>c.id).join(", ")})`);
-  if (aw.length !== 6) { console.log("NC AWARD COUNT WRONG — expected 6 after the April 2026 stamped Item C"); layerFail++; } }
+  if (aw.length !== 7) { console.log("NC AWARD COUNT WRONG — expected 7 after the September 2026 Board minutes (C205195)"); layerFail++; } }
 
 // 2b4. Kentucky (3.5): fourth ownership shape — state-owned, legislature-gated. 7/7 with pipeline.
 const ky = t.STATES.find(x => x.id === "KY");
@@ -255,7 +255,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
     console.log(`NC calendar strip: ${ticks} lettings, ${lit} carrying lighting (expect ${t.NC_YEAR.lettings.length} and ${litLettings})`);
     if (ticks !== t.NC_YEAR.lettings.length || lit !== litLettings) { console.log("NC CALENDAR STRIP WRONG"); bidFail++; } }
   { const strip = t.calStrip(t.STATES.find(x => x.id === "KY")); const ticks = (strip.match(/<span class="ct/g) || []).length;
-    if (ticks !== 12) { console.log(`KY CALENDAR STRIP WRONG — expected 12 scheduled lettings, found ${ticks}`); bidFail++; } }
+    if (ticks !== 14) { console.log(`KY CALENDAR STRIP WRONG — expected 14 lettings in the record, found ${ticks}`); bidFail++; } }
   /* 3.9 — Georgia, two lettings at item level: internal consistency and the award record. */
   { const G = t.YEAR.GA; if (!G) { console.log("GA YEAR MISSING"); bidFail++; }
     else { const n = G.lettings.reduce((a, l) => a + l.n, 0), low = G.lettings.reduce((a, l) => a + l.low, 0), bids = G.lettings.reduce((a, l) => a + l.bids, 0);
@@ -265,16 +265,16 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
       console.log(`GA fourteen lettings: ${G.contracts} contracts, ${bids} bids, $${low.toFixed(2)} low bids — ${n === G.contracts && Math.abs(low - G.lowBids) < 0.01 ? "RECONCILED" : "MISMATCH"}; lighting ${lit.length} contracts $${id.toFixed(2)} (hardware $${hw.toFixed(2)}), ${aw.length} awarded; ${allAw}/${G.all.length} contracts awarded; split ${splitOk ? "sums" : "DOES NOT SUM"}`);
       // fourteen consecutive lettings (Jun 2025 – Jul 2026): 325 contracts, 1,396 bids; 36 lighting contracts, 34 awarded; 297 of 325 awarded overall (April 2026 main announcement outstanding)
       if (n !== 325 || G.contracts !== 325 || bids !== 1396 || Math.abs(low - G.lowBids) > 0.01 || lit.length !== 36 || aw.length !== 34 || allAw !== 297 || !splitOk || aw.some(c => !/\{GA-\d+\}/.test(c.awardNote))) { console.log("GA READ WRONG"); bidFail++; }
-      const LSS = t.LETSAMPLE; if (!LSS.SC || LSS.SC.length !== 11 || LSS.SC.find(l => l.iso === "2026-08-11").rows.length !== 15 || LSS.SC.find(l => l.iso === "2026-06-09").rows.length !== 26 || !LSS.KY || LSS.KY.length !== 12 || !LSS.KY.find(l => l.iso === "2026-08-20") || LSS.KY.find(l => l.iso === "2026-08-20").rows.length !== 47 || LSS.KY.find(l => l.iso === "2026-08-20").rows.reduce((a, r) => a + r.bidders.length, 0) !== 105 || !LSS.NC || LSS.NC.length !== 227 || LSS.NC.reduce((a, l) => a + l.rows.length, 0) !== 414) { console.log("SC / KY / NC DIVISION SAMPLES WRONG"); bidFail++; } } }
+      const LSS = t.LETSAMPLE; if (!LSS.SC || LSS.SC.length !== 13 || LSS.SC.find(l => l.iso === "2026-08-11").rows.length !== 15 || LSS.SC.find(l => l.iso === "2026-06-09").rows.length !== 26 || !LSS.KY || LSS.KY.length !== 14 || !LSS.KY.find(l => l.iso === "2026-08-20") || LSS.KY.find(l => l.iso === "2026-08-20").rows.length !== 47 || LSS.KY.find(l => l.iso === "2026-08-20").rows.reduce((a, r) => a + r.bidders.length, 0) !== 105 || !LSS.NC || LSS.NC.length !== 227 || LSS.NC.reduce((a, l) => a + l.rows.length, 0) !== 414) { console.log("SC / KY / NC DIVISION SAMPLES WRONG"); bidFail++; } } }
   /* 3.10 — Kentucky, twelve lettings at item level from the Cabinet's own PDFs: internal consistency and the award rule. */
   { const K = t.YEAR.KY; if (!K) { console.log("KY YEAR MISSING"); bidFail++; }
     else { const n = K.lettings.reduce((a, l) => a + l.n, 0), bids = K.lettings.reduce((a, l) => a + l.bids, 0), awn = K.lettings.reduce((a, l) => a + l.awarded, 0);
       const lit = K.lighting, id = lit.reduce((a, c) => a + c.l2, 0), hw = lit.reduce((a, c) => a + c.split.hardware, 0);
       const splitOk = lit.every(c => Math.abs(c.split.hardware + c.split.infrastructure + c.split.work - c.l2) < 0.01);
       const allAw = K.all.filter(c => c.award === "awarded").length;
-      console.log(`KY twelve lettings: ${K.contracts} contracts, ${bids} bids, $${K.lowBids.toFixed(2)} low bids; lighting ${lit.length} contracts $${id.toFixed(2)} (hardware $${hw.toFixed(2)}); ${allAw}/${K.all.length} awarded (presence in the Unit Bid Tabulations); split ${splitOk ? "sums" : "DOES NOT SUM"}`);
+      console.log(`KY fourteen lettings: ${K.contracts} contracts, ${bids} bids, $${K.lowBids.toFixed(2)} low bids; lighting ${lit.length} contracts $${id.toFixed(2)} (hardware $${hw.toFixed(2)}); ${allAw}/${K.all.length} awarded (presence in the Unit Bid Tabulations); split ${splitOk ? "sums" : "DOES NOT SUM"}`);
       // twelve lettings Sep 25, 2025 – Aug 20, 2026: 395 calls, 1,011 bids; 370 awarded (twelve tabulations); 24 lighting contracts, all awarded; April 23 has no Letting Results (404)
-      if (n !== 395 || K.contracts !== 395 || bids !== 1011 || awn !== 370 || allAw !== 370 || lit.length !== 24 || !lit.every(c => c.award === "awarded" && /\{KY-\d+\}/.test(c.awardNote)) || !splitOk || K.lettings.length !== 12) { console.log("KY READ WRONG"); bidFail++; }
+      if (n !== 451 || K.contracts !== 451 || bids !== 1153 || awn !== 382 || allAw !== 382 || lit.length !== 28 || !lit.every(c => c.award === "awarded" && /\{KY-\d+\}/.test(c.awardNote)) || !splitOk || K.lettings.length !== 14) { console.log("KY READ WRONG"); bidFail++; }
       const jun = K.lettings.find(l => l.iso === "2026-06-25"), apr = K.lettings.find(l => l.iso === "2026-04-23");
       if (!jun || jun.awarded !== 7 || !jun.awardArtifact || !apr || apr.n !== apr.awarded) { console.log("KY GAPS MISSTATED — June 25 read (7 of 7), April 23 awarded-only"); bidFail++; } } }
   /* 3.11 — Arkansas, nine lettings at item level from the Department's own PDFs, controlled by its own twelve-month item census. */
@@ -282,11 +282,11 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
     else { const n = A.lettings.reduce((a, l) => a + l.n, 0), bids = A.lettings.reduce((a, l) => a + l.bids, 0), awn = A.lettings.reduce((a, l) => a + l.awarded, 0);
       const lit = A.lighting, id = lit.reduce((a, c) => a + c.l2, 0), hw = lit.reduce((a, c) => a + c.split.hardware, 0);
       const splitOk = lit.every(c => Math.abs(c.split.hardware + c.split.infrastructure + c.split.work - c.l2) < 0.01);
-      const q = d => lit.reduce((a, c) => a + c.items.filter(it => it.section === "714" && it.desc.includes(d) && c.let !== "Aug 12, 2026").reduce((b, it) => b + it.qty, 0), 0);
+      const q = d => lit.reduce((a, c) => a + c.items.filter(it => it.section === "714" && it.desc.includes(d) && c.let !== "Aug 12, 2026" && c.let !== "Sep 23, 2026").reduce((b, it) => b + it.qty, 0), 0);
       // ARDOT's Weighted Average Unit Prices, 6/25/2025 – 6/24/2026 {AR-21}: 2 high-mast assemblies, 6 high-mast LED fixtures, 45 LED luminaire assemblies, 97 LED illumination poles
       const census = q("HIGH MAST ILLUMINATION ASSEMBLY") === 2 && q("HIGH MAST LED FIXTURE") === 6 && q("LED LUMINAIRE ASSEMBLY") === 45 && q("LED ROADWAY ILLUMINATION POLE") === 97;
-      console.log(`AR nine lettings: ${A.contracts} jobs, ${bids} bids, $${A.lowBids.toFixed(2)} base bids; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}); ${awn}/${A.contracts} awarded; census ${census ? "MATCHES" : "DOES NOT MATCH"} ARDOT's weighted-average report; split ${splitOk ? "sums" : "DOES NOT SUM"}`);
-      if (n !== 203 || A.contracts !== 203 || A.contractsRead !== 203 || bids !== 614 || awn !== 203 || lit.length !== 10 || !lit.every(c => c.award === "awarded" && /\{AR-\d+\}/.test(c.awardNote)) || !splitOk || !census || A.lettings.length !== 9) { console.log("AR READ WRONG"); bidFail++; } } }
+      console.log(`AR ten lettings: ${A.contracts} jobs, ${bids} bids, $${A.lowBids.toFixed(2)} base bids; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}); ${awn}/${A.contracts} awarded; census ${census ? "MATCHES" : "DOES NOT MATCH"} ARDOT's weighted-average report; split ${splitOk ? "sums" : "DOES NOT SUM"}`);
+      if (n !== 212 || A.contracts !== 212 || A.contractsRead !== 212 || bids !== 646 || awn !== 212 || lit.length !== 12 || !lit.every(c => c.award === "awarded" && /\{AR-\d+\}/.test(c.awardNote)) || !splitOk || !census || A.lettings.length !== 10) { console.log("AR READ WRONG"); bidFail++; } } }
   /* 3.12 — Alabama, eleven lettings at item level, checked against the item census of 3.8b. */
   { const A = t.YEAR.AL, C = t.ITEMS.AL; if (!A) { console.log("AL YEAR MISSING"); bidFail++; }
     else { const n = A.lettings.reduce((a, l) => a + l.n, 0), bids = A.lettings.reduce((a, l) => a + l.bids, 0), lit = A.lighting;
@@ -295,16 +295,16 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
       // every census L2 contract inside the year's lettings must be a lighting contract in the read (matched by project number)
       const isos = new Set(A.lettings.map(l => l.iso)); const cen = C.contracts750.filter(c => c.cls === "L2" && isos.has(c.date));
       const norm = x => String(x).toUpperCase().replace(/[^A-Z0-9]/g, ""); const miss = cen.filter(c => !lit.some(r => norm(r.tip) === norm(c.id)));
-      console.log(`AL eleven lettings: ${A.contracts} contracts, ${bids} bids, $${A.lowBids.toFixed(2)} low bids; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}, lump $${lump.toFixed(2)}); census L2 in window ${cen.length}, unmatched ${miss.length}; split ${splitOk ? "sums" : "DOES NOT SUM"}`);
-      if (n !== 222 || A.contracts !== 222 || A.contractsRead !== 222 || bids !== 628 || lit.length !== 12 || !lit.every(c => c.award === "awarded") || !A.all.every(c => c.award === "awarded") || !splitOk || miss.length || A.lettings.length !== 11 || A.lettings[0].iso !== "2025-07-25" || A.lettings[10].iso !== "2026-06-26") { console.log("AL READ WRONG"); bidFail++; } } }
+      console.log(`AL twelve lettings: ${A.contracts} contracts, ${bids} bids, $${A.lowBids.toFixed(2)} low bids; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}, lump $${lump.toFixed(2)}); census L2 in window ${cen.length}, unmatched ${miss.length}; split ${splitOk ? "sums" : "DOES NOT SUM"}`);
+      if (n !== 233 || A.contracts !== 233 || A.contractsRead !== 233 || bids !== 667 || lit.length !== 12 || !lit.every(c => c.award === "awarded") || !A.all.every(c => c.award === "awarded") || !splitOk || miss.length || A.lettings.length !== 12 || A.lettings[0].iso !== "2025-07-25" || A.lettings[11].iso !== "2026-07-31") { console.log("AL READ WRONG"); bidFail++; } } }
   /* 3.15 — South Carolina, eleven lettings: apparent bids for every call, certified tabulations for 225. */
   { const S = t.YEAR.SC; if (!S) { console.log("SC YEAR MISSING"); bidFail++; }
     else { const n = S.lettings.reduce((a, l) => a + l.n, 0), bids = S.lettings.reduce((a, l) => a + l.bids, 0), lit = S.lighting;
       const id = lit.reduce((a, c) => a + c.l2, 0), hw = lit.reduce((a, c) => a + c.split.hardware, 0), lump = lit.reduce((a, c) => a + (c.split.lump || 0), 0);
       const splitOk = lit.every(c => Math.abs(c.split.hardware + c.split.infrastructure + c.split.work + (c.split.lump || 0) - c.l2) < 0.01);
-      console.log(`SC eleven lettings: ${S.contracts} calls (${S.contractsRead} read), ${bids} bids, $${S.lowBids.toFixed(2)} apparent low bids; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}, lump $${lump.toFixed(2)}); split ${splitOk ? "sums" : "DOES NOT SUM"}`);
-      const aug = S.lettings.find(l => l.iso === "2026-08-11");
-      if (n !== 245 || S.contracts !== 245 || S.contractsRead !== 225 || bids !== 908 || lit.length !== 11 || lit.some(c => c.award === "awarded") || !splitOk || S.lettings.length !== 11 || !aug || aug.read !== 0) { console.log("SC READ WRONG"); bidFail++; } } }
+      console.log(`SC thirteen lettings: ${S.contracts} calls (${S.contractsRead} read), ${bids} bids, $${S.lowBids.toFixed(2)} apparent low bids; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}, lump $${lump.toFixed(2)}); split ${splitOk ? "sums" : "DOES NOT SUM"}`);
+      const aug = S.lettings.find(l => l.iso === "2026-08-11"), oct = S.lettings.find(l => l.iso === "2026-10-13");
+      if (n !== 286 || S.contracts !== 286 || S.contractsRead !== 264 || bids !== 1067 || lit.length !== 13 || lit.some(c => c.award === "awarded") || !splitOk || S.lettings.length !== 13 || !aug || aug.read !== 13 || !oct || oct.read !== 0) { console.log("SC READ WRONG"); bidFail++; } } }
   /* 3.16 — Tennessee, ten lettings: Apparent Bid Results for every call, Summary of Bids at item level for every call TDOT did not reject or hold, Contract Awards for all. */
   { const T = t.YEAR.TN; if (!T) { console.log("TN YEAR MISSING"); bidFail++; }
     else { const n = T.lettings.reduce((a, l) => a + l.n, 0), bids = T.lettings.reduce((a, l) => a + l.bids, 0), lit = T.lighting, awN = T.lettings.reduce((a, l) => a + l.awarded, 0);
@@ -312,9 +312,9 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
       const splitOk = lit.every(c => Math.abs(c.split.hardware + c.split.infrastructure + c.split.work + (c.split.lump || 0) - c.l2) < 0.01);
       const unread = T.all.filter(c => c.reconciled === null), gate = T.all.every(c => c.reconciled !== false && (c.reconciled || c.cls === "UNKNOWN"));
       const l1 = lit.filter(c => c.cls === "L1"), ab = T.all.filter(c => c.note && /A\+B/.test(c.note));
-      console.log(`TN ten lettings: ${T.contracts} calls (${T.contractsRead} read), ${bids} bids, $${T.lowBids.toFixed(2)} low bids; ${awN} awarded; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}, lump $${lump.toFixed(2)}), ${l1.length} L1; unread ${unread.length} (all rejected or pending: ${unread.every(c => c.award === "rejected" || /PENDING/.test(c.note || ""))}); A+B ${ab.length}; split ${splitOk ? "sums" : "DOES NOT SUM"}; gate ${gate ? "holds" : "BROKEN"}`);
-      if (n !== 386 || T.contracts !== 386 || T.contractsRead !== 373 || bids !== 1036 || awN !== 373 || lit.length !== 24 || l1.length !== 3 || !lit.every(c => c.award === "awarded") || !splitOk || !gate || T.lettings.length !== 10 || unread.length !== 13 || !unread.every(c => c.award === "rejected" || /PENDING/.test(c.note || "")) || ab.length !== 3) { console.log("TN READ WRONG"); bidFail++; }
-      const LSS = t.LETSAMPLE; if (!LSS.TN || LSS.TN.length !== 10 || LSS.TN.reduce((a, l) => a + l.rows.length, 0) !== 386) { console.log("TN LETSAMPLE WRONG"); bidFail++; } } }
+      console.log(`TN eleven lettings: ${T.contracts} calls (${T.contractsRead} read), ${bids} bids, $${T.lowBids.toFixed(2)} low bids; ${awN} awarded; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}, lump $${lump.toFixed(2)}), ${l1.length} L1; unread ${unread.length} (all rejected or pending: ${unread.every(c => c.award === "rejected" || /PENDING/.test(c.note || ""))}); A+B ${ab.length}; split ${splitOk ? "sums" : "DOES NOT SUM"}; gate ${gate ? "holds" : "BROKEN"}`);
+      if (n !== 412 || T.contracts !== 412 || T.contractsRead !== 398 || bids !== 1116 || awN !== 399 || lit.length !== 26 || l1.length !== 3 || !lit.every(c => c.award === "awarded") || !splitOk || !gate || T.lettings.length !== 11 || unread.length !== 14 || !unread.every(c => c.award === "rejected" || /PENDING|resolved/.test(c.note || "")) || ab.length !== 3) { console.log("TN READ WRONG"); bidFail++; }
+      const LSS = t.LETSAMPLE; if (!LSS.TN || LSS.TN.length !== 11 || LSS.TN.reduce((a, l) => a + l.rows.length, 0) !== 412) { console.log("TN LETSAMPLE WRONG"); bidFail++; } } }
   /* 3.17 — Mississippi, twenty-four lettings: Checked Bid Results for every call, a tabulation for every call with a bidder, Bid Awards for 22 of 24. */
   { const M = t.YEAR.MS; if (!M) { console.log("MS YEAR MISSING"); bidFail++; }
     else { const n = M.lettings.reduce((a, l) => a + l.n, 0), bids = M.lettings.reduce((a, l) => a + l.bids, 0), lit = M.lighting, awN = M.lettings.reduce((a, l) => a + l.awarded, 0), rej = M.lettings.reduce((a, l) => a + (l.rejected || 0), 0);
@@ -322,9 +322,9 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
       const splitOk = lit.every(c => Math.abs(c.split.hardware + c.split.infrastructure + c.split.work + (c.split.lump || 0) - c.l2) < 0.01);
       const gate = M.all.every(c => c.reconciled === true && c.cls !== "UNKNOWN"), feb3 = M.lettings.find(l => l.iso === "2026-02-03"), noaw = M.lettings.filter(l => !l.awardArtifact).map(l => l.iso);
       const irr = M.all.filter(c => c.note && /IRREGULAR/.test(c.note)).length, notLow = M.all.filter(c => c.note && /^Awarded to/.test(c.note)).length;
-      console.log(`MS twenty-four lettings: ${M.contracts} calls (${M.contractsRead} read), ${bids} bids, $${M.lowBids.toFixed(2)} low bids; ${awN} awarded, ${rej} not; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}); Feb 3 read ${feb3 ? feb3.read : "?"}; no awards yet ${noaw.join(",")}; irregular ${irr}, awarded-not-low ${notLow}; split ${splitOk ? "sums" : "DOES NOT SUM"}; gate ${gate ? "holds" : "BROKEN"}`);
-      if (n !== 170 || M.contracts !== 170 || M.contractsRead !== 170 || bids !== 616 || awN !== 146 || rej !== 12 || lit.length !== 6 || lit.filter(c => c.award === "awarded").length !== 5 || !splitOk || !gate || M.lettings.length !== 24 || !feb3 || feb3.read !== 17 || noaw.join(",") !== "2026-08-21,2026-08-25" || notLow !== 4) { console.log("MS READ WRONG"); bidFail++; }
-      const LSS = t.LETSAMPLE; if (!LSS.MS || LSS.MS.length !== 24 || LSS.MS.reduce((a, l) => a + l.rows.length, 0) !== 170) { console.log("MS LETSAMPLE WRONG"); bidFail++; } } }
+      console.log(`MS twenty-seven lettings: ${M.contracts} calls (${M.contractsRead} read), ${bids} bids, $${M.lowBids.toFixed(2)} low bids; ${awN} awarded, ${rej} not; lighting ${lit.length} $${id.toFixed(2)} (hardware $${hw.toFixed(2)}); Feb 3 read ${feb3 ? feb3.read : "?"}; no awards yet ${noaw.join(",")}; irregular ${irr}, awarded-not-low ${notLow}; split ${splitOk ? "sums" : "DOES NOT SUM"}; gate ${gate ? "holds" : "BROKEN"}`);
+      if (n !== 184 || M.contracts !== 184 || M.contractsRead !== 184 || bids !== 676 || awN !== 158 || rej !== 14 || lit.length !== 6 || lit.filter(c => c.award === "awarded").length !== 5 || lit.filter(c => c.award === "rejected").length !== 1 || !splitOk || !gate || M.lettings.length !== 27 || !feb3 || feb3.read !== 17 || noaw.join(",") !== "2026-09-22,2026-09-29" || notLow !== 4) { console.log("MS READ WRONG"); bidFail++; }
+      const LSS = t.LETSAMPLE; if (!LSS.MS || LSS.MS.length !== 27 || LSS.MS.reduce((a, l) => a + l.rows.length, 0) !== 184) { console.log("MS LETSAMPLE WRONG"); bidFail++; } } }
   /* 9.1–9.3 — freshness and the diff: every layer of every state has an as-of and a next date or reads UNKNOWN; no layer the session
      controls (lettings, programme, people, list, calendar) is STALE at build time — an award layer may be, and is reported; the live
      digest matches snapshot.py's shape; the diff against the first snapshot is non-empty and against the last is what it is; the
@@ -332,13 +332,14 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
   { let ok = true; const stale = [], awardStale = []; let layers = 0;
     t.STATES.forEach(s => { const F = t.freshness(s.id); layers += F.length; if (F.length < 6) ok = false;
       F.forEach(f => { if (!["fresh", "due", "stale", "unknown"].includes(f.cls) || (f.cls !== "unknown" && !/^\d{4}-\d{2}-\d{2}$/.test(f.next)) || !f.basis) ok = false;
-        if (f.cls === "stale") (f.layer === "Awards" ? awardStale : stale).push(s.id + ":" + f.layer); }); });
+        if (f.cls === "stale") ((f.layer === "Awards" || (s.id === "GA" && f.layer === "Lettings read")) ? awardStale : stale).push(s.id + ":" + f.layer); }); });   /* 10.1b: GA's letting artifacts exist only behind the owner's Bid Express login — reported, not refused, like an overdue award */
     if (t.freshStatus("2000-01-01").cls !== "stale" || t.freshStatus("2999-01-01").cls !== "fresh" || t.freshStatus("").cls !== "unknown") ok = false;
     const live = t.liveDigest(); const first = t.SNAPSHOTS[0], last = t.SNAPSHOTS[t.SNAPSHOTS.length - 1];
-    if (!first || !last || t.SNAPSHOTS.length < 8 || first.build !== "3.18" || !live.states.NC || live.total.lighting !== 130 || live.total.l2 !== last.total.l2) ok = false;
+    if (!first || !last || t.SNAPSHOTS.length < 9 || first.build !== "3.18" || last.build !== "10.1a" || !live.states.NC || live.total.lighting !== 140 || live.total.l2 <= last.total.l2) ok = false;
     const d0 = t.whatChanged(first, live), d1 = t.whatChanged(last, live);
     if (d0.length < 5 || !d0.some(i => /Division channel/.test(i.text)) || !d0.some(i => /item shape/.test(i.text)) || !d0.some(i => /sources/.test(i.text))) ok = false;
-    const q = t.awardQueue(); if (q.some(r => r.st === "AL") || q.filter(r => r.st === "SC").length !== 11 || q.some(r => r.st === "SC" && r.cls !== "unknown") || !q.some(r => r.st === "GA" && r.cls === "stale")) ok = false;
+    if (d1.length < 8 || !d1.some(i => /award/.test(i.kind))) { console.log("DIFF vs 10.1a EMPTY — the refresh should register"); ok = false; }
+    const q = t.awardQueue(); if (q.some(r => r.st === "AL") || q.some(r => r.st === "MS") || q.filter(r => r.st === "SC").length !== 13 || q.some(r => r.st === "SC" && r.cls !== "unknown") || !q.some(r => r.st === "GA" && r.cls === "stale") || q.length !== 15) ok = false;
     const pages = MADE.map(e => e.innerHTML || ""); const wc = pages.find(h => /Compared at open/.test(h)) || ""; const ft = pages.find(h => /The award sweep/.test(h)) || ""; const chips = (html.match(/freshDots\(/g) || []).length >= 2;   /* 9.3d — lights, not chips, on the state head and the brief */
     console.log(`freshness: ${layers} layers across eight states; stale (session-side) ${JSON.stringify(stale)}; stale awards ${JSON.stringify(awardStale)}; snapshots ${t.SNAPSHOTS.map(x => x.build).join(",")}; changes since ${first.build}: ${d0.length}, since ${last.build}: ${d1.length}; award queue ${q.length}; panels ${wc && ft ? "rendered" : "MISSING"}`);
     if (awardStale.length) console.log(`freshness: award artifact overdue for ${awardStale.join(", ")} — the agency's artifact is the only way out of apparent (GA: A260417 not posted)`);
@@ -374,7 +375,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
     const ov = MADE.map(e => e.innerHTML || "").find(h => /What is ahead, where lighting is named/.test(h)) || "";
     const lad = t.STATES.map(s => t.ladder(s.id).let).reduce((a, b) => a + b, 0);
     console.log(`altdel: ${Object.keys(A).length} states, ${nP} contracts, ${nL} name lighting; unresolved cites ${unresolved.length}; state panels ${panels}/8; Overview ${ov ? "rendered" : "MISSING"}; ahead ${t.ALTDEL_AHEAD.length}; ladder let total $${Math.round(lad).toLocaleString()}`);
-    if (!ok || unresolved.length || nP !== 67 || nL !== 16 || panels !== 8 || !ov || Math.round(lad) !== 74892576) { console.log("ALTDEL WRONG" + (unresolved.length ? " — unresolved: " + unresolved.slice(0, 6).join(", ") : "")); bidFail++; } }
+    if (!ok || unresolved.length || nP !== 67 || nL !== 16 || panels !== 8 || !ov || Math.round(lad) !== 76491266) { console.log("ALTDEL WRONG" + (unresolved.length ? " — unresolved: " + unresolved.slice(0, 6).join(", ") : "")); bidFail++; } }
   /* 8.1–8.3 — the brief: every state's brief and the territory brief render with no undefined/NaN/raw token; every tile carries a basis;
      the narrative names the agency, the let figure and the next letting; the walk order is territory then the eight states; the nav and
      every state head carry the Brief control. */
@@ -404,17 +405,17 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
   { let ok = true; const rc = t.recurClass;
     if (rc("2026 Upper State On-call Signing").join() !== "on-call,term" || rc("RESURFACING").length || rc("THE ON-CALL CABLE BARRIER REPAIR ON VARIOUS INTERSTATE AND STATE ROUTES").join() !== "on-call,programme" || rc("EMERGENCY PIPE REPLACEMENT").join() !== "emergency") ok = false;
     const tm = t.termOf("FY '26 & FY '27 Statewide Cable Barrier Repair"); if (!tm || tm.rebid !== "FY 2028") ok = false; if (t.termOf("MILLING AND RESURFACING")) ok = false; if (t.termOf("2025 Florence CTC resurfacing").rebid !== "2026") ok = false;
-    const exp = { GA: 40, TN: 112, SC: 117, AL: 10, MS: 13, KY: 29, AR: 6, NC: 4 }; const got = {};
+    const exp = { GA: 40, TN: 117, SC: 136, AL: 11, MS: 13, KY: 29, AR: 7, NC: 4 }; const got = {};
     for (const id in exp) { const R = t.recurring(id); got[id] = R.rows.length; if (R.rows.length !== exp[id]) ok = false; if (R.rows.some(r => !r.kinds.length || (r.lowAmt && !r.low))) ok = false; }
     const cad = t.lightingCadence("GA"); if (!cad || cad.l1.length !== 5 || cad.withLighting !== 13 || cad.lettings !== 14 || !cad.medGap) ok = false;
     if (t.lightingCadence("SC").l1.length !== 0 || t.lightingCadence("AL").l1.length !== 3 || t.lightingCadence("TN").l1.length !== 3) ok = false;
     const today = new Date().toISOString().slice(0, 10); let nextOk = true, nx = {};
-    t.STATES.forEach(s => { const L = t.nextLettings(s.id); nx[s.id] = L.length ? L[0].date : null; if (!L.length || L.some(x => x.date < today || !x.basis)) nextOk = false; });
+    t.STATES.forEach(s => { const L = t.nextLettings(s.id); nx[s.id] = L.length ? L[0].date : null; if (L.some(x => x.date < today || !x.basis)) nextOk = false; if (!L.length && s.id !== "GA") nextOk = false; });   /* 10.1a rule restored: a state with no posted future letting says so — GDOT publishes no public schedule (Bid Express only) */
     const due = t.programmedDue("AL"); if (due.some(x => x.tip === "DEMO A211 (948)")) ok = false;   // let Sep 26, 2025 — never "ahead"
     if (due.filter(x => !x.past).some(x => +String(x.when).slice(-4) < new Date().getFullYear())) ok = false;
     const ms = t.programmedDue("MS"); if (!ms.some(x => /October 2026/.test(x.when)) || !ms.some(x => /January 2027/.test(x.when))) ok = false;
-    const pages = MADE.map(e => e.innerHTML || ""); const cal = pages.find(h => /Bid Express calendar, read/.test(h) && /<th>Kind<\/th>/.test(h)) || ""; const panels = pages.filter(h => /The recurring-type contracts and who holds them|no standalone lighting contract in the year|standalone lighting contracts in the year/.test(h)).length; const rules = pages.find(h => /What the year says about lighting maintenance/.test(h)) || "";
-    if (!cal || /2024|2025<\/b>/.test(cal.slice(0, 400)) || panels < 8 || !rules || !t.BX_UPCOMING.TN || t.BX_UPCOMING.TN[0].date !== "2026-10-02" || !/Bid Express — Infotech/.test(html)) ok = false;
+    const pages = MADE.map(e => e.innerHTML || ""); const cal = pages.find(h => /letting pages, read/.test(h) && /<th>Kind<\/th>/.test(h)) || ""; const panels = pages.filter(h => /The recurring-type contracts and who holds them|no standalone lighting contract in the year|standalone lighting contracts in the year/.test(h)).length; const rules = pages.find(h => /What the year says about lighting maintenance/.test(h)) || "";
+    if (!cal || /2024|2025<\/b>/.test(cal.slice(0, 400)) || panels < 8 || !rules || !t.BX_UPCOMING.TN || t.BX_UPCOMING.TN[0].date !== "2026-11-06" || !/Bid Express — Infotech/.test(html)) ok = false;
     console.log(`recurrence: register ${JSON.stringify(got)}; GA cadence ${cad ? cad.l1.length + " L1, " + cad.withLighting + "/" + cad.lettings + " lettings, median " + cad.medGap + " d" : "MISSING"}; next lettings ${JSON.stringify(nx)}; MS programmed ${ms.length}; calendar ${cal ? "rendered" : "MISSING"}, panels ${panels}, rules ${rules ? "rendered" : "MISSING"}`);
     if (!ok || !nextOk) { console.log("RECURRENCE WRONG"); bidFail++; } }
   /* 5.1–5.3 — the people ledger: every contact has a computed status from a real date; the SLA thresholds behave; every state has a
@@ -438,7 +439,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
      layer reads UNKNOWN; the money board, every ladder and every price-book pair render. */
   { const NH = t.NHCCI, qs = Object.keys(NH.series); let ok = qs.length === 92 && NH.series["2003 Q1"] === 1 && NH.base === "2025 Q4" && Math.abs(NH.series["2025 Q4"] - 3.234373) < 1e-5;
     const f25 = t.nhFactor("Sep 9, 2025"), f26 = t.nhFactor("Aug 18, 2026"), f23 = t.nhFactor("Jan 15, 2003"); if (f25.held || !f26.held || Math.abs(f26.f - 1) > 1e-9 || Math.abs(f23.f - NH.series["2025 Q4"]) > 1e-6) ok = false;
-    const exp = { AL: [3, 24, true], GA: [0, 15, true], NC: [0, 14, true], SC: [0, 3, true], MS: [0, 2, true], AR: [0, 0, true], KY: [0, 0, false], TN: [0, 0, false] }; const got = {};
+    const exp = { AL: [3, 26, true], GA: [0, 15, true], NC: [0, 14, true], SC: [0, 3, true], MS: [0, 2, true], AR: [0, 0, true], KY: [0, 0, false], TN: [0, 0, false] }; const got = {};
     for (const id in exp) { const J = t.pipeJoin(id); got[id] = [J.let.length, J.carried.length, J.joinable]; if (J.let.length !== exp[id][0] || J.carried.length !== exp[id][1] || J.joinable !== exp[id][2]) ok = false; if (!exp[id][2] && J.unjoinable.length !== (t.PIPELINE[id] || []).length) ok = false; }
     const alJ = t.pipeJoin("AL"); if (!alJ.let.every(x => x.lit) || alJ.let.map(x => x.c.id).sort().join() !== "20250926015,20251107020,20251205011") ok = false;
     let ladOk = true; t.STATES.forEach(s => { const L = t.ladder(s.id); if (L.read && (L.letK <= 0 || L.let <= 0)) ladOk = false; if (L.programmed && !L.costPublished) ladOk = false; if (s.id === "SC" && (L.awardLayer || L.awardedN)) ladOk = false; if (!t.PIPE_SNAPSHOT[s.id] || !t.PIPE_SNAPSHOT[s.id].asOf) ladOk = false; });
@@ -472,7 +473,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
     const acc = MADE.map(e => e.innerHTML || "").find(h => /What a threshold would do/.test(h)) || "";
     const rowsAll = t.STATES.flatMap(s => (t.YEAR[s.id] && t.YEAR[s.id].lighting) || []); const keep50 = rowsAll.filter(c => c.l2 >= 50000).length;
     console.log(`accuracy pass: ${nC} contracts in eight states, ${bad} without a re-adding splitHw; luminaires $${sub.luminaire.toFixed(0)} · poles $${sub.pole.toFixed(0)} · assemblies $${sub.assembly.toFixed(0)} · control $${sub.control.toFixed(0)}; table over ${rowsAll.length} contracts, $50k floor keeps ${keep50}; section ${acc.length} chars`);
-    if (nC !== 130 || bad || rowsAll.length !== 130 || keep50 !== 112 || !/id="accuracyPass"/.test(html) || !acc || !/keep · change · drop/.test(acc) || !/nothing is applied/.test(acc) || (acc.match(/<tr>/g) || []).length < 40) { console.log("ACCURACY PASS WRONG"); bidFail++; } }
+    if (nC !== 140 || bad || rowsAll.length !== 140 || keep50 !== 121 || !/id="accuracyPass"/.test(html) || !acc || !/keep · change · drop/.test(acc) || !/nothing is applied/.test(acc) || (acc.match(/<tr>/g) || []).length < 40) { console.log("ACCURACY PASS WRONG"); bidFail++; } }
   /* 3.18a — the roadmap tab is part of the product: ROADMAP_STATUS must name the build ROADMAP.md §0 names, its next item must be §0's next item,
      and the rendered tab must carry it (the tab had stopped at 3.10 while the file went on to 3.18). */
   { const R = t.ROADMAP_STATUS; let md = ""; try { md = require("fs").readFileSync(require("path").join(__dirname, "ROADMAP.md"), "utf8"); } catch (e) {}
@@ -514,7 +515,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
       // 3.12: eleven ALDOT tabulations read whole (May 30, 2025 – Apr 24, 2026); every census 750 call on those dates is present as a row
       { const missing = C.contracts750.filter(c => LSS.find(l => l.iso === c.date) && !LSS.find(l => l.iso === c.date).rows.find(r => r.call === c.call));
         console.log(`AL tabulations in the Contractors tab: ${LSS.length}, ${LSS.reduce((a, l) => a + l.rows.length, 0)} contracts; census 750 calls missing ${missing.length}`);
-        if (LSS.length !== 11 || LSS.some(l => l.kind !== "tab") || missing.length) { console.log("AL LETTING SAMPLES WRONG"); bidFail++; } }
+        if (LSS.length !== 12 || LSS.some(l => l.kind !== "tab") || missing.length) { console.log("AL LETTING SAMPLES WRONG"); bidFail++; } }
       const dec5 = C.contracts750.filter(c => c.date === "2025-12-05").map(c => c.call), lb = dec.rows.map(r => r.call);
       // 3.8c: the Jan 30, 2026 tabulation — 35 contracts (the census's call count for that letting), 96 bids, every bidder listed
       const janCalls = new Set(); C.contracts750.forEach(c => { if (c.date === "2026-01-30") janCalls.add(c.call); });

@@ -1,0 +1,255 @@
+{
+ "letting": {
+  "id": "L261020",
+  "date": "Oct 20, 2026",
+  "iso": "2026-10-20",
+  "n": 6,
+  "low": 75612601.28,
+  "bids": 26,
+  "estimateTotal": 81982000.0,
+  "printedLettingTotal": 75612601.28,
+  "award": "apparent",
+  "reconciled": true
+ },
+ "lettingNote": "Census-level read from Item-C-261020.pdf only: bid tabs were not posted on bid-tabs.aspx as of October 26, 2026, so no item-level verdicts. RPN 006 is absent from Item C (six contracts carry RPN 001-005 and 007): the letting details page marks C205223 (Mecklenburg I-5715/U-5765/BL-0119) 'Extended and Re-advertised' with an Extend Advertisement letter, accounting for the skipped call. Re-read when tabs post.",
+ "all": [
+  {
+   "id": "C205216",
+   "rpn": "001",
+   "tip": "R-5810",
+   "wbs": "46978.3.1",
+   "funding": "4697801",
+   "county": "Martin",
+   "div": 1,
+   "desc": "GRADING, DRAINAGE, AND PAVING.",
+   "location": "US-17 FROM SR-1521 (MILL INN RD) TO SR-1119 (RALPH TAYLOR RD).",
+   "lengthMiles": 1.776,
+   "let": "Oct 20, 2026",
+   "estimate": 8553000.0,
+   "nBidders": 4,
+   "low": "Barnhill Contracting Co",
+   "lowAmt": 7495823.62,
+   "bidders": [
+    [
+     "Barnhill Contracting Co",
+     7495823.62
+    ],
+    [
+     "S T Wooten Corporation",
+     8119537.82
+    ],
+    [
+     "FSC II LLC dba Fred Smith Company",
+     8282828.0
+    ],
+    [
+     "Branch Civil Inc",
+     9485000.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C posted on the letting details page six days after the October 20 letting, before any Board record; bid tabs not yet posted, so items are unread (cls UNKNOWN)."
+  },
+  {
+   "id": "C205207",
+   "rpn": "002",
+   "tip": "BR-0174",
+   "wbs": "52219.3.1",
+   "funding": "5221901",
+   "county": "Pender",
+   "div": 3,
+   "desc": "GRADING, DRAINAGE, PAVING, AND STRUCTURE.",
+   "location": "BRIDGE #700037 OVER ANGOLA CREEK ON NC-53.",
+   "lengthMiles": 0.364,
+   "let": "Oct 20, 2026",
+   "estimate": 6889000.0,
+   "nBidders": 5,
+   "low": "S T Wooten Corporation",
+   "lowAmt": 6409380.95,
+   "bidders": [
+    [
+     "S T Wooten Corporation",
+     6409380.95
+    ],
+    [
+     "Smith-Rowe, LLC",
+     6997360.78
+    ],
+    [
+     "Conti Civil LLC",
+     7842442.0
+    ],
+    [
+     "S&C Construction LLC",
+     7891812.42
+    ],
+    [
+     "Caton Construction Group Inc",
+     11463279.71
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C posted on the letting details page six days after the October 20 letting, before any Board record; bid tabs not yet posted, so items are unread (cls UNKNOWN)."
+  },
+  {
+   "id": "C204338",
+   "rpn": "003",
+   "tip": "P-5707",
+   "wbs": "44643.3.1",
+   "funding": "STATE FUNDED",
+   "county": "Wake",
+   "div": 5,
+   "desc": "WIDENING, GRADING, DRAINAGE, PAVING, SIGNALS, & STRUCTURES.",
+   "location": "SR-2052 (ROGERS RD) GRADE SEPARATION OVER CSX RAILROAD #633905Y AT MP-142.53.",
+   "lengthMiles": 0.799,
+   "let": "Oct 20, 2026",
+   "estimate": 43637000.0,
+   "nBidders": 8,
+   "low": "Blythe Construction Inc",
+   "lowAmt": 40085604.19,
+   "bidders": [
+    [
+     "Blythe Construction Inc",
+     40085604.19
+    ],
+    [
+     "FSC II LLC dba Fred Smith Company",
+     42481018.5
+    ],
+    [
+     "Branch Civil Inc",
+     44204850.0
+    ],
+    [
+     "Zachry Construction Corporation",
+     44930881.86
+    ],
+    [
+     "Joseph B. Fay Co.",
+     46435539.36
+    ],
+    [
+     "United Infrastructure Group Inc",
+     49929233.71
+    ],
+    [
+     "Crowder Construction Company",
+     51014754.77
+    ],
+    [
+     "S T Wooten Corporation",
+     54473489.36
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C posted on the letting details page six days after the October 20 letting, before any Board record; bid tabs not yet posted, so items are unread (cls UNKNOWN)."
+  },
+  {
+   "id": "C205247",
+   "rpn": "004",
+   "tip": "",
+   "wbs": "2027CPT.09.07.10801, 2027CPT.09.07.20801",
+   "funding": "STATE FUNDED",
+   "county": "Rowan",
+   "div": 9,
+   "desc": "MILLING, RESURFACING, AND SHOULDER RECONSTRUCTION.",
+   "location": "1 SECTION OF US-29, 1 SECTION OF NC-150, AND 13 SECTIONS OF SECONDARY ROADS.",
+   "lengthMiles": 28.825,
+   "let": "Oct 20, 2026",
+   "estimate": 8149000.0,
+   "nBidders": 2,
+   "low": "NJR Group Inc",
+   "lowAmt": 7712197.37,
+   "bidders": [
+    [
+     "NJR Group Inc",
+     7712197.37
+    ],
+    [
+     "J T Russell & Sons Inc",
+     8058229.94
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C posted on the letting details page six days after the October 20 letting, before any Board record; bid tabs not yet posted, so items are unread (cls UNKNOWN)."
+  },
+  {
+   "id": "C205236",
+   "rpn": "005",
+   "tip": "",
+   "wbs": "2027CPT.10.03.10901, 2027CPT.10.03.20901",
+   "funding": "STATE FUNDED",
+   "county": "Union",
+   "div": 10,
+   "desc": "MILLING, RESURFACING, AND SHOULDER RECONSTRUCTION.",
+   "location": "",
+   "lengthMiles": 18.92,
+   "let": "Oct 20, 2026",
+   "estimate": 6904000.0,
+   "nBidders": 3,
+   "low": "Truerock Construction LLC",
+   "lowAmt": 6942196.15,
+   "bidders": [
+    [
+     "Truerock Construction LLC",
+     6942196.15
+    ],
+    [
+     "King Asphalt Inc",
+     7481155.61
+    ],
+    [
+     "Blythe Construction Inc",
+     7733372.81
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C posted on the letting details page six days after the October 20 letting, before any Board record; bid tabs not yet posted, so items are unread (cls UNKNOWN)."
+  },
+  {
+   "id": "C205246",
+   "rpn": "007",
+   "tip": "",
+   "wbs": "2027CPT.14.03.10751",
+   "funding": "STATE FUNDED",
+   "county": "Polk",
+   "div": 14,
+   "desc": "MILLING, AND RESURFACING.",
+   "location": "1 SECTION OF US-74.",
+   "lengthMiles": 13.97,
+   "let": "Oct 20, 2026",
+   "estimate": 7850000.0,
+   "nBidders": 4,
+   "low": "Rogers Group Inc",
+   "lowAmt": 6967399.0,
+   "bidders": [
+    [
+     "Rogers Group Inc",
+     6967399.0
+    ],
+    [
+     "Tarheel Paving & Asphalt Company Inc dba Tarheel Paving & As",
+     7162434.42
+    ],
+    [
+     "Site Development Corporation",
+     7177175.65
+    ],
+    [
+     "APAC Atlantic Inc Asheville Division",
+     7863716.96
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C posted on the letting details page six days after the October 20 letting, before any Board record; bid tabs not yet posted, so items are unread (cls UNKNOWN)."
+  }
+ ],
+ "lighting": [],
+ "shared": []
+}

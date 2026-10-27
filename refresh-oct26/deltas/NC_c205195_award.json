@@ -1,0 +1,20 @@
+{
+ "found": true,
+ "status": "awarded",
+ "contract": "C205195",
+ "county": "Catawba",
+ "tip": "I-5716",
+ "low": "Blythe Development LLC",
+ "lowAmt": 13758419.68,
+ "lightingL2": 204940.49,
+ "artifact": "BOT-202609_Minutes.pdf (NCDOT Board of Transportation minutes, September 3, 2026 meeting), corroborated by BOT-202609_MeetingArchive.pdf (September 2026 agenda packet, Item C)",
+ "quote": "Chairman Lathrop stated for the record for Item C that all projects were awarded by the Secretary to the low bidder.",
+ "quoteContext": "Minutes section 'Delegated Authority': 'Chairman Lathrop stated that items C, D, E, H, and L are delegated to the Secretary and require no formal action by the Board.' Item C in these minutes is titled 'Award of Highway Construction Contracts from August 2026 Letting' (the August 18, 2026 letting; the minutes' table of contents lists 'Approval – (Item C) Award of Highway Construction Contracts from August 2026 Letting').",
+ "pageEvidence": "Both Board PDFs reprint the full AUGUST 18, 2026 Item C (10 contracts). On C205195's page (Division 12, Catawba, I-5716, RPN 001, 4 bidders, low BLYTHE DEVELOPMENT LLC CHARLOTTE, NC at 13,758,419.68, -0.1% vs the 13,772,000.00 estimate) the literal text 'AWARDED' survives pdftotext extraction beneath the bidder list — it is typeset text in these documents, not a stamp graphic. All ten August 18 contracts carry the same AWARDED text in both PDFs (10 occurrences each).",
+ "lettingPageItemC": "Item-C-260818.pdf, the copy posted on the letting details page, contains NO 'AWARDED' text for C205195 or any contract — it is the pre-Board recommendation print and is not award evidence on its own.",
+ "verdict": "Upgrade C205195 from award='apparent' to award='awarded'. Suggested awardNote: \"Awarded — the Board's September 3, 2026 minutes state for the record that all Item C projects (Award of Highway Construction Contracts from August 2026 Letting) were awarded by the Secretary to the low bidder, and the Item C pages reprinted in the minutes carry the typeset AWARDED mark under C205195's bidder list {NC-38}.\"",
+ "checkedFor": {
+  "september15LettingInBoardDocs": "No mention — neither Board PDF contains 'SEPTEMBER 15' or 'September 15'; the Board met September 3, 2026, before that letting. Its awards await the October 2026 Board record (not posted as of October 26, 2026; direct probes 404).",
+  "september24LettingInBoardDocs": "No mention either; covered instead by the explicit NCDOT Notification of Award letter of October 1, 2026 (see delta_2026-09-24.json)."
+ }
+}

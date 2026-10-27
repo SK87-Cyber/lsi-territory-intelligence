@@ -1,0 +1,522 @@
+{
+ "letting": {
+  "id": "L261013",
+  "date": "Oct 13, 2026",
+  "iso": "2026-10-13",
+  "n": 14,
+  "low": 111839837.11,
+  "bids": 69,
+  "awarded": 0,
+  "awardArtifact": false,
+  "tc": "SC-35",
+  "ac": null,
+  "read": 0,
+  "lr": true,
+  "ubt": false
+ },
+ "all": [
+  {
+   "id": "0276070",
+   "call": "010",
+   "tip": "0276070",
+   "county": "Aiken",
+   "div": 7,
+   "desc": "I-20 5-23 MM Interstate Preservation",
+   "let": "Oct 13, 2026",
+   "low": "C.R. JACKSON, INC.",
+   "lowAmt": 29980494.71,
+   "bidders": [
+    [
+     "C.R. JACKSON, INC.",
+     29980494.71
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     31412375.32
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "1075380",
+   "call": "020",
+   "tip": "1075380",
+   "county": "Charleston",
+   "div": 6,
+   "desc": "US 17 at Buck Hall Landing Road (Right Turn Lane)",
+   "let": "Oct 13, 2026",
+   "low": "BEN COX, LLC",
+   "lowAmt": 365087.59,
+   "bidders": [
+    [
+     "BEN COX, LLC",
+     365087.59
+    ],
+    [
+     "GREEN WAVE CONTRACTING, INC.",
+     438961.0
+    ],
+    [
+     "TRULUCK CONSTRUCTION, INC.",
+     490690.0
+    ],
+    [
+     "LOWCOUNTRY SITEWORK, LLC",
+     558000.0
+    ],
+    [
+     "BLYTHE DEVELOPMENT, LLC",
+     627600.75
+    ],
+    [
+     "PALMETTO SITEWORK SERVICES, LLC",
+     632702.27
+    ],
+    [
+     "BANKS CONSTRUCTION COMPANY",
+     694603.5
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2378290",
+   "call": "030",
+   "tip": "2378290",
+   "county": "Greenville",
+   "div": 3,
+   "desc": "S-978 Tugaloo Road Bridge Replacement in Greenville",
+   "let": "Oct 13, 2026",
+   "low": "REEVES CONSTRUCTION COMPANY",
+   "lowAmt": 1298680.55,
+   "bidders": [
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     1298680.55
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     1318986.45
+    ],
+    [
+     "RAKES BUILDING AND MAINTENANCE",
+     1406906.65
+    ],
+    [
+     "DANE CONSTRUCTION, INC",
+     1545209.15
+    ],
+    [
+     "PALMETTO INFRASTRUCTURE, INC.",
+     1564997.48
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     1761258.6
+    ],
+    [
+     "FREYSSINET, INC.",
+     1903633.71
+    ],
+    [
+     "GRIFFIN GRADING & CONCRETE, LLC",
+     1923628.18
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2973031",
+   "call": "040",
+   "tip": "2973031",
+   "county": "Lancaster",
+   "div": 4,
+   "desc": "Intersection Improvement - SC 5 at S-358 (Steel Hill Road)",
+   "let": "Oct 13, 2026",
+   "low": "TRUEROCK CONSTRUCTION, LLC",
+   "lowAmt": 1484396.48,
+   "bidders": [
+    [
+     "TRUEROCK CONSTRUCTION, LLC",
+     1484396.48
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     1625018.35
+    ],
+    [
+     "KING ASPHALT, INC.",
+     1648219.01
+    ],
+    [
+     "BLYTHE DEVELOPMENT, LLC",
+     1764187.23
+    ],
+    [
+     "KERSHAW BUILDERS, INC.",
+     1790185.39
+    ],
+    [
+     "LCI-LINEBERGER CONSTRUCTION, INC.",
+     1944884.0
+    ],
+    [
+     "UNIVERSAL CIVIL CONSTRUCTION, LLC",
+     2317598.75
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     2677260.22
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INC.",
+     2697169.75
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4175571",
+   "call": "050",
+   "tip": "4175571",
+   "county": "Saluda",
+   "div": 2,
+   "desc": "2026 Saluda CTC Resurfacing",
+   "let": "Oct 13, 2026",
+   "low": "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 1188570.78,
+   "bidders": [
+    [
+     "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+     1188570.78
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     1480939.85
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     1619922.55
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4276560",
+   "call": "060",
+   "tip": "4276560",
+   "county": "Spartanburg",
+   "div": 3,
+   "desc": "I-585 0-2 MM Interstate Preservation",
+   "let": "Oct 13, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 5778615.52,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     5778615.52
+    ],
+    [
+     "ROGERS GROUP, INC.",
+     6898765.43
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     7185596.89
+    ],
+    [
+     "KING ASPHALT, INC.",
+     7199063.47
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4673600",
+   "call": "070",
+   "tip": "4673600",
+   "county": "York",
+   "div": 4,
+   "desc": "Br Replacement S-46-832 over Branch of Catawba River",
+   "let": "Oct 13, 2026",
+   "low": "KEMP SIGMON CONSTRUCTION CO., INC.",
+   "lowAmt": 2073442.04,
+   "bidders": [
+    [
+     "KEMP SIGMON CONSTRUCTION CO., INC.",
+     2073442.04
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     2218371.7
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     2329469.43
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     2442344.75
+    ],
+    [
+     "BLYTHE DEVELOPMENT, LLC",
+     2474417.14
+    ],
+    [
+     "PALMETTO INFRASTRUCTURE, INC.",
+     2509737.34
+    ],
+    [
+     "DANE CONSTRUCTION, INC",
+     2616984.0
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INC.",
+     2995464.07
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4676540",
+   "call": "080",
+   "tip": "4676540",
+   "county": "York",
+   "div": 4,
+   "desc": "I-77 MM 75.86 - 82.5 MM Interstate Preservation",
+   "let": "Oct 13, 2026",
+   "low": "KING ASPHALT, INC.",
+   "lowAmt": 24357882.26,
+   "bidders": [
+    [
+     "KING ASPHALT, INC.",
+     24357882.26
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     28489851.67
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5376970",
+   "call": "090",
+   "tip": "5376970",
+   "county": "Greenville, Spartanburg",
+   "div": 3,
+   "desc": "2027 Greenville/Spartanburg Crack Seal",
+   "let": "Oct 13, 2026",
+   "low": "REMAC ASPHALT MAINTENANCE, INC.",
+   "lowAmt": 618678.35,
+   "bidders": [
+    [
+     "REMAC ASPHALT MAINTENANCE, INC.",
+     618678.35
+    ],
+    [
+     "THUNDER ROAD LLC",
+     667707.95
+    ],
+    [
+     "GORDON COMPANY INC.",
+     711475.0
+    ],
+    [
+     "RUSSELL STANDARD CORPORATION",
+     774998.75
+    ],
+    [
+     "SCODELLER CONSTRUCTION, INC.",
+     775731.5
+    ],
+    [
+     "SLURRY PAVERS, INC.",
+     867688.08
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5377380",
+   "call": "100",
+   "tip": "5377380",
+   "county": "Oconee, Pickens",
+   "div": 3,
+   "desc": "2027 Pickens/Oconee Crack Seal",
+   "let": "Oct 13, 2026",
+   "low": "AIRFIELD & PAVEMENT MAINTENANCE, LLC",
+   "lowAmt": 252096.42,
+   "bidders": [
+    [
+     "AIRFIELD & PAVEMENT MAINTENANCE, LLC",
+     252096.42
+    ],
+    [
+     "THUNDER ROAD LLC",
+     277155.75
+    ],
+    [
+     "GORDON COMPANY INC.",
+     283928.55
+    ],
+    [
+     "REMAC ASPHALT MAINTENANCE, INC.",
+     306295.61
+    ],
+    [
+     "SLURRY PAVERS, INC.",
+     356928.44
+    ],
+    [
+     "SCODELLER CONSTRUCTION, INC.",
+     366964.5
+    ],
+    [
+     "RUSSELL STANDARD CORPORATION",
+     508124.25
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5578320",
+   "call": "110",
+   "tip": "5578320",
+   "county": "Darlington, Florence",
+   "div": 5,
+   "desc": "I-20 136-141 Interstate Preservation",
+   "let": "Oct 13, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 9718675.06,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     9718675.06
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     10240453.19
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5676830",
+   "call": "120",
+   "tip": "5676830",
+   "county": "Beaufort, Berkeley, Charleston, Colleton",
+   "div": 6,
+   "desc": "2027 District 6 Crack Seal",
+   "let": "Oct 13, 2026",
+   "low": "REMAC ASPHALT MAINTENANCE, INC.",
+   "lowAmt": 1343277.26,
+   "bidders": [
+    [
+     "REMAC ASPHALT MAINTENANCE, INC.",
+     1343277.26
+    ],
+    [
+     "SCODELLER CONSTRUCTION, INC.",
+     1351280.25
+    ],
+    [
+     "RUSSELL STANDARD CORPORATION",
+     1543580.38
+    ],
+    [
+     "GORDON COMPANY INC.",
+     1975498.93
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "8876550",
+   "call": "130",
+   "tip": "8876550",
+   "county": "Greenville, Laurens",
+   "div": 3,
+   "desc": "I-385 14-23 MM Interstate Preservation",
+   "let": "Oct 13, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 12638260.98,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     12638260.98
+    ],
+    [
+     "ROGERS GROUP, INC.",
+     13153778.81
+    ],
+    [
+     "KING ASPHALT, INC.",
+     16459631.93
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     16620668.56
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "8876840",
+   "call": "140",
+   "tip": "8876840",
+   "county": "Aiken, Lexington",
+   "div": 7,
+   "desc": "I-20 23-37 WB and 37-49 EB Interstate Preservation",
+   "let": "Oct 13, 2026",
+   "low": "C.R. JACKSON, INC.",
+   "lowAmt": 20741679.11,
+   "bidders": [
+    [
+     "C.R. JACKSON, INC.",
+     20741679.11
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     21871070.41
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     28326766.7
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  }
+ ],
+ "lighting": [],
+ "shared": [],
+ "gap": "14 call(s) have no certified tabulation yet: 0276070, 1075380, 2378290, 2973031, 4175571, 4276560, 4673600, 4676540, 5376970, 5377380, 5578320, 5676830, 8876550, 8876840."
+}
