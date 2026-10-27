@@ -1,0 +1,103 @@
+{
+ "letting": "L260825",
+ "actionDate": "September 8, 2026",
+ "source": "MS/20260825/20260825BidAwards.pdf",
+ "awards": {
+  "110045301": {
+   "status": "awarded",
+   "contractor": "Ste-Bil Grading Inc.",
+   "amount": 452029.2,
+   "actionDate": "September 8, 2026"
+  },
+  "108212301": {
+   "status": "awarded",
+   "contractor": "APAC - Mississippi, Inc.",
+   "amount": 12178841.45,
+   "actionDate": "September 8, 2026"
+  },
+  "109074301": {
+   "status": "awarded",
+   "contractor": "Ste-Bil Grading Inc.",
+   "amount": 1533604.04,
+   "actionDate": "September 8, 2026"
+  },
+  "109078301": {
+   "status": "awarded",
+   "contractor": "Key, LLC",
+   "amount": 2891914.1,
+   "actionDate": "September 8, 2026"
+  },
+  "109082301": {
+   "status": "awarded",
+   "contractor": "Ste-Bil Grading Inc.",
+   "amount": 2412501.06,
+   "actionDate": "September 8, 2026"
+  },
+  "110047301": {
+   "status": "awarded",
+   "contractor": "APAC - Mississippi, Inc.",
+   "amount": 2080971.15,
+   "actionDate": "September 8, 2026"
+  },
+  "110052301": {
+   "status": "awarded",
+   "contractor": "WG Construction Company, Inc.",
+   "amount": 1014360.0,
+   "actionDate": "September 8, 2026"
+  },
+  "310032301": {
+   "status": "awarded",
+   "contractor": "Dickerson & Bowen, Inc.",
+   "amount": 755659.15,
+   "actionDate": "September 8, 2026"
+  },
+  "108168301": {
+   "status": "rejected",
+   "contractor": null,
+   "amount": null,
+   "actionDate": "September 8, 2026",
+   "note": "Listed under POSTPONED, WITHDRAWN, REJECTED &/OR TO BE READVERTISED on the Aug 25, 2026 Bid Awards list",
+   "memberProposals": [
+    "108168301",
+    "108168302"
+   ]
+  },
+  "102383302": {
+   "status": "rejected",
+   "contractor": null,
+   "amount": null,
+   "actionDate": "September 8, 2026",
+   "note": "Listed under POSTPONED, WITHDRAWN, REJECTED &/OR TO BE READVERTISED on the Aug 25, 2026 Bid Awards list \u2014 no bids were read for this call on Aug 25, 2026"
+  },
+  "110067301": {
+   "status": "rejected",
+   "contractor": null,
+   "amount": null,
+   "actionDate": "September 8, 2026",
+   "note": "Listed under POSTPONED, WITHDRAWN, REJECTED &/OR TO BE READVERTISED on the Aug 25, 2026 Bid Awards list \u2014 no bids were read for this call on Aug 25, 2026",
+   "memberProposals": [
+    "110067301",
+    "110043301",
+    "110068301"
+   ]
+  },
+  "110041301": {
+   "status": "rejected",
+   "contractor": null,
+   "amount": null,
+   "actionDate": "September 8, 2026",
+   "note": "Listed under POSTPONED, WITHDRAWN, REJECTED &/OR TO BE READVERTISED on the Aug 25, 2026 Bid Awards list"
+  },
+  "106972301": {
+   "status": "rejected",
+   "contractor": null,
+   "amount": null,
+   "actionDate": "September 8, 2026",
+   "note": "Listed under POSTPONED, WITHDRAWN, REJECTED &/OR TO BE READVERTISED on the Aug 25, 2026 Bid Awards list \u2014 no bids were read for this call on Aug 25, 2026",
+   "memberProposals": [
+    "106972301",
+    "106972302"
+   ]
+  }
+ }
+}

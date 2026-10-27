@@ -1,0 +1,89 @@
+{
+ "letting": {
+  "id": "L260821",
+  "date": "Aug 21, 2026",
+  "iso": "2026-08-21",
+  "n": 2,
+  "low": 1925728.0,
+  "bids": 8,
+  "awarded": 2,
+  "rejected": 0,
+  "awardArtifact": true,
+  "tc": "MS-57",
+  "ac": "MS-58",
+  "read": 2,
+  "kind": "Emergency",
+  "awardDate": "September 8, 2026",
+  "unmatched": 0
+ },
+ "all": [
+  {
+   "id": "110218301",
+   "call": "01",
+   "tip": "NHPP-0055-03(107) / 110218301",
+   "county": "Yalobusha",
+   "div": 2,
+   "desc": "Emergency Bridge Repair on I-55 over SR 32 (Bridge No. 226.7B), known as Federal Aid Project No. NHPP-0055-03(107) / 110218301 in Yalobusha County.",
+   "let": "Aug 21, 2026",
+   "low": "Phillips Contracting Co., Inc.",
+   "lowAmt": 426530.0,
+   "bidders": [
+    [
+     "Phillips Contracting Co., Inc.",
+     426530.0
+    ],
+    [
+     "Talbot Brothers Contracting Co., Inc.",
+     452431.96
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     460990.0
+    ],
+    [
+     "Key, LLC",
+     688821.0
+    ],
+    [
+     "Century Construction Group, Inc.",
+     831524.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 575485.4
+  },
+  {
+   "id": "110221301",
+   "call": "02",
+   "tip": "ER-0028-01(056) / 110221301, SP-0028-01(056) / 110221302, ER-0028-01(056) / 110221303 & SP-0028-01(056) /110221304",
+   "county": "George & Perry",
+   "div": 6,
+   "desc": "Emergency Slope Repair & Pipe Cleanout on SR 26, known as Federal Aid Project Nos. ER-0028-01(056) / 110221301, SP-0028-01(056) / 110221302, ER-0028-0",
+   "let": "Aug 21, 2026",
+   "low": "Dunn Roadbuilders, LLC",
+   "lowAmt": 1499198.0,
+   "bidders": [
+    [
+     "Dunn Roadbuilders, LLC",
+     1499198.0
+    ],
+    [
+     "Holliday Construction, LLC",
+     1740335.18
+    ],
+    [
+     "Warren Paving, Inc.",
+     1763846.45
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 1662620.66
+  }
+ ],
+ "lighting": [],
+ "shared": []
+}

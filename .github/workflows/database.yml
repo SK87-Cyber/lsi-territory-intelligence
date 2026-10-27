@@ -1,0 +1,26 @@
+name: Publish validated database snapshot
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lighting-database
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install -r requirements-infra.txt
+      - run: npm run build
+      - name: Apply immutable migrations and import atomically
+        env:
+          LSI_DATABASE_URL: ${{ secrets.LSI_DATABASE_URL }}
+        run: python scripts/database.py dist/snapshot.json

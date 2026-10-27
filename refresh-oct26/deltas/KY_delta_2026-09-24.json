@@ -1,0 +1,1205 @@
+{
+ "letting": {
+  "id": "L260924",
+  "date": "Sep 24, 2026",
+  "iso": "2026-09-24",
+  "n": 12,
+  "low": 33853786.89,
+  "bids": 32,
+  "awarded": 12,
+  "awardArtifact": true,
+  "tc": "KY-33",
+  "ac": "KY-33",
+  "lr": true,
+  "ubt": true,
+  "biqi": 1,
+  "read": 12
+ },
+ "all": [
+  {
+   "id": "26-4534",
+   "call": "100",
+   "tip": "HSIP 0451(012)",
+   "reconciled": true,
+   "county": "Graves",
+   "div": 1,
+   "desc": "HSIP 0451(012) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE US HIGHWAY 45 (US 45)",
+   "let": "Sep 24, 2026",
+   "low": "JIM SMITH CONTRACTING COMPANY LLC",
+   "lowAmt": 1579449.55,
+   "bidders": [
+    [
+     "JIM SMITH CONTRACTING COMPANY LLC",
+     1579449.55
+    ],
+    [
+     "HAL COFFEY CONTRACTING LLC",
+     2490624.62
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded"
+  },
+  {
+   "id": "26-1519",
+   "call": "101",
+   "tip": "STPM 8743 (004)",
+   "reconciled": true,
+   "county": "Jefferson",
+   "div": 5,
+   "desc": "STPM 8743 (004) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE BEULAH CHURCH ROAD (KY 864)",
+   "let": "Sep 24, 2026",
+   "low": "LOUISVILLE PAVING COMPANY INC",
+   "lowAmt": 20325703.42,
+   "bidders": [
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     20325703.42
+    ],
+    [
+     "MAC CONSTRUCTION & EXCAVATING INC",
+     20988000.0
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     23525000.0
+    ],
+    [
+     "E & B PAVING LLC",
+     25454052.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-4533",
+   "call": "102",
+   "tip": "HSIP 0451(011)",
+   "reconciled": true,
+   "county": "Mccracken",
+   "div": 1,
+   "desc": "HSIP 0451(011) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE US HIGHWAY 45 (US 45)",
+   "let": "Sep 24, 2026",
+   "low": "JIM SMITH CONTRACTING COMPANY LLC",
+   "lowAmt": 2588851.3,
+   "bidders": [
+    [
+     "JIM SMITH CONTRACTING COMPANY LLC",
+     2588851.3
+    ],
+    [
+     "HAL COFFEY CONTRACTING LLC",
+     3741849.28
+    ],
+    [
+     "MURRAY PAVING INC",
+     3797013.12
+    ],
+    [
+     "HINKLE CONSTRUCTION SERVICES LLC",
+     4356809.84
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded"
+  },
+  {
+   "id": "26-4535",
+   "call": "103",
+   "tip": "HSIP 0451(013)",
+   "reconciled": true,
+   "county": "Mccracken",
+   "div": 1,
+   "desc": "HSIP 0451(013) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE US HIGHWAY 45 (US 45)",
+   "let": "Sep 24, 2026",
+   "low": "JIM SMITH CONTRACTING COMPANY LLC",
+   "lowAmt": 1579322.17,
+   "bidders": [
+    [
+     "JIM SMITH CONTRACTING COMPANY LLC",
+     1579322.17
+    ],
+    [
+     "HAL COFFEY CONTRACTING LLC",
+     2491992.07
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded"
+  },
+  {
+   "id": "26-1518",
+   "call": "104",
+   "tip": "STP 5181 (007)",
+   "reconciled": true,
+   "county": "Pulaski",
+   "div": 8,
+   "desc": "STP 5181 (007) \u2014 ASPHALT PAVEMENT & ROADWAY REHAB HIGHWAY 39 (KY 39)",
+   "let": "Sep 24, 2026",
+   "low": "HINKLE CONTRACTING COMPANY LLC",
+   "lowAmt": 1625432.21,
+   "bidders": [
+    [
+     "HINKLE CONTRACTING COMPANY LLC",
+     1625432.21
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-4128",
+   "call": "105",
+   "tip": "HSIP 9010(629)",
+   "reconciled": true,
+   "county": "Wayne",
+   "div": 8,
+   "desc": "HSIP 9010(629) \u2014 ASPHALT SURFACE WITH GRADE & DRAIN KY HIGHWAY 90 (KY 90)",
+   "let": "Sep 24, 2026",
+   "low": "BLUEGRASS CONTRACTING CORPORATION",
+   "lowAmt": 3619935.0,
+   "bidders": [
+    [
+     "BLUEGRASS CONTRACTING CORPORATION",
+     3619935.0
+    ],
+    [
+     "MAGO CONSTRUCTION COMPANY LLC",
+     3785698.36
+    ],
+    [
+     "RAME CONTRACTING LLC",
+     3866045.49
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded"
+  },
+  {
+   "id": "26-2239",
+   "call": "300",
+   "tip": "CAPTL 034 8037 000-001",
+   "reconciled": true,
+   "county": "Fayette",
+   "div": 7,
+   "desc": "CAPTL 034 8037 000-001 \u2014 ASPHALT REHAB WITH GRADE & DRAIN WAVELAND MUSEUM STATE HISTORIC SITE",
+   "let": "Sep 24, 2026",
+   "low": "THE ALLEN COMPANY INC",
+   "lowAmt": 76598.53,
+   "bidders": [
+    [
+     "THE ALLEN COMPANY INC",
+     76598.53
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-2240",
+   "call": "301",
+   "tip": "FD05 082 0313 014-019",
+   "reconciled": true,
+   "county": "Meade",
+   "div": 4,
+   "desc": "FD05 082 0313 014-019 \u2014 ASPHALT RESURFACING BYPASS ROAD (KY 313)",
+   "let": "Sep 24, 2026",
+   "low": "E & B PAVING LLC",
+   "lowAmt": 1771313.0,
+   "bidders": [
+    [
+     "E & B PAVING LLC",
+     1771313.0
+    ],
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     1862489.19
+    ],
+    [
+     "C & R CONSTRUCTION AND CONSULTING LLC",
+     1965000.0
+    ],
+    [
+     "MAGO CONSTRUCTION COMPANY LLC",
+     2104126.44
+    ],
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     2232900.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-2231",
+   "call": "302",
+   "tip": "FE06 005 0063 011-012",
+   "reconciled": true,
+   "county": "Barren",
+   "div": 3,
+   "desc": "FE06 005 0063 011-012 \u2014 GUARDRAIL TOMPKINSVILLE ROAD (KY 63)",
+   "let": "Sep 24, 2026",
+   "low": "GEORGE B STONE CO LLC",
+   "lowAmt": 33804.0,
+   "bidders": [
+    [
+     "GEORGE B STONE CO LLC",
+     33804.0
+    ],
+    [
+     "N W K CONSTRUCTION INC",
+     39468.19
+    ],
+    [
+     "N H STONE INC",
+     40475.75
+    ],
+    [
+     "EDEN FENCE INC",
+     46896.5
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-2237",
+   "call": "304",
+   "tip": "FE06 019 1632 000-001",
+   "reconciled": true,
+   "county": "Campbell",
+   "div": 6,
+   "desc": "FE06 019 1632 000-001 \u2014 GUARDRAIL MOOCK ROAD (KY 1632)",
+   "let": "Sep 24, 2026",
+   "low": "GEORGE B STONE CO LLC",
+   "lowAmt": 22977.7,
+   "bidders": [
+    [
+     "GEORGE B STONE CO LLC",
+     22977.7
+    ],
+    [
+     "N H STONE INC",
+     33810.7
+    ],
+    [
+     "N W K CONSTRUCTION INC",
+     35628.13
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-3038",
+   "call": "400",
+   "tip": "033GR26R019-CB06",
+   "reconciled": true,
+   "county": "Estill",
+   "div": 10,
+   "desc": "033GR26R019-CB06 \u2014 ASPHALT RESURFACING VARIOUS ROADS IN ESTILL CO",
+   "let": "Sep 24, 2026",
+   "low": "HINKLE CONTRACTING COMPANY LLC",
+   "lowAmt": 313751.01,
+   "bidders": [
+    [
+     "HINKLE CONTRACTING COMPANY LLC",
+     313751.01
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  },
+  {
+   "id": "26-3039",
+   "call": "401",
+   "tip": "083GR26R020-CB06",
+   "reconciled": true,
+   "county": "Menifee",
+   "div": 10,
+   "desc": "083GR26R020-CB06 \u2014 ASPHALT RESURFACING VARIOUS ROADS IN MENIFEE CO",
+   "let": "Sep 24, 2026",
+   "low": "WALKER CONSTRUCTION & MATERIALS LLC",
+   "lowAmt": 316649.0,
+   "bidders": [
+    [
+     "WALKER CONSTRUCTION & MATERIALS LLC",
+     316649.0
+    ],
+    [
+     "BTI CONTRACTING INC DBA BLACKTOP INDUSTRIES",
+     366519.4
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded"
+  }
+ ],
+ "lighting": [
+  {
+   "id": "26-4534",
+   "tip": "HSIP 0451(012)",
+   "county": "Graves",
+   "div": 1,
+   "districtLabel": "District 01",
+   "let": "Sep 24, 2026",
+   "low": "JIM SMITH CONTRACTING COMPANY LLC",
+   "lowAmt": 1579449.55,
+   "bidders": 2,
+   "l2": 83291.0,
+   "product": 40600.0,
+   "split": {
+    "hardware": 40600.0,
+    "infrastructure": 42691.0,
+    "work": 0.0
+   },
+   "nItems": 78,
+   "rng": [
+    83291.0,
+    103291.0
+   ],
+   "cls": "L2",
+   "desc": "HSIP 0451(012) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE US HIGHWAY 45 (US 45)",
+   "share": 0.053,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "awardDate": null,
+   "awardNote": "Awarded \u2014 the contract appears in KYTC's Unit Bid Tabulations for the Sep 24, 2026 letting, which the Cabinet titles \u201cBid Tabs of Awarded Projects\u201d; every bidder's items sum to the printed total within $0.00 (cent-rounded unit prices) {KY-33}.",
+   "quantities": [
+    "2 \u00d7 POLE 30 FT MTG HT",
+    "2 \u00d7 POLE 40 FT MTG HT",
+    "2 \u00d7 BRACKET 12 FT",
+    "2 \u00d7 BRACKET 15 FT",
+    "4 \u00d7 POLE BASE",
+    "4 \u00d7 TRANSFORMER BASE",
+    "1 \u00d7 LIGHTING CONTROL EQUIPMENT",
+    "4 \u00d7 LED LUMINAIRE"
+   ],
+   "items": [
+    {
+     "line": "0610",
+     "code": "04700",
+     "section": "716",
+     "desc": "POLE 30 FT MTG HT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 3200.0,
+      "HAL COFFEY CONTRACTING LLC": 3200.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0620",
+     "code": "04701",
+     "section": "716",
+     "desc": "POLE 40 FT MTG HT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 3200.0,
+      "HAL COFFEY CONTRACTING LLC": 3200.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0630",
+     "code": "04724",
+     "section": "716",
+     "desc": "BRACKET 12 FT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 750.0,
+      "HAL COFFEY CONTRACTING LLC": 750.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0640",
+     "code": "04725",
+     "section": "716",
+     "desc": "BRACKET 15 FT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 750.0,
+      "HAL COFFEY CONTRACTING LLC": 750.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0650",
+     "code": "04740",
+     "section": "716",
+     "desc": "POLE BASE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 2600.0,
+      "HAL COFFEY CONTRACTING LLC": 2600.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0660",
+     "code": "04750",
+     "section": "716",
+     "desc": "TRANSFORMER BASE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1000.0,
+      "HAL COFFEY CONTRACTING LLC": 1000.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0670",
+     "code": "04761",
+     "section": "716",
+     "desc": "LIGHTING CONTROL EQUIPMENT",
+     "qty": 1.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 20000.0,
+      "HAL COFFEY CONTRACTING LLC": 40000.0
+     },
+     "sub": "control"
+    },
+    {
+     "line": "0680",
+     "code": "04780",
+     "section": "716",
+     "desc": "FUSED CONNECTOR KIT",
+     "qty": 8.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 50.0,
+      "HAL COFFEY CONTRACTING LLC": 50.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0690",
+     "code": "04820",
+     "section": "716",
+     "desc": "TRENCHING AND BACKFILLING",
+     "qty": 1500.0,
+     "unit": "LF",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 18.0,
+      "HAL COFFEY CONTRACTING LLC": 18.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0700",
+     "code": "04832",
+     "section": "716",
+     "desc": "WIRE-NO. 12",
+     "qty": 594.0,
+     "unit": "LF",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1.5,
+      "HAL COFFEY CONTRACTING LLC": 1.5
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0740",
+     "code": "24589ED",
+     "section": "716",
+     "desc": "LED LUMINAIRE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1200.0,
+      "HAL COFFEY CONTRACTING LLC": 1200.0
+     },
+     "sub": "luminaire"
+    }
+   ],
+   "samePrice": false,
+   "splitHw": {
+    "luminaire": 4800.0,
+    "pole": 15800.0,
+    "assembly": 0,
+    "control": 20000.0
+   },
+   "lumN": 4.0,
+   "poleN": 4.0
+  },
+  {
+   "id": "26-4533",
+   "tip": "HSIP 0451(011)",
+   "county": "Mccracken",
+   "div": 1,
+   "districtLabel": "District 01",
+   "let": "Sep 24, 2026",
+   "low": "JIM SMITH CONTRACTING COMPANY LLC",
+   "lowAmt": 2588851.3,
+   "bidders": 4,
+   "l2": 84191.0,
+   "product": 40600.0,
+   "split": {
+    "hardware": 40600.0,
+    "infrastructure": 43591.0,
+    "work": 0.0
+   },
+   "nItems": 105,
+   "rng": [
+    79831.28,
+    104191.0
+   ],
+   "cls": "L2",
+   "desc": "HSIP 0451(011) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE US HIGHWAY 45 (US 45)",
+   "share": 0.033,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 4.09,
+   "awardDate": null,
+   "awardNote": "Awarded \u2014 the contract appears in KYTC's Unit Bid Tabulations for the Sep 24, 2026 letting, which the Cabinet titles \u201cBid Tabs of Awarded Projects\u201d; every bidder's items sum to the printed total within $4.09 (cent-rounded unit prices) {KY-33}.",
+   "quantities": [
+    "2 \u00d7 POLE 30 FT MTG HT",
+    "2 \u00d7 POLE 40 FT MTG HT",
+    "2 \u00d7 BRACKET 12 FT",
+    "2 \u00d7 BRACKET 15 FT",
+    "4 \u00d7 POLE BASE",
+    "4 \u00d7 TRANSFORMER BASE",
+    "1 \u00d7 LIGHTING CONTROL EQUIPMENT",
+    "4 \u00d7 LED LUMINAIRE"
+   ],
+   "items": [
+    {
+     "line": "0870",
+     "code": "04700",
+     "section": "716",
+     "desc": "POLE 30 FT MTG HT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 3200.0,
+      "HAL COFFEY CONTRACTING LLC": 3200.0,
+      "MURRAY PAVING INC": 3200.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 3208.41
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0880",
+     "code": "04701",
+     "section": "716",
+     "desc": "POLE 40 FT MTG HT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 3200.0,
+      "HAL COFFEY CONTRACTING LLC": 3200.0,
+      "MURRAY PAVING INC": 3200.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 3965.19
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0890",
+     "code": "04724",
+     "section": "716",
+     "desc": "BRACKET 12 FT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 750.0,
+      "HAL COFFEY CONTRACTING LLC": 750.0,
+      "MURRAY PAVING INC": 750.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 1153.09
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0900",
+     "code": "04725",
+     "section": "716",
+     "desc": "BRACKET 15 FT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 750.0,
+      "HAL COFFEY CONTRACTING LLC": 750.0,
+      "MURRAY PAVING INC": 750.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 1259.54
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0910",
+     "code": "04740",
+     "section": "716",
+     "desc": "POLE BASE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 2600.0,
+      "HAL COFFEY CONTRACTING LLC": 2600.0,
+      "MURRAY PAVING INC": 2600.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 3056.64
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0920",
+     "code": "04750",
+     "section": "716",
+     "desc": "TRANSFORMER BASE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1000.0,
+      "HAL COFFEY CONTRACTING LLC": 1000.0,
+      "MURRAY PAVING INC": 1000.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 1930.95
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0930",
+     "code": "04761",
+     "section": "716",
+     "desc": "LIGHTING CONTROL EQUIPMENT",
+     "qty": 1.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 20000.0,
+      "HAL COFFEY CONTRACTING LLC": 40000.0,
+      "MURRAY PAVING INC": 21000.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 25446.94
+     },
+     "sub": "control"
+    },
+    {
+     "line": "0940",
+     "code": "04780",
+     "section": "716",
+     "desc": "FUSED CONNECTOR KIT",
+     "qty": 8.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 50.0,
+      "HAL COFFEY CONTRACTING LLC": 50.0,
+      "MURRAY PAVING INC": 250.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 322.53
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0950",
+     "code": "04820",
+     "section": "716",
+     "desc": "TRENCHING AND BACKFILLING",
+     "qty": 1550.0,
+     "unit": "LF",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 18.0,
+      "HAL COFFEY CONTRACTING LLC": 18.0,
+      "MURRAY PAVING INC": 20.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 5.23
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0960",
+     "code": "04832",
+     "section": "716",
+     "desc": "WIRE-NO. 12",
+     "qty": 594.0,
+     "unit": "LF",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1.5,
+      "HAL COFFEY CONTRACTING LLC": 1.5,
+      "MURRAY PAVING INC": 1.5,
+      "HINKLE CONSTRUCTION SERVICES LLC": 2.35
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1000",
+     "code": "24589ED",
+     "section": "716",
+     "desc": "LED LUMINAIRE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1200.0,
+      "HAL COFFEY CONTRACTING LLC": 1200.0,
+      "MURRAY PAVING INC": 1500.0,
+      "HINKLE CONSTRUCTION SERVICES LLC": 794.72
+     },
+     "sub": "luminaire"
+    }
+   ],
+   "samePrice": false,
+   "splitHw": {
+    "luminaire": 4800.0,
+    "pole": 15800.0,
+    "assembly": 0,
+    "control": 20000.0
+   },
+   "lumN": 4.0,
+   "poleN": 4.0
+  },
+  {
+   "id": "26-4535",
+   "tip": "HSIP 0451(013)",
+   "county": "Mccracken",
+   "div": 1,
+   "districtLabel": "District 01",
+   "let": "Sep 24, 2026",
+   "low": "JIM SMITH CONTRACTING COMPANY LLC",
+   "lowAmt": 1579322.17,
+   "bidders": 2,
+   "l2": 85991.0,
+   "product": 40600.0,
+   "split": {
+    "hardware": 40600.0,
+    "infrastructure": 45391.0,
+    "work": 0.0
+   },
+   "nItems": 77,
+   "rng": [
+    85991.0,
+    105991.0
+   ],
+   "cls": "L2",
+   "desc": "HSIP 0451(013) \u2014 GRADE & DRAIN WITH ASPHALT SURFACE US HIGHWAY 45 (US 45)",
+   "share": 0.054,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "awardDate": null,
+   "awardNote": "Awarded \u2014 the contract appears in KYTC's Unit Bid Tabulations for the Sep 24, 2026 letting, which the Cabinet titles \u201cBid Tabs of Awarded Projects\u201d; every bidder's items sum to the printed total within $0.00 (cent-rounded unit prices) {KY-33}.",
+   "quantities": [
+    "2 \u00d7 POLE 30 FT MTG HT",
+    "2 \u00d7 POLE 40 FT MTG HT",
+    "2 \u00d7 BRACKET 12 FT",
+    "2 \u00d7 BRACKET 15 FT",
+    "4 \u00d7 POLE BASE",
+    "4 \u00d7 TRANSFORMER BASE",
+    "1 \u00d7 LIGHTING CONTROL EQUIPMENT",
+    "4 \u00d7 LED LUMINAIRE"
+   ],
+   "items": [
+    {
+     "line": "0600",
+     "code": "04700",
+     "section": "716",
+     "desc": "POLE 30 FT MTG HT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 3200.0,
+      "HAL COFFEY CONTRACTING LLC": 3200.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0610",
+     "code": "04701",
+     "section": "716",
+     "desc": "POLE 40 FT MTG HT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 3200.0,
+      "HAL COFFEY CONTRACTING LLC": 3200.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0620",
+     "code": "04724",
+     "section": "716",
+     "desc": "BRACKET 12 FT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 750.0,
+      "HAL COFFEY CONTRACTING LLC": 750.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0630",
+     "code": "04725",
+     "section": "716",
+     "desc": "BRACKET 15 FT",
+     "qty": 2.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 750.0,
+      "HAL COFFEY CONTRACTING LLC": 750.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "0640",
+     "code": "04740",
+     "section": "716",
+     "desc": "POLE BASE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 2600.0,
+      "HAL COFFEY CONTRACTING LLC": 2600.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0650",
+     "code": "04750",
+     "section": "716",
+     "desc": "TRANSFORMER BASE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1000.0,
+      "HAL COFFEY CONTRACTING LLC": 1000.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0660",
+     "code": "04761",
+     "section": "716",
+     "desc": "LIGHTING CONTROL EQUIPMENT",
+     "qty": 1.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 20000.0,
+      "HAL COFFEY CONTRACTING LLC": 40000.0
+     },
+     "sub": "control"
+    },
+    {
+     "line": "0670",
+     "code": "04780",
+     "section": "716",
+     "desc": "FUSED CONNECTOR KIT",
+     "qty": 8.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 50.0,
+      "HAL COFFEY CONTRACTING LLC": 50.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0680",
+     "code": "04820",
+     "section": "716",
+     "desc": "TRENCHING AND BACKFILLING",
+     "qty": 1650.0,
+     "unit": "LF",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 18.0,
+      "HAL COFFEY CONTRACTING LLC": 18.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0690",
+     "code": "04832",
+     "section": "716",
+     "desc": "WIRE-NO. 12",
+     "qty": 594.0,
+     "unit": "LF",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1.5,
+      "HAL COFFEY CONTRACTING LLC": 1.5
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0730",
+     "code": "24589ED",
+     "section": "716",
+     "desc": "LED LUMINAIRE",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "JIM SMITH CONTRACTING COMPANY LLC": 1200.0,
+      "HAL COFFEY CONTRACTING LLC": 1200.0
+     },
+     "sub": "luminaire"
+    }
+   ],
+   "samePrice": false,
+   "splitHw": {
+    "luminaire": 4800.0,
+    "pole": 15800.0,
+    "assembly": 0,
+    "control": 20000.0
+   },
+   "lumN": 4.0,
+   "poleN": 4.0
+  },
+  {
+   "id": "26-4128",
+   "tip": "HSIP 9010(629)",
+   "county": "Wayne",
+   "div": 8,
+   "districtLabel": "District 08",
+   "let": "Sep 24, 2026",
+   "low": "BLUEGRASS CONTRACTING CORPORATION",
+   "lowAmt": 3619935.0,
+   "bidders": 3,
+   "l2": 177380.0,
+   "product": 85560.0,
+   "split": {
+    "hardware": 85560.0,
+    "infrastructure": 80520.0,
+    "work": 11300.0
+   },
+   "nItems": 130,
+   "rng": [
+    155881.0,
+    177380.0
+   ],
+   "cls": "L2",
+   "desc": "HSIP 9010(629) \u2014 ASPHALT SURFACE WITH GRADE & DRAIN KY HIGHWAY 90 (KY 90)",
+   "share": 0.049,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.01,
+   "awardDate": null,
+   "awardNote": "Awarded \u2014 the contract appears in KYTC's Unit Bid Tabulations for the Sep 24, 2026 letting, which the Cabinet titles \u201cBid Tabs of Awarded Projects\u201d; every bidder's items sum to the printed total within $0.01 (cent-rounded unit prices) {KY-33}.",
+   "quantities": [
+    "12 \u00d7 POLE 40 FT MTG HT",
+    "5 \u00d7 BRACKET 8 FT",
+    "3 \u00d7 BRACKET 10 FT",
+    "4 \u00d7 BRACKET 15 FT",
+    "12 \u00d7 POLE BASE",
+    "12 \u00d7 TRANSFORMER BASE",
+    "1 \u00d7 LIGHTING CONTROL EQUIPMENT",
+    "12 \u00d7 LED LUMINAIRE"
+   ],
+   "items": [
+    {
+     "line": "0680",
+     "code": "20410ED",
+     "section": "716",
+     "desc": "MAINTAIN LIGHTING",
+     "qty": 1.0,
+     "unit": "LS",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 11300.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 10300.0,
+      "RAME CONTRACTING LLC": 10000.0
+     },
+     "sub": "work"
+    },
+    {
+     "line": "1030",
+     "code": "04701",
+     "section": "716",
+     "desc": "POLE 40 FT MTG HT",
+     "qty": 12.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 4000.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 3605.0,
+      "RAME CONTRACTING LLC": 3500.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "1040",
+     "code": "04722",
+     "section": "716",
+     "desc": "BRACKET 8 FT",
+     "qty": 5.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 370.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 334.75,
+      "RAME CONTRACTING LLC": 325.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "1050",
+     "code": "04723",
+     "section": "716",
+     "desc": "BRACKET 10 FT",
+     "qty": 3.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 565.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 515.0,
+      "RAME CONTRACTING LLC": 500.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "1060",
+     "code": "04725",
+     "section": "716",
+     "desc": "BRACKET 15 FT",
+     "qty": 4.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 735.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 669.5,
+      "RAME CONTRACTING LLC": 650.0
+     },
+     "sub": "pole"
+    },
+    {
+     "line": "1070",
+     "code": "04740",
+     "section": "716",
+     "desc": "POLE BASE",
+     "qty": 12.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 2825.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 2575.0,
+      "RAME CONTRACTING LLC": 2500.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1080",
+     "code": "04750",
+     "section": "716",
+     "desc": "TRANSFORMER BASE",
+     "qty": 12.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 1700.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 1545.0,
+      "RAME CONTRACTING LLC": 1500.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1090",
+     "code": "04761",
+     "section": "716",
+     "desc": "LIGHTING CONTROL EQUIPMENT",
+     "qty": 1.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 17275.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 15750.76,
+      "RAME CONTRACTING LLC": 15292.0
+     },
+     "sub": "control"
+    },
+    {
+     "line": "1100",
+     "code": "04780",
+     "section": "716",
+     "desc": "FUSED CONNECTOR KIT",
+     "qty": 24.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 290.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 257.5,
+      "RAME CONTRACTING LLC": 250.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1110",
+     "code": "04820",
+     "section": "716",
+     "desc": "TRENCHING AND BACKFILLING",
+     "qty": 1200.0,
+     "unit": "LF",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 15.5,
+      "MAGO CONSTRUCTION COMPANY LLC": 13.95,
+      "RAME CONTRACTING LLC": 13.54
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1120",
+     "code": "04832",
+     "section": "716",
+     "desc": "WIRE-NO. 12",
+     "qty": 2200.0,
+     "unit": "LF",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 0.3,
+      "MAGO CONSTRUCTION COMPANY LLC": 0.29,
+      "RAME CONTRACTING LLC": 0.28
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1160",
+     "code": "24589ED",
+     "section": "716",
+     "desc": "LED LUMINAIRE",
+     "qty": 12.0,
+     "unit": "EACH",
+     "prices": {
+      "BLUEGRASS CONTRACTING CORPORATION": 1150.0,
+      "MAGO CONSTRUCTION COMPANY LLC": 1030.0,
+      "RAME CONTRACTING LLC": 1000.0
+     },
+     "sub": "luminaire"
+    }
+   ],
+   "samePrice": false,
+   "splitHw": {
+    "luminaire": 13800.0,
+    "pole": 54485.0,
+    "assembly": 0,
+    "control": 17275.0
+   },
+   "lumN": 12.0,
+   "poleN": 12.0
+  }
+ ],
+ "shared": [
+  {
+   "id": "26-1519",
+   "tip": "STPM 8743 (004)",
+   "county": "Jefferson",
+   "div": 5,
+   "let": "Sep 24, 2026",
+   "low": "LOUISVILLE PAVING COMPANY INC",
+   "amount": 4600.0,
+   "what": "conduit, wire, cable, junction boxes or trenching (04792\u201304899) with no lighting item beside them"
+  },
+  {
+   "id": "26-2240",
+   "tip": "FD05 082 0313 014-019",
+   "county": "Meade",
+   "div": 4,
+   "let": "Sep 24, 2026",
+   "low": "E & B PAVING LLC",
+   "amount": 1168.7,
+   "what": "conduit, wire, cable, junction boxes or trenching (04792\u201304899) with no lighting item beside them"
+  }
+ ],
+ "estimates": {
+  "26-4534": 1847954.15,
+  "26-1519": 24240784.95,
+  "26-4533": 3175596.43,
+  "26-4535": 1856351.66,
+  "26-1518": 1834759.11,
+  "26-4128": 3349969.86,
+  "26-2239": 115791.18,
+  "26-2240": 2490780.41,
+  "26-2231": 48381.25,
+  "26-2237": 31842.0,
+  "26-3038": 313783.69,
+  "26-3039": 381332.76
+ }
+}

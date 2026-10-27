@@ -1,0 +1,359 @@
+{
+ "letting": {
+  "id": "L260915",
+  "date": "Sep 15, 2026",
+  "iso": "2026-09-15",
+  "n": 8,
+  "low": 83263570.96,
+  "bids": 37,
+  "estimateTotal": 94566000.0,
+  "printedLettingTotal": 83263570.96,
+  "award": "apparent",
+  "reconciled": true
+ },
+ "lettingNote": "Nine proposals were advertised; the letting details page marks C205204 (Johnston) 'Withdrawn Project' with a Withdraw Letter from Letting, and it appears in neither Item C nor the bid tabs \u2014 RPN 005 is absent accordingly. The only Division 14-family items across all eight contracts are \u00a71413 PORTABLE LIGHTING (C205206, C204349, C204947 \u2014 excluded by rule) and a LUMINAIRE ARM FOR VIDEO SYSTEM in C204990 (ITS camera mount \u2014 excluded by rule); no lighting and no shared electrical anywhere in the letting.",
+ "all": [
+  {
+   "id": "C205206",
+   "rpn": "001",
+   "tip": "U-5728",
+   "wbs": "54019.3.1",
+   "funding": "5401901",
+   "county": "Onslow",
+   "div": 3,
+   "desc": "GRADING, DRAINAGE, PAVING, AND SIGNALS.",
+   "location": "INTERSECTION OF US-17 BUSINESS (MARINE BLVD) AND SR-1308 (BELL FORK RD).",
+   "lengthMiles": 0.575,
+   "let": "Sep 15, 2026",
+   "estimate": 8741000.0,
+   "nBidders": 3,
+   "low": "Barnhill Contracting Co",
+   "lowAmt": 7349796.06,
+   "bidders": [
+    [
+     "Barnhill Contracting Co",
+     7349796.06
+    ],
+    [
+     "Trader Construction Co",
+     8251236.75
+    ],
+    [
+     "C M Mitchell Construction Co Inc",
+     8754616.42
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "BARNHILL CONTRACTING CO",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C205203",
+   "rpn": "002",
+   "tip": "HN-0033",
+   "wbs": "51515.3.1",
+   "funding": "5151501",
+   "county": "Wayne",
+   "div": 4,
+   "desc": "GRADING, DRAINAGE, AND PAVING.",
+   "location": "INTERSECTION OF NC-55 AND SR-1744 (OLD SEVEN SPRINGS RD/INDIAN SPRINGS RD).",
+   "lengthMiles": 0.478,
+   "let": "Sep 15, 2026",
+   "estimate": 3688000.0,
+   "nBidders": 6,
+   "low": "Legion Asphalt Inc",
+   "lowAmt": 2899294.0,
+   "bidders": [
+    [
+     "Legion Asphalt Inc",
+     2899294.0
+    ],
+    [
+     "Barnhill Contracting Co",
+     2903456.34
+    ],
+    [
+     "FSC II LLC dba Fred Smith Company",
+     3191193.0
+    ],
+    [
+     "Branch Civil Inc",
+     3508500.0
+    ],
+    [
+     "Lanier Construction Co., Inc.",
+     3820126.46
+    ],
+    [
+     "S T Wooten Corporation",
+     3905325.2
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "LEGION ASPHALT INC",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C205233",
+   "rpn": "003",
+   "tip": "",
+   "wbs": "2027CPT.05.02.10921, 2027CPT.05.02.20921, 2027CPT.05.02.20922",
+   "funding": "STATE FUNDED",
+   "county": "Wake",
+   "div": 5,
+   "desc": "MILLING, RESURFACING, AND SHOULDER RECONSTRUCTION.",
+   "location": "1 SECTION OF US-64 BUS, AND 46 SECTIONS OF SECONDARY ROADS.",
+   "lengthMiles": 20.554,
+   "let": "Sep 15, 2026",
+   "estimate": 4658000.0,
+   "nBidders": 4,
+   "low": "Blythe Construction Inc",
+   "lowAmt": 4383730.75,
+   "bidders": [
+    [
+     "Blythe Construction Inc",
+     4383730.75
+    ],
+    [
+     "Sunrock Industries LLC dba Carolina Sunrock LLC",
+     4414582.3
+    ],
+    [
+     "FSC II LLC dba Fred Smith Company",
+     4560539.9
+    ],
+    [
+     "S T Wooten Corporation",
+     4632955.0
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "BLYTHE CONSTRUCTION INC",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C204349",
+   "rpn": "004",
+   "tip": "I-5995",
+   "wbs": "47950.3.1",
+   "funding": "0040077",
+   "county": "Wake, Durham",
+   "div": 5,
+   "desc": "PAVEMENT REHABILITATION.",
+   "location": "I-40 FROM EAST OF I-885/NC-885 TO SR-1728 (WADE AVE).",
+   "lengthMiles": 9.436,
+   "let": "Sep 15, 2026",
+   "estimate": 23863000.0,
+   "nBidders": 4,
+   "low": "Blythe Construction Inc",
+   "lowAmt": 21049440.2,
+   "bidders": [
+    [
+     "Blythe Construction Inc",
+     21049440.2
+    ],
+    [
+     "S T Wooten Corporation",
+     22691740.23
+    ],
+    [
+     "FSC II LLC dba Fred Smith Company",
+     26234523.54
+    ],
+    [
+     "Sunrock Industries LLC dba Carolina Sunrock LLC",
+     26639696.7
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "BLYTHE CONSTRUCTION INC",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C205234",
+   "rpn": "006",
+   "tip": "",
+   "wbs": "2027CPT.07.07.10791, 2027CPT.07.07.20791",
+   "funding": "STATE FUNDED",
+   "county": "Rockingham",
+   "div": 7,
+   "desc": "MILLING, RESURFACING, AND SHOULDER RECONSTRUCTION.",
+   "location": "",
+   "lengthMiles": 17.71,
+   "let": "Sep 15, 2026",
+   "estimate": 8304000.0,
+   "nBidders": 3,
+   "low": "APAC Atlantic Inc Thompson Arthur Division",
+   "lowAmt": 7041390.25,
+   "bidders": [
+    [
+     "APAC Atlantic Inc Thompson Arthur Division",
+     7041390.25
+    ],
+    [
+     "Vecellio & Grogan Inc dba Sharpe Brothers",
+     7615872.83
+    ],
+    [
+     "Blythe Construction Inc",
+     8011914.0
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "APAC ATLANTIC INC THOMPSON ARTHUR DIVISION",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C204990",
+   "rpn": "007",
+   "tip": "U-5711",
+   "wbs": "50160.3.1",
+   "funding": "5016002",
+   "county": "Randolph",
+   "div": 8,
+   "desc": "GRADING, DRAINAGE, PAVING, SIGNALS, AND CULVERT.",
+   "location": "SR-1712 (PINEVIEW ST) FROM W OF SYLVAN DR TO US-220 BUSINESS.",
+   "lengthMiles": 0.795,
+   "let": "Sep 15, 2026",
+   "estimate": 8615000.0,
+   "nBidders": 9,
+   "low": "APAC Atlantic Inc Thompson Arthur Division",
+   "lowAmt": 8375965.99,
+   "bidders": [
+    [
+     "APAC Atlantic Inc Thompson Arthur Division",
+     8375965.99
+    ],
+    [
+     "Triangle Grading & Paving Inc",
+     8379656.62
+    ],
+    [
+     "Ace Avant Concrete Construction Co Inc",
+     8454056.43
+    ],
+    [
+     "FSC II LLC dba Fred Smith Company",
+     9029900.0
+    ],
+    [
+     "Branch Civil Inc",
+     9043850.0
+    ],
+    [
+     "NJR Group Inc",
+     9215702.61
+    ],
+    [
+     "Vecellio & Grogan Inc dba Sharpe Brothers",
+     9361774.96
+    ],
+    [
+     "Caton Construction Group Inc",
+     9749124.33
+    ],
+    [
+     "J T Russell & Sons Inc",
+     10556578.9
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "APAC ATLANTIC INC THOMPSON ARTHUR DIVISION",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C205214",
+   "rpn": "008",
+   "tip": "B-4676A",
+   "wbs": "33831.3.3",
+   "funding": "3383101",
+   "county": "Wilkes",
+   "div": 11,
+   "desc": "GRADING, DRAINAGE, PAVING, SIGNALS, AND STRUCTURE.",
+   "location": "BRIDGE #960029 OVER CUB CREEK ON SR-1001 (OAKWOODS RD).",
+   "lengthMiles": 0.353,
+   "let": "Sep 15, 2026",
+   "estimate": 7066000.0,
+   "nBidders": 5,
+   "low": "James R Vannoy & Sons Construction Company, LLC",
+   "lowAmt": 6489103.71,
+   "bidders": [
+    [
+     "James R Vannoy & Sons Construction Company, LLC",
+     6489103.71
+    ],
+    [
+     "Kemp Sigmon Construction Co Inc",
+     6801641.05
+    ],
+    [
+     "Smith-Rowe, LLC",
+     6814188.53
+    ],
+    [
+     "Tri-County Paving Inc",
+     7709178.67
+    ],
+    [
+     "Caton Construction Group Inc",
+     8512074.06
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "JAMES R VANNOY & SONS CONSTRUCTION COMPANY, LLC",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  },
+  {
+   "id": "C204947",
+   "rpn": "009",
+   "tip": "U-4700CA, U-4700CB",
+   "wbs": "35993.3.5, 35993.3.9",
+   "funding": "NHP-0321(037), NHP-0321(046)",
+   "county": "Caldwell",
+   "div": 11,
+   "desc": "GRADING, DRAINAGE, PAVING, SIGNALS, AND WALL.",
+   "location": "",
+   "lengthMiles": 0.973,
+   "let": "Sep 15, 2026",
+   "estimate": 29631000.0,
+   "nBidders": 3,
+   "low": "Branch Civil Inc",
+   "lowAmt": 25674850.0,
+   "bidders": [
+    [
+     "Branch Civil Inc",
+     25674850.0
+    ],
+    [
+     "James R Vannoy & Sons Construction Company, LLC",
+     29977842.14
+    ],
+    [
+     "Crowder Construction Company",
+     38179903.4
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "BRANCH CIVIL INC",
+   "cls": "NONE",
+   "award": "apparent",
+   "awardNote": "Apparent \u2014 Item C for the September 15 letting sits under the letting page's Award Letter group but was posted before a Board record; the September 3, 2026 Board documents cover only the August 18 letting, and October 2026 Board documents were not posted as of October 26, 2026."
+  }
+ ],
+ "lighting": [],
+ "shared": []
+}

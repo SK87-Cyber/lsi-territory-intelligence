@@ -1,0 +1,703 @@
+{
+ "letting": {
+  "id": "L260923",
+  "date": "Sep 23, 2026",
+  "iso": "2026-09-23",
+  "n": 9,
+  "low": 52268591.0,
+  "bids": 32,
+  "awarded": 9,
+  "rejected": 0,
+  "awardArtifact": true,
+  "sessions": 2,
+  "read": 9
+ },
+ "all": [
+  {
+   "id": "061921",
+   "call": "020",
+   "tip": "HWYS. 10 & 365 PED. IMPVTS. (PULASKI CO.) (S)",
+   "county": "Pulaski",
+   "div": 6,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO CONSTRUCT CROSSWALKS, PEDESTRIAN, AND ADA IMPROVEMENTS ON HIGHWAYS 10 AND 365 IN PULASKI COUNTY. THIS PROJECT CONSIS",
+   "let": "Sep 23, 2026",
+   "low": "TI-ZACK CONCRETE, LLC",
+   "lowAmt": 2643278.0,
+   "bidders": [
+    [
+     "TI-ZACK CONCRETE, LLC",
+     2643278.0
+    ],
+    [
+     "INLINE, LLC",
+     2717266.0
+    ],
+    [
+     "REDSTONE CONSTRUCTION GROUP, LLC",
+     3155177.0
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "061950",
+   "call": "040",
+   "tip": "CENTRAL OFFICE PARKING LOT RESURFACING (S)",
+   "county": "Pulaski",
+   "div": 6,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO RESURFACE AND UPDATE PAVEMENT MARKING OF THE PARKING LOTS AT THE ARDOT CENTRAL OFFICE IN PULASKI COUNTY. THIS PROJEC",
+   "let": "Sep 23, 2026",
+   "low": "REDSTONE CONSTRUCTION GROUP, LLC",
+   "lowAmt": 725172.0,
+   "bidders": [
+    [
+     "REDSTONE CONSTRUCTION GROUP, LLC",
+     725172.0
+    ],
+    [
+     "CRANFORD CONSTRUCTION CO.",
+     799989.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "070458",
+   "call": "050",
+   "tip": "UPRR GRADE SEPARATION (EAST OF LAFAYETTE CO. LINE) (S)",
+   "county": "Columbia",
+   "div": 7,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO CONSTRUCT ONE FOUR LANE MEDIAN STRUCTURE ON HIGHWAY 82 IN COLUMBIA COUNTY. THIS PROJECT CONSISTS OF CLEARING AND GRU",
+   "let": "Sep 23, 2026",
+   "low": "MOBLEY CONTRACTORS, INC.",
+   "lowAmt": 27033828.0,
+   "bidders": [
+    [
+     "MOBLEY CONTRACTORS, INC.",
+     27033828.0
+    ],
+    [
+     "CAPITAL PAVING & CONSTRUCTION, LLC",
+     28810764.0
+    ],
+    [
+     "ROBERTSON CONTRACTORS, INC.",
+     29331953.0
+    ],
+    [
+     "JB JAMES CONSTRUCTION, LLC",
+     29718607.0
+    ],
+    [
+     "MCMILLEN, INC.",
+     30640849.0
+    ],
+    [
+     "WL BASS CONSTRUCTION, INC.",
+     30668520.0
+    ],
+    [
+     "MANHATTAN ROAD & BRIDGE COMPANY, LLC",
+     31163931.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "CB0401",
+   "call": "075",
+   "tip": "N. FLINT CREEK STR. & APPRS. (SPRINGTOWN) (S)",
+   "county": "Benton",
+   "div": 9,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO CONSTRUCT A QUINT. 12' X 8' R.C. BOX CULVERT AND APPROACHES ON 0.138 MILE OF BREDEHOEFT ROAD IN THE CITY OF SPRINGTO",
+   "let": "Sep 23, 2026",
+   "low": "MOBLEY CONTRACTORS, INC.",
+   "lowAmt": 1094785.0,
+   "bidders": [
+    [
+     "MOBLEY CONTRACTORS, INC.",
+     1094785.0
+    ],
+    [
+     "GRANT GARRETT EXCAVATING, INC.",
+     1289754.0
+    ],
+    [
+     "APAC-CENTRAL, INC.",
+     1362260.0
+    ],
+    [
+     "ROBERTSON CONTRACTORS, INC.",
+     1370831.0
+    ],
+    [
+     "NABHOLZ CONSTRUCTION CORPORATION",
+     1487097.0
+    ],
+    [
+     "KESSER INTERNATIONAL, INC.",
+     1542193.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "SA6949",
+   "call": "090",
+   "tip": "HERPEL ROAD SURFACING (S)",
+   "county": "Stone",
+   "div": 5,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO SURFACE 0.18 MILE OF HERPEL ROAD IN STONE COUNTY. THIS PROJECT CONSISTS OF AGGREGATE BASE COURSE, RECONSTRUCTED BASE",
+   "let": "Sep 23, 2026",
+   "low": "ATLAS ASPHALT, INC.",
+   "lowAmt": 138633.0,
+   "bidders": [
+    [
+     "ATLAS ASPHALT, INC.",
+     138633.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "110716",
+   "call": "010",
+   "tip": "HWYS. 185 & 318 STRS. & APPRS. (S)",
+   "county": "Phillips",
+   "div": 1,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO REPLACE THREE STRUCTURES ON HIGHWAYS 185 AND 318 IN PHILLIPS COUNTY. THIS PROJECT CONSISITS OF CLEARING AND GRUBBING",
+   "let": "Sep 23, 2026",
+   "low": "1911 CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 2994162.0,
+   "bidders": [
+    [
+     "1911 CONSTRUCTION COMPANY, INC.",
+     2994162.0
+    ],
+    [
+     "ROBERTSON CONTRACTORS, INC.",
+     3533216.0
+    ],
+    [
+     "CENTRAL ARKANSAS CONTRACTORS, INC.",
+     3632862.0
+    ],
+    [
+     "WHITE RIVER MATERIALS, INC.",
+     3716519.0
+    ],
+    [
+     "SEAGRAVES CONSTRUCTION, INC.",
+     3770798.0
+    ],
+    [
+     "MOBLEY CONTRACTORS, INC.",
+     3989844.0
+    ],
+    [
+     "KESSER INTERNATIONAL, INC.",
+     4222227.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "061938",
+   "call": "030",
+   "tip": "DISTRICT 6 INTERSTATE GUARDRAIL IMPVTS. (S)",
+   "county": "Pulaski",
+   "div": 6,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO PLACE GUARDRAILS ALONG VARIOUS INTERSTATES IN PULASKI COUNTY. THIS PROJECT CONSISTS OF REMOVAL AND DISPOSAL ITEMS, E",
+   "let": "Sep 23, 2026",
+   "low": "COLLINS & HERMANN, INC.",
+   "lowAmt": 14778442.0,
+   "bidders": [
+    [
+     "COLLINS & HERMANN, INC.",
+     14778442.0
+    ],
+    [
+     "REDSTONE CONSTRUCTION GROUP, LLC",
+     14954812.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "012559",
+   "call": "070",
+   "tip": "HWYS. 70 & 91 PED. IMPVTS. (CRAIGHEAD & CRITTENDEN COS.) (S)",
+   "county": "Craighead, Crittenden",
+   "div": 1,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO CONSTRUCT CROSSWALKS, PEDESTRIAN, AND ADA IMPROVEMENTS ON HIGHWAYS 70 AND 91 IN CRITTENDEN AND CRAIGHEAD COUNTIES. T",
+   "let": "Sep 23, 2026",
+   "low": "SHELBY ELECTRIC COMPANY, INC.",
+   "lowAmt": 2560413.0,
+   "bidders": [
+    [
+     "SHELBY ELECTRIC COMPANY, INC.",
+     2560413.0
+    ],
+    [
+     "TI-ZACK CONCRETE, LLC",
+     2681034.0
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded",
+   "reconciled": true
+  },
+  {
+   "id": "SA2046",
+   "call": "080",
+   "tip": "CO. RD. 273 – EAST (OVERLAY) (S)",
+   "county": "Dallas",
+   "div": 7,
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO OVERLAY APPROXIMATELY 0.96 MILE OF COUNTY ROAD 246 IN DALLAS COUNTY. THIS PROJECT CONSISTS OF ACHM SURFACE COURSE, A",
+   "let": "Sep 23, 2026",
+   "low": "REDSTONE CONSTRUCTION GROUP, LLC",
+   "lowAmt": 299878.0,
+   "bidders": [
+    [
+     "REDSTONE CONSTRUCTION GROUP, LLC",
+     299878.0
+    ],
+    [
+     "CRANFORD CONSTRUCTION CO.",
+     366773.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true
+  }
+ ],
+ "lighting": [
+  {
+   "id": "061921",
+   "tip": "HWYS. 10 & 365 PED. IMPVTS. (PULASKI CO.) (S)",
+   "county": "Pulaski",
+   "div": 6,
+   "districtLabel": "District 6",
+   "let": "Sep 23, 2026",
+   "low": "TI-ZACK CONCRETE, LLC",
+   "lowAmt": 2643278.0,
+   "bidders": 3,
+   "l2": 389064.28,
+   "product": 88440.0,
+   "split": {
+    "hardware": 88440.0,
+    "infrastructure": 300624.28,
+    "work": 0.0,
+    "lump": 0.0
+   },
+   "nItems": 86,
+   "rng": [
+    213319.33,
+    389064.28
+   ],
+   "cls": "L2",
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO CONSTRUCT CROSSWALKS, PEDESTRIAN, AND ADA IMPROVEMENTS ON HIGHWAYS 10 AND 365 IN PULASKI COUNTY. THIS PROJECT CONSISTS OF REMOVAL AND DISPOSAL ITEMS, EARTHWORK, ACHM SURFACE COURSE, COLD MILLING ASPHALT PAVEMENT, ACHM PATCHING OF EXISTING ROADWAY, MAINTENANCE OF TRAFFIC, EROSION CONTROL, TRAFFIC ITEMS, LIGHTING ITEMS, PAVEMENT MARKING, AND MISC. ITEMS.",
+   "share": 0.147,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.48,
+   "awardDate": null,
+   "awardNote": "Awarded — the job appears on ARDOT's Awards List for the Sep 23, 2026 letting with TI-ZACK CONCRETE, LLC, $2,643,278.48, matching the tabulation's base bid.",
+   "quantities": [
+    "6 × ROADWAY ILLUMINATION POLE (1 X 160W LED LUMINAIRE, BREAKAWAY BASE, 30')"
+   ],
+   "items": [
+    {
+     "line": "0059",
+     "code": "708451",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS FOR LUMINAIRES",
+     "qty": 270.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 4.95,
+      "INLINE, LLC": 3.41,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 4.5
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0069",
+     "code": "714770",
+     "section": "714",
+     "desc": "ROADWAY ILLUMINATION POLE (1 X 160W LED LUMINAIRE, BREAKAWAY BASE, 30')",
+     "qty": 6.0,
+     "unit": "EACH",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 14740.0,
+      "INLINE, LLC": 10361.64,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 15410.0
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0054",
+     "code": "708207",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (1C/8 A.W.G., E.G.C.)",
+     "qty": 4832.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 2.86,
+      "INLINE, LLC": 2.62,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 2.6
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0055",
+     "code": "708211",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (1C/12 A.W.G., E.G.C.)",
+     "qty": 270.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 1.76,
+      "INLINE, LLC": 1.72,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 1.6
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0056",
+     "code": "708217",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (2C/6 A.W.G.)",
+     "qty": 30.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 16.5,
+      "INLINE, LLC": 6.93,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 15.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0057",
+     "code": "708219",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (2C/8 A.W.G.)",
+     "qty": 572.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 5.94,
+      "INLINE, LLC": 5.25,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 5.4
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0058",
+     "code": "708221",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (2C/10 A.W.G.)",
+     "qty": 642.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 5.39,
+      "INLINE, LLC": 5.25,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 4.9
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0061",
+     "code": "710004",
+     "section": "710",
+     "desc": "NON-METALLIC CONDUIT (2\")",
+     "qty": 508.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 82.5,
+      "INLINE, LLC": 32.3,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 75.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0062",
+     "code": "710005",
+     "section": "710",
+     "desc": "NON-METALLIC CONDUIT (3\")",
+     "qty": 2143.0,
+     "unit": "LF",
+     "prices": {
+      "TI-ZACK CONCRETE, LLC": 110.0,
+      "INLINE, LLC": 53.25,
+      "REDSTONE CONSTRUCTION GROUP, LLC": 100.0
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0.0,
+    "pole": 0.0,
+    "assembly": 88440.0,
+    "control": 0.0
+   },
+   "lumN": 6.0,
+   "poleN": 6.0
+  },
+  {
+   "id": "012559",
+   "tip": "HWYS. 70 & 91 PED. IMPVTS. (CRAIGHEAD & CRITTENDEN COS.) (S)",
+   "county": "Craighead, Crittenden",
+   "div": 1,
+   "districtLabel": "Districts 1 & 10",
+   "let": "Sep 23, 2026",
+   "low": "SHELBY ELECTRIC COMPANY, INC.",
+   "lowAmt": 2560413.0,
+   "bidders": 2,
+   "l2": 148468.4,
+   "product": 62800.0,
+   "split": {
+    "hardware": 62800.0,
+    "infrastructure": 85668.4,
+    "work": 0.0,
+    "lump": 0.0
+   },
+   "nItems": 87,
+   "rng": [
+    148468.4,
+    247515.25
+   ],
+   "cls": "L2",
+   "desc": "THE PURPOSE OF THIS PROJECT IS TO CONSTRUCT CROSSWALKS, PEDESTRIAN, AND ADA IMPROVEMENTS ON HIGHWAYS 70 AND 91 IN CRITTENDEN AND CRAIGHEAD COUNTIES. THIS PROJECT CONSISTS OF REMOVAL AND DISPOSAL ITEMS, EARTHWORK, ACHM SURFACE COURSE, COLD MILLING ASPHALT PAVEMENT, ACHM PATCHING OF EXISTING ROADWAY, MAINTENANCE OF TRAFFIC, EROSION CONTROL, TRAFFIC ITEMS, LIGHTING ITEMS, PAVEMENT MARKING, AND MISC. ITEMS.",
+   "share": 0.058,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.35,
+   "awardDate": null,
+   "awardNote": "Awarded — the job appears on ARDOT's Awards List for the Sep 23, 2026 letting with SHELBY ELECTRIC COMPANY, INC., $2,560,413.35, matching the tabulation's base bid.",
+   "quantities": [
+    "8 × ROADWAY ILLUMINATION POLE (1 X 160W LED LUMINAIRE, BREAKAWAY BASE, 30')"
+   ],
+   "items": [
+    {
+     "line": "0061",
+     "code": "708451",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS FOR LUMINAIRES",
+     "qty": 360.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 4.65,
+      "TI-ZACK CONCRETE, LLC": 12.4
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0073",
+     "code": "714770",
+     "section": "714",
+     "desc": "ROADWAY ILLUMINATION POLE (1 X 160W LED LUMINAIRE, BREAKAWAY BASE, 30')",
+     "qty": 8.0,
+     "unit": "EACH",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 7850.0,
+      "TI-ZACK CONCRETE, LLC": 15364.17
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0056",
+     "code": "708207",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (1C/8 A.W.G., E.G.C.)",
+     "qty": 3524.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 2.25,
+      "TI-ZACK CONCRETE, LLC": 3.71
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0057",
+     "code": "708211",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (1C/12 A.W.G., E.G.C.)",
+     "qty": 360.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 1.95,
+      "TI-ZACK CONCRETE, LLC": 2.52
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0058",
+     "code": "708217",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (2C/6 A.W.G.)",
+     "qty": 99.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 8.0,
+      "TI-ZACK CONCRETE, LLC": 13.24
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0059",
+     "code": "708219",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (2C/8 A.W.G.)",
+     "qty": 743.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 6.0,
+      "TI-ZACK CONCRETE, LLC": 5.77
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0060",
+     "code": "708221",
+     "section": "708",
+     "desc": "ELECTRICAL CONDUCTORS-IN-CONDUIT (2C/10 A.W.G.)",
+     "qty": 844.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 6.85,
+      "TI-ZACK CONCRETE, LLC": 5.78
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0063",
+     "code": "710004",
+     "section": "710",
+     "desc": "NON-METALLIC CONDUIT (2\")",
+     "qty": 479.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 28.0,
+      "TI-ZACK CONCRETE, LLC": 46.14
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0064",
+     "code": "710005",
+     "section": "710",
+     "desc": "NON-METALLIC CONDUIT (3\")",
+     "qty": 1273.0,
+     "unit": "LF",
+     "prices": {
+      "SHELBY ELECTRIC COMPANY, INC.": 40.0,
+      "TI-ZACK CONCRETE, LLC": 57.8
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0.0,
+    "pole": 0.0,
+    "assembly": 62800.0,
+    "control": 0.0
+   },
+   "lumN": 8.0,
+   "poleN": 8.0
+  }
+ ],
+ "shared": [],
+ "awards": {
+  "061921": {
+   "status": "awarded",
+   "contractor": "TI-ZACK CONCRETE, LLC",
+   "amt": 2643278.48,
+   "district": "6"
+  },
+  "061950": {
+   "status": "awarded",
+   "contractor": "REDSTONE CONSTRUCTION GROUP, LLC",
+   "amt": 725171.72,
+   "district": "6"
+  },
+  "070458": {
+   "status": "awarded",
+   "contractor": "MOBLEY CONTRACTORS, INC.",
+   "amt": 27033828.2,
+   "district": "7"
+  },
+  "CB0401": {
+   "status": "awarded",
+   "contractor": "MOBLEY CONTRACTORS, INC.",
+   "amt": 1094785.19,
+   "district": "9"
+  },
+  "SA6949": {
+   "status": "awarded",
+   "contractor": "ATLAS ASPHALT, INC.",
+   "amt": 138632.88,
+   "district": "5"
+  },
+  "110716": {
+   "status": "awarded",
+   "contractor": "1911 CONSTRUCTION COMPANY, INC.",
+   "amt": 2994161.95,
+   "district": "1"
+  },
+  "061938": {
+   "status": "awarded",
+   "contractor": "COLLINS & HERMANN, INC.",
+   "amt": 14778441.76,
+   "district": "6"
+  },
+  "012559": {
+   "status": "awarded",
+   "contractor": "SHELBY ELECTRIC COMPANY, INC.",
+   "amt": 2560413.35,
+   "district": "1 & 10"
+  },
+  "SA2046": {
+   "status": "awarded",
+   "contractor": "REDSTONE CONSTRUCTION GROUP, LLC",
+   "amt": 299877.83,
+   "district": "7"
+  }
+ },
+ "schedule": {
+  "2026": [
+   "January 21, 2026",
+   "March 4, 2026",
+   "April 8, 2026",
+   "May 20, 2026",
+   "June 24, 2026",
+   "August 12, 2026",
+   "September 23, 2026",
+   "November 4, 2026"
+  ],
+  "2027": [
+   "January 20, 2027",
+   "March 3, 2027",
+   "April 14, 2027",
+   "May 19, 2027",
+   "June 30, 2027",
+   "August 11, 2027",
+   "September 22, 2027",
+   "November 3, 2027"
+  ]
+ }
+}

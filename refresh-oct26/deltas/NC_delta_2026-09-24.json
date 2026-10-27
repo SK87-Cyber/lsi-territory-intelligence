@@ -1,0 +1,47 @@
+{
+ "letting": {
+  "id": "L260924",
+  "date": "Sep 24, 2026",
+  "iso": "2026-09-24",
+  "n": 1,
+  "low": 8665580.39,
+  "bids": 1,
+  "estimateTotal": 8381622.69,
+  "printedLettingTotal": 8665580.39,
+  "award": "awarded",
+  "reconciled": true
+ },
+ "lettingNote": "Single-contract additional letting (CMGC bridge package, New Hanover HB-0040 equivalent WBS 50607.3.1). One bidder. The only Division 14-family item is \u00a71413 PORTABLE LIGHTING (excluded by rule); no lighting and no shared electrical.",
+ "all": [
+  {
+   "id": "C205140",
+   "rpn": "001",
+   "tip": "",
+   "wbs": "50607.3.1",
+   "funding": "STATE FUNDED",
+   "county": "New Hanover",
+   "div": 3,
+   "desc": "GRADING, DRAINAGE, PAVING, SIGNALS, AND STRUCTURES. (CMGC)",
+   "location": "",
+   "lengthMiles": 0.65,
+   "let": "Sep 24, 2026",
+   "estimate": 8381622.69,
+   "nBidders": 1,
+   "low": "Balfour Beatty Infrastructure Inc",
+   "lowAmt": 8665580.39,
+   "bidders": [
+    [
+     "Balfour Beatty Infrastructure Inc",
+     8665580.39
+    ]
+   ],
+   "itemsReconciled": true,
+   "lowSheet": "BALFOUR BEATTY INFRASTRUCTURE INC",
+   "cls": "NONE",
+   "award": "awarded",
+   "awardNote": "Awarded \u2014 NCDOT Notification of Award letter dated October 1, 2026 (September-24-Award-Letter.pdf): 'This is official notification that the Secretary Of Transportation has awarded you the contract for the above project based on the bid submitted on September 24, 2026 in the amount of $8,665,580.39.' Addressed to Balfour Beatty Infrastructure Inc, Wilmington, NC. Contract awards are delegated to the Secretary (September 3, 2026 minutes record that Item C requires no formal Board action); the October 2026 Board record was not yet posted as of October 26, 2026."
+  }
+ ],
+ "lighting": [],
+ "shared": []
+}

@@ -1,0 +1,93 @@
+{
+ "letting": {
+  "id": "L260901",
+  "date": "Sep 1, 2026",
+  "iso": "2026-09-01",
+  "n": 2,
+  "low": 53976435.34,
+  "bids": 9,
+  "awarded": 2,
+  "rejected": 0,
+  "awardArtifact": true,
+  "tc": "MS-62",
+  "ac": "MS-63",
+  "read": 2,
+  "kind": "Special",
+  "awardDate": "September 8, 2026",
+  "unmatched": 0
+ },
+ "all": [
+  {
+   "id": "102383302",
+   "call": "04",
+   "tip": "BR-0051-02(023) / 102383302",
+   "county": "Tallahatchie",
+   "div": 2,
+   "desc": "Bridge Replacements on SR 32 between Webb & Charleston (Bridge Nos. 45.6, 46.2 & 47.0), known as Federal Aid Project No. BR-0051 -02(023) / 102383302 ",
+   "let": "Sep 1, 2026",
+   "low": "Talbot Brothers Contracting Co., Inc.",
+   "lowAmt": 47169530.82,
+   "bidders": [
+    [
+     "Talbot Brothers Contracting Co., Inc.",
+     47169530.82
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     50431870.22
+    ],
+    [
+     "Malouf Construction, LLC",
+     53799229.87
+    ],
+    [
+     "Cotton Creek Transport, Inc.",
+     53963362.61
+    ],
+    [
+     "Mobley Contractors, Inc.",
+     55943349.01
+    ],
+    [
+     "Century Construction Group, Inc.",
+     61914444.16
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 47151969.75
+  },
+  {
+   "id": "106972301",
+   "call": "09",
+   "tip": "STP-2175-00(014) / 106972301 & STP-2175-00(016) / 106972302",
+   "county": "Pike",
+   "div": 7,
+   "desc": "Bridge Replacement on US 51 over unnamed Streams (Bridge Nos. 11.7 & 12.1) & between Magnolia & Fernwood (Bridge Nos. 13.3 13.4), known as Federal Aid",
+   "let": "Sep 1, 2026",
+   "low": "T. L. Wallace Construction, Inc.",
+   "lowAmt": 6806904.52,
+   "bidders": [
+    [
+     "T. L. Wallace Construction, Inc.",
+     6806904.52
+    ],
+    [
+     "Chris Albritton Construction Company, Inc.",
+     7569887.53
+    ],
+    [
+     "Hemphill Construction Company, Inc.",
+     7925961.1
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 7496504.55
+  }
+ ],
+ "lighting": [],
+ "shared": []
+}

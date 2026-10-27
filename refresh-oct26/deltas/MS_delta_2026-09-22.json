@@ -1,0 +1,391 @@
+{
+ "letting": {
+  "id": "L260922",
+  "date": "Sep 22, 2026",
+  "iso": "2026-09-22",
+  "n": 11,
+  "low": 28541618.13,
+  "bids": 45,
+  "awarded": 0,
+  "rejected": 0,
+  "awardArtifact": false,
+  "tc": "MS-64",
+  "ac": null,
+  "read": 11,
+  "kind": "Regular",
+  "awardDate": null,
+  "unmatched": 0,
+  "withdrawn": 1
+ },
+ "all": [
+  {
+   "id": "110037301",
+   "call": "01",
+   "tip": "NHPP-0002-08(027) / 110037301",
+   "county": "Alcorn",
+   "div": 1,
+   "desc": "Bridge Repair on US 45 over Norfolk Southern Railroad (Bridge Nos. 275.6A & 275.6B), known as Federal Aid Project No. NHPP-0002- 08(027) / 110037301 i",
+   "let": "Sep 22, 2026",
+   "low": "Phillips Contracting Co., Inc.",
+   "lowAmt": 974078.6,
+   "bidders": [
+    [
+     "Phillips Contracting Co., Inc.",
+     974078.6
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     1133280.0
+    ],
+    [
+     "Gibson & Associates, Inc.",
+     1176361.95
+    ],
+    [
+     "Century Construction Group, Inc.",
+     1255877.5
+    ],
+    [
+     "Concrete Strategies, LLC",
+     1398402.85
+    ],
+    [
+     "Talbot Brothers Contracting Co., Inc.",
+     1660105.0
+    ],
+    [
+     "Southern Road & Bridge, LLC",
+     2829054.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 1074974.8
+  },
+  {
+   "id": "110042301",
+   "call": "02",
+   "tip": "STBG-0011-01(077) / 110042301",
+   "county": "Washington",
+   "div": 3,
+   "desc": "Bridge Repair on US 82 over Bogue Phalia (Bridge No. 22.1B) & Bridge Repair on MS 438 over Bogue Phalia (Bridge No. 11.1) known as Federal Aid Project",
+   "let": "Sep 22, 2026",
+   "low": "Gibson & Associates, Inc.",
+   "lowAmt": 1842025.46,
+   "bidders": [
+    [
+     "Gibson & Associates, Inc.",
+     1842025.46
+    ],
+    [
+     "Concrete Strategies, LLC",
+     1987782.45
+    ],
+    [
+     "Hope Enterprises, LLC",
+     2406122.86
+    ],
+    [
+     "Southern Road & Bridge, LLC",
+     3961990.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 1688152.9
+  },
+  {
+   "id": "109518301",
+   "call": "03",
+   "tip": "HSIP-0011-03(090) / 109518301 & STP-0011-03(091) / 109752302",
+   "county": "Oktibbeha",
+   "div": 1,
+   "desc": "Restricted crossing U-Turn (RCUT) on US 82 at Sturgis-Maben Road & Mill & Overlay approximately 7.3 miles of US 82 from Choctaw County Line to the beg",
+   "let": "Sep 22, 2026",
+   "low": "Cook & Son, LLC",
+   "lowAmt": 11491387.68,
+   "bidders": [
+    [
+     "Cook & Son, LLC",
+     11491387.68
+    ],
+    [
+     "APAC - Mississippi, Inc.",
+     11518070.9
+    ],
+    [
+     "Falcon Contracting Company, Inc.",
+     12834183.09
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     13321704.65
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 12646633.65
+  },
+  {
+   "id": "110064301",
+   "call": "04",
+   "tip": "IM-0055-04(124) / 110064301, IM-0055-04(125) / 110065301 & IM-0055-04(126) / 110066301",
+   "county": "DeSoto & Tate",
+   "div": 2,
+   "desc": "Remove OGFC & Replace with Micro-Surface on I-55 for approximately 14.1 miles from approximately 2.2 miles north of the Desoto/Tate County Line to the",
+   "let": "Sep 22, 2026",
+   "low": "Vance Brothers, LLC",
+   "lowAmt": 8201203.69,
+   "bidders": [
+    [
+     "Vance Brothers, LLC",
+     8201203.69
+    ],
+    [
+     "T. L. Wallace Construction, Inc.",
+     8203485.9
+    ],
+    [
+     "Intermountain Slurry Seal, Inc.",
+     10088396.25
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 9000437.6
+  },
+  {
+   "id": "110222301",
+   "call": "07",
+   "tip": "STBG-0057-01(008) / 110222301",
+   "county": "Coahoma",
+   "div": 2,
+   "desc": "Mill & Overlay approximately 2.5 miles of US 49 from SR 1 to the Isle of Capri Parkway, known as Federal Aid Project No. STBG-0057- 01(008) / 11022230",
+   "let": "Sep 22, 2026",
+   "low": "Lehman-Roberts Company",
+   "lowAmt": 1963687.7,
+   "bidders": [
+    [
+     "Lehman-Roberts Company",
+     1963687.7
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 1691821.45
+  },
+  {
+   "id": "110227301",
+   "call": "08",
+   "tip": "STBG-0209-00(007) / 110227301",
+   "county": "Covington",
+   "div": 7,
+   "desc": "Bridge Repair on SR 532 over Stream (Bridge No. 13.5), known as Federal Aid Project No. STBG-0209-00(007) / 110227301 in Covington County.",
+   "let": "Sep 22, 2026",
+   "low": "T. L. Wallace Construction, Inc.",
+   "lowAmt": 496786.45,
+   "bidders": [
+    [
+     "T. L. Wallace Construction, Inc.",
+     496786.45
+    ],
+    [
+     "Joe McGee Construction Company, Inc.",
+     528201.45
+    ],
+    [
+     "Hope Enterprises, LLC",
+     528489.75
+    ],
+    [
+     "Hemphill Construction Company, Inc.",
+     528832.0
+    ],
+    [
+     "Key, LLC",
+     696014.5
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     838000.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 522901.81
+  },
+  {
+   "id": "110184301",
+   "call": "09",
+   "tip": "STBG-0510-00(012) / 110184301",
+   "county": "Yazoo",
+   "div": 3,
+   "desc": "Bridge Repair on SR 433 over Mound Creek (Bridge No. 11.6), known as Federal Aid Project No. STBG-0510-00(012) / 110184301 Yazoo County.",
+   "let": "Sep 22, 2026",
+   "low": "Gibson & Associates, Inc.",
+   "lowAmt": 125180.8,
+   "bidders": [
+    [
+     "Gibson & Associates, Inc.",
+     125180.8
+    ],
+    [
+     "Hemphill Construction Company, Inc.",
+     161354.0
+    ],
+    [
+     "Key, LLC",
+     227628.0
+    ],
+    [
+     "Hope Enterprises, LLC",
+     260483.2
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 147800.8
+  },
+  {
+   "id": "110212301",
+   "call": "10",
+   "tip": "HRRR-0914-00(042) / 110212301",
+   "county": "Marshall",
+   "div": 2,
+   "desc": "Safety Improvements & Pavement Markings approximately 30.3 miles of MS 309 from Byhalia to MS 4 and on MS 349 from MS 701 the Union County Line, known",
+   "let": "Sep 22, 2026",
+   "low": "Riverside Traffic Systems, Inc.",
+   "lowAmt": 1016842.0,
+   "bidders": [
+    [
+     "Riverside Traffic Systems, Inc.",
+     1016842.0
+    ],
+    [
+     "RoadSafe Traffic Systems, Inc.",
+     1711000.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 1638262.75
+  },
+  {
+   "id": "109707301",
+   "call": "11",
+   "tip": "STBG-2708-00(002) / 109707301 & 109707302",
+   "county": "Lowndes & Monroe",
+   "div": 1,
+   "desc": "Bridge Removal on SR 373 (Bridge Nos. 9.9 & 10.3), known as Federal Aid Project No. STBG-2708-00(002) / 109707301,302 in Lowndes and Monroe County.",
+   "let": "Sep 22, 2026",
+   "low": "Xcavators, Inc.",
+   "lowAmt": 715529.0,
+   "bidders": [
+    [
+     "Xcavators, Inc.",
+     715529.0
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     765220.0
+    ],
+    [
+     "Century Construction Group, Inc.",
+     837922.0
+    ],
+    [
+     "Phillips Contracting Co., Inc.",
+     936954.0
+    ],
+    [
+     "Cook & Son, LLC",
+     1475275.37
+    ],
+    [
+     "T. L. Wallace Construction, Inc.",
+     1999003.4
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 654888.7
+  },
+  {
+   "id": "110211301",
+   "call": "12",
+   "tip": "HRRR-7889-00(007) / 110211301 & 110211302 & 110211303",
+   "county": "DeSoto & Panola & Tate",
+   "div": 2,
+   "desc": "Installation of Audible Thermoplastic Traffic Markings & Thermoplastic Pavement Markings on US 51 for approximately 12.7 miles the Tate County Line to",
+   "let": "Sep 22, 2026",
+   "low": "Riverside Traffic Systems, Inc.",
+   "lowAmt": 1574930.75,
+   "bidders": [
+    [
+     "Riverside Traffic Systems, Inc.",
+     1574930.75
+    ],
+    [
+     "RoadSafe Traffic Systems, Inc.",
+     3318000.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 2720466.3
+  },
+  {
+   "id": "110120301",
+   "call": "13",
+   "tip": "SP-9647-00(003) / 110120301",
+   "county": "Union",
+   "div": 1,
+   "desc": "Bridge Repair on SR 348 over Kings Creek (Bridge No. 0.9), known as State Project No. SP-9647-00(003) / 110120301 in Union County.",
+   "let": "Sep 22, 2026",
+   "low": "Phillips Contracting Co., Inc.",
+   "lowAmt": 139966.0,
+   "bidders": [
+    [
+     "Phillips Contracting Co., Inc.",
+     139966.0
+    ],
+    [
+     "Hemphill Construction Company, Inc.",
+     190200.3
+    ],
+    [
+     "J. M. Duncan, Inc.",
+     192188.2
+    ],
+    [
+     "Gibson & Associates, Inc.",
+     192810.4
+    ],
+    [
+     "Century Construction Group, Inc.",
+     199659.0
+    ],
+    [
+     "Talbot Brothers Contracting Co., Inc.",
+     251764.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 180775.0
+  }
+ ],
+ "lighting": [],
+ "shared": []
+}

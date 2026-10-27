@@ -1,0 +1,76 @@
+{
+ "letting": {
+  "id": "L260929",
+  "date": "Sep 29, 2026",
+  "iso": "2026-09-29",
+  "n": 1,
+  "low": 57151644.0,
+  "bids": 6,
+  "awarded": 0,
+  "rejected": 0,
+  "awardArtifact": false,
+  "tc": "MS-66",
+  "ac": null,
+  "read": 1,
+  "kind": "Special",
+  "awardDate": null,
+  "unmatched": 0
+ },
+ "all": [
+  {
+   "id": "104101302",
+   "call": "05",
+   "tip": "STBG-0056-01(076) / 104101302, STBG-0056-01(127) / 104101305 & NHPP-0056-01(105) / 108281301",
+   "county": "Rankin",
+   "div": 5,
+   "desc": "Add 2 Lanes on SR 25 from Grants Ferry to SR 471, Ramp Improvements & Roundabouts on MS 471 at the SR 25 Interchange Ramps and Spillway Road, & Bridge",
+   "let": "Sep 29, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "lowAmt": 57151644.0,
+   "bidders": [
+    [
+     "Hemphill Construction Company, Inc.",
+     57151644.0
+    ],
+    [
+     "T. L. Wallace Construction, Inc.",
+     61685350.09
+    ],
+    [
+     "Necaise Brothers Construction Co., Inc.",
+     65497039.15
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     68595694.9
+    ],
+    [
+     "Joe McGee Construction Company, Inc.",
+     71213566.4
+    ],
+    [
+     "W. G. Yates & Sons Construction Company",
+     76708752.9
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 57388431.89,
+   "note": "A+C bid \u2014 ranked on cost plus time consideration ($60,352,844.00 for the low bidder); the cost figure is shown"
+  }
+ ],
+ "lighting": [],
+ "shared": [
+  {
+   "id": "104101302",
+   "tip": "STBG-0056-01(076) / 104101302, STBG-0056-01(127) / 104101305 & NHPP-0056-01(105) / 108281301",
+   "county": "Rankin",
+   "div": 5,
+   "let": "Sep 29, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "amount": 6751.5,
+   "what": "Section 682 and 685 junction boxes or service poles with no lighting-specific item beside them"
+  }
+ ]
+}

@@ -1,0 +1,518 @@
+{
+ "letting": "Aug 20, 2026",
+ "source": "Unit Bid Tabulations (\u201cBid Tabs of Awarded Projects\u201d), posted on the KYTC letting page; presence in the tab is the award",
+ "contractsInTab": 43,
+ "bidderColumnsReconciled": "101 of 101",
+ "allReconciled": true,
+ "maxResidual": 0.01,
+ "awarded": [
+  {
+   "id": "26-2948",
+   "call": "100",
+   "tabLowBidder": "FREDERICK & MAY CONSTRUCTION CO",
+   "tabTotal": 1155744.7,
+   "reconciled": true,
+   "maxResidual": 0.01,
+   "recordAward": "awarded",
+   "recordLowAmt": 1155744.7,
+   "agree": true
+  },
+  {
+   "id": "26-5416",
+   "call": "101",
+   "tabLowBidder": "JAVE LLC",
+   "tabTotal": 819056.82,
+   "reconciled": true,
+   "maxResidual": 0.01,
+   "recordAward": "awarded",
+   "recordLowAmt": 819056.82,
+   "agree": true
+  },
+  {
+   "id": "26-4700",
+   "call": "102",
+   "tabLowBidder": "THE TRUESDELL CORPORATION",
+   "tabTotal": 105105.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 105105.0,
+   "agree": true
+  },
+  {
+   "id": "26-1515",
+   "call": "103",
+   "tabLowBidder": "BIZZACK CONSTRUCTION LLC",
+   "tabTotal": 15232039.07,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 15232039.07,
+   "agree": true
+  },
+  {
+   "id": "26-4127",
+   "call": "104",
+   "tabLowBidder": "E & B PAVING LLC",
+   "tabTotal": 413146.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 413146.0,
+   "agree": true
+  },
+  {
+   "id": "26-1517",
+   "call": "302",
+   "tabLowBidder": "L-M ASPHALT PARTNERS LTD D/B/A ATS CONSTRUCTION",
+   "tabTotal": 68397740.9,
+   "reconciled": true,
+   "maxResidual": 0.01,
+   "recordAward": "awarded",
+   "recordLowAmt": 68397740.9,
+   "agree": true
+  },
+  {
+   "id": "26-2138",
+   "call": "303",
+   "tabLowBidder": "GADDIE-SHAMROCK LLC",
+   "tabTotal": 745269.52,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 745269.52,
+   "agree": true
+  },
+  {
+   "id": "26-2171",
+   "call": "304",
+   "tabLowBidder": "JIM SMITH CONTRACTING COMPANY LLC",
+   "tabTotal": 1040660.4,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1040660.4,
+   "agree": true
+  },
+  {
+   "id": "26-2131",
+   "call": "305",
+   "tabLowBidder": "CLEARY CONSTRUCTION INC",
+   "tabTotal": 1450000.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1450000.0,
+   "agree": true
+  },
+  {
+   "id": "26-2207",
+   "call": "306",
+   "tabLowBidder": "HINKLE CONTRACTING COMPANY LLC",
+   "tabTotal": 355469.62,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 355469.62,
+   "agree": true
+  },
+  {
+   "id": "26-2142",
+   "call": "309",
+   "tabLowBidder": "MOUNTAIN ENTERPRISES INC",
+   "tabTotal": 908216.3,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 908216.3,
+   "agree": true
+  },
+  {
+   "id": "26-2196",
+   "call": "311",
+   "tabLowBidder": "L-M ASPHALT PARTNERS LTD D/B/A ATS CONSTRUCTION",
+   "tabTotal": 1382429.04,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1382429.04,
+   "agree": true
+  },
+  {
+   "id": "26-2014",
+   "call": "313",
+   "tabLowBidder": "CENTRAL PAVING COMPANY OF PADUCAH",
+   "tabTotal": 568926.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 568926.0,
+   "agree": true
+  },
+  {
+   "id": "26-2223",
+   "call": "314",
+   "tabLowBidder": "HINKLE CONTRACTING COMPANY LLC",
+   "tabTotal": 805649.25,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 805649.25,
+   "agree": true
+  },
+  {
+   "id": "26-2021",
+   "call": "315",
+   "tabLowBidder": "ROGERS GROUP INC",
+   "tabTotal": 355873.17,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 355873.17,
+   "agree": true
+  },
+  {
+   "id": "26-2040",
+   "call": "316",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 965469.58,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 965469.58,
+   "agree": true
+  },
+  {
+   "id": "26-2229",
+   "call": "317",
+   "tabLowBidder": "EATON ASPHALT PAVING CO INC",
+   "tabTotal": 187762.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 187762.0,
+   "agree": true
+  },
+  {
+   "id": "26-2126",
+   "call": "318",
+   "tabLowBidder": "MAGO CONSTRUCTION COMPANY LLC",
+   "tabTotal": 535442.99,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 535442.99,
+   "agree": true
+  },
+  {
+   "id": "26-2205",
+   "call": "319",
+   "tabLowBidder": "HINKLE CONTRACTING COMPANY LLC",
+   "tabTotal": 460455.45,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 460455.45,
+   "agree": true
+  },
+  {
+   "id": "26-2072",
+   "call": "320",
+   "tabLowBidder": "HAYDON MATERIALS LLC",
+   "tabTotal": 1205772.99,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1205772.99,
+   "agree": true
+  },
+  {
+   "id": "26-2156",
+   "call": "321",
+   "tabLowBidder": "H G MAYS CORPORATION",
+   "tabTotal": 336060.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 336060.0,
+   "agree": true
+  },
+  {
+   "id": "26-2235",
+   "call": "323",
+   "tabLowBidder": "WALKER CONSTRUCTION & MATERIALS LLC",
+   "tabTotal": 886505.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 886505.0,
+   "agree": true
+  },
+  {
+   "id": "26-2202",
+   "call": "324",
+   "tabLowBidder": "NALLY & GIBSON GEORGETOWN LLC DBA HAMILTON-HINKLE PAVING CO",
+   "tabTotal": 572427.6,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 572427.6,
+   "agree": true
+  },
+  {
+   "id": "26-2201",
+   "call": "325",
+   "tabLowBidder": "NALLY & GIBSON GEORGETOWN LLC DBA HAMILTON-HINKLE PAVING CO",
+   "tabTotal": 208105.5,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 208105.5,
+   "agree": true
+  },
+  {
+   "id": "26-2026",
+   "call": "326",
+   "tabLowBidder": "ROGERS GROUP INC",
+   "tabTotal": 566700.36,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 566700.36,
+   "agree": true
+  },
+  {
+   "id": "26-2027",
+   "call": "327",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 615646.38,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 615646.38,
+   "agree": true
+  },
+  {
+   "id": "26-3026",
+   "call": "329",
+   "tabLowBidder": "HINKLE CONTRACTING COMPANY LLC",
+   "tabTotal": 96857.19,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 96857.19,
+   "agree": true
+  },
+  {
+   "id": "26-3018",
+   "call": "330",
+   "tabLowBidder": "E & B PAVING LLC",
+   "tabTotal": 387599.79,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 387599.79,
+   "agree": true
+  },
+  {
+   "id": "26-3020",
+   "call": "331",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 299991.03,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 299991.03,
+   "agree": true
+  },
+  {
+   "id": "26-3017",
+   "call": "332",
+   "tabLowBidder": "MOUNTAIN ENTERPRISES INC",
+   "tabTotal": 395857.81,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 395857.81,
+   "agree": true
+  },
+  {
+   "id": "26-3019",
+   "call": "333",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 267470.36,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 267470.36,
+   "agree": true
+  },
+  {
+   "id": "26-3016",
+   "call": "334",
+   "tabLowBidder": "LOUISVILLE PAVING COMPANY INC",
+   "tabTotal": 213000.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 213000.0,
+   "agree": true
+  },
+  {
+   "id": "26-3025",
+   "call": "335",
+   "tabLowBidder": "MAGO CONSTRUCTION COMPANY LLC",
+   "tabTotal": 248268.09,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 248268.09,
+   "agree": true
+  },
+  {
+   "id": "26-2233",
+   "call": "402",
+   "tabLowBidder": "FREDERICK & MAY CONSTRUCTION CO",
+   "tabTotal": 342910.5,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 342910.5,
+   "agree": true
+  },
+  {
+   "id": "26-2155",
+   "call": "403",
+   "tabLowBidder": "THE ALLEN COMPANY INC",
+   "tabTotal": 1097723.97,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1097723.97,
+   "agree": true
+  },
+  {
+   "id": "26-2016",
+   "call": "404",
+   "tabLowBidder": "JIM SMITH CONTRACTING COMPANY LLC",
+   "tabTotal": 1414398.7,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1414398.7,
+   "agree": true
+  },
+  {
+   "id": "26-2172",
+   "call": "405",
+   "tabLowBidder": "WALKER CONSTRUCTION & MATERIALS LLC",
+   "tabTotal": 838280.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 838280.0,
+   "agree": true
+  },
+  {
+   "id": "26-3022",
+   "call": "406",
+   "tabLowBidder": "LOUISVILLE PAVING COMPANY INC",
+   "tabTotal": 313000.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 313000.0,
+   "agree": true
+  },
+  {
+   "id": "26-3024",
+   "call": "407",
+   "tabLowBidder": "THE ALLEN COMPANY INC",
+   "tabTotal": 353031.8,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 353031.8,
+   "agree": true
+  },
+  {
+   "id": "26-3023",
+   "call": "408",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 365878.94,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 365878.94,
+   "agree": true
+  },
+  {
+   "id": "26-3021",
+   "call": "409",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 403740.49,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 403740.49,
+   "agree": true
+  },
+  {
+   "id": "26-2234",
+   "call": "410",
+   "tabLowBidder": "THE ALLEN COMPANY INC",
+   "tabTotal": 1226611.85,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1226611.85,
+   "agree": true
+  },
+  {
+   "id": "26-3027",
+   "call": "411",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 349809.1,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 349809.1,
+   "agree": true
+  }
+ ],
+ "awardFlips": [],
+ "totalMismatches": [],
+ "stillApparentNotInTab": [
+  "26-1516",
+  "26-2227",
+  "26-2236",
+  "26-2190"
+ ],
+ "lightingReconciliation": [],
+ "sharedReconciliation": [
+  {
+   "id": "26-1517",
+   "recordAmount": 79094.0,
+   "officialTab": 79094.0,
+   "agree": true
+  },
+  {
+   "id": "26-2040",
+   "recordAmount": 3068.25,
+   "officialTab": 3068.25,
+   "agree": true
+  },
+  {
+   "id": "26-2205",
+   "recordAmount": 1044.1,
+   "officialTab": 1044.1,
+   "agree": true
+  },
+  {
+   "id": "26-2172",
+   "recordAmount": 6890.0,
+   "officialTab": 6890.0,
+   "agree": true
+  }
+ ]
+}

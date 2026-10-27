@@ -1,0 +1,384 @@
+{
+ "letting": {
+  "id": "L260731",
+  "date": "Jul 31, 2026",
+  "iso": "2026-07-31",
+  "n": 11,
+  "low": 29490540.28,
+  "bids": 39,
+  "awarded": 11,
+  "awardArtifact": true,
+  "tc": null,
+  "ac": null,
+  "citeNote": "tabulation cite id not yet assigned; AL_YEAR uses {AL-20}\u2026{AL-30} for prior tabs and {AL-31} for the bid-tab index release rule",
+  "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+ },
+ "all": [
+  {
+   "id": "20260731001",
+   "call": "001",
+   "tip": "ACAA59497-ATRP(007)",
+   "county": "Jefferson",
+   "div": 2,
+   "desc": "ROADWAY AND DRAINAGE IMPROVEMENTS (GRADING, DRAINAGE, PAVEMENT (RESURFACING), AND TRAFFIC STRIPE) ON CR-337 (MCCALLA ROAD) FROM THE JUNCTION OF CR-18 ",
+   "let": "Jul 31, 2026",
+   "low": "IKAROS, LLC",
+   "lowAmt": 1678000.0,
+   "bidders": [
+    [
+     "IKAROS, LLC",
+     1678000.0
+    ],
+    [
+     "GFC CONSTRUCTION, INC.",
+     1689854.85
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     1731752.0
+    ],
+    [
+     "SOUTHEASTERN SEALCOATING, INC.",
+     1807858.0
+    ],
+    [
+     "DOMINION CONSTRUCTION COMPANY, INC.",
+     1861573.95
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     2048815.31
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731003",
+   "call": "003",
+   "tip": "FLAP-FLAP(054)",
+   "county": "Lawrence",
+   "div": 1,
+   "desc": "RESURFACING, GUARDRAIL INSTALLATION, AND TRAFFIC STRIPE ON CR-84 (FOREST SERVICE ROAD 265) FROM THE JUNCTION OF CR-76 TO THE JUNCTION OF CR-81 SOUTHEA",
+   "let": "Jul 31, 2026",
+   "low": "ROGERS GROUP, INC.",
+   "lowAmt": 819000.0,
+   "bidders": [
+    [
+     "ROGERS GROUP, INC.",
+     819000.0
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     904414.48
+    ],
+    [
+     "GRAYSON CARTER & SON CONTRACTING, INC.",
+     992950.1
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731004",
+   "call": "004",
+   "tip": "IM-I065(570)",
+   "county": "Cullman",
+   "div": 1,
+   "desc": "SAFETY IMPROVEMENTS (TRAFFIC SIGN REPLACEMENT) ON I-65 FROM THE BLOUNT COUNTY LINE TO THE MORGAN COUNTY LINE Contract Totals               $1,175,186.",
+   "let": "Jul 31, 2026",
+   "low": "SUPERIOR TRAFFIC CONTROL, LLC",
+   "lowAmt": 1175186.0,
+   "bidders": [
+    [
+     "SUPERIOR TRAFFIC CONTROL, LLC",
+     1175186.0
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     1495503.5
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731005",
+   "call": "005",
+   "tip": "IM-IMGR-I059(464)",
+   "county": "Sumter",
+   "div": 3,
+   "desc": "MICRO-MILLING, RESURFACING, GUARDRAIL INSTALLATION, AND TRAFFIC STRIPE ON I-20/I-59 FROM 1.860 MILES SOUTH OF MCCAINVILLE ROAD UNDERPASS TO THE TOMBIG",
+   "let": "Jul 31, 2026",
+   "low": "S. T. BUNN CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 7080865.18,
+   "bidders": [
+    [
+     "S. T. BUNN CONSTRUCTION COMPANY, INC.",
+     7080865.18
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731008",
+   "call": "008",
+   "tip": "LRSI-1225(250)",
+   "county": "Choctaw",
+   "div": 5,
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (GUARDRAIL INSTALLATION AND GUARDRAIL END ANCHORS) ON VARIOUS ROUTES AT VARIOUS LOCATIONS AS INDICATED IN THE PLANS",
+   "let": "Jul 31, 2026",
+   "low": "PL RUSSELL LLC",
+   "lowAmt": 217898.11,
+   "bidders": [
+    [
+     "PL RUSSELL LLC",
+     217898.11
+    ],
+    [
+     "MCELHENNEY CONSTRUCTION CO., LLC",
+     243952.89
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     272911.9
+    ],
+    [
+     "H & L CONSTRUCTION, INC.",
+     281565.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731011",
+   "call": "011",
+   "tip": "NH-HSIP-0001(656)",
+   "county": "Etowah",
+   "div": 1,
+   "desc": "SAFETY WIDENING, MICRO-MILLING, RESURFACING, AND TRAFFIC STRIPE ON SR-1 (US-431) FROM THE CALHOUN COUNTY LINE TO THE INTERSECTION OF BANKS STREET IN G",
+   "let": "Jul 31, 2026",
+   "low": "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+   "lowAmt": 5715319.3,
+   "bidders": [
+    [
+     "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+     5715319.3
+    ],
+    [
+     "ALABAMA GRADING & EXCAVATION, LLC.",
+     6692040.18
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     7712309.98
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731014",
+   "call": "014",
+   "tip": "PR-I059(465)",
+   "county": "DeKalb, Etowah",
+   "div": 1,
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (PIPE REHABILITATION AND DRAINAGE STRUCTURE CORRECTIONS) ON I-59 FROM 0.950 MILE NORTH OF THE SR-1 (US-431) INTERCHANGE TO",
+   "let": "Jul 31, 2026",
+   "low": "PROSHOT CONCRETE, INC.",
+   "lowAmt": 749205.0,
+   "bidders": [
+    [
+     "PROSHOT CONCRETE, INC.",
+     749205.0
+    ],
+    [
+     "GULF COAST UNDERGROUND, LLC",
+     923419.85
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731017",
+   "call": "017",
+   "tip": "STPAA-0204(516)",
+   "county": "Calhoun",
+   "div": 2,
+   "desc": "ROADWAY WIDENING AND PEDESTRIAN IMPROVEMENTS (GRADING, DRAINAGE, PAVEMENT, TRAFFIC SIGNALS, AND TRAFFIC STRIPE) ON SR-204 FROM THE JUNCTION OF NISBET ",
+   "let": "Jul 31, 2026",
+   "low": "ALABAMA GRADING & EXCAVATION, LLC.",
+   "lowAmt": 8240554.8,
+   "bidders": [
+    [
+     "ALABAMA GRADING & EXCAVATION, LLC.",
+     8240554.8
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     8877476.08
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     8943900.48
+    ],
+    [
+     "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+     9779594.1
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731021",
+   "call": "021",
+   "tip": "STPSU-3526(250), STPSU-3525(252)",
+   "county": "Houston",
+   "div": 4,
+   "desc": "RESURFACING AND TRAFFIC STRIPE ON CR-203 FROM HADDEN RD TO THE LIMESTONE CREEK BRIDGE AND ON COUNTRY GARDEN RD FROM WEBB TO KINSEY RD TO THE HENRY LIN",
+   "let": "Jul 31, 2026",
+   "low": "APAC-ALABAMA, INC.",
+   "lowAmt": 805143.9,
+   "bidders": [
+    [
+     "APAC-ALABAMA, INC.",
+     805143.9
+    ],
+    [
+     "LEWIS INCORPORATED..",
+     833751.1
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     1050183.21
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731022",
+   "call": "022",
+   "tip": "STPSU-CRPGD-2815(256)",
+   "county": "Etowah",
+   "div": 1,
+   "desc": "ROADWAY IMPROVEMENTS (PARTIAL REALIGNMENT) AND RESURFACING (WIDEN, PLANE, GRADE, DRAINAGE, SIDEWALK INSTALL, AND STRIPE ON SOUTH 11TH STREET FROM A PO",
+   "let": "Jul 31, 2026",
+   "low": "LAMBERT CONTRACTING, LLC",
+   "lowAmt": 2148030.24,
+   "bidders": [
+    [
+     "LAMBERT CONTRACTING, LLC",
+     2148030.24
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     2329763.8
+    ],
+    [
+     "ALABAMA GRADING & EXCAVATION, LLC.",
+     2341980.69
+    ],
+    [
+     "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+     2675190.2
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     3205152.5
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260731025",
+   "call": "025",
+   "tip": "ATRP2-02-2024-190",
+   "county": "Baldwin",
+   "div": 5,
+   "desc": "INTERSECTION IMPROVEMENTS (ADDITIONAL TURN LANES AND TRAFFIC SIGNAL UPGRADES) ON SR-42 (US-98) AT CR-87 EAST OF FOLEY",
+   "let": "Jul 31, 2026",
+   "low": "ARRINGTON CURB & EXCAVATION, INC.",
+   "lowAmt": 861337.75,
+   "bidders": [
+    [
+     "ARRINGTON CURB & EXCAVATION, INC.",
+     861337.75
+    ],
+    [
+     "MCELHENNEY CONSTRUCTION CO., LLC",
+     907155.09
+    ],
+    [
+     "PL RUSSELL LLC",
+     949026.2
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     950177.6
+    ],
+    [
+     "ROB MIDDLETON CONSTRUCTION, LLC",
+     955127.15
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     1122331.94
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  }
+ ],
+ "lighting": [],
+ "shared": [
+  {
+   "id": "20260731017",
+   "tip": "STPAA-0204(516)",
+   "county": "Calhoun",
+   "div": 2,
+   "let": "Jul 31, 2026",
+   "low": "ALABAMA GRADING & EXCAVATION, LLC.",
+   "amount": 16637.5,
+   "what": "Section 756 electrical conduit (or 750J utility preparation) with no Section 750 lighting item beside it"
+  },
+  {
+   "id": "20260731025",
+   "tip": "ATRP2-02-2024-190",
+   "county": "Baldwin",
+   "div": 5,
+   "let": "Jul 31, 2026",
+   "low": "ARRINGTON CURB & EXCAVATION, INC.",
+   "amount": 16640.0,
+   "what": "Section 756 electrical conduit (or 750J utility preparation) with no Section 750 lighting item beside it"
+  }
+ ]
+}

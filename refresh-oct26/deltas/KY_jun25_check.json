@@ -1,0 +1,183 @@
+{
+ "letting": "Jun 25, 2026",
+ "source": "Unit Bid Tabulations (\u201cBid Tabs of Awarded Projects\u201d), posted on the KYTC letting page; presence in the tab is the award",
+ "contractsInTab": 7,
+ "bidderColumnsReconciled": "23 of 23",
+ "allReconciled": true,
+ "maxResidual": 0.0,
+ "awarded": [
+  {
+   "id": "26-1126",
+   "call": "101",
+   "tabLowBidder": "FOX ENTERPRISES INC",
+   "tabTotal": 6819953.9,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 6819953.9,
+   "agree": true
+  },
+  {
+   "id": "26-1127",
+   "call": "102",
+   "tabLowBidder": "FOX ENTERPRISES INC",
+   "tabTotal": 2176324.08,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 2176324.08,
+   "agree": true
+  },
+  {
+   "id": "26-4530",
+   "call": "105",
+   "tabLowBidder": "REYNOLDS-CENTRAL SEAL A JOINT VENTURE",
+   "tabTotal": 149676.5,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 149676.5,
+   "agree": true
+  },
+  {
+   "id": "26-5409",
+   "call": "106",
+   "tabLowBidder": "KAY & KAY CONTRACTING LLC",
+   "tabTotal": 1627279.95,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 1627279.95,
+   "agree": true
+  },
+  {
+   "id": "26-4531",
+   "call": "200",
+   "tabLowBidder": "SCOTTY'S CONTRACTING & STONE LLC",
+   "tabTotal": 4227598.03,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 4227598.03,
+   "agree": true
+  },
+  {
+   "id": "26-4516",
+   "call": "201",
+   "tabLowBidder": "GEORGE B STONE CO LLC",
+   "tabTotal": 279881.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 279881.0,
+   "agree": true
+  },
+  {
+   "id": "26-4525",
+   "call": "202",
+   "tabLowBidder": "GEORGE B STONE CO LLC",
+   "tabTotal": 256598.0,
+   "reconciled": true,
+   "maxResidual": 0.0,
+   "recordAward": "awarded",
+   "recordLowAmt": 256598.0,
+   "agree": true
+  }
+ ],
+ "awardFlips": [],
+ "totalMismatches": [],
+ "stillApparentNotInTab": [],
+ "lightingReconciliation": [
+  {
+   "id": "26-1126",
+   "inTab": true,
+   "basis": "record's counted items, priced from the official tab",
+   "recordItemsMatchedInTab": "10 of 10",
+   "l2": {
+    "record": 790615.0,
+    "officialTab": 790615.0,
+    "agree": true
+   },
+   "product": {
+    "record": 552512.0,
+    "officialTab": 552512.0,
+    "agree": true
+   },
+   "split": {
+    "record": {
+     "hardware": 552512.0,
+     "infrastructure": 192790.0,
+     "work": 45313.0
+    },
+    "officialTab": {
+     "hardware": 552512.0,
+     "infrastructure": 192790.0,
+     "work": 45313.0
+    },
+    "agree": true
+   },
+   "rng": {
+    "record": [
+     790615.0,
+     876931.75
+    ],
+    "officialTab": [
+     790615.0,
+     876931.75
+    ],
+    "agree": true
+   },
+   "nLightItems": {
+    "record": 10,
+    "officialTab": 10
+   },
+   "agree": true
+  },
+  {
+   "id": "26-1127",
+   "inTab": true,
+   "basis": "record's counted items, priced from the official tab",
+   "recordItemsMatchedInTab": "13 of 13",
+   "l2": {
+    "record": 187795.26,
+    "officialTab": 187795.26,
+    "agree": true
+   },
+   "product": {
+    "record": 24000.0,
+    "officialTab": 24000.0,
+    "agree": true
+   },
+   "split": {
+    "record": {
+     "hardware": 24000.0,
+     "infrastructure": 93395.7,
+     "work": 70399.56
+    },
+    "officialTab": {
+     "hardware": 24000.0,
+     "infrastructure": 93395.7,
+     "work": 70399.56
+    },
+    "agree": true
+   },
+   "rng": {
+    "record": [
+     187795.26,
+     212217.5
+    ],
+    "officialTab": [
+     187795.26,
+     212217.5
+    ],
+    "agree": true
+   },
+   "nLightItems": {
+    "record": 13,
+    "officialTab": 13
+   },
+   "agree": true
+  }
+ ],
+ "sharedReconciliation": []
+}
