@@ -4,6 +4,13 @@ Established 2026-10-27 from Claude's complete Build 10.1b kit and the existing r
 This infrastructure work is authorized separately from the roadmap's next research milestone.
 The product build remains 10.1b: no research milestone or new evidence is claimed.
 
+## Verified production connection — 2026-10-27
+
+- Live site: https://lightingintelligencelayer.netlify.app/ — Build 10.1b published from GitHub.
+- Infrastructure PR: https://github.com/SK87-Cyber/lsi-territory-intelligence/pull/1 — merged after both verification runs passed.
+- Initial database import: https://github.com/SK87-Cyber/lsi-territory-intelligence/actions/runs/40542048855 — 2,859 records; private schema and RLS checks passed.
+- The lighting database secret is saved in this repository. PanelMade remains separate.
+
 ## Connected components
 
 - GitHub `SK87-Cyber/lsi-territory-intelligence`: complete source, recovered logos and geometry,
