@@ -30,7 +30,10 @@ add('registry',null,'cadence',t.CADENCE);
 add('registry',null,'historical_snapshots',t.SNAPSHOTS);
 add('registry',null,'roadmap',t.ROADMAP_STATUS);
 add('registry',null,'contact_log',t.CONTACT_LOG);
-// Stable build content, independent of when this export is generated.
+// Stable build content, independent of when this export is generated — with one documented exception: each state's
+// `freshness` record carries `next` (the next expected letting / re-read date), which the page computes from today's clock
+// and which scripts/source_health.py reads for its review deadlines. A push made after such a date has passed therefore
+// records a small, accurate change event for that state's freshness record; nothing else in the snapshot depends on the clock.
 const seen = new Set();
 for (const r of records) {
   const key=JSON.stringify([r.kind,r.state,r.key]);

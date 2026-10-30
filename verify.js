@@ -4,6 +4,8 @@
 const fs = require("fs");
 const file = process.argv[2];
 if (!file) { console.error("usage: node verify.js <built.html>"); process.exit(2); }
+// Local calendar dates, matching the page (TODAY = new Date(); daysSince parses "T00:00:00" as local). toISOString() is UTC and is one day ahead after 8 pm Eastern, which made the SLA boundary tests flip in the evening.
+const localISO = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 const html = fs.readFileSync(file, "utf8");
 const m = html.match(/<script>([\s\S]*)<\/script>/);
 // Literal escape sequences in the static HTML render as raw text ("—" on
@@ -409,7 +411,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
     for (const id in exp) { const R = t.recurring(id); got[id] = R.rows.length; if (R.rows.length !== exp[id]) ok = false; if (R.rows.some(r => !r.kinds.length || (r.lowAmt && !r.low))) ok = false; }
     const cad = t.lightingCadence("GA"); if (!cad || cad.l1.length !== 5 || cad.withLighting !== 13 || cad.lettings !== 14 || !cad.medGap) ok = false;
     if (t.lightingCadence("SC").l1.length !== 0 || t.lightingCadence("AL").l1.length !== 3 || t.lightingCadence("TN").l1.length !== 3) ok = false;
-    const today = new Date().toISOString().slice(0, 10); let nextOk = true, nx = {};
+    const today = localISO(); let nextOk = true, nx = {};
     t.STATES.forEach(s => { const L = t.nextLettings(s.id); nx[s.id] = L.length ? L[0].date : null; if (L.some(x => x.date < today || !x.basis)) nextOk = false; if (!L.length && s.id !== "GA") nextOk = false; });   /* 10.1a rule restored: a state with no posted future letting says so — GDOT publishes no public schedule (Bid Express only) */
     const due = t.programmedDue("AL"); if (due.some(x => x.tip === "DEMO A211 (948)")) ok = false;   // let Sep 26, 2025 — never "ahead"
     if (due.filter(x => !x.past).some(x => +String(x.when).slice(-4) < new Date().getFullYear())) ok = false;
@@ -423,7 +425,7 @@ console.log(layerFail ? `LAYER MODEL: ${layerFail} failure(s)` : "layer model: 1
   { let ok = t.SLA.active === 120 && t.SLA.stale === 365; let dated = 0, total = 0, unknownNoDate = 0;
     t.STATES.forEach(s => { if (!t.DIR_CAPTURED[s.id] || !/^\d{4}-\d{2}-\d{2}$/.test(t.DIR_CAPTURED[s.id])) ok = false; if (!t.OWNERS[s.id] || !t.OWNERS[s.id].cls || !t.OWNERS[s.id].cite) ok = false;
       t.buildContacts(s).forEach(r => { total++; const st = t.contactStatus(s.id, r); if (!["active", "stale", "unknown", "vacant"].includes(st.cls)) ok = false; if (st.date) dated++; if (st.cls === "unknown" && st.days === null) unknownNoDate++; }); });
-    const d = new Date(); const iso = x => { const y = new Date(); y.setDate(y.getDate() - x); return y.toISOString().slice(0, 10); };
+    const d = new Date(); const iso = x => { const y = new Date(); y.setDate(y.getDate() - x); return localISO(y); };
     if (t.slaStatus(iso(10)).cls !== "active" || t.slaStatus(iso(121)).cls !== "stale" || t.slaStatus(iso(366)).cls !== "unknown" || t.slaStatus("").cls !== "unknown") ok = false;
     // the workflow: log a verification, see it win; log "left", see UNKNOWN; then remove it so the stub run leaves nothing behind
     const s0 = t.STATES[0], r0 = t.buildContacts(s0).find(r => r[7] !== "x"); const key = s0.id + "|" + r0[1].trim().toLowerCase(); const before = t.contactStatus(s0.id, r0).cls;

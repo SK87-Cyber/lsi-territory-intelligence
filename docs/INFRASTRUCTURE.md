@@ -84,3 +84,11 @@ Run `npm run build` and `npm test`; commit the complete source and let CI deploy
 Do not hand-edit `dist/index.html` or independently edit current database facts: the committed,
 reviewed research remains the publication authority. A daily health check is a review queue,
 not a promise that all underlying research updates itself automatically.
+
+## Verifier note — 2026-10-29
+
+`verify.js` compared local-time page dates against UTC test dates (`toISOString()`), so the people-ledger SLA
+boundary tests flipped between 8 pm Eastern and midnight. It now uses local calendar dates throughout
+(`localISO`), matching the page. CI runs in UTC and was unaffected; evening local runs were.
+`freshness.next` in the snapshot is clock-derived (documented in `scripts/export_data.cjs`), so a push after a
+letting date passes records a small, accurate change event for that state; it is not a research change.
