@@ -557,6 +557,67 @@ body .dossier table.heat td.cn *,body .dossier table.heat td.ct *{font-size:12px
 body .dossier table.heat td{max-width:none}
 body .dossier .r .n,body .dossier .rung .role,body .dossier .dom,body .dossier .ladhead span,body .dossier .map-caption,body .dossier .lbl small,body .dossier .phase-tag,body .dossier i{font-size:13px!important;line-height:1.6!important}
 body .dossier td>p,body .dossier td{max-width:78ch}
+
+/* ---- 10.1e calm sections. One job: when a section is opened, it must be easy to read.
+   Section header = a title and one quiet line. State pages are grouped under five labels.
+   Tables whose cells hold sentences become record lists (a line of short facts; the long text opens beneath).
+   Long paragraphs show their first sentences with a More button. Source numbers are small superscripts.
+   Nothing is removed: every word and figure is still on the page, one click away. ---- */
+.states-inner{gap:4px!important}
+body .dossier details.sec{border-radius:10px;overflow:hidden}
+body .dossier details.sec>summary{display:block!important;position:relative;padding:17px 56px 17px 24px!important}
+body .dossier details.sec>summary small{display:block!important;float:none!important;max-width:none!important;text-align:left!important;white-space:nowrap!important;overflow:hidden;text-overflow:ellipsis;margin:4px 0 0!important;font-size:13px!important;color:var(--slate)}
+body .dossier details.sec[open]>summary small{white-space:normal!important}
+body .dossier details.sec>summary::after{position:absolute!important;right:22px;top:50%;transform:translateY(-50%);margin:0!important}
+.grp{font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin:38px 2px 12px;padding:0;border:0}
+.grp:first-of-type{margin-top:26px}
+body .dossier .intro{font-size:15px!important;line-height:1.75!important;color:var(--ink)!important;max-width:80ch;margin:0 0 22px!important}
+sup.cite{font-size:10.5px!important;line-height:0!important;color:var(--slate);font-weight:500;font-family:var(--body);margin-left:1px;vertical-align:super;cursor:help}
+.morebtn{appearance:none;-webkit-appearance:none;border:0;border-bottom:1px dotted currentColor;background:none;padding:0;margin:0 0 0 4px;font-family:var(--body);font-size:13.5px;font-weight:500;color:var(--lsi-blue,#1F6FB5);cursor:pointer;line-height:1.4}
+.rest[hidden]{display:none}
+body .dossier .callout>strong:first-child,body .dossier .callout>b:first-child{display:block;margin-bottom:6px;font-size:15.5px}
+body .dossier .pstats{gap:12px;margin:8px 0 24px}
+body .dossier .pstats .ps{padding:13px 15px}
+body .dossier .pstats .ps .k{font-size:12px!important;margin-bottom:3px}
+body .dossier .bar-row{grid-template-columns:250px 1fr 132px;padding:11px 0}
+body .dossier .bar-row .lbl small{font-size:13px!important;line-height:1.5!important;margin-top:1px}
+body .dossier table:has(thead th:nth-child(7)) td,body .dossier table:has(thead th:nth-child(7)) th{padding:9px 9px!important;font-size:13.5px!important}
+body .dossier table.heat td,body .dossier table.heat th{padding:3px 5px!important;font-size:11px!important}
+/* record lists */
+.qrecs{margin:14px 0 26px;border-top:1px solid var(--line)}
+.qrec{border-bottom:1px solid var(--line)}
+.qrec>summary,.qrec>.qrs{display:grid;grid-template-columns:200px 1fr 18px;gap:20px;align-items:start;padding:17px 6px;list-style:none}
+.qrec>summary{cursor:pointer}
+.qrec>summary:hover{background:var(--paper-2)}
+.qrec>summary::-webkit-details-marker{display:none}
+.qrec>summary::after{content:"+";font-family:var(--display);font-size:20px;line-height:1.1;color:var(--lsi-navy);text-align:right}
+.qrec[open]>summary::after{content:"\2013"}
+.qrec[open]>summary{background:var(--paper-2)}
+.qrt{font-family:var(--display);font-weight:600;font-size:16px;line-height:1.35;color:var(--lsi-navy)}
+.qrt-sub{display:block;font-family:var(--body);font-weight:400;font-size:13px!important;line-height:1.5;color:var(--slate);margin-top:3px}
+.qrt-sub *{font-size:13px!important}
+.qrf{display:flex;flex-wrap:wrap;gap:12px 30px}
+.qrf .qf{min-width:104px;max-width:300px}
+body .dossier .qrf .qf i{display:block;font-style:normal;font-size:11px!important;line-height:1.4!important;letter-spacing:.06em;text-transform:uppercase;color:var(--slate);margin-bottom:3px}
+.qrf .qf>span{display:block;font-size:15px;line-height:1.45;color:var(--ink)}
+.qrb{padding:4px 6px 22px 226px;background:var(--paper-2)}
+.qrl{display:grid;grid-template-columns:170px 1fr;gap:18px;padding:13px 0;border-top:1px dashed var(--line)}
+.qrl:first-child{border-top:0}
+.qrk{font-family:var(--display);font-weight:600;font-size:13px;line-height:1.6;color:var(--lsi-navy)}
+.qrv{font-size:15px;line-height:1.75;max-width:68ch;color:var(--ink)}
+body .dossier .qrv .ev,body .dossier .qrv span{font-size:15px!important;line-height:1.75!important;color:var(--ink)}
+body .dossier .qrv br+br{display:none}
+.qrec.note{padding:14px 6px;font-size:13.5px;line-height:1.65;color:var(--slate)}
+@media(max-width:900px){.qrec>summary,.qrec>.qrs{grid-template-columns:1fr 18px}.qrf{grid-column:1/-1}.qrb{padding-left:6px}.qrl{grid-template-columns:1fr;gap:2px}}
+/* long sections fold into a list of their own headings */
+details.sub{border-top:1px solid var(--line)}
+details.sub+details.sub:last-of-type,details.sub:last-child{border-bottom:1px solid var(--line)}
+details.sub>summary{list-style:none;cursor:pointer;position:relative;padding:15px 40px 15px 6px;font-family:var(--display);font-weight:600;font-size:15.5px;line-height:1.4;color:var(--lsi-navy)}
+details.sub>summary:hover{background:var(--paper-2)}
+details.sub>summary::-webkit-details-marker{display:none}
+details.sub>summary::after{content:"+";position:absolute;right:8px;top:13px;font-size:20px;line-height:1.1}
+details.sub[open]>summary::after{content:"\2013"}
+details.sub>.subb{padding:6px 6px 26px}
 </style>
 </head>
 <body>
@@ -1977,7 +2038,7 @@ const LABEL_LL = {KY:[-85.7,37.5],TN:[-86.5,35.8],NC:[-79.3,35.6],SC:[-80.9,33.9
 const SE_FIPS = {NC:"37",SC:"45",GA:"13",AL:"01",MS:"28",TN:"47",KY:"21",AR:"05"};
 const FIPS_ID = Object.fromEntries(Object.entries(SE_FIPS).map(([k,v])=>[v,k]));
 
-const ROADMAP_STATUS = {"build":"10.1d","date":"Nov 11, 2026","delivered":[["3.9","Georgia — fourteen lettings at item level, 325 contracts, $30.3M identified, 34 awarded"],["3.10","Kentucky — twelve lettings, 395 calls, 370 awarded contracts reconciled, $6.35M identified"],["3.13","the generic competition record — winners, concentration and the contractor × district heat map for any state with a full year"],["3.13a","the code, logic and interface review — reconciliation made a publishing gate, Georgia's alternates fixed, stale prose removed"],["3.11","Arkansas — the control read: nine lettings, 203 jobs, matched item for item against ARDOT's own weighted-average price census"],["3.12","Alabama — eleven lettings from ALDOT's own tabulations, checked against its item census"],["3.14","the map colour modes on every read state and the per-state price book"],["3.14a","the county hover on every read state carries the district's contracts, value, winners and lighting"],["3.15","South Carolina — eleven lettings, 225 certified tabulations, $4.84M identified; no award artifact exists"],["3.16","Tennessee — ten lettings, 373 contracts from the Summary of Bids, $12.09M identified, 24 of 24 awarded"],["3.17","Mississippi — twenty-four lettings, 170 tabulations (one letting decoded from a re-encoded font), $5.51M identified; all eight states now at item level"],["3.18","the empty bubbles re-checked — pipeline filled for TN, MS, SC and AR (Arkansas a measured zero), Alabama's awards by ALDOT's own release rule and its year rolled to Jun 2026; SC's award artifact confirmed absent"],["3.18a","the roadmap tab reconciled — it renders from this registry, and verify.js fails a build whose registry disagrees with ROADMAP.md"],["3.20","the accuracy pass, data side — hardware split into luminaires, poles and arms, assemblies and control in all seven item-shaped states; a live threshold table over the 130 lighting contracts; every dictionary on one page for the owner's review"],["3.21","the NC Division channel, all 14 Divisions (3.19) — 227 lettings, 414 contracts, $762M at contract level from Bid Express — and North Carolina's year record re-emitted to the item shape: the NC price book, its hardware split, and its seven contracts in the threshold table by item"],["4.1–4.3","the financial overlay — the lighting money ladder (programmed · let · awarded) on every state page and the Overview money board; carry-forward snapshots with the programme-to-letting join by the agency's own id; constant dollars by FHWA NHCCI on let dollars and every price book"],["5.1–5.3","the people and authority CRM — the verification SLA computed from today's date on every contact, the local and utility owners as records, and the verify-log-export-import workflow that bakes verifications into the build"],["6.1–6.3","recurring contracts and the rebid calendar — the recurring-type register from the agencies' own titles with incumbents, the lighting cadence of the year read, and the territory calendar of every dated thing ahead with its basis"],["7.1–7.3","manufacturer evidence, public record only — each agency's product list read or its absence recorded, Cooper's status in each, the specification form and the approval gate in the agency's own words; M4 on every Alabama contract, M5 everywhere else"],["8.1–8.3","meeting / executive mode — the brief: one screen per state with every figure's basis, the territory walk with keyboard stepping, and a narrative generated from the record"],["9.1–9.3","continuous updates, briefing-side — freshness on every layer with a STALE build gate, the snapshot digest and the what-changed diff on the Overview and the brief, and the award sweep as a list"],["9.3a","the finance review and the aesthetic pass — every section folded and closed at load, one summary shape and type scale, the eight budget objects side by side, the glance cards on the same calendar as the territory calendar (no milestone)"],["9.3b","the money, state by state — how each DOT plans and allocates it (FUND, eight states, 54 new sources), the headline figures restated from the enacted or adopted instrument (Georgia $4.65B, Mississippi $1.57B, Tennessee $3.53B corrected), Kentucky's programme reconciled to the enacted chapters, the NC HMIP lighting line (no milestone)"],["9.3c","the second aesthetic pass — the brief's layout repaired (an unclosed head had put the whole brief in one row), the hero kept to the Overview so every other tab starts at the nav, the state page's map and tiles on one balanced grid, the hero strip on one basis (no summed budget), the nav on one row (no milestone)"],["9.3d","clean: the map-colour pills under the map, freshness as traffic lights under the state name, the ladder card rewritten, the contact blanks filled from the agencies' own directories (36 lines, 4 emails, 13 sources), the eight budgets back on the hero strip, a smaller type scale (no milestone)"],["9.3e","the territory legend directly under the map so a hovered name lights the map; two tiles on the right (budget, lighting found) — the programmed and who-buys tiles removed as redundant with the sections below (no milestone)"],["10.1","the design-build read — alternative delivery (DB, PDB, CM/GC, P3) in all eight states since 2023, the lighting each published scope names, and who designs the lighting on that kind of job in each state; 67 contracts, 16 naming lighting in their published scope; the dated calendar of what is ahead"],["10.1b","the October refresh — every stale layer re-read across the eight states: 13 new lettings (TN, NC ×3, AR, MS ×3, SC ×2, KY ×2, AL) and 2 census-level, all reconciled to the agencies' own totals; the award sweep settled C205195 (NC, Board-recorded), TN's pending call, MS's Aug 21/25 lists (the I-55 Gluckstadt widening REJECTED — its $4.31M lighting scope awaits re-advertisement), AR 9/9, KY 12/12; SC's Aug 11 tabs posted (13 more read); ALDOT's STIP re-read Oct 26 print (29 lighting rows, I-59 Phase 1 relight to FY 2026 at $7.98M); TN QPL (Oct 8) and KY LAM (Oct 26) re-read — still no lighting list, no Cooper entry; the letting calendars re-read from the agencies' own pages (no milestone)"]],"next":[["10.2 the alternative-delivery calendar and freshness","the dated design-build milestones folded into the territory calendar and the freshness lights, so a re-read is due when an RFP or award date passes"],["10.3 the technical-provision read","where an agency posts its RFP technical provisions (SCDOT TP 690 is read; GDOT, TDOT Books 2–3, ALDOT Volume III are not), read the lighting section and the materials-submittal rule"],["the owner's threshold and dictionary decisions","the Method tab's accuracy section proposes a $50,000 floor and lists every counted family; nothing is applied until the owner marks it — then the one-item rule, the 75 % L1 line and the hardware bucket are settled and the numbers re-emit"],["the five interface decisions of the Sep 5 review","tile prose, the ownership-panel fold, the model line and concentration stats to Method, the Overview budget chart"],["2.3 the retrieval schedule","parked by the owner; Bid Express's one-login calendar for all nine agencies is its trigger when it returns"]],"open":["Georgia — Bid Express login only: the Aug 21, Sep 18 and Oct 16, 2026 lettings and the April award announcement (A260417, T260417 S1); GDOT's monthly Board packets (staged) could serve as a secondary award record — owner's call","the MDOT re-advertisement of the I-55 Gluckstadt widening (rejected Sep 8, 2026 — $4.31M of lighting) and the Sep 22 / Sep 29 award lists; MDOT let again Oct 27, 2026","KYTC BIQI call 26-1520 (District 7 — 76 poles, 76 LED luminaires), withdrawn before the Oct 22 letting and not yet re-let; the Oct 22 tabulation (~late Nov)","NC Oct 20 bid tabs and the October Board record (confirms the Sep 15/24 and Oct 20 lettings); SC's Butler Road and Oct 13 tabulations; ALDOT's Aug 28 / Sep 25 tabulations (a standalone Tuscaloosa lighting job sits in the Aug 28 Low Bid Sheet)","Arkansas dictionary review: ARDOT's weighted-average census carries a Section 904 LED roadway-illumination line outside the Section 714 dictionary — owner's accuracy pass","Kentucky's Apr 23, 2026 Letting Results (still 404)"]};
+const ROADMAP_STATUS = {"build":"10.1e","date":"Nov 11, 2026","delivered":[["3.9","Georgia — fourteen lettings at item level, 325 contracts, $30.3M identified, 34 awarded"],["3.10","Kentucky — twelve lettings, 395 calls, 370 awarded contracts reconciled, $6.35M identified"],["3.13","the generic competition record — winners, concentration and the contractor × district heat map for any state with a full year"],["3.13a","the code, logic and interface review — reconciliation made a publishing gate, Georgia's alternates fixed, stale prose removed"],["3.11","Arkansas — the control read: nine lettings, 203 jobs, matched item for item against ARDOT's own weighted-average price census"],["3.12","Alabama — eleven lettings from ALDOT's own tabulations, checked against its item census"],["3.14","the map colour modes on every read state and the per-state price book"],["3.14a","the county hover on every read state carries the district's contracts, value, winners and lighting"],["3.15","South Carolina — eleven lettings, 225 certified tabulations, $4.84M identified; no award artifact exists"],["3.16","Tennessee — ten lettings, 373 contracts from the Summary of Bids, $12.09M identified, 24 of 24 awarded"],["3.17","Mississippi — twenty-four lettings, 170 tabulations (one letting decoded from a re-encoded font), $5.51M identified; all eight states now at item level"],["3.18","the empty bubbles re-checked — pipeline filled for TN, MS, SC and AR (Arkansas a measured zero), Alabama's awards by ALDOT's own release rule and its year rolled to Jun 2026; SC's award artifact confirmed absent"],["3.18a","the roadmap tab reconciled — it renders from this registry, and verify.js fails a build whose registry disagrees with ROADMAP.md"],["3.20","the accuracy pass, data side — hardware split into luminaires, poles and arms, assemblies and control in all seven item-shaped states; a live threshold table over the 130 lighting contracts; every dictionary on one page for the owner's review"],["3.21","the NC Division channel, all 14 Divisions (3.19) — 227 lettings, 414 contracts, $762M at contract level from Bid Express — and North Carolina's year record re-emitted to the item shape: the NC price book, its hardware split, and its seven contracts in the threshold table by item"],["4.1–4.3","the financial overlay — the lighting money ladder (programmed · let · awarded) on every state page and the Overview money board; carry-forward snapshots with the programme-to-letting join by the agency's own id; constant dollars by FHWA NHCCI on let dollars and every price book"],["5.1–5.3","the people and authority CRM — the verification SLA computed from today's date on every contact, the local and utility owners as records, and the verify-log-export-import workflow that bakes verifications into the build"],["6.1–6.3","recurring contracts and the rebid calendar — the recurring-type register from the agencies' own titles with incumbents, the lighting cadence of the year read, and the territory calendar of every dated thing ahead with its basis"],["7.1–7.3","manufacturer evidence, public record only — each agency's product list read or its absence recorded, Cooper's status in each, the specification form and the approval gate in the agency's own words; M4 on every Alabama contract, M5 everywhere else"],["8.1–8.3","meeting / executive mode — the brief: one screen per state with every figure's basis, the territory walk with keyboard stepping, and a narrative generated from the record"],["9.1–9.3","continuous updates, briefing-side — freshness on every layer with a STALE build gate, the snapshot digest and the what-changed diff on the Overview and the brief, and the award sweep as a list"],["9.3a","the finance review and the aesthetic pass — every section folded and closed at load, one summary shape and type scale, the eight budget objects side by side, the glance cards on the same calendar as the territory calendar (no milestone)"],["9.3b","the money, state by state — how each DOT plans and allocates it (FUND, eight states, 54 new sources), the headline figures restated from the enacted or adopted instrument (Georgia $4.65B, Mississippi $1.57B, Tennessee $3.53B corrected), Kentucky's programme reconciled to the enacted chapters, the NC HMIP lighting line (no milestone)"],["9.3c","the second aesthetic pass — the brief's layout repaired (an unclosed head had put the whole brief in one row), the hero kept to the Overview so every other tab starts at the nav, the state page's map and tiles on one balanced grid, the hero strip on one basis (no summed budget), the nav on one row (no milestone)"],["9.3d","clean: the map-colour pills under the map, freshness as traffic lights under the state name, the ladder card rewritten, the contact blanks filled from the agencies' own directories (36 lines, 4 emails, 13 sources), the eight budgets back on the hero strip, a smaller type scale (no milestone)"],["9.3e","the territory legend directly under the map so a hovered name lights the map; two tiles on the right (budget, lighting found) — the programmed and who-buys tiles removed as redundant with the sections below (no milestone)"],["10.1","the design-build read — alternative delivery (DB, PDB, CM/GC, P3) in all eight states since 2023, the lighting each published scope names, and who designs the lighting on that kind of job in each state; 67 contracts, 16 naming lighting in their published scope; the dated calendar of what is ahead"],["10.1b","the October refresh — every stale layer re-read across the eight states: 13 new lettings (TN, NC ×3, AR, MS ×3, SC ×2, KY ×2, AL) and 2 census-level, all reconciled to the agencies' own totals; the award sweep settled C205195 (NC, Board-recorded), TN's pending call, MS's Aug 21/25 lists (the I-55 Gluckstadt widening REJECTED — its $4.31M lighting scope awaits re-advertisement), AR 9/9, KY 12/12; SC's Aug 11 tabs posted (13 more read); ALDOT's STIP re-read Oct 26 print (29 lighting rows, I-59 Phase 1 relight to FY 2026 at $7.98M); TN QPL (Oct 8) and KY LAM (Oct 26) re-read — still no lighting list, no Cooper entry; the letting calendars re-read from the agencies' own pages (no milestone)"]],"next":[["10.2 the alternative-delivery calendar and freshness","the dated design-build milestones folded into the territory calendar and the freshness lights, so a re-read is due when an RFP or award date passes"],["10.3 the technical-provision read","where an agency posts its RFP technical provisions (SCDOT TP 690 is read; GDOT, TDOT Books 2–3, ALDOT Volume III are not), read the lighting section and the materials-submittal rule"],["the owner's threshold and dictionary decisions","the Method tab's accuracy section proposes a $50,000 floor and lists every counted family; nothing is applied until the owner marks it — then the one-item rule, the 75 % L1 line and the hardware bucket are settled and the numbers re-emit"],["the five interface decisions of the Sep 5 review","tile prose, the ownership-panel fold, the model line and concentration stats to Method, the Overview budget chart"],["2.3 the retrieval schedule","parked by the owner; Bid Express's one-login calendar for all nine agencies is its trigger when it returns"]],"open":["Georgia — Bid Express login only: the Aug 21, Sep 18 and Oct 16, 2026 lettings and the April award announcement (A260417, T260417 S1); GDOT's monthly Board packets (staged) could serve as a secondary award record — owner's call","the MDOT re-advertisement of the I-55 Gluckstadt widening (rejected Sep 8, 2026 — $4.31M of lighting) and the Sep 22 / Sep 29 award lists; MDOT let again Oct 27, 2026","KYTC BIQI call 26-1520 (District 7 — 76 poles, 76 LED luminaires), withdrawn before the Oct 22 letting and not yet re-let; the Oct 22 tabulation (~late Nov)","NC Oct 20 bid tabs and the October Board record (confirms the Sep 15/24 and Oct 20 lettings); SC's Butler Road and Oct 13 tabulations; ALDOT's Aug 28 / Sep 25 tabulations (a standalone Tuscaloosa lighting job sits in the Aug 28 Low Bid Sheet)","Arkansas dictionary review: ARDOT's weighted-average census carries a Section 904 LED roadway-illumination line outside the Section 714 dictionary — owner's accuracy pass","Kentucky's Apr 23, 2026 Letting Results (still 404)"]};
 /* Phase 4 — the financial overlay. NHCCI: FHWA's National Highway Construction Cost Index, quarterly, 2003 Q1 = 1.00, used to
    restate let dollars and unit prices in one quarter's money. PIPE_SNAPSHOT: when and from what each state's programme was read, and
    whether its ids can be joined to the letting record. Nothing here blends a budget with a letting or a programme with a bid. */
@@ -2263,13 +2324,13 @@ function renderCompetition(){
 `;
 }
 function navBtn(id,top,sub,cls){ const b=document.createElement("button"); b.className="marker "+(cls||""); b.dataset.view=id; b.setAttribute("aria-pressed",id==="overview"?"true":"false"); b.innerHTML=`<span class="st">${top}</span><span class="ag">${sub}</span>`; b.onclick=()=>show(id); nav.appendChild(b); }
-navBtn("timeline","Timeline","what is coming up","util");
+navBtn("timeline","Timeline","what is ahead","util");
 navBtn("overview","Overview","8 states","util");
 STATES.forEach(s=>navBtn(s.id,s.id,s.agency,""));
-navBtn("competition","Contractors","who builds, who buys","util");
-navBtn("roadmap","Method","rules \u00b7 coverage \u00b7 roadmap","util");
-navBtn("refs","References","every source, numbered","util");
-navBtn("brief","Brief","one screen per state","util");
+navBtn("competition","Contractors","who wins work","util");
+navBtn("roadmap","Method","how it is made","util");
+navBtn("refs","References","every source","util");
+navBtn("brief","Brief","one page","util");
 
 const chart=document.getElementById("overviewChart");
 function renderMoneyBoard(mode,K){ chart.innerHTML=""; const rows=STATES.map(s=>{ if(mode==="budget") return {s,v:s.budget*1e9,lbl:fmtB(s.budget),sub:s.basis};
@@ -4295,7 +4356,93 @@ function show(id){ if(id==="brief"){ openBrief(CUR_VIEW==="overview"?"overview":
 
 /* ---- boot: draw fallback immediately, upgrade to Census geometry when it arrives ---- */
 document.body.dataset.view="overview"; renderHeroFallback(); STATES.forEach(renderStateModel);
-try{ show("timeline"); }catch(e){}
+try{ show("timeline"); }catch(e){} try{ initReader(); }catch(e){ console.warn("reader",e); }
+
+function initReader(){
+  const main=document.querySelector("main")||document.body;
+  const TITLES=[[/^Who pays for lighting/,"Who pays and who decides"],[/lettings? — lighting found/i,"Lighting found in lettings"],[/money is planned and allocated/,"How the budget is set"],[/^Alternative delivery/,"Design-build contracts"],[/^Where the lighting money is/,"Lighting money at a glance"],[/^Whose product qualifies/,"Approved products"],[/^Lighting on the horizon/,"Projects not yet let"],[/^The bid record/,"How this state's bids are read"],[/^Research file/,"Research file"],[/^Installed products/,"Installed products"],[/^Organisation and how work is let/,"How the DOT is organised"]];
+  const GROUPS=[["Money",[/^Where the lighting money is/,/money is planned and allocated/,/^Recurring contracts/]],["Lettings and pipeline",[/lettings? — lighting found/i,/^Lighting on the horizon|^Lighting projects not yet let/,/^Alternative delivery/]],["People and decisions",[/^Who pays for lighting/,/^Who buys product/,/^Contacts/,/^Organisation and how work is let/]],["Products",[/^Whose product qualifies/,/^Installed products/]],["Reference",[/^The bid record/,/^Research file/,/^Sources for this state/]]];
+  const ABBR=/(?:\b(?:Inc|Co|Corp|No|Nos|St|Jr|Sr|Dr|Mr|Ms|vs|Div|Rd|Ave|Sec|Fig|approx|est|e\.g|i\.e|U\.S|Ltd|Dept|Gov|Rep|Sen|Bros|Mt|Ft|Hwy|Rte|pp|cf|al)|\b[A-Za-z])$/;
+  function origTitle(sm){ if(sm.dataset.o===undefined){ const n=sm.firstChild; sm.dataset.o=(n&&n.nodeType===3)?n.nodeValue.trim():""; } return sm.dataset.o; }
+  function retitle(sm){ if(sm.dataset.qrt) return; sm.dataset.qrt="1"; const o=origTitle(sm); if(!o) return; for(const [re,to] of TITLES){ if(re.test(o)){ sm.firstChild.nodeValue=to; sm.title=o; break; } } }
+  function group(sec){ if(sec.dataset.g) return; sec.dataset.g="1";
+    const all=[...sec.children].filter(c=>c.tagName==="DETAILS"&&c.classList.contains("sec")); if(all.length<6) return;
+    const used=new Set(), plan=[];
+    GROUPS.forEach(([name,res])=>{ const list=[]; res.forEach(re=>{ all.forEach(d=>{ if(!used.has(d)&&re.test(origTitle(d.querySelector("summary")))){ used.add(d); list.push(d); } }); }); plan.push([name,list]); });
+    const rest=all.filter(d=>!used.has(d)); if(rest.length) plan.splice(plan.length-1,0,["More",rest]);
+    plan.forEach(([name,list])=>{ if(!list.length) return; const h=document.createElement("h2"); h.className="grp"; h.textContent=name; sec.appendChild(h); list.forEach(d=>sec.appendChild(d)); });
+  }
+  function cite(root,own){ const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null); const todo=[]; let n;
+    while((n=w.nextNode())){ const pe=n.parentElement; if(!pe||!own(pe)) continue; if(/\[\d+\]/.test(n.nodeValue)&&!pe.closest("sup.cite,script,style,textarea,svg")) todo.push(n); }
+    todo.forEach(n=>{ const f=document.createDocumentFragment(); let prev=false; n.nodeValue.split(/(\[\d+\])/).forEach(p=>{ if(/^\[\d+\]$/.test(p)){ const num=p.slice(1,-1); const s=document.createElement("sup"); s.className="cite"; s.textContent=(prev?",":"")+num; s.title="Source "+num+" in References"; f.appendChild(s); prev=true; } else if(p){ if(p.trim()) prev=false; if(prev&&!p.trim()) return; f.appendChild(document.createTextNode(p)); } }); n.parentNode.replaceChild(f,n); });
+  }
+  function clamp(el,min,total){ if(el.dataset.cl) return; el.dataset.cl="1";
+    const txt=el.textContent; if(txt.length<total) return; if(el.querySelector("div,table,ul,ol,details,p,h3,button,svg")) return;
+    let acc=0; const kids=[...el.childNodes];
+    for(let k=0;k<kids.length;k++){ const n=kids[k];
+      if(n.nodeType===3){ const v=n.nodeValue; const re=/[.!?]["'’”)]?\s+(?=[A-Z0-9"'‘“(])/g; let m;
+        while((m=re.exec(v))){ const end=m.index+m[0].length; if(acc+end<min) continue; if(ABBR.test(v.slice(0,m.index))) continue; if(txt.length-(acc+end)<150) return;
+          const tail=n.splitText(end); const rest=document.createElement("span"); rest.className="rest"; rest.hidden=true; const mv=[]; let x=tail; while(x){ mv.push(x); x=x.nextSibling; } mv.forEach(y=>rest.appendChild(y));
+          const b=document.createElement("button"); b.type="button"; b.className="morebtn"; b.textContent="More"; b.addEventListener("click",ev=>{ ev.preventDefault(); ev.stopPropagation(); rest.hidden=!rest.hidden; b.textContent=rest.hidden?"More":"Less"; });
+          el.appendChild(rest); el.appendChild(document.createTextNode(" ")); el.appendChild(b); return; }
+        acc+=v.length; } else acc+=(n.textContent||"").length; }
+  }
+  function subs(scope){ const hs=[...scope.children].filter(c=>c.tagName==="H3"); if(hs.length<4) return; if((scope.textContent||"").length<7000) return;
+    hs.forEach(h=>{ const d=document.createElement("details"); d.className="sub"; const s=document.createElement("summary"); while(h.firstChild) s.appendChild(h.firstChild); const b=document.createElement("div"); b.className="subb"; const mv=[]; let x=h.nextSibling; while(x&&!(x.nodeType===1&&x.tagName==="H3")){ mv.push(x); x=x.nextSibling; } scope.insertBefore(d,h); mv.forEach(y=>b.appendChild(y)); d.appendChild(s); d.appendChild(b); h.remove(); });
+  }
+  function parts(cell){ const kids=[...cell.childNodes]; let cut=-1, seen="";
+    for(let j=0;j<kids.length;j++){ const n=kids[j]; if(n.nodeType===1){ const tg=n.tagName; const blk=tg==="BR"||tg==="DIV"||tg==="P"||tg==="SMALL"||tg==="UL"||n.classList.contains("ev")||n.classList.contains("sub"); if(blk&&seen.trim()){ cut=j; break; } } seen+=(n.textContent||""); }
+    const lead=document.createElement("span"), rest=document.createElement("div");
+    kids.forEach((n,j)=>{ if(cut<0||j<cut) lead.appendChild(n.cloneNode(true)); else if(!(j===cut&&n.tagName==="BR")) rest.appendChild(n.cloneNode(true)); });
+    [lead,rest].forEach(r=>r.querySelectorAll("[id]").forEach(e=>e.removeAttribute("id")));
+    return {lead,rest,ll:lead.textContent.trim().length,rl:rest.textContent.trim().length};
+  }
+  function build(tb,hs,rows){ const wrap=document.createElement("div"); wrap.className="qrecs";
+    rows.forEach(r=>{ const cs=[...r.cells];
+      if(cs.length!==hs.length){ const nt=document.createElement("div"); nt.className="qrec note"; cs.forEach(c=>[...c.childNodes].forEach(n=>nt.appendChild(n.cloneNode(true)))); if(nt.textContent.trim()) wrap.appendChild(nt); return; }
+      const t0=parts(cs[0]); const rt=document.createElement("div"); rt.className="qrt"; if(t0.ll>90){ rt.textContent=t0.lead.textContent.trim().slice(0,88)+"…"; t0.rest.prepend(t0.lead); t0.qrl=1; } else rt.appendChild(t0.lead);
+      if(t0.qrl&&t0.ll<=90){ const s=document.createElement("span"); s.className="qrt-sub"; while(t0.rest.firstChild) s.appendChild(t0.rest.firstChild); rt.appendChild(s); }
+      const rf=document.createElement("div"); rf.className="qrf"; const rb=document.createElement("div"); rb.className="qrb";
+      if(t0.ll>90){ const l=document.createElement("div"); l.className="qrl"; const k=document.createElement("div"); k.className="qrk"; k.textContent=hs[0]; const v=document.createElement("div"); v.className="qrv"; v.appendChild(t0.rest); l.appendChild(k); l.appendChild(v); rb.appendChild(l); }
+      for(let i=1;i<cs.length;i++){ const p=parts(cs[i]); if(!p.ll&&!p.qrl) continue; let long=null;
+        if(p.ll&&p.ll<=64){ const f=document.createElement("div"); f.className="qf"; const k=document.createElement("i"); k.textContent=hs[i]; const v=document.createElement("span"); v.appendChild(p.lead); f.appendChild(k); f.appendChild(v); rf.appendChild(f); if(p.qrl) long=p.rest; }
+        else { long=document.createElement("div"); long.appendChild(p.lead); if(p.qrl){ long.appendChild(document.createTextNode(" ")); while(p.rest.firstChild) long.appendChild(p.rest.firstChild); } }
+        if(long){ const l=document.createElement("div"); l.className="qrl"; const k=document.createElement("div"); k.className="qrk"; k.textContent=hs[i]; const v=document.createElement("div"); v.className="qrv"; while(long.firstChild) v.appendChild(long.firstChild); l.appendChild(k); l.appendChild(v); rb.appendChild(l); } }
+      let rec; if(rb.children.length){ rec=document.createElement("details"); rec.className="qrec"; const s=document.createElement("summary"); s.appendChild(rt); s.appendChild(rf); rec.appendChild(s); rec.appendChild(rb); if(rows.length<=1) rec.open=true; }
+      else { rec=document.createElement("div"); rec.className="qrec"; const s=document.createElement("div"); s.className="qrs"; s.appendChild(rt); s.appendChild(rf); s.appendChild(document.createElement("span")); rec.appendChild(s); }
+      wrap.appendChild(rec); });
+    return wrap;
+  }
+  function cardify(tb){ if(tb.dataset.c) return; tb.dataset.c="1";
+    if(tb.classList.contains("heat")||tb.closest(".qrec,.bcol,.nocard")||tb.querySelector("[rowspan],input,select,button,table")) return;
+    const hr=tb.tHead&&tb.tHead.rows.length?tb.tHead.rows[tb.tHead.rows.length-1]:null; if(!hr) return; if([...hr.cells].some(c=>c.colSpan>1)) return;
+    const hs=[...hr.cells].map(c=>c.textContent.trim()); if(hs.length<3) return;
+    const rows=()=>[...tb.tBodies].reduce((a,b)=>a.concat([...b.rows]),[]); const rs=rows(); if(!rs.length) return;
+    let longRows=0, mx=0; rs.forEach(r=>{ let m=0; [...r.cells].forEach((c,i)=>{ if(r.cells.length===hs.length) m=Math.max(m,c.textContent.trim().length); }); if(m>=110) longRows++; mx=Math.max(mx,m); });
+    if(!(longRows/rs.length>=0.3||mx>=300)) return;
+    let cur=build(tb,hs,rs); tb.parentNode.insertBefore(cur,tb); tb.style.display="none";
+    let tm=null; new MutationObserver(()=>{ clearTimeout(tm); tm=setTimeout(()=>{ try{ const nx=build(tb,hs,rows()); cur.replaceWith(nx); cur=nx; }catch(e){} },150); }).observe(tb,{childList:true,subtree:true,characterData:true});
+  }
+  function tidy(d){ if(!d||d.dataset.td) return; d.dataset.td="1";
+    const body=d.querySelector(":scope>.body,:scope>.subb,:scope>.qrb")||d; const own=e=>!!e&&e.closest("details")===d;
+    try{ subs(body); [...body.children].forEach(c=>{ if(c.tagName==="DIV"&&!c.classList.contains("subb")) subs(c); }); }catch(e){}
+    try{ cite(d,own); }catch(e){}
+    try{ body.querySelectorAll("table").forEach(tb=>{ if(own(tb)) cardify(tb); }); }catch(e){}
+    try{ const first=body.firstElementChild; if(first&&first.classList.contains("meta")&&d.classList.contains("sec")) first.classList.add("intro");
+      body.querySelectorAll(".meta,p,.fp-row>*:last-child,.qrv,.ld,li").forEach(e=>{ if(own(e)&&!e.closest("table")&&!e.classList.contains("lede")&&!e.classList.contains("lede-orig")) clamp(e,e.classList.contains("intro")?170:230,460); }); }catch(e){}
+  }
+  function tidyView(id){ const v=document.getElementById("view-"+id); if(!v||id==="timeline") return;
+    v.querySelectorAll("details.sec>summary").forEach(sm=>{ try{ retitle(sm); }catch(e){} });
+    if(STATES.some(s=>s.id===id)){ const sec=v.querySelector(":scope>section"); if(sec){ try{ group(sec); }catch(e){} } }
+    v.querySelectorAll("details[open]").forEach(tidy);
+  }
+  document.addEventListener("toggle",e=>{ const d=e.target; if(d&&d.tagName==="DETAILS"&&d.open&&d.closest(".dossier")) tidy(d); },true);
+  const _show=show; show=function(id){ _show(id); try{ tidyView(CUR_VIEW); }catch(e){} };
+  let tm=null; const mo=new MutationObserver(()=>{ clearTimeout(tm); tm=setTimeout(()=>{ mo.disconnect(); try{ tidyView(CUR_VIEW); }catch(e){} mo.observe(main,{childList:true,subtree:true}); },140); });
+  mo.observe(main,{childList:true,subtree:true});
+  try{ tidyView(CUR_VIEW); }catch(e){}
+}
+
 const status=document.getElementById("mapStatus");
 loadGIS().then(g=>{
   if(g){ GIS=g; renderHeroGIS(); STATES.forEach(renderStateModel); status.textContent="US Census boundaries · Albers equal-area"; status.classList.add("ok"); }
