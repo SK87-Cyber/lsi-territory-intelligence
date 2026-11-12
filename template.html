@@ -94,6 +94,11 @@ svg.zoomed .se-county{display:block}
 /* ================= sticky nav ================= */
 
 /* ---- 10.1c plain-language and calm layer ---- */
+.states-inner{gap:5px!important}
+.marker{padding:4px 9px 5px!important}
+.marker .ag{font-size:9.5px}
+details.sec{margin-bottom:8px}
+details.sec>summary small{color:var(--slate)}
 .lede{max-width:78ch}
 details.more{margin:-4px 0 14px;border:0!important;background:none!important;box-shadow:none!important}
 details.more>summary{background:none!important;border-top:0!important;border-left:0!important;border-right:0!important;box-shadow:none!important;width:auto!important;font-weight:400!important;font-family:var(--body)!important}
@@ -2472,7 +2477,7 @@ function programmedDue(sid){ const out=[]; const J=pipeJoin(sid); const letTips=
 function recurPanel(s){ const R=recurring(s.id), C=lightingCadence(s.id), b=BIDSRC[s.id]||{}; const m=v=>"$"+Math.round(v).toLocaleString();
   const kinds={}; R.rows.forEach(r=>r.kinds.forEach(k=>{ kinds[k]=(kinds[k]||0)+1; }));
   const rebids=R.rows.filter(r=>r.term); const nxt=nextLettings(s.id).slice(0,6); const due=programmedDue(s.id);
-  return `<details class="sec"><summary>What recurs — on-call, annual and programme contracts, and when lighting comes round<small>${R.rows.length} recurring-type of ${R.n} contracts · ${R.elec.length} electrical · ${C&&C.l1.length?C.l1.length+" standalone lighting contracts in the year":"no standalone lighting contract in the year"}</small></summary><div class="body">
+  return `<details class="sec"><summary>Recurring contracts<small>${R.rows.length} recurring-type of ${R.n} contracts · ${R.elec.length} electrical · ${C&&C.l1.length?C.l1.length+" standalone lighting contracts in the year":"no standalone lighting contract in the year"}</small></summary><div class="body">
     <div class="meta">Recurrence is read from the agency's own titles — <b>on-call / as-needed / annual</b>, <b>programme</b> contracts at various locations or statewide, <b>emergency</b> lettings, and <b>term</b> contracts titled by fiscal year — in the ${esc(R.channel)}. A contract is recurring by type, not by proof of a second letting: one year of record shows the type, the next year shows the cadence. ${esc(b.oncall||"")}</div>
     <div class="pstats">
       <div class="ps"><div class="k">Recurring-type contracts</div><div class="v">${R.rows.length}</div><div class="d">${Object.entries(kinds).map(([k,v])=>`${v} ${k}`).join(" · ")||"none in the year"} · ${m(R.val)}</div></div>
@@ -3366,7 +3371,7 @@ function readPanel(s){ const Y=YEAR[s.id]; if(!Y||s.id==="NC") return "";
   const D=DICTS[s.id]&&DICTS[s.id].dict; const qty={}; L.forEach(c=>c.quantities.forEach(q=>{ const [n,d0]=q.split(" × "); const d=d0.replace(/[,\s]+$/,""); qty[d]=(qty[d]||0)+parseFloat(n); }));
   const cites=(Y.cites||{}); const ev=k=>cites[k]?evText(cites[k]):"";
   return `
-    <details class="sec"><summary>${esc(Y.lettingsLabel||"Lettings")} read at item level — where the lighting was<small>${Y.lettings.length} lettings · ${Y.contractsRead||Y.contracts} contracts read · ${bids} bids · ${L.length} carried lighting · ${awN} of ${Y.contracts} awarded</small></summary><div class="body">
+    <details class="sec"><summary>${esc(Y.lettingsLabel||"Lettings")} — lighting found<small>${Y.lettings.length} lettings · ${Y.contractsRead||Y.contracts} contracts read · ${bids} bids · ${L.length} carried lighting · ${awN} of ${Y.contracts} awarded</small></summary><div class="body">
       <div class="meta">${esc(s.agency)}'s ${esc(Y.span)}, ${Y.how?[esc(Y.how)+" "+ev("tabs")+".", Y.awardRule?esc(Y.awardRule)+(cites.awards?" "+ev("awards"):"")+".":""].filter(Boolean).join(" "):`read at item level from the Tabulation of Bids on Bid Express ${ev("tabs")} — every bidder on every contract, each bidder's column reconciled to the tabulation's own Contract Grand Totals — with awards from the Award Announcements ${ev("awards")}.`} A contract counts as carrying lighting only when it prices ${esc(Y.lightRule||"a Section 680 item")} at the low bidder. <b>${esc(Y.channel)}.</b> ${esc(Y.gap||"")}</div>
       <div class="pstats">
         <div class="ps"><div class="k">Contracts read at item level</div><div class="v">${Y.contractsRead||Y.contracts}${Y.contractsRead&&Y.contractsRead!==Y.contracts?` <span style="font-size:12px;color:var(--slate)">of ${Y.contracts} let</span>`:""}</div><div class="d"${Y.lettings.length>12?` title="${esc(Y.lettings.map(l=>l.date+" ("+l.n+")").join(" · "))}"`:""}>${Y.lettings.length>12?esc(Y.span)+" · "+Y.lettings.length+" lettings, "+Y.lettings.filter(l=>/Regular/.test(l.kind||"Regular")).length+" regular · hover for each":Y.lettings.map(l=>esc(l.date)+" ("+l.n+")").join(" · ")}</div></div>
@@ -3811,7 +3816,7 @@ STATES.forEach(s=>{
       ${decBlock}
     </div></details>`; })();
   const ncYear = !(has(s,"reads")&&Y&&isNC) ? "" : `
-    <details class="sec"><summary>Twelve months of lettings — where the lighting actually was<small>${NC_YEAR.lettings.length} lettings · ${NC_YEAR.contracts} contracts · every item list read · ${NC_YEAR.lighting.length} carried lighting</small></summary><div class="body">
+    <details class="sec"><summary>Twelve months of lettings — lighting found<small>${NC_YEAR.lettings.length} lettings · ${NC_YEAR.contracts} contracts · every item list read · ${NC_YEAR.lighting.length} carried lighting</small></summary><div class="body">
       <div class="meta">Every letting in NCDOT's <b>Central</b> channel from <b>${esc(NC_YEAR.span)}</b>, read at item level from NCDOT's itemised bid spreadsheets [${citeIndex["NC-28"]}] — ${NC_YEAR.contracts} contracts in all. A contract counts as carrying lighting only when it prices an item in the Division 14 family. ${esc(NC_YEAR.gap)}</div>
       <div class="pstats">
         <div class="ps"><div class="k">Contracts read</div><div class="v">${NC_YEAR.contracts}</div></div>
@@ -3921,7 +3926,7 @@ STATES.forEach(s=>{
     const rows=Object.entries(by).sort((a,b)=>b[1].pr-a[1].pr||b[1].l2-a[1].l2);
     const prTot=rows.reduce((a,r)=>a+r[1].pr,0); const top2=rows.slice(0,2); if(top2.length<2) top2.push(["—",{pr:0,jobs:[]}]); const top2Share=prTot?((top2[0][1].pr+top2[1][1].pr)/prTot*100).toFixed(1):"0";
     return `
-    <details class="sec"><summary>Who buys product \u2014 the accounts behind the lighting money<small>${rows.length} prime contractors \u00b7 two bought ${top2Share}% of the product</small></summary><div class="body">
+    <details class="sec"><summary>Who buys product<small>${rows.length} prime contractors \u00b7 two bought ${top2Share}% of the product</small></summary><div class="body">
       <div class="meta">A manufacturer does not compete with the contractors below \u2014 <b>it sells to them</b>. The prime that wins a contract carrying lighting items buys the poles, luminaires, drive units and controls that fulfil it, so the winners of the ${Y.lighting.length} lighting contracts are the year\u2019s product-buying accounts in this channel. ${isNC?`Concentration statistics for general roadway construction (HHI ${NC_COMP.hhi}, largest winner ${NC_COMP.cr1}%) describe a market a lighting seller is not in; they stay on the <a href="#" data-goto="competition">Contractors tab</a> as context, labelled as such.`:`Every bidder on these contracts is on the <a href="#" data-goto="competition">Contractors tab</a>.`}</div>
       <table><thead><tr><th>Prime contractor</th><th>Lighting contracts</th><th>Lighting identified</th><th>Of which product</th></tr></thead><tbody>
       ${rows.map(([name,v])=>`<tr><td><b>${esc(name)}</b><br><span class="ev">${v.jobs.join(" \u00b7 ")}</span></td><td>${v.n}</td><td>$${v.l2.toLocaleString(undefined,{maximumFractionDigits:0})}</td><td>${v.pr?`<b>$${v.pr.toLocaleString(undefined,{maximumFractionDigits:0})}</b>`:`<span class="ev">none \u2014 conduit, duct or relocation only</span>`}</td></tr>`).join("")}
@@ -3929,7 +3934,7 @@ STATES.forEach(s=>{
       <div class="callout" style="margin-top:12px"><strong>Two accounts took ${top2Share}% of the year\u2019s product dollars.</strong> ${esc(top2[0][0])} (${top2[0][1].jobs.join(", ")}) and ${esc(top2[1][0])} (${top2[1][1].jobs.join(", ")}). ${isNC?"In a channel where product arrives in a handful of high-mast packages a year, the account list is short by nature \u2014 which is exactly why the programmed pipeline above, where the next packages are visible years ahead, is the earlier and better call list.":(Y.buyersNote||(Y.lighting.some(c=>c.cls==="L1")?"Where a standalone lighting contract exists, its winner is an electrical specialist and the account is the specialist, not a paving prime \u2014 the L1 rows above are that list.":"Every lighting winner here is a general prime that buys the lighting through an electrical subcontractor \u2014 the account is one step below the name in the table."))}</div>
     </div></details>`; })();
   const ncResearch = !(has(s,"reads")&&Y&&isNC) ? "" : `
-    <details class="sec"><summary>Full research file \u2014 how every number above was made<small>letting-by-letting captures \u00b7 the Division channel \u00b7 dictionary and procedure</small></summary><div class="body">
+    <details class="sec"><summary>Research file \u2014 how each number was made<small>letting-by-letting captures \u00b7 the Division channel \u00b7 dictionary and procedure</small></summary><div class="body">
       <div class="meta">Nothing was removed to make the page readable \u2014 it moved here. Every table keeps its citations and its evidence text.</div>
       <details class="more"><summary>Letting-by-letting detail \u2014 the June, July and August 2026 captures</summary><div>
 
@@ -4030,7 +4035,7 @@ STATES.forEach(s=>{
 
   const ncMethod = !(has(s,"dict") && isNC) ? "" : `
 
-    <details class="sec"><summary>Whose product goes in — and why no public record says<small>NCDOT specifies performance, not products · every contract sits at M5</small></summary><div class="body">
+    <details class="sec"><summary>Installed products — not published<small>NCDOT specifies performance, not products · every contract sits at M5</small></summary><div class="body">
       <div class="meta">NCDOT's LED Luminaire Specification [${citeIndex["NC-8"]}] is written entirely as performance requirements. It names <b>no manufacturers</b>; NCDOT's Approved Products List does carry an “Innovative Roadway Lighting” group, but every entry on it is provisional and the specification does not require it (the Phase 7 panel below has the list) — so no public artifact in the letting chain identifies whose luminaire goes on a pole. That is why every contract in this model carries <b>M5 — UNKNOWN</b> for manufacturer evidence, and why it would be dishonest to publish a market-share view from what is available.</div>
       <div class="pstats">
         <div class="ps"><div class="k">Light standard luminaires</div><div class="v" style="font-size:18px">185W / 285W LED</div><div class="d">250W and 400W HPS equivalents · Type II or III · BUG 3-0-3 max</div></div>
@@ -4065,8 +4070,8 @@ STATES.forEach(s=>{
     ${mfrPanel(s)}
     ${ncPipe}
     ${ncBuyers}
-    <details class="sec"><summary>Leadership & contacts — who to call<small>${slaSummary(s)} · staleness computed today</small></summary><div class="body">${chainStrip(s)}${contactsTable(s)}${!isNC?"":`<p style="font-size:12px;color:var(--slate);margin-top:10px"><b>Reaching the lighting team.</b> NCDOT's Roadway Lighting Policy names the <b>Roadway Lighting Team Lead</b> as the person responsible for lighting policy [${citeIndex["NC-31"]}] \u2014 that is Greg Hall, which makes his the desk that owns the standard, not just a project. Unit line <b>(919) 707-6200</b>, fax (919) 250-4036; mail to <b>1582 Mail Service Center, Raleigh, NC 27699-1582</b>, deliveries to 1000 Birch Ridge Drive, Raleigh, NC 27610. Addresses were read off the directory page one by one and verified August 31, 2026 \u2014 never derived from a pattern, which matters here: the Lighting Team Lead is <b>rghall@</b>, not the ghall@ an obvious rule would have produced, and Alec Brown carries a numeric suffix.</p>`}</div></details>
-    <details class="sec"><summary>Where lighting sits and how work is let<small>${esc(s.geoShort)} · ${esc(s.agency)}</small></summary><div class="body">
+    <details class="sec"><summary>Contacts<small>${slaSummary(s)} · staleness computed today</small></summary><div class="body">${chainStrip(s)}${contactsTable(s)}${!isNC?"":`<p style="font-size:12px;color:var(--slate);margin-top:10px"><b>Reaching the lighting team.</b> NCDOT's Roadway Lighting Policy names the <b>Roadway Lighting Team Lead</b> as the person responsible for lighting policy [${citeIndex["NC-31"]}] \u2014 that is Greg Hall, which makes his the desk that owns the standard, not just a project. Unit line <b>(919) 707-6200</b>, fax (919) 250-4036; mail to <b>1582 Mail Service Center, Raleigh, NC 27699-1582</b>, deliveries to 1000 Birch Ridge Drive, Raleigh, NC 27610. Addresses were read off the directory page one by one and verified August 31, 2026 \u2014 never derived from a pattern, which matters here: the Lighting Team Lead is <b>rghall@</b>, not the ghall@ an obvious rule would have produced, and Alec Brown carries a numeric suffix.</p>`}</div></details>
+    <details class="sec"><summary>Organisation and how work is let<small>${esc(s.geoShort)} · ${esc(s.agency)}</small></summary><div class="body">
       <p style="margin-top:0"><b>What the bid record shows.</b> ${esc(s.compNote)}</p>
       <div class="callrow">
         <div class="callout"><strong>Where lighting sits.</strong> ${esc(s.lighting)}</div>
