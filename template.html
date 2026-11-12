@@ -4400,13 +4400,13 @@ function initReader(){
   function build(tb,hs,rows){ const wrap=document.createElement("div"); wrap.className="qrecs";
     rows.forEach(r=>{ const cs=[...r.cells];
       if(cs.length!==hs.length){ const nt=document.createElement("div"); nt.className="qrec note"; cs.forEach(c=>[...c.childNodes].forEach(n=>nt.appendChild(n.cloneNode(true)))); if(nt.textContent.trim()) wrap.appendChild(nt); return; }
-      const t0=parts(cs[0]); const rt=document.createElement("div"); rt.className="qrt"; if(t0.ll>90){ rt.textContent=t0.lead.textContent.trim().slice(0,88)+"…"; t0.rest.prepend(t0.lead); t0.qrl=1; } else rt.appendChild(t0.lead);
-      if(t0.qrl&&t0.ll<=90){ const s=document.createElement("span"); s.className="qrt-sub"; while(t0.rest.firstChild) s.appendChild(t0.rest.firstChild); rt.appendChild(s); }
+      const t0=parts(cs[0]); const rt=document.createElement("div"); rt.className="qrt"; if(t0.ll>90){ rt.textContent=t0.lead.textContent.trim().slice(0,88)+"…"; t0.rest.prepend(t0.lead); t0.rl=1; } else rt.appendChild(t0.lead);
+      if(t0.rl&&t0.ll<=90){ const s=document.createElement("span"); s.className="qrt-sub"; while(t0.rest.firstChild) s.appendChild(t0.rest.firstChild); rt.appendChild(s); }
       const rf=document.createElement("div"); rf.className="qrf"; const rb=document.createElement("div"); rb.className="qrb";
       if(t0.ll>90){ const l=document.createElement("div"); l.className="qrl"; const k=document.createElement("div"); k.className="qrk"; k.textContent=hs[0]; const v=document.createElement("div"); v.className="qrv"; v.appendChild(t0.rest); l.appendChild(k); l.appendChild(v); rb.appendChild(l); }
-      for(let i=1;i<cs.length;i++){ const p=parts(cs[i]); if(!p.ll&&!p.qrl) continue; let long=null;
-        if(p.ll&&p.ll<=64){ const f=document.createElement("div"); f.className="qf"; const k=document.createElement("i"); k.textContent=hs[i]; const v=document.createElement("span"); v.appendChild(p.lead); f.appendChild(k); f.appendChild(v); rf.appendChild(f); if(p.qrl) long=p.rest; }
-        else { long=document.createElement("div"); long.appendChild(p.lead); if(p.qrl){ long.appendChild(document.createTextNode(" ")); while(p.rest.firstChild) long.appendChild(p.rest.firstChild); } }
+      for(let i=1;i<cs.length;i++){ const p=parts(cs[i]); if(!p.ll&&!p.rl) continue; let long=null;
+        if(p.ll&&p.ll<=64){ const f=document.createElement("div"); f.className="qf"; const k=document.createElement("i"); k.textContent=hs[i]; const v=document.createElement("span"); v.appendChild(p.lead); f.appendChild(k); f.appendChild(v); rf.appendChild(f); if(p.rl) long=p.rest; }
+        else { long=document.createElement("div"); long.appendChild(p.lead); if(p.rl){ long.appendChild(document.createTextNode(" ")); while(p.rest.firstChild) long.appendChild(p.rest.firstChild); } }
         if(long){ const l=document.createElement("div"); l.className="qrl"; const k=document.createElement("div"); k.className="qrk"; k.textContent=hs[i]; const v=document.createElement("div"); v.className="qrv"; while(long.firstChild) v.appendChild(long.firstChild); l.appendChild(k); l.appendChild(v); rb.appendChild(l); } }
       let rec; if(rb.children.length){ rec=document.createElement("details"); rec.className="qrec"; const s=document.createElement("summary"); s.appendChild(rt); s.appendChild(rf); rec.appendChild(s); rec.appendChild(rb); if(rows.length<=1) rec.open=true; }
       else { rec=document.createElement("div"); rec.className="qrec"; const s=document.createElement("div"); s.className="qrs"; s.appendChild(rt); s.appendChild(rf); s.appendChild(document.createElement("span")); rec.appendChild(s); }
