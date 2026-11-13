@@ -24,10 +24,18 @@ def main():
         raise SystemExit("expected exactly one html tag to mark the redesign")
     redesign = html.replace(marker, '<html lang="en" data-ui="next">', 1)
     (out / "index.html").write_text(redesign, encoding="utf-8")
-    for name, page in (("classic", html), ("next", redesign)):
-        folder = out / name
-        folder.mkdir(exist_ok=True)
-        (folder / "index.html").write_text(page, encoding="utf-8")
+    (out / "classic").mkdir(exist_ok=True)
+    (out / "classic" / "index.html").write_text(html, encoding="utf-8")
+    # /next/ was the redesign's preview address. It now forwards to the main page so there is one address.
+    (out / "next").mkdir(exist_ok=True)
+    (out / "next" / "index.html").write_text(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<title>Southeast DOT Lighting Intelligence</title>'
+        '<meta http-equiv="refresh" content="0; url=../">'
+        '<script>location.replace("../" + location.hash)</script></head>'
+        '<body><p>This page has moved to the <a href="../">main site</a>.</p></body></html>',
+        encoding="utf-8",
+    )
     print(f"Verified Netlify entry point: {out / 'index.html'}")
 
 if __name__ == "__main__":
