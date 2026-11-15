@@ -42,3 +42,22 @@ class RetrievalTests(unittest.TestCase):
     def test_tennessee_folder_rule(self):
         self.assertEqual(tn_folders('CNY157'),['CNY Contracts'])
         self.assertIn('2026 contracts',tn_folders('CN261059'))
+
+class RetryTests(unittest.TestCase):
+    def test_dropped_connection_is_retried(self):
+        import retrieve, http.client
+        calls={'n':0}
+        class Resp:
+            status=200; headers={}
+            def read(self,n): return b'ok'
+            def __enter__(self): return self
+            def __exit__(self,*a): return False
+        def fake(req,timeout):
+            calls['n']+=1
+            if calls['n']<3: raise http.client.RemoteDisconnected('drop')
+            return Resp()
+        old_open,old_sleep=retrieve.urlopen,retrieve.time.sleep
+        retrieve.urlopen,retrieve.time.sleep=fake,lambda s:None
+        try: self.assertEqual(retrieve.fetch('https://connect.ncdot.gov/letting')[2],b'ok')
+        finally: retrieve.urlopen,retrieve.time.sleep=old_open,old_sleep
+        self.assertEqual(calls['n'],3)

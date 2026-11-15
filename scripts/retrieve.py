@@ -7,6 +7,7 @@ shows counts only.
 """
 from datetime import datetime, timezone
 import html
+import http.client
 import json
 import re
 import sys
@@ -27,9 +28,15 @@ def fetch(url, method='GET', body=None, headers=None, pause=1.0):
     if urlsplit(url).scheme != 'https' or urlsplit(url).hostname not in HOSTS:
         raise ValueError('Host not on the retrieval list')
     req = Request(url, method=method, data=body, headers={'User-Agent': UA, 'Accept': 'text/html,application/json,*/*;q=0.8', **(headers or {})})
-    time.sleep(pause)
-    with urlopen(req, timeout=60) as r:
-        return r.status, dict(r.headers), (b'' if method == 'HEAD' else r.read(MAX_BYTES))
+    for attempt in range(3):
+        time.sleep(pause if attempt == 0 else 10 * attempt)
+        try:
+            with urlopen(req, timeout=60) as r:
+                return r.status, dict(r.headers), (b'' if method == 'HEAD' else r.read(MAX_BYTES))
+        except HTTPError:
+            raise
+        except (OSError, http.client.HTTPException):  # dropped connection or timeout: wait and retry
+            if attempt == 2: raise
 
 # ---- parsers (pure; tested with fixtures) ----
 def cells(row):
@@ -71,14 +78,18 @@ def parse_ga_listing(page):
 # ---- watchers ----
 def nc_lettings(_conn):
     api = "https://connect.ncdot.gov/letting/_api/web/lists/getbytitle('{}')/items?$select=FileRef,FSObjType,Created&$top=300&$orderby=Created%20desc"
-    out = []
+    out, missed = [], []
     for lib in [f'Division {n} Letting' for n in range(1, 15)] + ['Central Letting', '12 Month Tentative Letting Library']:
-        _, _, raw = fetch(api.format(quote(lib)), headers={'Accept': 'application/json;odata=nometadata'})
+        try:
+            _, _, raw = fetch(api.format(quote(lib)), headers={'Accept': 'application/json;odata=nometadata'}, pause=3.0)
+        except (OSError, http.client.HTTPException):
+            missed.append(lib); continue  # listings only add, never remove, so a skipped library is caught next week
         for it in json.loads(raw)['value']:
             if it['FSObjType'] == 0:
                 ref = it['FileRef']
                 out.append((ref, {'state': 'NC', 'library': lib, 'letting': ref.split('/')[-2], 'title': ref.split('/')[-1],
                                   'posted': it['Created'][:10], 'url': 'https://connect.ncdot.gov' + quote(ref)}))
+    if len(missed) > 8: raise ConnectionError(f'{len(missed)} of 16 libraries unreachable')
     return out
 
 def al_procurement(_conn):
