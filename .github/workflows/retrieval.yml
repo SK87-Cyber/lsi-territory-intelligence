@@ -1,0 +1,27 @@
+name: Weekly scheduled retrieval
+on:
+  schedule:
+    - cron: '17 10 * * 1'   # Mondays 10:17 UTC (5:17 AM Eastern in winter); GitHub may start it hours late
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lighting-retrieval
+  cancel-in-progress: false
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install -r requirements-infra.txt
+      - name: List public sources and record what is new
+        env:
+          LSI_DATABASE_URL: ${{ secrets.LSI_DATABASE_URL }}
+        run: python scripts/retrieve.py
+      - name: Show counts in the run summary
+        if: always()
+        run: |
+          if [ -f reports/retrieval.md ]; then cat reports/retrieval.md >> "$GITHUB_STEP_SUMMARY"; fi

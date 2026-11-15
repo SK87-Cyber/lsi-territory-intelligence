@@ -92,3 +92,27 @@ boundary tests flipped between 8 pm Eastern and midnight. It now uses local cale
 (`localISO`), matching the page. CI runs in UTC and was unaffected; evening local runs were.
 `freshness.next` in the snapshot is clock-derived (documented in `scripts/export_data.cjs`), so a push after a
 letting date passes records a small, accurate change event for that state; it is not a research change.
+
+## Scheduled retrieval — added 2026-11-15
+
+**Weekly scheduled retrieval** (`.github/workflows/retrieval.yml`, `scripts/retrieve.py`) runs Mondays at 10:17 UTC on a
+GitHub-hosted runner. It lists what six public sources have posted and records what is new or changed since the last run:
+
+| Source key | What is listed |
+|---|---|
+| `nc-lettings` | Newest 300 files in each of the 14 Division letting libraries, Central Letting and the 12 Month Tentative Letting Library |
+| `al-procurement` | ALDOT Procurement Office notices and awarded master agreements |
+| `ky-contracts` | Every open Transportation agreement (vendor and term; the service does not list titles) |
+| `ky-payments` | Payment count and total, current and prior fiscal year, for four lighting and electrical vendors |
+| `ga-pay-estimates` | Per contract, how many pay estimates are posted and the newest |
+| `tn-progress-payments` | Whether a progress-payment file is posted for each Tennessee lighting contract in the record, and its date |
+
+It reads listings only. It does not open bid documents, mark anything verified, change a research record or publish to the
+site. The first run for a source records a baseline and raises no events. After that each new or changed item is a row in
+`lsi.watch_events` (private), flagged `lighting` when its title or vendor names lighting. The public run summary shows
+counts only. Read the queue with:
+`select recorded_at,source,action,lighting,payload from lsi.watch_events where not reviewed order by recorded_at desc`.
+
+Not yet covered: Kentucky pay estimates per contract, the North Carolina vendor portal (needs a page token), and the
+browser-only sources in the source registry. Tennessee's folder name for 2026 contracts is unconfirmed, so those report
+as not posted until one is found.
