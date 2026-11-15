@@ -246,6 +246,13 @@ body[data-view]:not([data-view="overview"]) nav.states{border-top:4px solid var(
 /* 10.2e — redesign: the site opens on the map with the Timeline tab under it */
 html[data-ui="next"] body[data-view="timeline"] .hero{display:block}
 html[data-ui="next"] body[data-view="timeline"] nav.states{border-top:0}
+/* 10.2h — sources on the weekly retrieval schedule */
+html[data-ui="next"] .srcrow.nx-auto{border-left:4px solid #0E7A4E;background:#EEF8F3;padding-left:10px}
+html[data-ui="next"] .nx-autotag{display:inline-block;margin-left:12px;padding:2px 9px;border-radius:999px;background:#EEF8F3;border:1px solid #0E7A4E;color:#0A5C3B;font:600 12px/1.5 Inter,system-ui,sans-serif;vertical-align:middle}
+html[data-ui="next"] .nx-watch{margin:18px 0 22px;padding:16px 20px;border:1px solid #0E7A4E;border-left:5px solid #0E7A4E;border-radius:8px;background:#EEF8F3;font-size:14.5px;line-height:1.7}
+html[data-ui="next"] .nx-watch b{display:block;color:#0A5C3B;margin-bottom:2px}
+html[data-ui="next"] .nx-watch ul{margin:8px 0 0 18px;padding:0}
+html[data-ui="next"] #view-refs details.nx-fold>summary{padding-top:14px;padding-bottom:14px}
 /* the nav wraps on narrow screens instead of clipping the last tabs */
 .states-inner{flex-wrap:wrap;overflow:visible;row-gap:6px}
 /* the state page: map and tiles on one grid — the map fills its row, two tiles beside it, two beneath */
@@ -3890,11 +3897,23 @@ renderWhatChanged(); renderFreshness();
 (function renderAltdel(){ const h=document.getElementById("altdelOverview"); if(!h) return;
   const rows=STATES.map(s=>{ const A=ALTDEL[s.id]||{projects:[]}; const P=A.projects, lit=P.filter(p=>p.named); const next=ALTDEL_AHEAD.filter(a=>a.st===s.id).sort((a,b)=>a.date<b.date?-1:1)[0];
     return `<tr><td><b>${esc(s.name)}</b><br><span class="ev">${esc(s.agency)}</span></td><td><b>${P.length}</b><br><span class="ev">${["DB","PDB","CMGC","P3"].map(m=>{ const c=P.filter(p=>p.method===m).length; return c?`${c} ${m}`:""; }).filter(Boolean).join(" · ")}</span></td><td><b>${lit.length}</b>${lit.length?`<br><span class="ev">${lit.map(p=>esc(p.name.split(" — ")[0].split(",")[0])).join(" · ")}</span>`:""}</td><td>${esc(ALTDEL_RULE[s.id]||"")}</td><td>${next?`<b>${esc(next.date)}</b> — ${esc(next.what)}<br><span class="ev">${esc(next.basis)}</span>`:"<span class=\"ev\">nothing dated</span>"}</td></tr>`; }).join("");
-  const ahead=ALTDEL_AHEAD.slice().sort((a,b)=>a.date<b.date?-1:1).map(a=>`<tr><td><b>${esc(a.date)}</b></td><td>${esc(byId[a.st].agency)}</td><td>${esc(a.what)}</td><td><span class="ev">${esc(a.basis)}</span></td></tr>`).join("");
+  const today=new Date().toISOString().slice(0,10); const stillAhead=a=>{ const k=a.date.split("–").pop(); return k>=today.slice(0,k.length); };
+  const ahead=ALTDEL_AHEAD.filter(stillAhead).sort((a,b)=>a.date<b.date?-1:1).map(a=>{ const w=a.what.split(" — "), d=w.slice(1).join(" — ")||w[0];
+    /* a short first line, then the rest: long cells would otherwise show as a dash in the card view */
+    const two=(s,sep)=>{ if(s.length<=62) return esc(s); let i=s.indexOf(sep); if(i<0||i>62){ i=s.lastIndexOf(" ",60); return esc(s.slice(0,i))+" …<br>… "+esc(s.slice(i+1)); } return esc(s.slice(0,i))+"<br>"+esc(s.slice(i+1).trim()); };
+    return `<tr><td><b>${esc(a.date)}</b></td><td>${esc(byId[a.st].name)}</td><td>${two(w[0],",")}</td><td>${two(d,";")}<br><span class="ev">${esc(a.basis)}</span></td></tr>`; }).join("");
   h.innerHTML=`<div style="overflow-x:auto"><table><thead><tr><th>State</th><th>Contracts since 2023</th><th>Name lighting</th><th>Who designs the lighting on a design-build</th><th>Next dated thing where lighting is named</th></tr></thead><tbody>${rows}</tbody></table></div>
-    <div class="callout" style="margin-top:12px"><strong>The finding.</strong> Two states publish the rule and they are opposites. North Carolina keeps the lighting design: on every NCDOT design-build the Department's Lighting &amp; Electrical unit issues the lighting plans and the design-builder installs them, with every pole and luminaire submitted to the Department — the specification conversation is with NCDOT's own lighting team, not the contractor's designer, on I-26 Connector, I-85 Gaston, Complete 540 and the coming I-40/I-440 Raleigh job. South Carolina hands it to the design-builder's engineer under Technical Provision 690 with SCDOT review — the conversation is with the team's designer, and it starts at the RFP: Carolina Crossroads 3D (short-list Nov 2026, award Sep 2027) carries continuous LED high-mast freeway lighting on 100' and 120' poles; Long Point Road (Ames, Jun 2026) partial interchange lighting on 35' poles. Mississippi's one job keeps design with MDOT's consultant; Kentucky's ORX Section 2 gives it to the design-builder; Georgia, Alabama, Tennessee and Arkansas publish no rule. Nothing here is counted in the money ladder.</div>
+    <div class="callout" style="margin-top:12px"><strong>Who designs the lighting, and so who to talk to</strong>
+      <ul style="margin:8px 0 8px 18px;padding:0;line-height:1.7">
+        <li><b>North Carolina:</b> NCDOT designs the lighting itself and the team installs it. Talk to NCDOT's Lighting &amp; Electrical unit.</li>
+        <li><b>South Carolina:</b> the design-builder's engineer designs it and SCDOT reviews. Talk to the team's designer, starting at the RFP.</li>
+        <li><b>Mississippi:</b> MDOT's consultant designs it.</li>
+        <li><b>Kentucky:</b> the design-builder designs it.</li>
+        <li><b>Georgia, Alabama, Tennessee, Arkansas:</b> no published rule.</li>
+      </ul>
+      None of this lighting is counted in the lighting dollars on this site. Each state's row above opens to the contracts and the rule in the agency's words.</div>
     <h3>What is ahead, where lighting is named</h3>
-    <div style="overflow-x:auto"><table><thead><tr><th>Date</th><th>Agency</th><th>What</th><th>Basis</th></tr></thead><tbody>${ahead}</tbody></table></div>`;
+    <div style="overflow-x:auto"><table><thead><tr><th>Date</th><th>State</th><th>Project</th><th>What happens</th></tr></thead><tbody>${ahead}</tbody></table></div>`;
 })();
 (function renderBudgetObjects(){ const h=document.getElementById("budgetObjects"); if(!h) return;
   const rows=STATES.map(s=>{ const F=FUND[s.id]; const O=OWNERSHIP[s.id]; const Ld=ladder(s.id); return `<tr><td><b>${esc(s.name)}</b><br><span class="ev">${esc(s.agency)}</span></td><td><b>${fmtB(s.budget)}</b><br><span class="ev">${esc(s.basis)}</span></td><td>${esc(F.figure)}<br><span class="ev">${esc(s.compNoteBudget)}</span></td><td>${esc(F.status)}</td><td>${esc(F.fy)}</td><td>${s.components.map(c=>`${esc(c[0])} <b>${fmtB(c[1])}</b>`).join("<br>")}</td><td>${O&&O.reg?esc(O.reg.statePays):"—"}</td><td>${Ld.read?`<b>${"$"+(Ld.let/1e6).toFixed(1)+"M"}</b> let<br><span class="ev">${Ld.awardedN?"$"+(Ld.awarded/1e6).toFixed(1)+"M awarded":(Ld.awardLayer?"none confirmed":"awards UNKNOWN")}</span>`:"not read"}</td></tr>`; }).join("");
@@ -4605,7 +4624,7 @@ function initNext(){
       const panels={}; TABS.forEach(([k,l])=>{ const b=el("button",null,l); b.type="button"; b.dataset.tab=k; b.setAttribute("role","tab"); b.addEventListener("click",()=>setTab(sec,k)); tabs.appendChild(b); const p=el("div","nx-panel"); p.dataset.tab=k; p.setAttribute("role","tabpanel"); p.hidden=true; sec.appendChild(p); panels[k]=p; });
       if(grid) panels.summary.appendChild(grid);
       const used=new Set(); HOME.forEach(([k,res])=>res.forEach(re=>secs.forEach(d=>{ if(!used.has(d)&&re.test(title(d))){ used.add(d); panels[k].appendChild(d); } })));
-      secs.forEach(d=>{ if(!used.has(d)) panels.sources.appendChild(d); });
+      secs.forEach(d=>{ if(!used.has(d)) panels.sources.appendChild(d); }); markAuto(sec);
       TABS.forEach(([k])=>{ if(!panels[k].children.length) panels[k].appendChild(el("div","nx-empty","Nothing is on the record for this state under this heading yet.")); });
     }
     setTab(sec,curTab); }
@@ -4628,12 +4647,21 @@ function initNext(){
     c.appendChild(bl); two.appendChild(a); two.appendChild(c); ov.appendChild(two); ov.appendChild(el("div","nx-h2 nx-more","The territory in detail"));
     const first=$(":scope>details.sec",v)||v.firstChild; v.insertBefore(ov,first);
     /* 10.2g declutter: the Timeline carries the calendar; build-to-build change logs are process, kept on the classic page */
-    $$("details.sec",v).forEach(d=>{ if(/^What changed since the last build|^Calendar/.test(title(d))) d.hidden=true; }); }
+    $$("details.sec",v).forEach(d=>{ if(/^What changed since the last build|^Calendar/.test(title(d))) d.hidden=true; });
+    $$(":scope>section",v).forEach(x=>{ const h=$("h2",x); if(h&&/territory at a glance/i.test(h.textContent)) x.hidden=true; }); }
+  /* 10.2h: sources the weekly retrieval job lists automatically are marked green */
+  const AUTO=/connect\.ncdot\.gov\/letting/i;
+  const WATCHED=[["North Carolina","Division, Central and 12-month letting libraries","https://connect.ncdot.gov/letting/Pages/default.aspx"],["Alabama","Procurement Office notices and awarded agreements","https://www.dot.state.al.us/business/Procurementsupplies.html"],["Kentucky","Transportation agreements and payments to lighting and electrical vendors","https://transparency.ky.gov/"],["Georgia","Pay estimates posted per contract","https://myfiles.dot.ga.gov/SmallEstimate/"],["Tennessee","Progress-payment files for the lighting contracts on record","https://www.tn.gov/tdot/tdot-construction-division.html"]];
+  function markAuto(root){ $$(".srcrow",root).forEach(li=>{ if(li.dataset.nxa) return; li.dataset.nxa="1"; const a=$("a[href]",li); if(a&&AUTO.test(a.href)){ li.classList.add("nx-auto"); li.title="Listed automatically every Monday"; } }); }
   /* 10.2g declutter: long reference pages open as a short list of headings */
   function fold(view,sel){ const v=$("#view-"+view); if(!v||v.dataset.nxf) return; v.dataset.nxf="1";
     $$(sel,v).forEach(h=>{ if(h.closest("details.nx-fold")) return; const d=el("details","sec nx-fold"), s=el("summary"); while(h.firstChild) s.appendChild(h.firstChild); const b=el("div","body"); const mv=[]; let x=h.nextSibling; while(x&&!(x.nodeType===1&&x.tagName===h.tagName)){ mv.push(x); x=x.nextSibling; } h.parentNode.insertBefore(d,h); mv.forEach(y=>b.appendChild(y)); d.appendChild(s); d.appendChild(b); h.remove(); });
     /* a search or a state filter opens what it finds; clearing both folds the list again */
-    const q=$("#refSearch"), f=$("#refFilter"); if(view==="refs"&&q&&f){ const sy=()=>setTimeout(()=>{ const on=!!q.value.trim()||!!$('button[aria-pressed="true"]:not([data-g="ALL"])',f); $$("details.nx-fold",v).forEach(d=>{ d.open=on; }); },0); q.addEventListener("input",sy); f.addEventListener("click",sy); } }
+    const q=$("#refSearch"), f=$("#refFilter"); if(view==="refs"&&q&&f){ const sy=()=>setTimeout(()=>{ const on=!!q.value.trim()||!!$('button[aria-pressed="true"]:not([data-g="ALL"])',f); $$("details.nx-fold",v).forEach(d=>{ d.open=on; }); },0); q.addEventListener("input",sy); f.addEventListener("click",sy);
+      markAuto(v); $$("details.nx-fold",v).forEach(d=>{ const n=$$(".srcrow.nx-auto",d).length; if(n){ const s=$("summary",d); s.appendChild(el("span","nx-autotag",n+" checked weekly")); } });
+      const box=el("div","nx-watch"); box.appendChild(el("b",null,"Checked automatically every Monday")); box.appendChild(el("span",null,"A scheduled job lists what these sources have posted and flags anything new. Sources marked green below are on that schedule; the rest are read by hand."));
+      const ul=el("ul"); WATCHED.forEach(([st,what,url])=>{ const li=el("li"); const a=el("a",null,st); a.href=url; a.target="_blank"; a.rel="noopener"; li.appendChild(a); li.appendChild(el("span",null,": "+what)); ul.appendChild(li); }); box.appendChild(ul);
+      const tools=$(".reftools",v); if(tools) tools.parentNode.insertBefore(box,tools); } }
   function calm(){ const v=$("#view-competition"); if(!v||v.dataset.nxc) return; v.dataset.nxc="1";
     $$("details.sec",v).forEach(d=>{ if(/^How the lighting classifier was tested/.test(title(d))) d.hidden=true; else d.open=false; }); }
   function sync(){ const v=CUR_VIEW, st=isState(v); if(st) lastState=v;
