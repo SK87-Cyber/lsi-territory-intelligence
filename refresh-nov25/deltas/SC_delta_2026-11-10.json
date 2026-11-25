@@ -1,0 +1,822 @@
+{
+ "letting": {
+  "id": "L261110",
+  "date": "Nov 10, 2026",
+  "iso": "2026-11-10",
+  "n": 26,
+  "low": 499939710.37,
+  "bids": 96,
+  "awarded": 0,
+  "awardArtifact": false,
+  "tc": "SC-57",
+  "ac": null,
+  "read": 0,
+  "lr": true,
+  "ubt": false
+ },
+ "all": [
+  {
+   "id": "0452120",
+   "call": "010",
+   "tip": "0452120",
+   "county": "Anderson",
+   "div": 2,
+   "desc": "Midway Rd (S-76)/Harriett Cr/Crestview Rd Intersection Impr",
+   "let": "Nov 10, 2026",
+   "low": "S AND S CONSTRUCTION, INC. OF ANDERSON",
+   "lowAmt": 6939890.63,
+   "bidders": [
+    [
+     "S AND S CONSTRUCTION, INC. OF ANDERSON",
+     6939890.63
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     7484306.21
+    ],
+    [
+     "MOUNTAIN CREEK CONTRACTORS, INC.",
+     7628837.72
+    ],
+    [
+     "THRIFT DEVELOPMENT CORPORATION",
+     7985114.15
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     7986707.85
+    ],
+    [
+     "UNIVERSAL CIVIL CONSTRUCTION, N",
+     8652536.73
+    ],
+    [
+     "KING ASPHALT, INC.",
+     8979419.49
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     9243941.6
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "0776090",
+   "call": "020",
+   "tip": "0776090",
+   "county": "Beaufort",
+   "div": 6,
+   "desc": "Ladys Island Bridge Fender System Replacement",
+   "let": "Nov 10, 2026",
+   "low": "SJ HAMILL CONSTRUCTION, LLC",
+   "lowAmt": 7884565.0,
+   "bidders": [
+    [
+     "SJ HAMILL CONSTRUCTION, LLC",
+     7884565.0
+    ],
+    [
+     "SOUTHERN ROAD & BRIDGE, LLC",
+     11615928.0
+    ],
+    [
+     "CAPE ROMAIN CONTRACTORS, INC.",
+     13152603.47
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "1375400",
+   "call": "030",
+   "tip": "1375400",
+   "county": "Chesterfield",
+   "div": 4,
+   "desc": "Bridge Repair US 1 over SCL RR in Chesterfield County",
+   "let": "Nov 10, 2026",
+   "low": "LORR CONSTRUCTION, INC.",
+   "lowAmt": 2453798.0,
+   "bidders": [
+    [
+     "LORR CONSTRUCTION, INC.",
+     2453798.0
+    ],
+    [
+     "CEKRA, INC.",
+     3187639.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "1478230",
+   "call": "040",
+   "tip": "1478230",
+   "county": "Clarendon",
+   "div": 7,
+   "desc": "2027 Clarendon Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 6407340.14,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     6407340.14
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     6542342.79
+    ],
+    [
+     "L. DEAN WEAVER COMPANY LLC",
+     6851540.97
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     9369972.21
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "1578380",
+   "call": "050",
+   "tip": "1578380",
+   "county": "Colleton",
+   "div": 6,
+   "desc": "2027 Colleton Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "BANKS CONSTRUCTION COMPANY",
+   "lowAmt": 10959415.72,
+   "bidders": [
+    [
+     "BANKS CONSTRUCTION COMPANY",
+     10959415.72
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     12899769.2
+    ],
+    [
+     "SANDERS BROTHERS CONSTRUCTION COMPANY,",
+     13162727.63
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     13240990.71
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "1677700",
+   "call": "060",
+   "tip": "1677700",
+   "county": "Darlington",
+   "div": 5,
+   "desc": "2027 Darlington Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 8601997.74,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     8601997.74
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     9262238.65
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2175250",
+   "call": "070",
+   "tip": "2175250",
+   "county": "Florence",
+   "div": 5,
+   "desc": "S-29 @ S-167 Int. Improvement",
+   "let": "Nov 10, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 1119546.3,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     1119546.3
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     1232123.25
+    ],
+    [
+     "KING ASPHALT, INC.",
+     1278415.6
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2177730",
+   "call": "080",
+   "tip": "2177730",
+   "county": "Florence",
+   "div": 5,
+   "desc": "2027 Florence Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 8489067.9,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     8489067.9
+    ],
+    [
+     "KING ASPHALT, INC.",
+     8497915.94
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     9044822.63
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2375450",
+   "call": "090",
+   "tip": "2375450",
+   "county": "Greenville",
+   "div": 3,
+   "desc": "US 29 MP 11.3 - 12.1 RSA",
+   "let": "Nov 10, 2026",
+   "low": "CIVIL PROS INC",
+   "lowAmt": 2656695.37,
+   "bidders": [
+    [
+     "CIVIL PROS INC",
+     2656695.37
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     3965272.75
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2376940",
+   "call": "100",
+   "tip": "2376940",
+   "county": "Greenville",
+   "div": 3,
+   "desc": "2027 Greenville Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "KING ASPHALT, INC.",
+   "lowAmt": 10712898.42,
+   "bidders": [
+    [
+     "KING ASPHALT, INC.",
+     10712898.42
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     10745977.73
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     10999794.26
+    ],
+    [
+     "ROGERS GROUP, INC.",
+     11724678.76
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2455360",
+   "call": "110",
+   "tip": "2455360",
+   "county": "Greenwood",
+   "div": 2,
+   "desc": "Johnston Rd Cambridge St Sidewalks - Greenwood Co",
+   "let": "Nov 10, 2026",
+   "low": "AOS SPECIALTY CONTRACTORS, INDWBE N",
+   "lowAmt": 896106.06,
+   "bidders": [
+    [
+     "AOS SPECIALTY CONTRACTORS, INDWBE N",
+     896106.06
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     1125686.64
+    ],
+    [
+     "FIRST CONSTRUCTION MANAGEMENT, LLC",
+     1191214.24
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2677640",
+   "call": "120",
+   "tip": "2677640",
+   "county": "Horry",
+   "div": 5,
+   "desc": "2027 Horry Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "KING ASPHALT, INC.",
+   "lowAmt": 7833864.13,
+   "bidders": [
+    [
+     "KING ASPHALT, INC.",
+     7833864.13
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     8880450.56
+    ],
+    [
+     "COASTAL ASPHALT, LLC",
+     9345977.58
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2974700",
+   "call": "130",
+   "tip": "2974700",
+   "county": "Lancaster",
+   "div": 4,
+   "desc": "S-12 (Springdale Rd) Bridge Replacement over L and C RR",
+   "let": "Nov 10, 2026",
+   "low": "UNITED INFRASTRUCTURE GROUP, INC.",
+   "lowAmt": 14495086.43,
+   "bidders": [
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     14495086.43
+    ],
+    [
+     "CROWDER CONSTRUCTION COMPANY",
+     14722138.82
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "2975330",
+   "call": "140",
+   "tip": "2975330",
+   "county": "Lancaster",
+   "div": 4,
+   "desc": "Bridge Repair SC 200 over Camp Creek in Lancaster County",
+   "let": "Nov 10, 2026",
+   "low": "CEKRA, INC.",
+   "lowAmt": 851416.5,
+   "bidders": [
+    [
+     "CEKRA, INC.",
+     851416.5
+    ],
+    [
+     "FREYSSINET, INC.",
+     1154112.0
+    ],
+    [
+     "LORR CONSTRUCTION, INC.",
+     1284936.0
+    ],
+    [
+     "RAKES BUILDING AND MAINTENANCE",
+     1541674.0
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INDWBE N",
+     1786398.0
+    ],
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     1834272.27
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "3063370",
+   "call": "150",
+   "tip": "3063370",
+   "county": "Laurens",
+   "div": 2,
+   "desc": "SC 56 over Duncan Creek Bridge Replacement - Laurens",
+   "let": "Nov 10, 2026",
+   "low": "PALMETTO INFRASTRUCTURE, INC.",
+   "lowAmt": 5499160.16,
+   "bidders": [
+    [
+     "PALMETTO INFRASTRUCTURE, INC.",
+     5499160.16
+    ],
+    [
+     "COOGLER CONSTRUCTION, INC.",
+     5685265.61
+    ],
+    [
+     "MOUNTAIN CREEK CONTRACTORS, INC.",
+     5691996.0
+    ],
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     5765686.36
+    ],
+    [
+     "DANE CONSTRUCTION, LLC",
+     6111703.52
+    ],
+    [
+     "EAGLE CONSTRUCTION COMPANY",
+     6168138.2
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     6309147.36
+    ],
+    [
+     "IPC PAVING LLC",
+     6316908.6
+    ],
+    [
+     "AOS SPECIALTY CONTRACTORS, INDWBE N",
+     6787964.25
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "3276620",
+   "call": "160",
+   "tip": "3276620",
+   "county": "Lexington",
+   "div": 1,
+   "desc": "S-278 (Calks Ferry Road) Road Departure Mitigation",
+   "let": "Nov 10, 2026",
+   "low": "PALMETTO CORP. OF CONWAY",
+   "lowAmt": 1539501.28,
+   "bidders": [
+    [
+     "PALMETTO CORP. OF CONWAY",
+     1539501.28
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     1593582.9
+    ],
+    [
+     "IN LINE PAVING INDUSTRIES, LLC",
+     1756228.2
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     1785655.13
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4078430",
+   "call": "170",
+   "tip": "4078430",
+   "county": "Richland",
+   "div": 1,
+   "desc": "2027 Richland Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "BLYTHE CONSTRUCTION, INC.",
+   "lowAmt": 10304152.24,
+   "bidders": [
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     10304152.24
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     10325891.93
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     11092793.34
+    ],
+    [
+     "TRUEROCK CONSTRUCTION, LLC",
+     11360224.84
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     13238752.04
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4276630",
+   "call": "180",
+   "tip": "4276630",
+   "county": "Spartanburg",
+   "div": 3,
+   "desc": "I-26 EB over Bowen Lake (S. Pac River) Bridge Repair",
+   "let": "Nov 10, 2026",
+   "low": "UNITED INFRASTRUCTURE GROUP, INC.",
+   "lowAmt": 14486701.02,
+   "bidders": [
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     14486701.02
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4378280",
+   "call": "190",
+   "tip": "4378280",
+   "county": "Sumter",
+   "div": 1,
+   "desc": "2027 Sumter Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "C.R. JACKSON, INC.",
+   "lowAmt": 10727591.76,
+   "bidders": [
+    [
+     "C.R. JACKSON, INC.",
+     10727591.76
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     10746151.42
+    ],
+    [
+     "L. DEAN WEAVER COMPANY LLC",
+     11638975.98
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     13255699.29
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "4477570",
+   "call": "200",
+   "tip": "4477570",
+   "county": "Union",
+   "div": 4,
+   "desc": "2027 Union Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "KING ASPHALT, INC.",
+   "lowAmt": 7800207.5,
+   "bidders": [
+    [
+     "KING ASPHALT, INC.",
+     7800207.5
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     7862081.71
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     8249154.49
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5277400",
+   "call": "210",
+   "tip": "5277400",
+   "county": "Newberry, Saluda",
+   "div": 2,
+   "desc": "2027 Newberry/Saluda Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 10468376.88,
+   "bidders": [
+    [
+     "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+     10468376.88
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5277430",
+   "call": "220",
+   "tip": "5277430",
+   "county": "Edgefield, Saluda",
+   "div": 2,
+   "desc": "2027 Edgefield/Saluda Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 10122092.44,
+   "bidders": [
+    [
+     "SATTERFIELD CONSTRUCTION COMPANY, INC.",
+     10122092.44
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5476670",
+   "call": "230",
+   "tip": "5476670",
+   "county": "District 4",
+   "div": 4,
+   "desc": "District 4 Interstate Bridge Preservation",
+   "let": "Nov 10, 2026",
+   "low": "CEKRA, INC.",
+   "lowAmt": 1858420.0,
+   "bidders": [
+    [
+     "CEKRA, INC.",
+     1858420.0
+    ],
+    [
+     "OLYMPUS PAINTING CONTRACTORS, INC.",
+     2064034.0
+    ],
+    [
+     "SAFFO CONTRACTORS, INC.",
+     2349777.0
+    ],
+    [
+     "M & J CONSTRUCTION CO. OF PINELLAS COUNTY,",
+     2361634.11
+    ],
+    [
+     "ELITE INDUSTRIAL PAINTING, INC.",
+     2632357.0
+    ],
+    [
+     "SOUTHERN ROAD & BRIDGE, LLC",
+     2755985.0
+    ],
+    [
+     "UNITED INFRASTRUCTURE GROUP, INC.",
+     3097052.63
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5477560",
+   "call": "240",
+   "tip": "5477560",
+   "county": "Cherokee, York",
+   "div": 4,
+   "desc": "2027 Cherokee/York County Pavement Improvement",
+   "let": "Nov 10, 2026",
+   "low": "KING ASPHALT, INC.",
+   "lowAmt": 10015472.21,
+   "bidders": [
+    [
+     "KING ASPHALT, INC.",
+     10015472.21
+    ],
+    [
+     "ROGERS GROUP, INC.",
+     10777552.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5777251",
+   "call": "250",
+   "tip": "5777251",
+   "county": "Calhoun, Orangeburg",
+   "div": 7,
+   "desc": "I-26 Corridor Improvement from near Exit 136 to Exit 145",
+   "let": "Nov 10, 2026",
+   "low": "THE LANE CONSTRUCTION CORPORATION",
+   "lowAmt": 314483868.54,
+   "bidders": [
+    [
+     "THE LANE CONSTRUCTION CORPORATION",
+     314483868.54
+    ],
+    [
+     "REEVES CONSTRUCTION COMPANY",
+     316996134.98
+    ],
+    [
+     "BLYTHE CONSTRUCTION, INC.",
+     318548841.78
+    ],
+    [
+     "UNITED-BLYTHE JOINT VENTURE",
+     319224570.01
+    ],
+    [
+     "C.R. JACKSON, INC.",
+     327535496.19
+    ],
+    [
+     "WEBBER, LLC",
+     329661198.39
+    ],
+    [
+     "PALMETTO CORP. OF CONWAY",
+     334229347.51
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  },
+  {
+   "id": "5777490",
+   "call": "260",
+   "tip": "5777490",
+   "county": "Clarendon, Orangeburg",
+   "div": 7,
+   "desc": "I-95 Safety Improvements MM 90 - MM 120",
+   "let": "Nov 10, 2026",
+   "low": "STROBLE SITE SERVICES, LLC",
+   "lowAmt": 12332478.0,
+   "bidders": [
+    [
+     "STROBLE SITE SERVICES, LLC",
+     12332478.0
+    ],
+    [
+     "SEED SLINGERS LLC",
+     13990505.64
+    ],
+    [
+     "NJR GROUP, INC",
+     21973131.88
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null
+  }
+ ],
+ "lighting": [],
+ "shared": [],
+ "gap": "26 call(s) have no certified tabulation yet: 0452120, 0776090, 1375400, 1478230, 1578380, 1677700, 2175250, 2177730, 2375450, 2376940, 2455360, 2677640, 2974700, 2975330, 3063370, 3276620, 4078430, 4276630, 4378280, 4477570, 5277400, 5277430, 5476670, 5477560, 5777251, 5777490."
+}

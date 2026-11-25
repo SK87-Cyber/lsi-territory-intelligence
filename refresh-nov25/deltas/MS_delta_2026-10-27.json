@@ -1,0 +1,1362 @@
+{
+ "letting": {
+  "id": "L261027",
+  "date": "Oct 27, 2026",
+  "iso": "2026-10-27",
+  "n": 15,
+  "low": 347282838.0,
+  "bids": 33,
+  "awarded": 14,
+  "rejected": 1,
+  "awardArtifact": true,
+  "tc": "MS-84",
+  "ac": "MS-85",
+  "read": 14,
+  "kind": "Regular",
+  "awardDate": "November 10, 2026",
+  "unmatched": 0
+ },
+ "all": [
+  {
+   "id": "109258301",
+   "call": "01",
+   "tip": "IM-0006-01(106) / 109258301",
+   "county": "Marshall",
+   "div": 2,
+   "desc": "Mill & Overlay approximately 17 miles of I-22 beginning 1 mile west of the Landfill Road Exit and going east to the Benton County Line, known as Feder",
+   "let": "Oct 27, 2026",
+   "low": "Lehman-Roberts Company",
+   "lowAmt": 17999431.79,
+   "bidders": [
+    [
+     "Lehman-Roberts Company",
+     17999431.79
+    ],
+    [
+     "APAC-Tennessee, Inc. dba Standard Construction Company",
+     18697829.84
+    ],
+    [
+     "WG Construction Company, Inc.",
+     21640612.5
+    ],
+    [
+     "Cook & Son, LLC",
+     22259066.01
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 18922820.8
+  },
+  {
+   "id": "100881301",
+   "call": "02",
+   "tip": "STBG-0013-02(034) / 100881301 & BR-0013-02(029) / 106971301",
+   "county": "Simpson",
+   "div": 7,
+   "desc": "Bridge Replacement on SR 28 between the Copiah County Line & Pinola (Bridge Nos. 72.7 & 73.6) & over Tanyard Creek (Bridge 77.6), known as Federal Aid",
+   "let": "Oct 27, 2026",
+   "low": "Chris Albritton Construction Company, Inc.",
+   "lowAmt": 27352217.61,
+   "bidders": [
+    [
+     "Chris Albritton Construction Company, Inc.",
+     27352217.61
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 25434899.27
+  },
+  {
+   "id": "109492301",
+   "call": "03",
+   "tip": "NHPP-0015-01(150) / 109492301",
+   "county": "Franklin",
+   "div": 7,
+   "desc": "Slide Improvement on US 84 from west of Fire Tower Road to east of Providence Road, known as Federal Aid Project No. NHPP-0015- 01(150)/109492301 in F",
+   "let": "Oct 27, 2026",
+   "low": "Midway Construction, Inc.",
+   "lowAmt": 9310220.34,
+   "bidders": [
+    [
+     "Midway Construction, Inc.",
+     9310220.34
+    ],
+    [
+     "Joe McGee Construction Company, Inc.",
+     9612746.65
+    ],
+    [
+     "Greenbriar Digging Service LP",
+     10857298.95
+    ],
+    [
+     "T. L. Wallace Construction, Inc.",
+     16257488.1
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 11373015.4
+  },
+  {
+   "id": "109482301",
+   "call": "04",
+   "tip": "IM-0020-01(286) / 109482301 & NHPP-0020-01(284) / 109684301",
+   "county": "Warren",
+   "div": 3,
+   "desc": "Mill & Overlay approximately 5.8 miles of I-20 from the Mississippi River Bridge to 0.65 miles east of the MS 27/US 61 Overpass Bridge Repair over Old",
+   "let": "Oct 27, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "lowAmt": 41811513.0,
+   "bidders": [
+    [
+     "Hemphill Construction Company, Inc.",
+     41811513.0
+    ],
+    [
+     "Key, LLC",
+     42657141.4
+    ],
+    [
+     "Century Construction Group, Inc.",
+     45917659.66
+    ]
+   ],
+   "cls": "L2",
+   "award": "rejected",
+   "reconciled": true,
+   "estimate": 29777062.83
+  },
+  {
+   "id": "108168301",
+   "call": "05",
+   "tip": "STP-0055-02(271) / 108168301 & STP-0055-02(275) / 108168302",
+   "county": "Madison",
+   "div": 5,
+   "desc": "Add 2 Lanes to I-55 from SR 463 to Gluckstadt Road, & Mill & Overlay approximately 0.77 miles on I-55 from Gluckstadt Road north, known as Federal Aid",
+   "let": "Oct 27, 2026",
+   "low": "T. L. Wallace Construction, Inc.",
+   "lowAmt": 187725441.4,
+   "bidders": [
+    [
+     "T. L. Wallace Construction, Inc.",
+     187725441.4
+    ],
+    [
+     "W. G. Yates & Sons Construction Company",
+     193158658.0
+    ],
+    [
+     "Necaise Brothers Construction Co., Inc.",
+     202217715.43
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 179163056.4,
+   "note": "A+C bid \u2014 ranked on cost plus time consideration ($208,690,441.40 for the low bidder); the cost figure is shown"
+  },
+  {
+   "id": "109256301",
+   "call": "06",
+   "tip": "IM-0055-03(098) / 109256301, IM-0055-03(101) / 1092563011, IM-0055-03(104) / 110082301, IM-0055-03(103) / 110083301 & IM-0055- 03(102) / 110084301",
+   "county": "Grenada, Carroll & Montgomery",
+   "div": 2,
+   "desc": "Mill & Overlay approximately 7.4 miles of I-55 from the Carroll County Line to 0.5 miles south of MS 8, Lighting on I-55 at Paper Road, Fog Seal appro",
+   "let": "Oct 27, 2026",
+   "low": "Lehman-Roberts Company",
+   "lowAmt": 17932700.74,
+   "bidders": [
+    [
+     "Lehman-Roberts Company",
+     17932700.74
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 16307714.84
+  },
+  {
+   "id": "108588301",
+   "call": "07",
+   "tip": "IM-0059-01(128) / 108588301",
+   "county": "Pearl River",
+   "div": 6,
+   "desc": "Mill & Overlay approximately 13.7 miles of I-59 from 0.5 miles north of the McNeil Exit to south of MS 26, known as Federal Aid Project No. IM-0059-01",
+   "let": "Oct 27, 2026",
+   "low": "Huey P Stockstill, LLC",
+   "lowAmt": 23350416.4,
+   "bidders": [
+    [
+     "Huey P Stockstill, LLC",
+     23350416.4
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 21520750.4
+  },
+  {
+   "id": "110076301",
+   "call": "08",
+   "tip": "IM-0059-01(145) / 110076301, IM-0059-01(144) / 110077301 & IM-0059-01(143) / 110078301",
+   "county": "Lamar & Forrest",
+   "div": 6,
+   "desc": "Fog Seal approximately 5 miles of I-59 from the Forrest County Line to the Forrest County Line, Fog Seal approximately 2.8 miles of I- 59 from the US ",
+   "let": "Oct 27, 2026",
+   "low": "Warren Paving, Inc.",
+   "lowAmt": 4828386.45,
+   "bidders": [
+    [
+     "Warren Paving, Inc.",
+     4828386.45
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "awarded",
+   "reconciled": null,
+   "estimate": 4442715.43,
+   "note": "no tabulation posted for this call as of Nov 25, 2026 \u2014 contract level only"
+  },
+  {
+   "id": "110070301",
+   "call": "09",
+   "tip": "IM-0059-02(123) / 110070301 & IM-0059-02(116) / 109253301",
+   "county": "Jasper & Clarke",
+   "div": 6,
+   "desc": "Fog Seal approximately 6.2 miles of I-59 from 0.8 mile north of CR 39 to the Jasper/Clarke County Line & Replacing OGFC on approximately 6.45 miles of",
+   "let": "Oct 27, 2026",
+   "low": "APAC - Mississippi, Inc.",
+   "lowAmt": 5810395.69,
+   "bidders": [
+    [
+     "APAC - Mississippi, Inc.",
+     5810395.69
+    ],
+    [
+     "Dunn Roadbuilders, LLC",
+     6063594.45
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 6037634.3
+  },
+  {
+   "id": "110080301",
+   "call": "10",
+   "tip": "IM-0059-03(107) / 110080301 & IM-0059-03(106) / 110081301",
+   "county": "Lauderdale",
+   "div": 5,
+   "desc": "OGFC Lift on I-59 from US 45 to approximately 0.248 miles north of the Russell Interchange & Fog Seal approximately 0.25 mile north of the Russell Int",
+   "let": "Oct 27, 2026",
+   "low": "APAC - Mississippi, Inc.",
+   "lowAmt": 3896354.32,
+   "bidders": [
+    [
+     "APAC - Mississippi, Inc.",
+     3896354.32
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 3553088.6
+  },
+  {
+   "id": "108999301",
+   "call": "11",
+   "tip": "STBG-0244-00(005) / 108999301",
+   "county": "Pike",
+   "div": 7,
+   "desc": "Overlay approximately 7 miles of MS 48 from SR 24 to Magnolia Progress Road, known as Federal Aid Project No. STBG-0244-00(005) / 108999301 in Pike Co",
+   "let": "Oct 27, 2026",
+   "low": "Dickerson & Bowen, Inc.",
+   "lowAmt": 4288920.76,
+   "bidders": [
+    [
+     "Dickerson & Bowen, Inc.",
+     4288920.76
+    ],
+    [
+     "Barriere Construction Company, LLC",
+     4329513.7
+    ],
+    [
+     "A J Construction, Inc.",
+     4443073.71
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 4152222.3
+  },
+  {
+   "id": "110041301",
+   "call": "12",
+   "tip": "STBG-0642-00(028) / 110041301",
+   "county": "Attala",
+   "div": 2,
+   "desc": "Bridge Repair on MS 19 over the Big Black River (Bridge No. 114.9), known as Federal Aid Project No. STBG-0642-00(028) / 110041301 in Attala County.",
+   "let": "Oct 27, 2026",
+   "low": "Talbot Brothers Contracting Co., Inc.",
+   "lowAmt": 1820745.5,
+   "bidders": [
+    [
+     "Talbot Brothers Contracting Co., Inc.",
+     1820745.5
+    ],
+    [
+     "Mobley Contractors, Inc.",
+     1973303.42
+    ],
+    [
+     "Century Construction Group, Inc.",
+     2099515.05
+    ],
+    [
+     "Hemphill Construction Company, Inc.",
+     2526913.05
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 1669416.3
+  },
+  {
+   "id": "110209301",
+   "call": "13",
+   "tip": "HRRR-0862-00(022) / 110209301 & 110209302",
+   "county": "Itawamba & Lee",
+   "div": 1,
+   "desc": "Installation of Audible Stripe, Raised Pavement Markers and Sign Improvements on MS 363 from the Lee County Line to Mantachie Baptist Church, from Pea",
+   "let": "Oct 27, 2026",
+   "low": "Riverside Traffic Systems, Inc.",
+   "lowAmt": 634064.0,
+   "bidders": [
+    [
+     "Riverside Traffic Systems, Inc.",
+     634064.0
+    ],
+    [
+     "RoadSafe Traffic Systems, Inc.",
+     634069.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 655630.7
+  },
+  {
+   "id": "110210301",
+   "call": "14",
+   "tip": "HRRR-1336-58(003) / 110210301",
+   "county": "Pontotoc",
+   "div": 1,
+   "desc": "Installation of Audible Stripe, Raised Pavement Markers and Sign Improvements on MS 336 from US 278 to Apostolic Circle, known Federal Aid Project No.",
+   "let": "Oct 27, 2026",
+   "low": "Riverside Traffic Systems, Inc.",
+   "lowAmt": 335270.0,
+   "bidders": [
+    [
+     "Riverside Traffic Systems, Inc.",
+     335270.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 364575.75
+  },
+  {
+   "id": "110208301",
+   "call": "15",
+   "tip": "HRRR-1989-00(015) / 110208301",
+   "county": "Alcorn",
+   "div": 1,
+   "desc": "Installation of Audible Stripe on MS 350 from MS 2 to CR 100, known as Federal Aid Project No. HRRR-1989-00(015) / 110208301 Alcorn County.",
+   "let": "Oct 27, 2026",
+   "low": "Riverside Traffic Systems, Inc.",
+   "lowAmt": 186760.0,
+   "bidders": [
+    [
+     "Riverside Traffic Systems, Inc.",
+     186760.0
+    ],
+    [
+     "RoadSafe Traffic Systems, Inc.",
+     356997.5
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "estimate": 182803.75
+  }
+ ],
+ "lighting": [
+  {
+   "id": "109482301",
+   "tip": "IM-0020-01(286) / 109482301 & NHPP-0020-01(284) / 109684301",
+   "county": "Warren",
+   "div": 3,
+   "districtLabel": "District 3",
+   "let": "Oct 27, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "lowAmt": 41811513.0,
+   "bidders": 3,
+   "l2": 131685.0,
+   "product": 0.0,
+   "split": {
+    "hardware": 0.0,
+    "infrastructure": 114160.0,
+    "work": 17525.0,
+    "lump": 0.0
+   },
+   "nItems": 207,
+   "rng": [
+    131685.0,
+    152999.84
+   ],
+   "cls": "L2",
+   "desc": "Mill & Overlay approximately 5.8 miles of I-20 from the Mississippi River Bridge to 0.65 miles east of the MS 27/US 61 Overpass Bridge Repair over Old Hwy 27 & KCS RR (Bridge Nos. 4.5A & 4.5B), known as Federal Aid Project Nos. IM-0020-01(286) / 109482301 & NHPP-0020-01(284) / 109684301 in Warren County.",
+   "share": 0.003,
+   "award": "rejected",
+   "reconciled": true,
+   "residual": 0.0,
+   "quantities": [],
+   "items": [
+    {
+     "line": "1270",
+     "code": "684-A004",
+     "section": "684",
+     "desc": "Pole Foundation, 30\" Diameter",
+     "qty": 9.0,
+     "unit": "CY",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 1675.0,
+      "Key, LLC": 1600.0,
+      "Century Construction Group, Inc.": 1937.4
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1280",
+     "code": "684-A007",
+     "section": "684",
+     "desc": "Pole Foundation, 48\" Diameter",
+     "qty": 24.0,
+     "unit": "CY",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 2595.0,
+      "Key, LLC": 2500.0,
+      "Century Construction Group, Inc.": 2999.84
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1290",
+     "code": "686-A001",
+     "section": "686",
+     "desc": "Relocation of Existing Lighting Assemblies (High Mast, Type 100-5-S)",
+     "qty": 2.0,
+     "unit": "EA",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 7150.0,
+      "Key, LLC": 12500.0,
+      "Century Construction Group, Inc.": 8249.57
+     },
+     "sub": "work"
+    },
+    {
+     "line": "1300",
+     "code": "686-A001",
+     "section": "686",
+     "desc": "Relocation of Existing Lighting Assemblies (Low Mast, Type 50-1-8-250)",
+     "qty": 2.0,
+     "unit": "EA",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 1075.0,
+      "Key, LLC": 2500.0,
+      "Century Construction Group, Inc.": 1249.94
+     },
+     "sub": "work"
+    },
+    {
+     "line": "1310",
+     "code": "686-A001",
+     "section": "686",
+     "desc": "Relocation of Existing Lighting Assemblies (Low Mast, Type 50-1-8-400)",
+     "qty": 1.0,
+     "unit": "EA",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 1075.0,
+      "Key, LLC": 3600.0,
+      "Century Construction Group, Inc.": 1249.94
+     },
+     "sub": "work"
+    },
+    {
+     "line": "1230",
+     "code": "682-A028",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 4, 3 Conductor",
+     "qty": 15.0,
+     "unit": "LF",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 80.0,
+      "Key, LLC": 80.0,
+      "Century Construction Group, Inc.": 93.75
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1240",
+     "code": "682-A034",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 6, 3 Conductor",
+     "qty": 1220.0,
+     "unit": "LF",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 20.0,
+      "Key, LLC": 25.0,
+      "Century Construction Group, Inc.": 23.75
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1250",
+     "code": "682-E002",
+     "section": "682",
+     "desc": "Underground Junction Box",
+     "qty": 6.0,
+     "unit": "EA",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 1245.0,
+      "Key, LLC": 1200.0,
+      "Century Construction Group, Inc.": 1437.43
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1260",
+     "code": "682-E003",
+     "section": "682",
+     "desc": "Underground Junction Box With Concrete Pad",
+     "qty": 3.0,
+     "unit": "EA",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 1245.0,
+      "Key, LLC": 1200.0,
+      "Century Construction Group, Inc.": 1437.43
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0,
+    "pole": 0,
+    "assembly": 0.0,
+    "control": 0
+   },
+   "lumN": 0.0,
+   "poleN": 0.0,
+   "note": "I-20 mill and overlay in Warren County. No new fixtures: pole foundations, branch circuit and the relocation of five existing lighting assemblies. Bids rejected on November 10, 2026.",
+   "awardNote": "Not awarded \u2014 listed under postponed, withdrawn, rejected or to be readvertised on the November 10, 2026 Bid Awards list {MS-85}."
+  },
+  {
+   "id": "108168301",
+   "tip": "STP-0055-02(271) / 108168301 & STP-0055-02(275) / 108168302",
+   "county": "Madison",
+   "div": 5,
+   "districtLabel": "District 5",
+   "let": "Oct 27, 2026",
+   "low": "T. L. Wallace Construction, Inc.",
+   "lowAmt": 187725441.4,
+   "bidders": 3,
+   "l2": 3758658.75,
+   "product": 2067235.0,
+   "split": {
+    "hardware": 2067235.0,
+    "infrastructure": 1640610.0,
+    "work": 50813.75,
+    "lump": 0.0
+   },
+   "nItems": 354,
+   "rng": [
+    3546798.0,
+    3970736.59
+   ],
+   "cls": "L2",
+   "desc": "Add 2 Lanes to I-55 from SR 463 to Gluckstadt Road, & Mill & Overlay approximately 0.77 miles on I-55 from Gluckstadt Road north, known as Federal Aid Project Nos. STP-0055-02(271) / 108168301 & STP-0055-02(275) / 108168302 in Madison County.",
+   "share": 0.02,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "quantities": [
+    "32 \u00d7 Lighting Assembly, High Mast, LED, Type 120-4-A",
+    "4 \u00d7 Lighting Assembly, High Mast, LED, Type 120-8-S",
+    "1 \u00d7 Lighting Assembly, High Mast, LED, Type 120-8-A",
+    "1 \u00d7 Lighting Assembly, High Mast, LED, Type 120-6-A",
+    "11 \u00d7 Lighting Assembly, Low Mast, LED, Type 40-1-8-110",
+    "1 \u00d7 Lighting Assembly, Low Mast, LED, Type 40-2-8-110",
+    "8 \u00d7 Lighting Assembly, Underpass, Type UP"
+   ],
+   "items": [
+    {
+     "line": "0160",
+     "code": "202-B160",
+     "section": "202",
+     "desc": "Removal of High Mast Lighting Assembly",
+     "qty": 2.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 11310.0,
+      "W. G. Yates & Sons Construction Company": 10500.0,
+      "Necaise Brothers Construction Co., Inc.": 11701.75
+     },
+     "sub": "work"
+    },
+    {
+     "line": "0190",
+     "code": "202-B177",
+     "section": "202",
+     "desc": "Removal of Low Mast Lighting Assembly",
+     "qty": 13.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 2168.75,
+      "W. G. Yates & Sons Construction Company": 1450.0,
+      "Necaise Brothers Construction Co., Inc.": 1603.7
+     },
+     "sub": "work"
+    },
+    {
+     "line": "2010",
+     "code": "683-A002",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-4-A",
+     "qty": 32.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 50940.0,
+      "W. G. Yates & Sons Construction Company": 49250.0,
+      "Necaise Brothers Construction Co., Inc.": 55130.95
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2020",
+     "code": "683-A124",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-8-S",
+     "qty": 4.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 58310.0,
+      "W. G. Yates & Sons Construction Company": 56800.0,
+      "Necaise Brothers Construction Co., Inc.": 63654.66
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2030",
+     "code": "683-A137",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-8-A",
+     "qty": 1.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 57830.0,
+      "W. G. Yates & Sons Construction Company": 58100.0,
+      "Necaise Brothers Construction Co., Inc.": 65105.63
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2040",
+     "code": "683-A138",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-6-A",
+     "qty": 1.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 60980.0,
+      "W. G. Yates & Sons Construction Company": 53000.0,
+      "Necaise Brothers Construction Co., Inc.": 59307.62
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2050",
+     "code": "683-B212",
+     "section": "683",
+     "desc": "Lighting Assembly, Low Mast, LED, Type 40-1-8-110",
+     "qty": 11.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 6070.0,
+      "W. G. Yates & Sons Construction Company": 5300.0,
+      "Necaise Brothers Construction Co., Inc.": 5891.99
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2060",
+     "code": "683-B213",
+     "section": "683",
+     "desc": "Lighting Assembly, Low Mast, LED, Type 40-2-8-110",
+     "qty": 1.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 7617.0,
+      "W. G. Yates & Sons Construction Company": 7100.0,
+      "Necaise Brothers Construction Co., Inc.": 7942.15
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2070",
+     "code": "683-C010",
+     "section": "683",
+     "desc": "Lighting Assembly, Underpass, Type UP",
+     "qty": 8.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 1339.75,
+      "W. G. Yates & Sons Construction Company": 1275.0,
+      "Necaise Brothers Construction Co., Inc.": 1415.72
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "2090",
+     "code": "684-A003",
+     "section": "684",
+     "desc": "Pole Foundation, 24\" Diameter",
+     "qty": 12.0,
+     "unit": "CY",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 1698.25,
+      "W. G. Yates & Sons Construction Company": 2350.0,
+      "Necaise Brothers Construction Co., Inc.": 2608.22
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "2100",
+     "code": "684-A006",
+     "section": "684",
+     "desc": "Pole Foundation, 42\" Diameter",
+     "qty": 271.0,
+     "unit": "CY",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 2680.5,
+      "W. G. Yates & Sons Construction Company": 2200.0,
+      "Necaise Brothers Construction Co., Inc.": 2461.36
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "2110",
+     "code": "684-B003",
+     "section": "684",
+     "desc": "Slip Casing, 24\" Diameter",
+     "qty": 8.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 52.55,
+      "W. G. Yates & Sons Construction Company": 105.0,
+      "Necaise Brothers Construction Co., Inc.": 117.49
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "2120",
+     "code": "684-B006",
+     "section": "684",
+     "desc": "Slip Casing, 42\" Diameter",
+     "qty": 20.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 105.1,
+      "W. G. Yates & Sons Construction Company": 525.0,
+      "Necaise Brothers Construction Co., Inc.": 587.44
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1820",
+     "code": "682-A005",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 1/0, 3 Conductor",
+     "qty": 4378.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 27.9,
+      "W. G. Yates & Sons Construction Company": 26.0,
+      "Necaise Brothers Construction Co., Inc.": 29.49
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1830",
+     "code": "682-A007",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 1/0, 5 Conductor",
+     "qty": 2642.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 42.4,
+      "W. G. Yates & Sons Construction Company": 38.0,
+      "Necaise Brothers Construction Co., Inc.": 43.53
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1840",
+     "code": "682-A018",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 2, 3 Conductor",
+     "qty": 8904.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 21.9,
+      "W. G. Yates & Sons Construction Company": 21.0,
+      "Necaise Brothers Construction Co., Inc.": 23.5
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1850",
+     "code": "682-A034",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 6, 3 Conductor",
+     "qty": 3180.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 13.7,
+      "W. G. Yates & Sons Construction Company": 13.5,
+      "Necaise Brothers Construction Co., Inc.": 15.04
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1860",
+     "code": "682-A039",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 8, 3 Conductor",
+     "qty": 1680.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 12.6,
+      "W. G. Yates & Sons Construction Company": 11.0,
+      "Necaise Brothers Construction Co., Inc.": 12.28
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1870",
+     "code": "682-B005",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 1/0, 3 Conductor",
+     "qty": 90.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 52.55,
+      "W. G. Yates & Sons Construction Company": 37.0,
+      "Necaise Brothers Construction Co., Inc.": 41.53
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1880",
+     "code": "682-B007",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 1/0, 5 Conductor",
+     "qty": 90.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 63.05,
+      "W. G. Yates & Sons Construction Company": 50.0,
+      "Necaise Brothers Construction Co., Inc.": 55.51
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1890",
+     "code": "682-B016",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 2, 3 Conductor",
+     "qty": 620.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 36.1,
+      "W. G. Yates & Sons Construction Company": 29.0,
+      "Necaise Brothers Construction Co., Inc.": 32.07
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1900",
+     "code": "682-B025",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 4, 3 Conductor",
+     "qty": 870.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 30.65,
+      "W. G. Yates & Sons Construction Company": 27.0,
+      "Necaise Brothers Construction Co., Inc.": 30.31
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1910",
+     "code": "682-B032",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 6, 3 Conductor",
+     "qty": 490.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 21.6,
+      "W. G. Yates & Sons Construction Company": 25.0,
+      "Necaise Brothers Construction Co., Inc.": 27.08
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1920",
+     "code": "682-B037",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 8, 3 Conductor",
+     "qty": 340.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 19.2,
+      "W. G. Yates & Sons Construction Company": 23.0,
+      "Necaise Brothers Construction Co., Inc.": 24.67
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1930",
+     "code": "682-C006",
+     "section": "682",
+     "desc": "Structure Mounted Branch Circuit, AWG 1/0, 5 Conductor",
+     "qty": 200.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 103.9,
+      "W. G. Yates & Sons Construction Company": 86.0,
+      "Necaise Brothers Construction Co., Inc.": 95.34
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1940",
+     "code": "682-C009",
+     "section": "682",
+     "desc": "Structure Mounted Branch Circuit, AWG 10, 3 Conductor",
+     "qty": 480.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 54.7,
+      "W. G. Yates & Sons Construction Company": 37.0,
+      "Necaise Brothers Construction Co., Inc.": 40.42
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1950",
+     "code": "682-C015",
+     "section": "682",
+     "desc": "Structure Mounted Branch Circuit, AWG 2, 3 Conductor",
+     "qty": 150.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 87.5,
+      "W. G. Yates & Sons Construction Company": 67.0,
+      "Necaise Brothers Construction Co., Inc.": 74.25
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1960",
+     "code": "682-D002",
+     "section": "682",
+     "desc": "Structure Mounted Pull Box",
+     "qty": 10.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 2050.75,
+      "W. G. Yates & Sons Construction Company": 1750.0,
+      "Necaise Brothers Construction Co., Inc.": 1962.04
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1970",
+     "code": "682-D003",
+     "section": "682",
+     "desc": "Underground Pull Box",
+     "qty": 38.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 1066.5,
+      "W. G. Yates & Sons Construction Company": 2000.0,
+      "Necaise Brothers Construction Co., Inc.": 2214.64
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1980",
+     "code": "682-E001",
+     "section": "682",
+     "desc": "Structure Mounted Junction Box",
+     "qty": 3.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 1970.0,
+      "W. G. Yates & Sons Construction Company": 1500.0,
+      "Necaise Brothers Construction Co., Inc.": 1680.07
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "1990",
+     "code": "682-E003",
+     "section": "682",
+     "desc": "Underground Junction Box With Concrete Pad",
+     "qty": 21.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 2182.0,
+      "W. G. Yates & Sons Construction Company": 3150.0,
+      "Necaise Brothers Construction Co., Inc.": 3530.5
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "2000",
+     "code": "682-F002",
+     "section": "682",
+     "desc": "Secondary Power Controllers",
+     "qty": 3.0,
+     "unit": "EA",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 43730.0,
+      "W. G. Yates & Sons Construction Company": 42250.0,
+      "Necaise Brothers Construction Co., Inc.": 47306.29
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "3180",
+     "code": "907-682-A1011",
+     "section": "907-682",
+     "desc": "Branch Circuit Wire, AWG #2, 3 Conductor",
+     "qty": 440.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 18.65,
+      "W. G. Yates & Sons Construction Company": 13.5,
+      "Necaise Brothers Construction Co., Inc.": 15.21
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "3190",
+     "code": "907-682-A1019",
+     "section": "907-682",
+     "desc": "Branch Circuit Wire, AWG #4, 3 Conductor",
+     "qty": 830.0,
+     "unit": "LF",
+     "prices": {
+      "T. L. Wallace Construction, Inc.": 10.25,
+      "W. G. Yates & Sons Construction Company": 9.0,
+      "Necaise Brothers Construction Co., Inc.": 10.28
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0,
+    "pole": 0,
+    "assembly": 2067235.0,
+    "control": 0
+   },
+   "lumN": 58.0,
+   "poleN": 58.0,
+   "note": "I-55 widening from SR 463 to Gluckstadt Road in Madison County. 38 high mast LED assemblies at 120 ft, 12 low mast assemblies and 8 underpass fixtures, with three secondary power controllers; 2 high mast and 13 low mast assemblies removed. Awarded by the Commission on November 10, 2026.",
+   "awardNote": "Awarded \u2014 on MDOT's Bid Awards list for the October 27, 2026 letting (Commission action November 10, 2026) at the low bid {MS-85}."
+  },
+  {
+   "id": "109256301",
+   "tip": "IM-0055-03(098) / 109256301, IM-0055-03(101) / 1092563011, IM-0055-03(104) / 110082301, IM-0055-03(103) / 110083301 & IM-0055- 03(102) / 110084301",
+   "county": "Grenada, Carroll & Montgomery",
+   "div": 2,
+   "districtLabel": "District 2",
+   "let": "Oct 27, 2026",
+   "low": "Lehman-Roberts Company",
+   "lowAmt": 17932700.74,
+   "bidders": 1,
+   "l2": 954536.8,
+   "product": 478555.0,
+   "split": {
+    "hardware": 478555.0,
+    "infrastructure": 475981.8,
+    "work": 0.0,
+    "lump": 0.0
+   },
+   "nItems": 111,
+   "rng": [
+    954536.8,
+    954536.8
+   ],
+   "cls": "L2",
+   "desc": "Mill & Overlay approximately 7.4 miles of I-55 from the Carroll County Line to 0.5 miles south of MS 8, Lighting on I-55 at Paper Road, Fog Seal approximately 8.3 miles of I-55 from 0.5 miles south of MS 8 to the Yalobusha County Line, Fog Seal approximately miles of I-55 from 0.5 miles south of MS 35 to the Montgomery County Line & Fog Seal approximately 11.6 miles of I-55 from the Carroll County Line to 2.5 miles south of the Carroll County Line, known as Federal Aid Project Nos. IM-0055-03(098) / 109256301, 0055-03(101) / 1092563011, IM-0055-03(104) / 110082301, IM-0055-03(103) / 110083301 & IM-0055-03(102) / 110084301 in Grenada, Carroll & Montgomery Counties.",
+   "share": 0.053,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "quantities": [
+    "2 \u00d7 Lighting Assembly, High Mast, LED, Type 120-8-S",
+    "1 \u00d7 Lighting Assembly, High Mast, LED, Type 120-8-A",
+    "3 \u00d7 Lighting Assembly, High Mast, LED, Type 120-6-A",
+    "24 \u00d7 Lighting Assembly, Low Mast, LED, Type 35-1-12-150",
+    "4 \u00d7 Lighting Assembly, Low Mast, LED, Type 35-1-6-150"
+   ],
+   "items": [
+    {
+     "line": "0740",
+     "code": "683-A124",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-8-S",
+     "qty": 2.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 55665.0
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0750",
+     "code": "683-A137",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-8-A",
+     "qty": 1.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 55665.0
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0760",
+     "code": "683-A138",
+     "section": "683",
+     "desc": "Lighting Assembly, High Mast, LED, Type 120-6-A",
+     "qty": 3.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 52160.0
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0770",
+     "code": "683-B216",
+     "section": "683",
+     "desc": "Lighting Assembly, Low Mast, LED, Type 35-1-12-150",
+     "qty": 24.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 5645.0
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0780",
+     "code": "683-B217",
+     "section": "683",
+     "desc": "Lighting Assembly, Low Mast, LED, Type 35-1-6-150",
+     "qty": 4.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 4900.0
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0800",
+     "code": "684-A003",
+     "section": "684",
+     "desc": "Pole Foundation, 24\" Diameter",
+     "qty": 27.0,
+     "unit": "CY",
+     "prices": {
+      "Lehman-Roberts Company": 2710.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0810",
+     "code": "684-A006",
+     "section": "684",
+     "desc": "Pole Foundation, 42\" Diameter",
+     "qty": 43.0,
+     "unit": "CY",
+     "prices": {
+      "Lehman-Roberts Company": 2210.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0820",
+     "code": "684-B003",
+     "section": "684",
+     "desc": "Slip Casing, 24\" Diameter",
+     "qty": 8.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 82.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0830",
+     "code": "684-B006",
+     "section": "684",
+     "desc": "Slip Casing, 42\" Diameter",
+     "qty": 20.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 450.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0660",
+     "code": "682-A018",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 2, 3 Conductor",
+     "qty": 1734.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 24.35
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0670",
+     "code": "682-A034",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 6, 3 Conductor",
+     "qty": 1300.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 15.25
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0680",
+     "code": "682-A039",
+     "section": "682",
+     "desc": "Underground Branch Circuit, AWG 8, 3 Conductor",
+     "qty": 6408.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 13.05
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0690",
+     "code": "682-B016",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 2, 3 Conductor",
+     "qty": 637.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 29.5
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0700",
+     "code": "682-B037",
+     "section": "682",
+     "desc": "Underground Branch Circuit, Jacked or Bored, AWG 8, 3 Conductor",
+     "qty": 293.0,
+     "unit": "LF",
+     "prices": {
+      "Lehman-Roberts Company": 19.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0710",
+     "code": "682-D003",
+     "section": "682",
+     "desc": "Underground Pull Box",
+     "qty": 11.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 2220.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0720",
+     "code": "682-D004",
+     "section": "682",
+     "desc": "Underground Pull Box With Concrete Pad",
+     "qty": 28.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 2675.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0730",
+     "code": "682-F001",
+     "section": "682",
+     "desc": "Secondary Power Controller",
+     "qty": 1.0,
+     "unit": "EA",
+     "prices": {
+      "Lehman-Roberts Company": 28775.0
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0,
+    "pole": 0,
+    "assembly": 478555.0,
+    "control": 0
+   },
+   "lumN": 34.0,
+   "poleN": 34.0,
+   "note": "I-55 mill and overlay in Grenada, Carroll and Montgomery counties, with interchange lighting: 6 high mast LED assemblies at 120 ft and 28 low mast assemblies. One bidder. Awarded November 10, 2026.",
+   "awardNote": "Awarded \u2014 on MDOT's Bid Awards list for the October 27, 2026 letting (Commission action November 10, 2026) at the low bid {MS-85}."
+  }
+ ],
+ "shared": []
+}

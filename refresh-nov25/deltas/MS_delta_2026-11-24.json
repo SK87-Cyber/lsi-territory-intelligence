@@ -1,0 +1,442 @@
+{
+ "letting": {
+  "id": "L261124",
+  "date": "Nov 24, 2026",
+  "iso": "2026-11-24",
+  "n": 11,
+  "low": 61305960.72,
+  "bids": 43,
+  "awarded": 0,
+  "rejected": 0,
+  "awardArtifact": false,
+  "tc": "MS-86",
+  "ac": null,
+  "read": 10,
+  "kind": "Regular",
+  "awardDate": null,
+  "unmatched": 0
+ },
+ "all": [
+  {
+   "id": "108949301",
+   "call": "01",
+   "tip": "STBG-0002-02(076) / 108949301, STBG-0002-02(076) / 108949302, STBG-0025-02(017) / 108949303, STBG-0025-02(017) / 108949304, STBG-0063-04(012) / 109987301 & STBG-0063-04(013) / 109988301",
+   "county": "Greene & Wayne",
+   "div": 6,
+   "desc": "Overlay approximately 4.7 miles of SR 57 from Strange Street to the Wayne County Line, Overlay approximately 0.9 miles of SR 57 the Greene County Line",
+   "let": "Nov 24, 2026",
+   "low": "Dunn Roadbuilders, LLC",
+   "lowAmt": 10929993.97,
+   "bidders": [
+    [
+     "Dunn Roadbuilders, LLC",
+     10929993.97
+    ],
+    [
+     "Warren Paving, Inc.",
+     11489917.37
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 12332990.6
+  },
+  {
+   "id": "108914301",
+   "call": "02",
+   "tip": "NHPP-0007-01(097) / 108914301 & STBG-0007-01(109) / 110038302",
+   "county": "Tishomingo",
+   "div": 1,
+   "desc": "Concrete Repair (Seal & Overlay) approximately 5.9 miles of US 72 from the west end of SR 25 to the Alabama State Line & Bridge Repair on US 72 over M",
+   "let": "Nov 24, 2026",
+   "low": "WG Construction Company, Inc.",
+   "lowAmt": 12525154.54,
+   "bidders": [
+    [
+     "WG Construction Company, Inc.",
+     12525154.54
+    ],
+    [
+     "APAC - Mississippi, Inc.",
+     12643613.74
+    ],
+    [
+     "Falcon Contracting Company, Inc.",
+     13470619.31
+    ],
+    [
+     "Cook & Son, LLC",
+     13584722.18
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent",
+   "reconciled": null,
+   "estimate": 15059821.26,
+   "note": "no tabulation posted for this call as of Nov 25, 2026 \u2014 contract level only"
+  },
+  {
+   "id": "110044301",
+   "call": "03",
+   "tip": "NHPP-0055-01(153) / 110044301",
+   "county": "Lincoln",
+   "div": 7,
+   "desc": "Bridge Repair on I-55 over CNIC Railroad (Bridge Nos. 40.3A & 40.3B), known as Federal Aid Project No. NHPP-0055-01(153) / 110044301 in Lincoln County",
+   "let": "Nov 24, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "lowAmt": 1840776.6,
+   "bidders": [
+    [
+     "Hemphill Construction Company, Inc.",
+     1840776.6
+    ],
+    [
+     "Hope Enterprises, LLC",
+     1951328.82
+    ],
+    [
+     "Century Construction Group, Inc.",
+     2117227.3
+    ],
+    [
+     "Key, LLC",
+     2229257.25
+    ],
+    [
+     "Gibson & Associates, Inc.",
+     2446166.81
+    ],
+    [
+     "Southern Road & Bridge, LLC",
+     3059653.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 1655465.9
+  },
+  {
+   "id": "110067301",
+   "call": "04",
+   "tip": "IM-0055-02(291) / 110067301, NHPP-0055-02(287) / 110043301 & IM-0055-02(292) / 110068301",
+   "county": "Madison",
+   "div": 5,
+   "desc": "OGFC lift approximately 7.3 miles on I-55 from Church Road to Heindl Road, Bridge Repair on I-55 over Church Road (Bridge Nos. 112.3A , 112.3B) & Fog ",
+   "let": "Nov 24, 2026",
+   "low": "APAC - Mississippi, Inc.",
+   "lowAmt": 9269454.23,
+   "bidders": [
+    [
+     "APAC - Mississippi, Inc.",
+     9269454.23
+    ],
+    [
+     "A J Construction, Inc.",
+     9454973.39
+    ],
+    [
+     "Dickerson & Bowen, Inc.",
+     9513974.73
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 9025803.0
+  },
+  {
+   "id": "109986301",
+   "call": "05",
+   "tip": "STBG-2170-00(028) / 109986301",
+   "county": "Forrest",
+   "div": 6,
+   "desc": "Overlay approximately 6.6 miles of US 11 from the north abutment of the Leaf River Bridge to the Jones County Line, known as Federal Aid Project No. S",
+   "let": "Nov 24, 2026",
+   "low": "Dunn Roadbuilders, LLC",
+   "lowAmt": 3817801.26,
+   "bidders": [
+    [
+     "Dunn Roadbuilders, LLC",
+     3817801.26
+    ],
+    [
+     "Walters Construction Co., Inc.",
+     4021889.05
+    ],
+    [
+     "Warren Paving, Inc.",
+     4581677.36
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 5109589.7
+  },
+  {
+   "id": "109032301",
+   "call": "07",
+   "tip": "STBG-9999-05(405) / 109032301",
+   "county": "Madison",
+   "div": 5,
+   "desc": "Intersection Improvements on HWY 463 at Stribling Road, known as Federal Aid Project STBG-9999-05(405) / 109032301 in Madison County.",
+   "let": "Nov 24, 2026",
+   "low": "Joe McGee Construction Company, Inc.",
+   "lowAmt": 3104757.62,
+   "bidders": [
+    [
+     "Joe McGee Construction Company, Inc.",
+     3104757.62
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     3409802.52
+    ],
+    [
+     "Hemphill Construction Company, Inc.",
+     3670676.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 3341700.11
+  },
+  {
+   "id": "503940301",
+   "call": "09",
+   "tip": "BWO-1203-41(001) / 503940301",
+   "county": "Lee",
+   "div": 1,
+   "desc": "Construction of Bulk Salt Storage Building, known as State Project No. BWO-1203-41(001) / 503940301 in Lee County.",
+   "let": "Nov 24, 2026",
+   "low": "Phillips Contracting Co., Inc.",
+   "lowAmt": 561900.0,
+   "bidders": [
+    [
+     "Phillips Contracting Co., Inc.",
+     561900.0
+    ],
+    [
+     "J. M. Duncan, Inc.",
+     587270.0
+    ],
+    [
+     "Century Construction Group, Inc.",
+     623000.0
+    ],
+    [
+     "Ste-Bil Grading Inc.",
+     649825.0
+    ],
+    [
+     "Hope Enterprises, LLC",
+     812015.79
+    ],
+    [
+     "Joe McGee Construction Company, Inc.",
+     893255.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 730989.13
+  },
+  {
+   "id": "503941301",
+   "call": "11",
+   "tip": "BWO-2235-49(001) / 503941301, BWO-2236-60(001) / 503941302 & BWO-2237-68(001) / 503941303",
+   "county": "Montgomery, Quitman & Tallahatchie",
+   "div": 2,
+   "desc": "Construction of Bulk Salt Storage Buildings, known as State Project Nos. BWO-2235-49(001) / 503941301, BWO-2236-60(001) / 503941302 & BWO-2237-68(001)",
+   "let": "Nov 24, 2026",
+   "low": "Ste-Bil Grading Inc.",
+   "lowAmt": 850500.0,
+   "bidders": [
+    [
+     "Ste-Bil Grading Inc.",
+     850500.0
+    ],
+    [
+     "Century Construction Group, Inc.",
+     948000.0
+    ],
+    [
+     "J. M. Duncan, Inc.",
+     1002235.0
+    ],
+    [
+     "Joe McGee Construction Company, Inc.",
+     1044510.0
+    ],
+    [
+     "Phillips Contracting Co., Inc.",
+     1046700.0
+    ],
+    [
+     "Hope Enterprises, LLC",
+     1149935.05
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 817800.0
+  },
+  {
+   "id": "503942301",
+   "call": "12",
+   "tip": "BWO-3206-82(001) / 503942301, BWO-3207-75(001) / 503942302, BWO-3208-06(001) / 503942303, BWO-3209-76(001) / 503942304 & BWO-3210-26(001) / 503942305 Yazoo, Warren, Bolivar,",
+   "county": "Washington & Holmes",
+   "div": 3,
+   "desc": "Construction of Bulk Salt Storage Buildings, known as State Project Nos. BWO-3206-82(001) / 503942301, BWO-3207-75(001) / 503942302, BWO-3208-06(001) ",
+   "let": "Nov 24, 2026",
+   "low": "Joe McGee Construction Company, Inc.",
+   "lowAmt": 1390600.0,
+   "bidders": [
+    [
+     "Joe McGee Construction Company, Inc.",
+     1390600.0
+    ],
+    [
+     "Phillips Contracting Co., Inc.",
+     1610000.0
+    ],
+    [
+     "Fordice Construction Company",
+     1680940.0
+    ],
+    [
+     "Hope Enterprises, LLC",
+     1698278.76
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 1111250.0
+  },
+  {
+   "id": "503943301",
+   "call": "14",
+   "tip": "BWO-5250-62(001) / 503943301, BWO-5249-38(001) / 503943302 & BWO-5248-45(001) / 503943303 Scott,",
+   "county": "Lauderdale & Madison",
+   "div": 5,
+   "desc": "Construction of Bulk Salt Storage Buildings, known as State Project Nos. BWO-5250-62(001) / 503943301, BWO-5249-38(001) / 503943302 & BWO-5248-45(001)",
+   "let": "Nov 24, 2026",
+   "low": "Joe McGee Construction Company, Inc.",
+   "lowAmt": 743097.5,
+   "bidders": [
+    [
+     "Joe McGee Construction Company, Inc.",
+     743097.5
+    ],
+    [
+     "Hope Enterprises, LLC",
+     894766.91
+    ],
+    [
+     "Chris Albritton Construction Company, Inc.",
+     948150.0
+    ],
+    [
+     "Phillips Contracting Co., Inc.",
+     1023575.0
+    ]
+   ],
+   "cls": "None",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 665850.0
+  },
+  {
+   "id": "109131301",
+   "call": "16",
+   "tip": "HSIP-7314-00(040) / 109131301",
+   "county": "Hinds",
+   "div": 5,
+   "desc": "Median Barrier Installation on US 80 from Clinton-Raymond Road to Shaw Road, known as Federal Aid Project No. HSIP-7314-00(040) / 109131301 in Hinds C",
+   "let": "Nov 24, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "lowAmt": 16271925.0,
+   "bidders": [
+    [
+     "Hemphill Construction Company, Inc.",
+     16271925.0
+    ],
+    [
+     "Joe McGee Construction Company, Inc.",
+     17292696.25
+    ]
+   ],
+   "cls": "L2",
+   "award": "apparent",
+   "reconciled": true,
+   "estimate": 12620382.85
+  }
+ ],
+ "lighting": [
+  {
+   "id": "109131301",
+   "tip": "HSIP-7314-00(040) / 109131301",
+   "county": "Hinds",
+   "div": 5,
+   "districtLabel": "District 5",
+   "let": "Nov 24, 2026",
+   "low": "Hemphill Construction Company, Inc.",
+   "lowAmt": 16271925.0,
+   "bidders": 2,
+   "l2": 5730.0,
+   "product": 5730.0,
+   "split": {
+    "hardware": 5730.0,
+    "infrastructure": 0.0,
+    "work": 0.0,
+    "lump": 0.0
+   },
+   "nItems": 167,
+   "rng": [
+    5730.0,
+    6750.0
+   ],
+   "cls": "L2",
+   "desc": "Median Barrier Installation on US 80 from Clinton-Raymond Road to Shaw Road, known as Federal Aid Project No. HSIP-7314-00(040) / 109131301 in Hinds County.",
+   "share": 0.0,
+   "award": "apparent",
+   "reconciled": true,
+   "residual": 0.0,
+   "quantities": [
+    "5 \u00d7 Traffic Signal Equipment Pole Luminaire Fixture"
+   ],
+   "items": [
+    {
+     "line": "1410",
+     "code": "907-634-PP004",
+     "section": "907-634",
+     "desc": "Traffic Signal Equipment Pole Luminaire Fixture",
+     "qty": 5.0,
+     "unit": "EA",
+     "prices": {
+      "Hemphill Construction Company, Inc.": 1146.0,
+      "Joe McGee Construction Company, Inc.": 1350.0
+     },
+     "sub": "assembly"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0,
+    "pole": 0,
+    "assembly": 5730.0,
+    "control": 0
+   },
+   "lumN": 5.0,
+   "poleN": 5.0,
+   "note": "Median barrier on US 80 in Hinds County. The only lighting item is five luminaire fixtures on traffic signal poles.",
+   "awardNote": "Apparent \u2014 bids as read on November 24, 2026 {MS-86}; no Commission action yet."
+  }
+ ],
+ "shared": []
+}
