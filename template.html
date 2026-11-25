@@ -2243,8 +2243,8 @@ const CONTACT_LOG = [];
 /* Phase 6 — recurring contracts and the rebid calendar. BX_UPCOMING: the upcoming lettings on each agency’s own letting pages, read Oct 26–27, 2026 (no Bid Express
    login this session — the Sep 10, 2026 Bid Express read was the last; the agencies’ own calendars in BIDSRC[].cal are the first
    rank anyway). */
-const BX_UPCOMING = {"NC":[{"id":"L261117","date":"2026-11-17","n":null}],"NC-DIV":[],"SC":[{"id":"L261110","date":"2026-11-10","n":26}],"GA":[],"AL":[{"id":"L261106","date":"2026-11-06","n":null},{"id":"L261204","date":"2026-12-04","n":null}],"MS":[{"id":"L261027","date":"2026-10-27","n":15},{"id":"L261124","date":"2026-11-24","n":null}],"TN":[{"id":"L261106","date":"2026-11-06","n":null},{"id":"L261204","date":"2026-12-04","n":null}],"KY":[{"id":"L261119","date":"2026-11-19","n":null},{"id":"L261210","date":"2026-12-10","n":null}],"AR":[{"id":"L261104","date":"2026-11-04","n":null}]};
-const BX_READ = "2026-10-27";
+const BX_UPCOMING = {"NC":[{"id":"L261117","date":"2026-11-17","n":null},{"id":"L261215","date":"2026-12-15","n":null},{"id":"L270119","date":"2027-01-19","n":null}],"NC-DIV":[],"SC":[{"id":"L261110","date":"2026-11-10","n":26},{"id":"L261208","date":"2026-12-08","n":null}],"GA":[],"AL":[{"id":"L261106","date":"2026-11-06","n":null},{"id":"L261204","date":"2026-12-04","n":null}],"MS":[{"id":"L261027","date":"2026-10-27","n":15},{"id":"L261124","date":"2026-11-24","n":null},{"id":"L261202","date":"2026-12-02","n":3},{"id":"L261208","date":"2026-12-08","n":null}],"TN":[{"id":"L261106","date":"2026-11-06","n":null},{"id":"L261204","date":"2026-12-04","n":null},{"id":"L270212","date":"2027-02-12","n":null}],"KY":[{"id":"L261119","date":"2026-11-19","n":null},{"id":"L261210","date":"2026-12-10","n":null}],"AR":[{"id":"L261104","date":"2026-11-04","n":null}]};
+const BX_READ = "2026-11-25";
 /* Phase 7 — manufacturer evidence, public record only. MFR[sid]: what each DOT publishes about whose luminaire and pole may go in —
    the list (if any) and who is on it, Cooper's status, the form of the specification, the approval gate — quoted from the agency's own
    documents (Sep 6, 2026 sweep), and the evidence tier every contract read carries: M4 where a mandatory list names Cooper (Alabama), M5
@@ -2755,10 +2755,12 @@ function lightingCadence(sid){ const Y=YEAR[sid]; if(!Y) return null; const L=Y.
   const med=gaps.length?gaps.sort((a,b)=>a-b)[Math.floor(gaps.length/2)]:null;
   return {lettings:lets.length,withLighting:withL.length,l1,medGap:med,last:l1.length?l1[l1.length-1].let:null,families:[...new Set(l1.map(c=>String(c.desc||"").replace(/\s+(ON|AT|ALONG|FROM|IN)\s.*$/i,"").trim()))]}; }
 const CAL_BASIS={scheduled:"agency schedule",observed:"observed pattern"};
+/* 10.2j: a letting posted without its proposal count says so, rather than printing "null" */
+function nProps(n){ return n==null?"proposals not yet listed":n+" proposal"+(n===1?"":"s"); }
 function nextLettings(sid){ const b=BIDSRC[sid], out=[]; const today=isoLocal(TODAY);
   if(b&&b.cal&&b.cal.dates) b.cal.dates.filter(d=>d>=today).forEach(d=>out.push({date:d,what:`${byId[sid].agency} letting`,basis:CAL_BASIS[b.cal.kind]||b.cal.kind,src:b.cal.src}));
-  (BX_UPCOMING[sid]||[]).filter(x=>x.date>=today).forEach(x=>{ if(!out.some(o=>o.date===x.date)) out.push({date:x.date,what:`${byId[sid].agency} letting ${x.id} — ${x.n} proposal${x.n===1?"":"s"}`,basis:"the agency’s own letting pages, read "+BX_READ+" (no Bid Express login this session)",src:"{BX-0}"}); else { const o=out.find(o=>o.date===x.date); o.what+=` — ${x.n} proposal${x.n===1?"":"s"} listed`; } });
-  if(sid==="NC") (BX_UPCOMING["NC-DIV"]||[]).filter(x=>x.date>=today).forEach(x=>out.push({date:x.date,what:`NCDOT Division ${"ABCDEFGHIJKLMN".indexOf(x.id.slice(-1))+1} letting ${x.id} — ${x.n} proposal${x.n===1?"":"s"}`,basis:"the agency’s own letting pages, read "+BX_READ+" (no Bid Express login this session)",src:"{BX-0}",div:true}));
+  (BX_UPCOMING[sid]||[]).filter(x=>x.date>=today).forEach(x=>{ if(!out.some(o=>o.date===x.date)) out.push({date:x.date,what:`${byId[sid].agency} letting ${x.id} — ${nProps(x.n)}`,basis:"the agency’s own letting pages, read "+BX_READ+" (no Bid Express login this session)",src:"{BX-0}"}); else { const o=out.find(o=>o.date===x.date); o.what+=` — ${nProps(x.n)} listed`; } });
+  if(sid==="NC") (BX_UPCOMING["NC-DIV"]||[]).filter(x=>x.date>=today).forEach(x=>out.push({date:x.date,what:`NCDOT Division ${"ABCDEFGHIJKLMN".indexOf(x.id.slice(-1))+1} letting ${x.id} — ${nProps(x.n)}`,basis:"the agency’s own letting pages, read "+BX_READ+" (no Bid Express login this session)",src:"{BX-0}",div:true}));
   return out.sort((a,b)=>a.date<b.date?-1:1); }
 /* "January 2027" style strings: Safari cannot parse them with new Date(), so read the month by name */
 function monthIso(s){ const mm=String(s).match(/([A-Za-z]+)\.? (20\d\d)/); const i=mm?["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"].indexOf(mm[1].slice(0,3).toLowerCase()):-1; return mm&&i>=0?mm[2]+"-"+String(i+1).padStart(2,"0")+"-01":"9999-12-31"; }
