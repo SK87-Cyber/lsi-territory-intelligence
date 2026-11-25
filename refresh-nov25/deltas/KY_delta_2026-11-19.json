@@ -1,0 +1,590 @@
+{
+ "letting": {
+  "id": "L261119",
+  "date": "Nov 19, 2026",
+  "iso": "2026-11-19",
+  "n": 18,
+  "low": 29310659.09,
+  "bids": 50,
+  "awarded": 0,
+  "awardArtifact": false,
+  "tc": "KY-55",
+  "ac": "",
+  "lr": true,
+  "ubt": false,
+  "biqi": 1,
+  "read": 0
+ },
+ "all": [
+  {
+   "id": "26-1523",
+   "call": "100",
+   "tip": "SLX 3003 (372)",
+   "reconciled": null,
+   "county": "Fayette",
+   "div": 7,
+   "desc": "GRADE & DRAIN WITH ASPHALT SURFACE",
+   "let": "Nov 19, 2026",
+   "low": "L-M ASPHALT PARTNERS LTD D/B/A ATS CONSTRUCTION",
+   "lowAmt": 788006.66,
+   "bidders": [
+    [
+     "L-M ASPHALT PARTNERS LTD D/B/A ATS CONSTRUCTION",
+     788006.66
+    ],
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     1069507.44
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-1521",
+   "call": "101",
+   "tip": "STP 3003 (337)",
+   "reconciled": null,
+   "county": "Fayette",
+   "div": 7,
+   "desc": "WIDENING",
+   "let": "Nov 19, 2026",
+   "low": "L-M ASPHALT PARTNERS LTD D/B/A ATS CONSTRUCTION",
+   "lowAmt": 14099308.29,
+   "bidders": [
+    [
+     "L-M ASPHALT PARTNERS LTD D/B/A ATS CONSTRUCTION",
+     14099308.29
+    ],
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     19256895.86
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-1135",
+   "call": "104",
+   "tip": "BRX 1203(423)",
+   "reconciled": null,
+   "county": "Pike",
+   "div": 12,
+   "desc": "BRIDGE REPLACEMENT",
+   "let": "Nov 19, 2026",
+   "low": "M&M SERVICES CO INC",
+   "lowAmt": 1383318.15,
+   "bidders": [
+    [
+     "M&M SERVICES CO INC",
+     1383318.15
+    ],
+    [
+     "CENTRAL BRIDGE CO LLC",
+     1400067.2
+    ],
+    [
+     "BUSH & BURCHETT INC",
+     1574110.53
+    ],
+    [
+     "FREDERICK & MAY CONSTRUCTION CO",
+     1663391.95
+    ],
+    [
+     "BOCA ENTERPRISES INC",
+     1683904.52
+    ],
+    [
+     "HINKLE CONSTRUCTION SERVICES LLC",
+     1695994.81
+    ],
+    [
+     "JAVE LLC",
+     1741586.59
+    ],
+    [
+     "HAYDON BRIDGE COMPANY INC",
+     2442679.37
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-1137",
+   "call": "105",
+   "tip": "NHPP 0691 (016)",
+   "reconciled": null,
+   "county": "Webster",
+   "div": 2,
+   "desc": "ASPHALT PAVEMENT & ROADWAY REHAB",
+   "let": "Nov 19, 2026",
+   "low": "E & B PAVING LLC",
+   "lowAmt": 1562610.0,
+   "bidders": [
+    [
+     "E & B PAVING LLC",
+     1562610.0
+    ],
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     1669303.46
+    ],
+    [
+     "ROGERS GROUP INC",
+     1872177.95
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-1133",
+   "call": "200",
+   "tip": "FD52 093 0071 012-014",
+   "reconciled": null,
+   "county": "Oldham",
+   "div": 5,
+   "desc": "JPC PAVEMENT",
+   "let": "Nov 19, 2026",
+   "low": "HALL CONTRACTING OF KENTUCKY INC",
+   "lowAmt": 4760000.0,
+   "bidders": [
+    [
+     "HALL CONTRACTING OF KENTUCKY INC",
+     4760000.0
+    ],
+    [
+     "BLUEGRASS CONTRACTING CORPORATION",
+     4766700.0
+    ],
+    [
+     "FOX ENTERPRISES INC",
+     4973249.92
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     5500000.0
+    ],
+    [
+     "E & B PAVING LLC",
+     5745000.33
+    ],
+    [
+     "MAC CONSTRUCTION & EXCAVATING INC",
+     5912000.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3076",
+   "call": "300",
+   "tip": "CB06 002 0100 022-029",
+   "reconciled": null,
+   "county": "Allen",
+   "div": 3,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 874173.71,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     874173.71
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     987500.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3084",
+   "call": "301",
+   "tip": "CB06 027 0639 008-010",
+   "reconciled": null,
+   "county": "Clinton",
+   "div": 8,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "GADDIE-SHAMROCK LLC",
+   "lowAmt": 186380.98,
+   "bidders": [
+    [
+     "GADDIE-SHAMROCK LLC",
+     186380.98
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3083",
+   "call": "302",
+   "tip": "CB06 039 0465 002-004",
+   "reconciled": null,
+   "county": "Gallatin",
+   "div": 6,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "MAGO CONSTRUCTION COMPANY LLC",
+   "lowAmt": 69507.71,
+   "bidders": [
+    [
+     "MAGO CONSTRUCTION COMPANY LLC",
+     69507.71
+    ],
+    [
+     "HINKLE CONTRACTING COMPANY LLC",
+     70131.93
+    ],
+    [
+     "RIEGLER BLACKTOP INC",
+     70518.36
+    ],
+    [
+     "EATON ASPHALT PAVING CO INC",
+     77957.76
+    ],
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     78750.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3079",
+   "call": "303",
+   "tip": "CB06 043 0110 000-002",
+   "reconciled": null,
+   "county": "Grayson",
+   "div": 4,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 264880.14,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     264880.14
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3085",
+   "call": "304",
+   "tip": "CB06 074 1470 002-008",
+   "reconciled": null,
+   "county": "Mccreary",
+   "div": 8,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "HINKLE CONTRACTING COMPANY LLC",
+   "lowAmt": 291925.22,
+   "bidders": [
+    [
+     "HINKLE CONTRACTING COMPANY LLC",
+     291925.22
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3077",
+   "call": "305",
+   "tip": "CB06 086 0100 020-024",
+   "reconciled": null,
+   "county": "Monroe",
+   "div": 3,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 508910.62,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     508910.62
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     598995.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3082",
+   "call": "306",
+   "tip": "CB06 094 3102 003-005",
+   "reconciled": null,
+   "county": "Owen",
+   "div": 6,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "MAGO CONSTRUCTION COMPANY LLC",
+   "lowAmt": 167070.98,
+   "bidders": [
+    [
+     "MAGO CONSTRUCTION COMPANY LLC",
+     167070.98
+    ],
+    [
+     "HINKLE CONTRACTING COMPANY LLC",
+     179776.8
+    ],
+    [
+     "RIEGLER BLACKTOP INC",
+     198361.8
+    ],
+    [
+     "EATON ASPHALT PAVING CO INC",
+     199210.8
+    ],
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     202000.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3078",
+   "call": "307",
+   "tip": "CB06 107 0622 006-009",
+   "reconciled": null,
+   "county": "Simpson",
+   "div": 3,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 370530.16,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     370530.16
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     435250.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3080",
+   "call": "308",
+   "tip": "CB06 109 0883 002-003",
+   "reconciled": null,
+   "county": "Taylor",
+   "div": 4,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "HAYDON MATERIALS LLC",
+   "lowAmt": 166759.0,
+   "bidders": [
+    [
+     "HAYDON MATERIALS LLC",
+     166759.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3072",
+   "call": "309",
+   "tip": "CB06 114 1083 003-009",
+   "reconciled": null,
+   "county": "Warren",
+   "div": 3,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 736047.32,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     736047.32
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     840000.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-1134",
+   "call": "310",
+   "tip": "FD59 040 0034 000-001",
+   "reconciled": null,
+   "county": "Garrard",
+   "div": 7,
+   "desc": "GRADE & DRAIN WITH ASPHALT SURFACE",
+   "let": "Nov 19, 2026",
+   "low": "THE ALLEN COMPANY INC",
+   "lowAmt": 268969.29,
+   "bidders": [
+    [
+     "THE ALLEN COMPANY INC",
+     268969.29
+    ],
+    [
+     "LOUISVILLE PAVING COMPANY INC",
+     337000.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3075",
+   "call": "400",
+   "tip": "051GR26R029-CB06",
+   "reconciled": null,
+   "county": "Henderson",
+   "div": 2,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 1975219.93,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     1975219.93
+    ],
+    [
+     "E & B PAVING LLC",
+     2082752.75
+    ],
+    [
+     "ROGERS GROUP INC",
+     2190549.28
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  },
+  {
+   "id": "26-3073",
+   "call": "401",
+   "tip": "071GR26R030-CB06",
+   "reconciled": null,
+   "county": "Logan",
+   "div": 3,
+   "desc": "ASPHALT RESURFACING",
+   "let": "Nov 19, 2026",
+   "low": "SCOTTY'S CONTRACTING & STONE LLC",
+   "lowAmt": 837040.93,
+   "bidders": [
+    [
+     "SCOTTY'S CONTRACTING & STONE LLC",
+     837040.93
+    ],
+    [
+     "CLEARY CONSTRUCTION INC",
+     1085000.0
+    ]
+   ],
+   "cls": "UNKNOWN",
+   "award": "apparent"
+  }
+ ],
+ "lighting": [],
+ "shared": [],
+ "estimates": {
+  "26-1523": 1194782.27,
+  "26-1521": 18297834.99,
+  "26-1135": 1693747.99,
+  "26-1137": 1722826.19,
+  "26-1133": 6119756.77,
+  "26-3076": 984642.98,
+  "26-3084": 179737.34,
+  "26-3083": 82410.12,
+  "26-3079": 287963.59,
+  "26-3085": 236199.38,
+  "26-3077": 539359.2,
+  "26-3082": 193798.01,
+  "26-3078": 427933.8,
+  "26-3080": 168498.17,
+  "26-3072": 737399.2,
+  "26-1134": 298556.72,
+  "26-3075": 1922478.36,
+  "26-3073": 898389.63
+ },
+ "biqiLighting": {
+  "261521": {
+   "call": "101",
+   "project": "STP 3003 (337)",
+   "district": 7,
+   "items": [
+    {
+     "code": "04740",
+     "desc": "POLE BASE",
+     "qty": 84.0,
+     "unit": "EACH"
+    }
+   ],
+   "inLettingDayResults": true
+  },
+  "261133": {
+   "call": "200",
+   "project": "FD52 093 0071 012-014",
+   "district": 5,
+   "items": [
+    {
+     "code": "04710",
+     "desc": "POLE 80 FT MTG HT HIGH MAST",
+     "qty": 3.0,
+     "unit": "EACH"
+    },
+    {
+     "code": "04761",
+     "desc": "LIGHTING CONTROL EQUIPMENT",
+     "qty": 1.0,
+     "unit": "EACH"
+    },
+    {
+     "code": "04940",
+     "desc": "REMOVE LIGHTING",
+     "qty": 1.0,
+     "unit": "LS"
+    },
+    {
+     "code": "20410ED",
+     "desc": "MAINTAIN LIGHTING",
+     "qty": 1.0,
+     "unit": "LS"
+    },
+    {
+     "code": "23161EN",
+     "desc": "POLE BASE-HIGH MAST",
+     "qty": 42.2,
+     "unit": "CUYD"
+    },
+    {
+     "code": "24749EC",
+     "desc": "HIGH MAST LED LUMINAIRE",
+     "qty": 9.0,
+     "unit": "EACH"
+    }
+   ],
+   "inLettingDayResults": true
+  }
+ }
+}

@@ -60,8 +60,18 @@ def classify(code, section, desc):
 
 def sub_for(code, desc):
     s = SUBS.get(code[:4])
+    d = desc.upper()
+    # Nov 2026: generic lighting items (5260 LS, 5265 LF, 5270 EA) are classed by what the supplemental
+    # description names, not by the item family alone. A painted light standard is a pole; a bridge
+    # electrical conduit system, a railing or a formed opening is infrastructure, not a luminaire.
+    if code[:4] in ("5260", "5265", "5270"):
+        if re.search(r"REMOVE|RELOCATE|REINSTALL", d): return "work"
+        if re.search(r"LIGHT STANDARD|LIGHT POST|LIGHT POLE", d): return "pole"
+        if re.search(r"CONTROL EQUIPMENT|CONTROL SYSTEM|LITE CNTRL", d): return "control"
+        if re.search(r"LUMINAIRE|FIXTURE", d): return "luminaire"
+        if re.search(r"\bECS\b|CONDUIT|RAILING|FORMED OPENING|STEEL FRAME|PANEL|DUCT|JUNCTION", d): return "infrastructure"
     if s == "lighting-lump":
-        return "work" if re.search(r"REMOVE|RELOCATE|REINSTALL", desc.upper()) else "luminaire"
+        return "luminaire"
     return s or ("infrastructure" if code[:4] in SHARED_FAMS else None)
 
 
