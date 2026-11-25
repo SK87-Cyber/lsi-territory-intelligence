@@ -277,6 +277,8 @@ def record(conn, run_id, source, items):
             on conflict(source,item_key) do update set payload=excluded.payload,payload_hash=excluded.payload_hash,lighting=excluded.lighting,last_seen_at=now()''',
                      (source, key, Jsonb(payload), digest, flag))
         if baseline: continue
+        # A re-published link (Kentucky re-issues document ids) is not a change worth flagging.
+        if old and {k: v for k, v in old[0].items() if k != 'url'} == {k: v for k, v in payload.items() if k != 'url'}: continue
         action = 'changed' if before else 'new'
         conn.execute('insert into lsi.watch_events(run_id,source,item_key,action,lighting,payload,old_payload) values(%s,%s,%s,%s,%s,%s,%s)',
                      (run_id, source, key, action, flag, Jsonb(payload), Jsonb(old[0]) if old else None))
