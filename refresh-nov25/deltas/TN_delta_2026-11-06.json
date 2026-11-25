@@ -1,0 +1,961 @@
+{
+ "letting": {
+  "id": "L261106",
+  "date": "Nov 6, 2026",
+  "iso": "2026-11-06",
+  "n": 27,
+  "low": 65750221.73,
+  "bids": 86,
+  "awarded": 27,
+  "rejected": 0,
+  "withdrawn": 0,
+  "awardArtifact": true,
+  "read": 27,
+  "tc": "TN-59",
+  "ac": "TN-60"
+ },
+ "all": [
+  {
+   "id": "CN261701",
+   "call": "001",
+   "tip": "R1IVAR-M3-010,R1IVAR-M3-011",
+   "county": "Anderson, Cocke, Jefferson, Sevier",
+   "div": 1,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS INTERSTATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Bill Ledford & Son, Inc.",
+   "lowAmt": 449847.0,
+   "bidders": [
+    [
+     "Bill Ledford & Son, Inc.",
+     449847.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     454531.14
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     488532.0
+    ],
+    [
+     "Orr Contracting, Inc.",
+     493956.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263701",
+   "call": "002",
+   "tip": "R3SVAR-M3-124,R3SVAR-M3-125",
+   "county": "Bedford, Moore, Rutherford, Williamson",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Caudill Mowing, Inc.",
+   "lowAmt": 662416.0,
+   "bidders": [
+    [
+     "Caudill Mowing, Inc.",
+     662416.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262701",
+   "call": "003",
+   "tip": "R2SVAR-M3-078,R2SVAR-M3-079",
+   "county": "Bledsoe, Marion, Sequatchie",
+   "div": 2,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Orr Contracting, Inc.",
+   "lowAmt": 614152.0,
+   "bidders": [
+    [
+     "Orr Contracting, Inc.",
+     614152.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     699369.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     713130.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN261702",
+   "call": "004",
+   "tip": "R1IVAR-M3-012,R1IVAR-M3-013",
+   "county": "Blount, Campbell, Loudon, Monroe, Roane",
+   "div": 1,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS INTERSTATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 590034.64,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     590034.64
+    ],
+    [
+     "Orr Contracting, Inc.",
+     611224.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     637896.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN261703",
+   "call": "005",
+   "tip": "R1BVAR-M3-091,R1BVAR-M3-092",
+   "county": "Blount, Knox",
+   "div": 1,
+   "desc": "THE MOWING ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Orr Contracting, Inc.",
+   "lowAmt": 1404258.0,
+   "bidders": [
+    [
+     "Orr Contracting, Inc.",
+     1404258.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     1451956.2
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262702",
+   "call": "006",
+   "tip": "R2SVAR-M3-080,R2SVAR-M3-081",
+   "county": "Bradley, Hamilton, McMinn, Meigs, Polk, Rhea",
+   "div": 2,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Ace Clearing & Construction, Inc.",
+   "lowAmt": 3972160.0,
+   "bidders": [
+    [
+     "Ace Clearing & Construction, Inc.",
+     3972160.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     4023007.34
+    ],
+    [
+     "Orr Contracting, Inc.",
+     4137870.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262703",
+   "call": "007",
+   "tip": "R2I075-M3-003,R2I075-M3-004",
+   "county": "Bradley, McMinn",
+   "div": 2,
+   "desc": "THE MOWING AND LITTER REMOVAL ON I-75.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 272210.68,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     272210.68
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     285265.0
+    ],
+    [
+     "Covered H, LLC",
+     312885.0
+    ],
+    [
+     "Orr Contracting, Inc.",
+     329847.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN261704",
+   "call": "008",
+   "tip": "R1SVAR-M3-060,R1SVAR-M3-061",
+   "county": "Campbell, Claiborne, Morgan, Scott",
+   "div": 1,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Orr Contracting, Inc.",
+   "lowAmt": 2065142.4,
+   "bidders": [
+    [
+     "Orr Contracting, Inc.",
+     2065142.4
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     2307934.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     2547015.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN261705",
+   "call": "009",
+   "tip": "R1IVAR-M3-016,R1IVAR-M3-017",
+   "county": "Carter, Greene, Hamblen, Sullivan, Unicoi, Washington",
+   "div": 1,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS INTERSTATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Orr Contracting, Inc.",
+   "lowAmt": 624386.0,
+   "bidders": [
+    [
+     "Orr Contracting, Inc.",
+     624386.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     645395.0
+    ],
+    [
+     "Bill Ledford & Son, Inc.",
+     649928.3
+    ],
+    [
+     "South East Mowing, LLC",
+     665693.63
+    ],
+    [
+     "Glass Machinery & Excavation, Inc.",
+     668911.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     694767.56
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263702",
+   "call": "010",
+   "tip": "R3SVAR-M3-126,R3SVAR-M3-127",
+   "county": "Cheatham, Robertson",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 512759.36,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     512759.36
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     560330.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     614700.0
+    ],
+    [
+     "Rotolo Consultants, Inc.",
+     1331780.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262704",
+   "call": "011",
+   "tip": "R2SVAR-M3-082",
+   "county": "Clay, Jackson",
+   "div": 2,
+   "desc": "THE MOWING ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Ace Clearing & Construction, Inc.",
+   "lowAmt": 209668.0,
+   "bidders": [
+    [
+     "Ace Clearing & Construction, Inc.",
+     209668.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     214544.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN261068",
+   "call": "012",
+   "tip": "ER-NH-I-40-8(192),15I040-F3-032,15I040-F8-032,NH-I-40-8(196),15I040-F8-027",
+   "county": "Cocke",
+   "div": 1,
+   "desc": "THE RESURFACING ON I-40 FROM NEAR THE FOOTHILLS PARKWAY (L.M. 13.67) TO THE NORTH CAROLINA STATE LINE (L.M. 21.92).",
+   "let": "Nov 6, 2026",
+   "low": "Charles Blalock & Sons, Inc.",
+   "lowAmt": 31774597.95,
+   "bidders": [
+    [
+     "Charles Blalock & Sons, Inc.",
+     31774597.95
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262705",
+   "call": "013",
+   "tip": "R2IVAR-M3-015,R2IVAR-M3-016",
+   "county": "Coffee, Grundy, Hamilton, Marion",
+   "div": 2,
+   "desc": "THE MOWING AND LITTER REMOVAL ON I-24.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 575139.0,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     575139.0
+    ],
+    [
+     "Orr Contracting, Inc.",
+     584712.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     628725.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN264701",
+   "call": "014",
+   "tip": "R4SVAR-M3-067,R4SVAR-M3-068",
+   "county": "Crockett, Decatur, Hardin, Haywood, Henderson, Madison",
+   "div": 4,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "J. R. Farms",
+   "lowAmt": 4715145.0,
+   "bidders": [
+    [
+     "J. R. Farms",
+     4715145.0
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     8564205.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN26S701",
+   "call": "015",
+   "tip": "R2BVAR-M3-072",
+   "county": "DeKalb, Overton, Putnam, Smith, White",
+   "div": 2,
+   "desc": "THE MOWING ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Bumbalough's Construction",
+   "lowAmt": 2377512.0,
+   "bidders": [
+    [
+     "Bumbalough's Construction",
+     2377512.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     2524272.0
+    ],
+    [
+     "Orr Contracting, Inc.",
+     2582976.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     2641680.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263703",
+   "call": "016",
+   "tip": "R3SVAR-M3-128,R3SVAR-M3-129",
+   "county": "Dickson, Humphreys",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 405615.68,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     405615.68
+    ],
+    [
+     "Big Al Mowing, LLC",
+     412412.0
+    ],
+    [
+     "Big Al Mowing, LLC",
+     412412.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     461105.0
+    ],
+    [
+     "Vanderbilt Landscaping LLC",
+     548782.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN264702",
+   "call": "017",
+   "tip": "R4BVAR-M3-096,R4BVAR-M3-097",
+   "county": "Dyer, Gibson, Lake, Obion",
+   "div": 4,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Vanderbilt Landscaping LLC",
+   "lowAmt": 2084115.0,
+   "bidders": [
+    [
+     "Vanderbilt Landscaping LLC",
+     2084115.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     2314869.0
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     3014460.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN264703",
+   "call": "018",
+   "tip": "R4BVAR-M3-098,R4BVAR-M3-099",
+   "county": "Fayette, Lauderdale, Tipton",
+   "div": 4,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Vanderbilt Landscaping LLC",
+   "lowAmt": 3653397.0,
+   "bidders": [
+    [
+     "Vanderbilt Landscaping LLC",
+     3653397.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     3993510.0
+    ],
+    [
+     "Rotolo Consultants, Inc.",
+     4082753.0
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     5496615.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263704",
+   "call": "019",
+   "tip": "28SVAR-M3-006,28SVAR-M3-007",
+   "county": "Giles",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Bass Mowing, LLC",
+   "lowAmt": 312361.5,
+   "bidders": [
+    [
+     "Bass Mowing, LLC",
+     312361.5
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     368880.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN261706",
+   "call": "020",
+   "tip": "R1SVAR-M3-062,R1SVAR-M3-063",
+   "county": "Greene, Hamblen, Hancock, Hawkins",
+   "div": 1,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Orr Contracting, Inc.",
+   "lowAmt": 2670276.0,
+   "bidders": [
+    [
+     "Orr Contracting, Inc.",
+     2670276.0
+    ],
+    [
+     "Glass Machinery & Excavation, Inc.",
+     2783946.72
+    ],
+    [
+     "Bill Ledford & Son, Inc.",
+     2885559.5
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     3057075.0
+    ],
+    [
+     "South East Mowing, LLC",
+     3927139.16
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262706",
+   "call": "021",
+   "tip": "R2SVAR-M3-084,R2SVAR-M3-085",
+   "county": "Grundy, Van Buren",
+   "div": 2,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Bumbalough's Construction",
+   "lowAmt": 352969.48,
+   "bidders": [
+    [
+     "Bumbalough's Construction",
+     352969.48
+    ],
+    [
+     "Salazar Contracting, LLC",
+     402128.72
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     408900.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN262707",
+   "call": "022",
+   "tip": "33BVAR-M3-007,33BVAR-M3-008",
+   "county": "Hamilton",
+   "div": 2,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS INTERSTATE AND STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 728786.98,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     728786.98
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     766399.0
+    ],
+    [
+     "Bumbalough's Construction",
+     935570.45
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263705",
+   "call": "023",
+   "tip": "R3SVAR-M3-132,R3SVAR-M3-133",
+   "county": "Hickman, Maury",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Vanderbilt Landscaping LLC",
+   "lowAmt": 2609925.0,
+   "bidders": [
+    [
+     "Vanderbilt Landscaping LLC",
+     2609925.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     2869659.0
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     3065595.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     3238802.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263706",
+   "call": "024",
+   "tip": "R3SVAR-M3-134,R3SVAR-M3-135",
+   "county": "Lawrence, Lewis, Wayne",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Bass Mowing, LLC",
+   "lowAmt": 325501.0,
+   "bidders": [
+    [
+     "Bass Mowing, LLC",
+     325501.0
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     416160.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263707",
+   "call": "025",
+   "tip": "R3SVAR-M3-136,R3SVAR-M3-137",
+   "county": "Lincoln, Marshall, Maury",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Caudill Mowing, Inc.",
+   "lowAmt": 622200.0,
+   "bidders": [
+    [
+     "Caudill Mowing, Inc.",
+     622200.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263708",
+   "call": "026",
+   "tip": "R3SVAR-M3-138,R3SVAR-M3-139",
+   "county": "Rutherford, Sumner, Wilson",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Salazar Contracting, LLC",
+   "lowAmt": 849696.06,
+   "bidders": [
+    [
+     "Salazar Contracting, LLC",
+     849696.06
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     871900.0
+    ],
+    [
+     "Ace Clearing & Construction, Inc.",
+     929985.0
+    ],
+    [
+     "Rotolo Consultants, Inc.",
+     2767810.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  },
+  {
+   "id": "CN263709",
+   "call": "027",
+   "tip": "94SVAR-M3-012,94SVAR-M3-013",
+   "county": "Williamson",
+   "div": 3,
+   "desc": "THE MOWING AND LITTER REMOVAL ON VARIOUS STATE ROUTES.",
+   "let": "Nov 6, 2026",
+   "low": "Caudill Mowing, Inc.",
+   "lowAmt": 315950.0,
+   "bidders": [
+    [
+     "Caudill Mowing, Inc.",
+     315950.0
+    ],
+    [
+     "Covered H, LLC",
+     329640.0
+    ],
+    [
+     "Salazar Contracting, LLC",
+     397042.0
+    ],
+    [
+     "Lovin Contracting Company, Inc.",
+     508150.0
+    ],
+    [
+     "Rotolo Consultants, Inc.",
+     1005740.0
+    ]
+   ],
+   "award": "awarded",
+   "reconciled": true,
+   "cls": "None"
+  }
+ ],
+ "lighting": [],
+ "shared": [],
+ "awards": {
+  "001": {
+   "status": "awarded",
+   "contractor": "BILL LEDFORD & SON, INC.",
+   "amt": 449847.0,
+   "est": 489093.0
+  },
+  "002": {
+   "status": "awarded",
+   "contractor": "CAUDILL MOWING, INC.",
+   "amt": 662416.0,
+   "est": 697632.0
+  },
+  "003": {
+   "status": "awarded",
+   "contractor": "ORR CONTRACTING, INC.",
+   "amt": 614152.0,
+   "est": 724350.0
+  },
+  "004": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 590034.64,
+   "est": 602112.0
+  },
+  "005": {
+   "status": "awarded",
+   "contractor": "ORR CONTRACTING, INC.",
+   "amt": 1404258.0,
+   "est": 1598086.0
+  },
+  "006": {
+   "status": "awarded",
+   "contractor": "ACE CLEARING & CONSTRUCTION, INC.",
+   "amt": 3972160.0,
+   "est": 4665087.0
+  },
+  "007": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 272210.68,
+   "est": 324026.0
+  },
+  "008": {
+   "status": "awarded",
+   "contractor": "ORR CONTRACTING, INC.",
+   "amt": 2065142.4,
+   "est": 2801098.0
+  },
+  "009": {
+   "status": "awarded",
+   "contractor": "ORR CONTRACTING, INC.",
+   "amt": 624386.0,
+   "est": 717932.0
+  },
+  "010": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 512759.36,
+   "est": 559396.0
+  },
+  "011": {
+   "status": "awarded",
+   "contractor": "ACE CLEARING & CONSTRUCTION, INC.",
+   "amt": 209668.0,
+   "est": 221858.0
+  },
+  "012": {
+   "status": "awarded",
+   "contractor": "CHARLES BLALOCK & SONS, INC.",
+   "amt": 31774597.95,
+   "est": 31647185.2
+  },
+  "013": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 575139.0,
+   "est": 592812.0
+  },
+  "014": {
+   "status": "awarded",
+   "contractor": "J. R. FARMS",
+   "amt": 4715145.0,
+   "est": 7863538.0
+  },
+  "015": {
+   "status": "awarded",
+   "contractor": "BUMBALOUGH'S CONSTRUCTION",
+   "amt": 2377512.0,
+   "est": 2641680.0
+  },
+  "016": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 405615.68,
+   "est": 434107.0
+  },
+  "017": {
+   "status": "awarded",
+   "contractor": "VANDERBILT LANDSCAPING LLC",
+   "amt": 2084115.0,
+   "est": 2344391.0
+  },
+  "018": {
+   "status": "awarded",
+   "contractor": "VANDERBILT LANDSCAPING LLC",
+   "amt": 3653397.0,
+   "est": 4711274.0
+  },
+  "019": {
+   "status": "awarded",
+   "contractor": "BASS MOWING, LLC",
+   "amt": 312361.5,
+   "est": 348339.0
+  },
+  "020": {
+   "status": "awarded",
+   "contractor": "ORR CONTRACTING, INC.",
+   "amt": 2670276.0,
+   "est": 3443238.0
+  },
+  "021": {
+   "status": "awarded",
+   "contractor": "BUMBALOUGH'S CONSTRUCTION",
+   "amt": 352969.48,
+   "est": 444560.0
+  },
+  "022": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 728786.98,
+   "est": 766670.0
+  },
+  "023": {
+   "status": "awarded",
+   "contractor": "VANDERBILT LANDSCAPING LLC",
+   "amt": 2609925.0,
+   "est": 3215165.0
+  },
+  "024": {
+   "status": "awarded",
+   "contractor": "BASS MOWING, LLC",
+   "amt": 325501.0,
+   "est": 362134.0
+  },
+  "025": {
+   "status": "awarded",
+   "contractor": "CAUDILL MOWING, INC.",
+   "amt": 622200.0,
+   "est": 629976.0
+  },
+  "026": {
+   "status": "awarded",
+   "contractor": "SALAZAR CONTRACTING, LLC",
+   "amt": 849696.06,
+   "est": 911363.0
+  },
+  "027": {
+   "status": "awarded",
+   "contractor": "CAUDILL MOWING, INC.",
+   "amt": 315950.0,
+   "est": 338910.0
+  }
+ }
+}
