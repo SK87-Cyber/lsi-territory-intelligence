@@ -116,3 +116,21 @@ counts only. Read the queue with:
 Not yet covered: Kentucky pay estimates per contract, the North Carolina vendor portal (needs a page token), and the
 browser-only sources in the source registry. Tennessee's folder name for 2026 contracts is unconfirmed, so those report
 as not posted until one is found.
+
+### Letting pages — added 2026-11-25
+
+Six more sources list each state's own letting page, so a new letting, its results and its tabulations are flagged the
+week they post:
+
+| Source key | What is listed |
+|---|---|
+| `ky-lettings` | Letting dates, and the documents of the three newest lettings (results, bid item index, addenda, withdrawals) |
+| `tn-lettings` | Per-letting pages for this year and next, and the files of the three newest (apparent results, summary of bids, awards) |
+| `sc-lettings` | Apparent-bid files on the Bids Received page |
+| `ms-lettings` | Every advertised call with its project description (MDOT's letting feed), and the letting dates |
+| `al-lettings` | The current letting's files, the newest low bid sheet, and this year's tabulations of bids |
+| `ar-lettings` | Apparent bid results, awards lists and bid tabulations |
+
+Georgia is not covered: its tabulations sit behind a Bid Express login. tn.gov refuses some automated requests; the job
+retries, and a refused sub-page is picked up the following week. Flagging a letting is not reading it: lighting dollars
+still reach the site only through a reviewed read of the bid tabulations.
