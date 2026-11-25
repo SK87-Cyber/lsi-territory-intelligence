@@ -1,0 +1,707 @@
+{
+ "letting": {
+  "id": "L260828",
+  "date": "Aug 28, 2026",
+  "iso": "2026-08-28",
+  "n": 13,
+  "low": 33671530.16,
+  "bids": 57,
+  "awarded": 13,
+  "awardArtifact": true,
+  "tc": "AL-56",
+  "ac": "AL-56",
+  "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+ },
+ "all": [
+  {
+   "id": "20260828004",
+   "call": "004",
+   "tip": "BR-I059(455)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "desc": "BRIDGE REHAB (HYDROBLAST, BRIDGE PAINTING, SUBSTRUCTURE PATCHING, STEEL REPAIRS, NAV LIGHT REPLACEMENT, AND GUARDRAIL) ON I-20/I-59 OVER THE BLACK WAR",
+   "let": "Aug 28, 2026",
+   "low": "IVS HYDRO, INC.",
+   "lowAmt": 10393035.87,
+   "bidders": [
+    [
+     "IVS HYDRO, INC.",
+     10393035.87
+    ],
+    [
+     "CEKRA, INC",
+     10787715.51
+    ],
+    [
+     "GIBSON & ASSOCIATES, INC.",
+     10816690.65
+    ],
+    [
+     "AMERICAN CONTRACTING & SERVICES, INC.",
+     11484748.06
+    ],
+    [
+     "OMEGA COATINGS & CONSTRUCTION, LLC",
+     15781527.05
+    ],
+    [
+     "SOUTHERN ROAD & BRIDGE, LLC",
+     19464733.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828005",
+   "call": "005",
+   "tip": "BR-I059(460)",
+   "county": "Sumter",
+   "div": 3,
+   "desc": "BRIDGE PAINTING ON I-20/I-59 OVER JONES CREEK AND FACTORY CREEK NORTHEAST OF EPES",
+   "let": "Aug 28, 2026",
+   "low": "S & D INDUSTRIAL PAINTING, INC.",
+   "lowAmt": 1116540.0,
+   "bidders": [
+    [
+     "S & D INDUSTRIAL PAINTING, INC.",
+     1116540.0
+    ],
+    [
+     "INTERNATIONAL RIGGING GROUP, LLC",
+     1146020.0
+    ],
+    [
+     "SEMINOLE EQUIPMENT, INC.",
+     1193884.0
+    ],
+    [
+     "OMEGA COATINGS & CONSTRUCTION, LLC",
+     1348343.0
+    ],
+    [
+     "CEKRA, INC",
+     1362624.0
+    ],
+    [
+     "GULF COAST CONTRACTING, LLC",
+     1547128.0
+    ],
+    [
+     "ELITE INDUSTRIAL PAINTING, INC.",
+     1628743.0
+    ],
+    [
+     "KALYMNOS BRIDGE PAINTING, LLC",
+     1913668.0
+    ],
+    [
+     "OLYMPUS PAINTING CONTRACTORS, INC.",
+     2267300.0
+    ],
+    [
+     "MONOKO, LLC",
+     2454329.0
+    ],
+    [
+     "SOUTHERN ROAD & BRIDGE, LLC",
+     2491108.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828008",
+   "call": "008",
+   "tip": "CRPNU-I059(466)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (HIGHWAY LIGHTING UPGRADES) ON I-20/I-59 RAMPS AT THE INTERCHANGE OF MERCEDES DRIVE AND ACCESS ROAD (EXIT 89) IN VANCE",
+   "let": "Aug 28, 2026",
+   "low": "INLINE, LLC",
+   "lowAmt": 449977.64,
+   "bidders": [
+    [
+     "INLINE, LLC",
+     449977.64
+    ],
+    [
+     "STONE ELECTRIC COMPANY, INC.",
+     513386.0
+    ],
+    [
+     "TEMPLE J ELECTRIC, LLC",
+     550547.5
+    ],
+    [
+     "WILLIAMS POWER & SIGNAL, LLC",
+     573307.9
+    ],
+    [
+     "STONE & SONS ELECTRICAL CONTRACTORS, INC.",
+     633795.65
+    ],
+    [
+     "J. RANCK ELECTRIC, INC.",
+     727030.5
+    ]
+   ],
+   "cls": "L1",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828011",
+   "call": "011",
+   "tip": "DEMO-A219(958)",
+   "county": "Calhoun",
+   "div": 2,
+   "desc": "MICRO-MILLING, RESURFACING, AND TRAFFIC STRIPE TO INTERSECTION IMPROVEMENTS (LEFT AND RIGHT TURN LANES) ON CR 109 FROM SR-202 TO MORRISVILLE ROAD TO I",
+   "let": "Aug 28, 2026",
+   "low": "VULCAN MATERIALS ASPHALT AND CONSTRUCTION,",
+   "lowAmt": 2274715.7,
+   "bidders": [
+    [
+     "VULCAN MATERIALS ASPHALT AND CONSTRUCTION,",
+     2274715.7
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     2346072.55
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     2401343.75
+    ],
+    [
+     "MCELHENNEY CONSTRUCTION CO., LLC",
+     2799575.69
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828014",
+   "call": "014",
+   "tip": "HRRR-0426(250)",
+   "county": "Bibb",
+   "div": 3,
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (GUARDRAIL AND GUARDRAIL END ANCHOR INSTALLATIONS) ON CR-65 0.410 MI NW OF CAHABA HILL RD; ON CR-44 0.110 MI SOUTH OF YEAG",
+   "let": "Aug 28, 2026",
+   "low": "ALABAMA GUARDRAIL, LLC",
+   "lowAmt": 60767.5,
+   "bidders": [
+    [
+     "ALABAMA GUARDRAIL, LLC",
+     60767.5
+    ],
+    [
+     "C & H CONSTRUCTION SERVICES, LLC",
+     62737.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828015",
+   "call": "015",
+   "tip": "HRRR-1126(250)",
+   "county": "Chilton",
+   "div": 3,
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (GUARDRAIL AND GUARDRAIL END ANCHOR INSTALLATION) ON CR-54 OVER BRANCH OF DRY CREEK (SITE 1) AND ON CR-54 AT THE CURVE 0.2",
+   "let": "Aug 28, 2026",
+   "low": "ALABAMA GUARDRAIL, LLC",
+   "lowAmt": 59958.0,
+   "bidders": [
+    [
+     "ALABAMA GUARDRAIL, LLC",
+     59958.0
+    ],
+    [
+     "C & H CONSTRUCTION SERVICES, LLC",
+     66081.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828017",
+   "call": "017",
+   "tip": "HRRR-3626(250)",
+   "county": "Jackson",
+   "div": 1,
+   "desc": "ROADWAY SAFETY IMPROVMENTS (GUARDRAIL AND GUARDRAIL END ANCHOR INSTALLATION) ON CR-81 OVER FLAT ROCK CREEK; ON CR-30 OVER UNNAMED CREEK; AND ON CR-88 ",
+   "let": "Aug 28, 2026",
+   "low": "ALABAMA GUARDRAIL, LLC",
+   "lowAmt": 164200.0,
+   "bidders": [
+    [
+     "ALABAMA GUARDRAIL, LLC",
+     164200.0
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828018",
+   "call": "018",
+   "tip": "HRRR-5526(250)",
+   "county": "Pike",
+   "div": 4,
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (SLOPE FLATTENING TO INCLUDE CLEARING AND GRUBBING) ON CR-1101 AT THE CONECUH RIVER (SITE 1) AND OLUSTEE CREEK (SITE 2)",
+   "let": "Aug 28, 2026",
+   "low": "GRADY RALLS & SONS, INC.",
+   "lowAmt": 582413.3,
+   "bidders": [
+    [
+     "GRADY RALLS & SONS, INC.",
+     582413.3
+    ],
+    [
+     "S. A. GRAHAM COMPANY, INC.",
+     599106.86
+    ],
+    [
+     "E. O. BYARS CONSTRUCTION, INC.",
+     726521.93
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     745748.5
+    ],
+    [
+     "CARTER'S CONTRACTING SERVICES, INC.",
+     745794.75
+    ],
+    [
+     "W. S. NEWELL & SONS, INC.",
+     783915.56
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828021",
+   "call": "021",
+   "tip": "IM-HSIP-IMGR-I022(327)",
+   "county": "Walker",
+   "div": 3,
+   "desc": "RESURFACING, GUARDRAIL INSTALL (GUARDRAIL, GUARDRAIL END ANCHORS, AND GUARDRAIL STEEL BLOCKOUT REPLACEMENT), AND STRIPE ON I-22 FROM A POINT 0.800 MIL",
+   "let": "Aug 28, 2026",
+   "low": "DUNN CONSTRUCTION COMPANY, INC.",
+   "lowAmt": 8271787.61,
+   "bidders": [
+    [
+     "DUNN CONSTRUCTION COMPANY, INC.",
+     8271787.61
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     8430262.6
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     9143633.67
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828023",
+   "call": "023",
+   "tip": "IM-IMGR-I065(577)",
+   "county": "Elmore",
+   "div": 4,
+   "desc": "PLANING, MICRO-MILLING, RESURFACING, GUARDRAIL INSTALLATION, AND TRAFFIC STRIPE ON I-65 FROM THE MONTGOMERY COUNTY LINE TO A POINT NEAR THE SR-14 INTE",
+   "let": "Aug 28, 2026",
+   "low": "APAC-ALABAMA, INC.",
+   "lowAmt": 8398370.0,
+   "bidders": [
+    [
+     "APAC-ALABAMA, INC.",
+     8398370.0
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     8987680.02
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828026",
+   "call": "026",
+   "tip": "STPSU-3525(253)",
+   "county": "Houston",
+   "div": 4,
+   "desc": "PLANING, RESURFACING, AND TRAFFIC STRIPE ON NORTH BROADWAY STREET FROM THE JUNCTION OF SR-12 (US-84) TO THE JUNCTION OF MAIN STREET IN ASHFORD",
+   "let": "Aug 28, 2026",
+   "low": "LEWIS INCORPORATED..",
+   "lowAmt": 367883.29,
+   "bidders": [
+    [
+     "LEWIS INCORPORATED..",
+     367883.29
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     442116.52
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     533877.53
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828027",
+   "call": "027",
+   "tip": "STPSU-3526(251)",
+   "county": "Houston",
+   "div": 4,
+   "desc": "PLANING, RESURFACING, AND TRAFFIC STRIPE ON WEBB ROAD FROM THE INTERSECTION OF NORTH RANGE STREET TO THE INTERSECTION OF SR-210 (US-431) IN DOTHAN",
+   "let": "Aug 28, 2026",
+   "low": "LEWIS INCORPORATED..",
+   "lowAmt": 364381.25,
+   "bidders": [
+    [
+     "LEWIS INCORPORATED..",
+     364381.25
+    ],
+    [
+     "APAC-ALABAMA, INC.",
+     403506.39
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     579544.08
+    ]
+   ],
+   "cls": "None",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  },
+  {
+   "id": "20260828030",
+   "call": "030",
+   "tip": "ATRP2-52-2024-263",
+   "county": "Morgan",
+   "div": 1,
+   "desc": "ROADWAY IMPROVEMENTS/REALIGNMENT (GRADING, DRAINING, PAVEMENT, TRAFFIC SIGNS, TRAFFIC SIGNALS, AND TRAFFIC STRIPE) ON SR-3 (US-31) AT SPARKMAN STREET ",
+   "let": "Aug 28, 2026",
+   "low": "ROGERS GROUP, INC.",
+   "lowAmt": 1167500.0,
+   "bidders": [
+    [
+     "ROGERS GROUP, INC.",
+     1167500.0
+    ],
+    [
+     "GRAYSON CARTER & SON CONTRACTING, INC.",
+     1228952.7
+    ],
+    [
+     "GILLESPIE CONSTRUCTION, LLC",
+     1323314.84
+    ],
+    [
+     "WIREGRASS CONSTRUCTION COMPANY, INC.",
+     1377111.0
+    ],
+    [
+     "BULLS CONSTRUCTION GROUP, LLC",
+     1387356.14
+    ],
+    [
+     "CG JONES, LLC",
+     1477840.5
+    ],
+    [
+     "MLMD, LLC",
+     1712452.48
+    ],
+    [
+     "TEMPLE J ELECTRIC, LLC",
+     2180944.68
+    ]
+   ],
+   "cls": "L2",
+   "award": "awarded",
+   "reconciled": true,
+   "awardNote": "presence in ALDOT's posted tabulation \u2014 tabulations are not released for projects not awarded"
+  }
+ ],
+ "lighting": [
+  {
+   "id": "20260828008",
+   "tip": "CRPNU-I059(466)",
+   "county": "Tuscaloosa",
+   "div": 3,
+   "districtLabel": "Region 3",
+   "let": "Aug 28, 2026",
+   "low": "INLINE, LLC",
+   "lowAmt": 449977.64,
+   "bidders": 6,
+   "l2": 398032.27,
+   "product": 282432.9,
+   "split": {
+    "hardware": 282432.9,
+    "infrastructure": 98870.08,
+    "work": 16729.29,
+    "lump": 0.0
+   },
+   "nItems": 9,
+   "rng": [
+    398032.27,
+    674750.0
+   ],
+   "cls": "L1",
+   "desc": "ROADWAY SAFETY IMPROVEMENTS (HIGHWAY LIGHTING UPGRADES) ON I-20/I-59 RAMPS AT THE INTERCHANGE OF MERCEDES DRIVE AND ACCESS ROAD (EXIT 89) IN VANCE",
+   "share": 0.885,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "awardDate": null,
+   "awardNote": "Awarded \u2014 the contract appears in ALDOT's posted Tabulation of Bids for the August 28, 2026 letting {AL-56}, and ALDOT's bid-tab index states that tabulations are not released for projects not awarded {AL-31}.",
+   "quantities": [
+    "158 \u00d7 Replace Roadway Luminaire (Including All Mounting Appurtenances)"
+   ],
+   "items": [
+    {
+     "line": "0070",
+     "code": "751D057",
+     "section": "751",
+     "desc": "Replace Pole Wiring Cables",
+     "qty": 158.0,
+     "unit": "Each",
+     "prices": {
+      "INLINE, LLC": 625.76,
+      "STONE ELECTRIC COMPANY, INC.": 550.0,
+      "TEMPLE J ELECTRIC, LLC": 600.0,
+      "WILLIAMS POWER & SIGNAL, LLC": 651.77,
+      "STONE & SONS ELECTRICAL CONTRACTORS, INC.": 825.0,
+      "J. RANCK ELECTRIC, INC.": 900.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0080",
+     "code": "751K000",
+     "section": "751",
+     "desc": "Replace Roadway Luminaire (Including All Mounting Appurtenances)",
+     "qty": 158.0,
+     "unit": "Each",
+     "prices": {
+      "INLINE, LLC": 1787.55,
+      "STONE ELECTRIC COMPANY, INC.": 1950.0,
+      "TEMPLE J ELECTRIC, LLC": 2702.0,
+      "WILLIAMS POWER & SIGNAL, LLC": 2551.0,
+      "STONE & SONS ELECTRICAL CONTRACTORS, INC.": 2350.0,
+      "J. RANCK ELECTRIC, INC.": 3275.0
+     },
+     "sub": "luminaire"
+    },
+    {
+     "line": "0090",
+     "code": "751L022",
+     "section": "751",
+     "desc": "Remove Roadway Luminaire ( ) indicates item is bid as Lump Sum",
+     "qty": 151.0,
+     "unit": "Each",
+     "prices": {
+      "INLINE, LLC": 110.79,
+      "STONE ELECTRIC COMPANY, INC.": 85.0,
+      "TEMPLE J ELECTRIC, LLC": 50.0,
+      "WILLIAMS POWER & SIGNAL, LLC": 174.25,
+      "STONE & SONS ELECTRICAL CONTRACTORS, INC.": 85.0,
+      "J. RANCK ELECTRIC, INC.": 100.0
+     },
+     "sub": "work"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 282432.9,
+    "pole": 0.0,
+    "assembly": 0.0,
+    "control": 0.0
+   },
+   "lumN": 158.0,
+   "poleN": 0.0,
+   "note": "A lighting-only contract: highway lighting upgrades on the I-20/I-59 ramps at Exit 89 (Mercedes Drive) in Vance. 158 roadway luminaires replaced with their pole wiring, 151 old luminaires removed. Priced under Section 751 (replacement items), which the Alabama lighting rule did not cover before this letting."
+  },
+  {
+   "id": "20260828030",
+   "tip": "ATRP2-52-2024-263",
+   "county": "Morgan",
+   "div": 1,
+   "districtLabel": "Region 1",
+   "let": "Aug 28, 2026",
+   "low": "ROGERS GROUP, INC.",
+   "lowAmt": 1167500.0,
+   "bidders": 8,
+   "l2": 116290.0,
+   "product": 84000.0,
+   "split": {
+    "hardware": 84000.0,
+    "infrastructure": 32290.0,
+    "work": 0.0,
+    "lump": 0.0
+   },
+   "nItems": 91,
+   "rng": [
+    97610.0,
+    186669.36
+   ],
+   "cls": "L2",
+   "desc": "ROADWAY IMPROVEMENTS/REALIGNMENT (GRADING, DRAINING, PAVEMENT, TRAFFIC SIGNS, TRAFFIC SIGNALS, AND TRAFFIC STRIPE) ON SR-3 (US-31) AT SPARKMAN STREET AND LANE ROAD, TO INCLUDE ACCESS MANAGEMENT AND TRAFFIC SIGNAL INSTALLATION IN HARTSE",
+   "share": 0.1,
+   "award": "awarded",
+   "reconciled": true,
+   "residual": 0.0,
+   "awardDate": null,
+   "awardNote": "Awarded \u2014 the contract appears in ALDOT's posted Tabulation of Bids for the August 28, 2026 letting {AL-56}, and ALDOT's bid-tab index states that tabulations are not released for projects not awarded {AL-31}.",
+   "quantities": [
+    "7 \u00d7 Roadway Luminaire Assembly with One, LED, 400 Watt Equivalent Luminaire"
+   ],
+   "items": [
+    {
+     "line": "0820",
+     "code": "750B602",
+     "section": "750",
+     "desc": "Roadway Luminaire Assembly with One, LED, 400 Watt Equivalent Luminaire",
+     "qty": 7.0,
+     "unit": "Each",
+     "prices": {
+      "ROGERS GROUP, INC.": 12000.0,
+      "GRAYSON CARTER & SON CONTRACTING, INC.": 10800.0,
+      "GILLESPIE CONSTRUCTION, LLC": 11300.0,
+      "WIREGRASS CONSTRUCTION COMPANY, INC.": 10857.56,
+      "BULLS CONSTRUCTION GROUP, LLC": 11200.0,
+      "CG JONES, LLC": 11866.0,
+      "MLMD, LLC": 10000.0,
+      "TEMPLE J ELECTRIC, LLC": 14370.48
+     },
+     "sub": "assembly"
+    },
+    {
+     "line": "0830",
+     "code": "750C010",
+     "section": "750",
+     "desc": "Pole Foundation,Roadway",
+     "qty": 8.0,
+     "unit": "Each",
+     "prices": {
+      "ROGERS GROUP, INC.": 1800.0,
+      "GRAYSON CARTER & SON CONTRACTING, INC.": 1620.0,
+      "GILLESPIE CONSTRUCTION, LLC": 1695.0,
+      "WIREGRASS CONSTRUCTION COMPANY, INC.": 1628.63,
+      "BULLS CONSTRUCTION GROUP, LLC": 1680.0,
+      "CG JONES, LLC": 1800.0,
+      "MLMD, LLC": 1500.0,
+      "TEMPLE J ELECTRIC, LLC": 6264.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0840",
+     "code": "750D200",
+     "section": "750",
+     "desc": "Electrical Junction Box,Type 1",
+     "qty": 2.0,
+     "unit": "Each",
+     "prices": {
+      "ROGERS GROUP, INC.": 450.0,
+      "GRAYSON CARTER & SON CONTRACTING, INC.": 405.0,
+      "GILLESPIE CONSTRUCTION, LLC": 423.75,
+      "WIREGRASS CONSTRUCTION COMPANY, INC.": 407.16,
+      "BULLS CONSTRUCTION GROUP, LLC": 420.0,
+      "CG JONES, LLC": 450.0,
+      "MLMD, LLC": 375.0,
+      "TEMPLE J ELECTRIC, LLC": 702.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0850",
+     "code": "750E115",
+     "section": "750",
+     "desc": "Conduit,2 Inch,Rigid Nonmetallic",
+     "qty": 20.0,
+     "unit": "LF",
+     "prices": {
+      "ROGERS GROUP, INC.": 9.5,
+      "GRAYSON CARTER & SON CONTRACTING, INC.": 8.64,
+      "GILLESPIE CONSTRUCTION, LLC": 9.04,
+      "WIREGRASS CONSTRUCTION COMPANY, INC.": 8.69,
+      "BULLS CONSTRUCTION GROUP, LLC": 9.0,
+      "CG JONES, LLC": 10.0,
+      "MLMD, LLC": 8.0,
+      "TEMPLE J ELECTRIC, LLC": 27.0
+     },
+     "sub": "infrastructure"
+    },
+    {
+     "line": "0860",
+     "code": "750G010",
+     "section": "750",
+     "desc": "Combined Duct And Cable,2 #6 AWG/ 1 #6 AWG GND",
+     "qty": 2100.0,
+     "unit": "LF",
+     "prices": {
+      "ROGERS GROUP, INC.": 8.0,
+      "GRAYSON CARTER & SON CONTRACTING, INC.": 7.56,
+      "GILLESPIE CONSTRUCTION, LLC": 7.91,
+      "WIREGRASS CONSTRUCTION COMPANY, INC.": 7.6,
+      "BULLS CONSTRUCTION GROUP, LLC": 8.0,
+      "CG JONES, LLC": 8.0,
+      "MLMD, LLC": 7.0,
+      "TEMPLE J ELECTRIC, LLC": 16.2
+     },
+     "sub": "infrastructure"
+    }
+   ],
+   "splitHw": {
+    "luminaire": 0.0,
+    "pole": 0.0,
+    "assembly": 84000.0,
+    "control": 0.0
+   },
+   "lumN": 7.0,
+   "poleN": 7.0,
+   "note": "Intersection realignment and signal job on US-31 at Sparkman Street and Lane Road in Hartselle. Seven roadway luminaire assemblies (LED, 400-watt equivalent) with foundations, conduit and cable."
+  }
+ ],
+ "shared": []
+}
