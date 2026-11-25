@@ -61,3 +61,40 @@ class RetryTests(unittest.TestCase):
         try: self.assertEqual(retrieve.fetch('https://connect.ncdot.gov/letting')[2],b'ok')
         finally: retrieve.urlopen,retrieve.time.sleep=old_open,old_sleep
         self.assertEqual(calls['n'],3)
+
+class LettingPageTests(unittest.TestCase):
+    def test_links_are_absolute_and_skip_scripts(self):
+        from retrieve import page_links
+        page='<a href="/a/Letting%20Results.pdf">Letting <b>Results</b></a><a href="javascript: x()">no</a><a href="#top">no</a><a href="b.xlsx">B</a>'
+        self.assertEqual(page_links(page,'https://transportation.ky.gov/x/y.aspx'),
+            [('https://transportation.ky.gov/a/Letting%20Results.pdf','Letting Results'),('https://transportation.ky.gov/x/b.xlsx','B')])
+    def test_refused_request_is_retried(self):
+        import retrieve
+        from urllib.error import HTTPError
+        calls={'n':0}
+        class Resp:
+            status=200; headers={}
+            def read(self,n): return b'ok'
+            def __enter__(self): return self
+            def __exit__(self,*a): return False
+        def fake(req,timeout):
+            calls['n']+=1
+            if calls['n']==1: raise HTTPError(req.full_url,403,'Forbidden',{},None)
+            return Resp()
+        old_open,old_sleep=retrieve.urlopen,retrieve.time.sleep
+        retrieve.urlopen,retrieve.time.sleep=fake,lambda s:None
+        try: self.assertEqual(retrieve.fetch('https://www.tn.gov/tdot/x.html')[2],b'ok')
+        finally: retrieve.urlopen,retrieve.time.sleep=old_open,old_sleep
+        self.assertEqual(calls['n'],2)
+    def test_missing_file_is_not_retried(self):
+        import retrieve
+        from urllib.error import HTTPError
+        calls={'n':0}
+        def fake(req,timeout):
+            calls['n']+=1; raise HTTPError(req.full_url,404,'Not Found',{},None)
+        old_open,old_sleep=retrieve.urlopen,retrieve.time.sleep
+        retrieve.urlopen,retrieve.time.sleep=fake,lambda s:None
+        try:
+            with self.assertRaises(HTTPError): retrieve.fetch('https://www.tdot.tn.gov/x.pdf')
+        finally: retrieve.urlopen,retrieve.time.sleep=old_open,old_sleep
+        self.assertEqual(calls['n'],1)

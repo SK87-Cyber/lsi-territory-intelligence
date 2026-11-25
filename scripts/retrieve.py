@@ -12,11 +12,12 @@ import json
 import re
 import sys
 import time
-from urllib.parse import quote, urlsplit
+from urllib.parse import quote, urljoin, urlsplit
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
-HOSTS = {'connect.ncdot.gov', 'www.dot.state.al.us', 'secure2.kentucky.gov', 'myfiles.dot.ga.gov', 'www.tdot.tn.gov'}
+HOSTS = {'connect.ncdot.gov', 'www.dot.state.al.us', 'secure2.kentucky.gov', 'myfiles.dot.ga.gov', 'www.tdot.tn.gov',
+         'transportation.ky.gov', 'www.tn.gov', 'info2.scdot.org', 'mdot.ms.gov', 'alletting.dot.state.al.us', 'ardot.gov'}
 UA = 'LSI-Retrieval/1.0 (weekly public-listing check; contact via github.com/SK87-Cyber/lsi-territory-intelligence)'
 LIGHTING = re.compile(r'light(?!\s*rail)|luminaire|high\s*-?\s*mast|illuminat|electrical maintenance', re.I)
 MAX_BYTES = 12_000_000
@@ -33,8 +34,8 @@ def fetch(url, method='GET', body=None, headers=None, pause=1.0):
         try:
             with urlopen(req, timeout=60) as r:
                 return r.status, dict(r.headers), (b'' if method == 'HEAD' else r.read(MAX_BYTES))
-        except HTTPError:
-            raise
+        except HTTPError as exc:  # some agency sites refuse or throttle the odd request: wait and retry
+            if exc.code not in (403, 429, 500, 502, 503, 504) or attempt == 2: raise
         except (OSError, http.client.HTTPException):  # dropped connection or timeout: wait and retry
             if attempt == 2: raise
 
@@ -153,7 +154,109 @@ def tn_payments(conn):
         out.append((cid, payload))
     return out
 
-WATCHERS = {'nc-lettings': nc_lettings, 'al-procurement': al_procurement, 'ky-contracts': ky_contracts,
+# ---- letting pages (added Nov 25, 2026): a new letting, its results and its tabulations are listed the week they post ----
+def page_links(page, base):
+    """Every link on a page as (absolute url, visible text)."""
+    out = []
+    for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', page, re.S | re.I):
+        href = html.unescape(href).strip()
+        if href.startswith(('#', 'javascript', 'mailto')): continue
+        out.append((urljoin(base, href), ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', text)).split())))
+    return out
+
+DOC = re.compile(r'\.(pdf|xlsx?|zip)(\?|#|$)', re.I)
+def text_of(url, **kw):
+    return fetch(url, **kw)[2].decode('utf-8', 'replace')
+
+def ky_lettings(_conn):
+    base = 'https://transportation.ky.gov/Construction-Procurement/Pages/default.aspx'
+    dates = []
+    for url, text in page_links(text_of(base), base):
+        m = re.search(r'Lettings\.aspx\?letting=(\d+)/(\d+)/(\d{4})', url)
+        if m: dates.append(('%s-%02d-%02d' % (m.group(3), int(m.group(1)), int(m.group(2))), url))
+    dates = sorted(set(dates), reverse=True)
+    out = [('letting:' + d, {'state': 'KY', 'title': 'Letting of ' + d, 'letting': d, 'url': u}) for d, u in dates]
+    for d, u in dates[:3]:  # the documents of the three newest lettings: results, bid item index, addenda, withdrawals
+        for url, text in page_links(text_of(u.replace(' ', '%20')), u):
+            if DOC.search(url) and '/Construction-Procurement/' in url and 'Archived' not in url:
+                out.append((d + ':' + url.split('/Construction-Procurement/')[1], {'state': 'KY', 'title': text or url.rsplit('/', 1)[-1], 'letting': d, 'url': url.replace(' ', '%20')}))
+    return out
+
+def tn_lettings(_conn, today=None):
+    year = (today or datetime.now(timezone.utc)).year
+    out, pages = [], []
+    for y in (year, year + 1):
+        base = f'https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/{y}-bid-lettings.html'
+        try: page = text_of(base)
+        except HTTPError as exc:
+            if exc.code == 404: continue
+            raise
+        for url, text in page_links(page, base):
+            if re.search(rf'/{y}-bid-lettings/[^/]+-letting\.html$', url): pages.append((url, text))
+    seen = []
+    for url, text in pages:
+        if url not in [u for u, _ in seen]: seen.append((url, text))
+    for url, text in seen: out.append(('letting:' + url.rsplit('/', 1)[-1], {'state': 'TN', 'title': text, 'url': url}))
+    for url, text in seen[:3]:  # year pages list newest first
+        try: sub = text_of(url, pause=4.0)
+        except HTTPError: continue  # tn.gov throttles; the letting itself is already listed and its files are caught next week
+        for doc, label in page_links(sub, url):
+            if DOC.search(doc) and '_bid_lettings/' in doc:
+                out.append((doc.split('/content/dam/')[-1], {'state': 'TN', 'title': f'{text}: {label}', 'url': doc}))
+    return out
+
+def sc_lettings(_conn):
+    base = 'https://info2.scdot.org/bidsreceived/Pages/default.aspx'
+    page = text_of(base)
+    found = set(re.findall(r'href="([^"]+\.(?:pdf|xlsx?))"', page, re.I)) | {f.replace('\\u002f', '/') for f in re.findall(r'(\\u002fbidsreceived\\u002f[^"]{0,120}?\.(?:pdf|xlsx?))', page, re.I)}
+    out = []
+    for f in sorted(found):
+        url = urljoin(base, html.unescape(f)).replace(' ', '%20')
+        if '/bidsreceived/' not in url.lower(): continue
+        name = url.rsplit('/', 1)[-1].replace('%20', ' ')
+        m = re.match(r'(\d{2})(\d{2})(\d{4})', name)
+        out.append((name, {'state': 'SC', 'title': 'Apparent bids' + (f' for the letting of {m.group(3)}-{m.group(1)}-{m.group(2)}' if m else '') + ': ' + name, 'url': url}))
+    return out
+
+def ms_lettings(_conn):
+    out = []
+    feed = text_of('https://mdot.ms.gov/bidsystem_data/letting.xml')
+    for item in re.findall(r'<item>(.*?)</item>', feed, re.S):
+        g = lambda tag: (re.search(rf'<{tag}>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</{tag}>', item, re.S) or [None, ''])[1].strip()
+        if g('guid'): out.append(('call:' + g('guid'), {'state': 'MS', 'title': g('title') + ': ' + ' '.join(g('description').split()), 'posted': g('pubDate'), 'url': 'https://mdot.ms.gov/Applications/BidSystem/Home.aspx'}))
+    home = text_of('https://mdot.ms.gov/Applications/BidSystem/Home.aspx')
+    for ld in sorted(set(re.findall(r'BiddersList\.aspx\?ld=(\d{8})', home))):
+        d = f'{ld[:4]}-{ld[4:6]}-{ld[6:]}'
+        out.append(('letting:' + d, {'state': 'MS', 'title': 'Letting of ' + d, 'letting': d, 'url': 'https://mdot.ms.gov/Applications/BidSystem/Home.aspx'}))
+    return out
+
+def al_lettings(_conn, today=None):
+    year = (today or datetime.now(timezone.utc)).year
+    out = {}
+    home = 'https://alletting.dot.state.al.us/'
+    for url, text in page_links(text_of(home), home):  # current letting, the newest low bid sheet, notices
+        if '/WEBPROPS/' in url or '/DW_Pages/NTC/' in url or '/DW_Pages/Letting_Files/' in url:
+            out[url.split('alletting.dot.state.al.us/')[1]] = {'state': 'AL', 'title': text + ': ' + url.rsplit('/', 1)[-1], 'url': url.replace(' ', '%20')}
+    tabs = f'https://alletting.dot.state.al.us/DW_Pages/Bid_Tabs/Bidtab_{year}.html'
+    try:
+        for url, text in page_links(text_of(tabs), tabs):
+            if 'bidtab_pdf' in url.lower():
+                out['tab:' + url.rsplit('/', 1)[-1]] = {'state': 'AL', 'title': 'Tabulation of bids: ' + url.rsplit('/', 1)[-1], 'url': url}
+    except HTTPError as exc:
+        if exc.code != 404: raise
+    return sorted(out.items())
+
+def ar_lettings(_conn):
+    root = 'https://ardot.gov/divisions/program-management/construction-contract-development/construction-contractors/'
+    out = {}
+    for page, kind, pat in (('apparent-bid-results/', 'Apparent bid results', r'Results'), ('awards-lists/', 'Awards list', r'Awards'), ('bid-tabulations/', 'Bid tabulations', r'Tab')):
+        for url, text in page_links(text_of(root + page), root + page):
+            if 'media.ark.org/ardot/' in url and DOC.search(url) and re.search(pat, url, re.I):
+                out[url.rsplit('/', 1)[-1]] = {'state': 'AR', 'title': f'{kind}: {text or url.rsplit("/", 1)[-1]}', 'url': url}
+    return sorted(out.items())
+
+WATCHERS = {'ky-lettings': ky_lettings, 'tn-lettings': tn_lettings, 'sc-lettings': sc_lettings, 'ms-lettings': ms_lettings,
+            'al-lettings': al_lettings, 'ar-lettings': ar_lettings, 'nc-lettings': nc_lettings, 'al-procurement': al_procurement, 'ky-contracts': ky_contracts,
             'ky-payments': ky_payments, 'ga-pay-estimates': ga_estimates, 'tn-progress-payments': tn_payments}
 
 # ---- storage ----
@@ -174,6 +277,8 @@ def record(conn, run_id, source, items):
             on conflict(source,item_key) do update set payload=excluded.payload,payload_hash=excluded.payload_hash,lighting=excluded.lighting,last_seen_at=now()''',
                      (source, key, Jsonb(payload), digest, flag))
         if baseline: continue
+        # A re-published link (Kentucky re-issues document ids) is not a change worth flagging.
+        if old and {k: v for k, v in old[0].items() if k != 'url'} == {k: v for k, v in payload.items() if k != 'url'}: continue
         action = 'changed' if before else 'new'
         conn.execute('insert into lsi.watch_events(run_id,source,item_key,action,lighting,payload,old_payload) values(%s,%s,%s,%s,%s,%s,%s)',
                      (run_id, source, key, action, flag, Jsonb(payload), Jsonb(old[0]) if old else None))
